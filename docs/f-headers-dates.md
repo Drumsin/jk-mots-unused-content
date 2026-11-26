@@ -56,9 +56,10 @@ MotS JKMRES.GOO misc\items.dat:36  tusken_prod  135  0  1  0x0a4  cog=weap_cross
 
 - Full list in [3do_dev_source_paths.csv](https://github.com/Drumsin/jk-mots-unused-content/blob/main/references/3do_dev_source_paths.csv) ([download](https://github.com/Drumsin/jk-mots-unused-content/raw/main/references/3do_dev_source_paths.csv)). Community theory on ligt.3do: Shimstock (community discussion, November 2026).
 
+<figure class="finding-figure" markdown="span">
 ![ligt.3do: earlier copy of the Force Lightning segment (the game uses ligt2.3do)](renders/ligt.png)
-
-*ligt.3do: earlier copy of the Force Lightning segment (the game uses ligt2.3do)*
+<figcaption>ligt.3do: earlier copy of the Force Lightning segment (the game uses ligt2.3do)</figcaption>
+</figure>
 
 <div class="finding-head" markdown="block">
 <span class="game-icons" aria-label="Jedi Knight and Mysteries of the Sith"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span>

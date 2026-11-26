@@ -26,13 +26,15 @@ MATERIALS 13
 
 - The Cutting Room Floor, "Star Wars Jedi Knight: Dark Forces II" page (read via an archived Wayback Machine copy, 2025).
 
+<figure class="finding-figure" markdown="span">
 ![repv.3do (hand textures taken from MotS)](renders/repv.png)
+<figcaption>repv.3do (hand textures taken from MotS)</figcaption>
+</figure>
 
-*repv.3do (hand textures taken from MotS)*
-
+<figure class="finding-figure" markdown="span">
 ![repp.3do](renders/repp.png)
-
-*repp.3do*
+<figcaption>repp.3do</figcaption>
+</figure>
 
 <div class="finding-head" markdown="block">
 <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span>
@@ -58,13 +60,15 @@ prgv.3do: ... '...\Weapons\TuskenProd\GunView\PrgV.prj ... ver4.11.'
 
 - Massassi Temple (massassi.net) file and 3DO pages ("Early Dev Enemy Pack").
 
+<figure class="finding-figure" markdown="span">
 ![prdv.3do (fork view)](renders/prdv.png)
+<figcaption>prdv.3do (fork view)</figcaption>
+</figure>
 
-*prdv.3do (fork view)*
-
+<figure class="finding-figure" markdown="span">
 ![prgv.3do (gun view)](renders/prgv.png)
-
-*prgv.3do (gun view)*
+<figcaption>prgv.3do (gun view)</figcaption>
+</figure>
 
 <div class="finding-head" markdown="block">
 <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span>
@@ -90,9 +94,10 @@ A winged beast with 14 animations (run, bite, fly, jump attacks, death and more)
 
 - Massassi Temple (massassi.net) file and 3DO pages.
 
+<figure class="finding-figure" markdown="span">
 ![8b.3do posed with 8brun.key frame 0](renders/8b.png)
-
-*8b.3do posed with 8brun.key frame 0*
+<figcaption>8b.3do posed with 8brun.key frame 0</figcaption>
+</figure>
 
 <div class="finding-head" markdown="block">
 <span class="game-icons" aria-label="Jedi Knight and Mysteries of the Sith"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span>
@@ -152,18 +157,22 @@ dvboss.3do:   # MODEL 'DVboss0.3do' created from 'LOD MODEL'
 
 - Massassi Temple (massassi.net) file and 3DO pages (unused fighter textures).
 
+<figure class="finding-figure" markdown="span">
 ![kyasleep.3do: sleeping Kyle (unreferenced; Kyle models are used)](renders/kyasleep.png)
+<figcaption>kyasleep.3do: sleeping Kyle (unreferenced; Kyle models are used)</figcaption>
+</figure>
 
-*kyasleep.3do: sleeping Kyle (unreferenced; Kyle models are used)*
-
+<figure class="finding-figure" markdown="span">
 ![kb.3do: Kaerobani body (the used MP skin is KYkb.3do)](renders/kb.png)
+<figcaption>kb.3do: Kaerobani body (the used MP skin is KYkb.3do)</figcaption>
+</figure>
 
-*kb.3do: Kaerobani body (the used MP skin is KYkb.3do)*
-
+<figure class="finding-figure" markdown="span">
 ![dvboss.3do: LOD copy of the used kydarth.3do](renders/dvboss.png)
+<figcaption>dvboss.3do: LOD copy of the used kydarth.3do</figcaption>
+</figure>
 
-*dvboss.3do: LOD copy of the used kydarth.3do*
-
+<figure class="finding-figure" markdown="span">
 ![yss.3do: ysalamiri shoulder export (the used ysalamiri is ys.3do)](renders/yss.png)
-
-*yss.3do: ysalamiri shoulder export (the used ysalamiri is ys.3do)*
+<figcaption>yss.3do: ysalamiri shoulder export (the used ysalamiri is ys.3do)</figcaption>
+</figure>

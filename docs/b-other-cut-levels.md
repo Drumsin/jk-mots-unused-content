@@ -33,21 +33,25 @@ Objective: "2. Fly to the waterfall at Tankers Canyon."
 - Level design: JK script (April 1995), JK storyboard (January 1996), "JK Levels Description" and "Jedi Knight Story" design documents.
 - Folder name and models: no earlier source found.
 
+<figure class="finding-figure" markdown="span">
 ![13rock.3do](renders/13rock.png)
+<figcaption>13rock.3do</figcaption>
+</figure>
 
-*13rock.3do*
-
+<figure class="finding-figure" markdown="span">
 ![zpip.3do](renders/zpip.png)
+<figcaption>zpip.3do</figcaption>
+</figure>
 
-*zpip.3do*
-
+<figure class="finding-figure" markdown="span">
 ![wct3x4.3do (textures missing)](renders/wct3x4.png)
+<figcaption>wct3x4.3do (textures missing)</figcaption>
+</figure>
 
-*wct3x4.3do (textures missing)*
-
+<figure class="finding-figure" markdown="span">
 ![Canyon Run textures: 13wcanw7 (13rock; MotS also reuses it in s1l1_rebelbase), zpip4/7/8 (zpip), 13sky (shown with JK 12escape.cmp, best guess) and a canyon wall](renders/swatch_13pipes.png)
-
-*Canyon Run textures: 13wcanw7 (13rock; MotS also reuses it in s1l1_rebelbase), zpip4/7/8 (zpip), 13sky (shown with JK 12escape.cmp, best guess) and a canyon wall*
+<figcaption>Canyon Run textures: 13wcanw7 (13rock; MotS also reuses it in s1l1_rebelbase), zpip4/7/8 (zpip), 13sky (shown with JK 12escape.cmp, best guess) and a canyon wall</figcaption>
+</figure>
 
 <div class="finding-head" markdown="block">
 <span class="game-icons" aria-label="Jedi Knight and Mysteries of the Sith"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span>
@@ -105,21 +109,25 @@ Three simple models exported in batch mode with an early tool version (ver4.11).
 
 - No earlier source found.
 
+<figure class="finding-figure" markdown="span">
 ![16world.3do (colormap best guess)](renders/16world.png)
+<figcaption>16world.3do (colormap best guess)</figcaption>
+</figure>
 
-*16world.3do (colormap best guess)*
-
+<figure class="finding-figure" markdown="span">
 ![16vale.3do](renders/16vale.png)
+<figcaption>16vale.3do</figcaption>
+</figure>
 
-*16vale.3do*
-
+<figure class="finding-figure" markdown="span">
 ![16spir.3do](renders/16spir.png)
+<figcaption>16spir.3do</figcaption>
+</figure>
 
-*16spir.3do*
-
+<figure class="finding-figure" markdown="span">
 ![16world / 16spir textures](renders/swatch_16.png)
-
-*16world / 16spir textures*
+<figcaption>16world / 16spir textures</figcaption>
+</figure>
 
 <div class="finding-head" markdown="block">
 <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span>
@@ -147,14 +155,17 @@ Related models are used: 06struta/06strutb share their textures with strut03/str
 
 - No earlier source found.
 
+<figure class="finding-figure" markdown="span">
 ![06buck.3do](renders/06buck.png)
+<figcaption>06buck.3do</figcaption>
+</figure>
 
-*06buck.3do*
-
+<figure class="finding-figure" markdown="span">
 ![06struta.3do](renders/06struta.png)
+<figcaption>06struta.3do</figcaption>
+</figure>
 
-*06struta.3do*
-
+<figure class="finding-figure" markdown="span">
 ![06strutb.3do](renders/06strutb.png)
-
-*06strutb.3do*
+<figcaption>06strutb.3do</figcaption>
+</figure>

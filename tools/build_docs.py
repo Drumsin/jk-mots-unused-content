@@ -217,6 +217,23 @@ def img_path(name: str, mode: str) -> str:
 
 
 
+def render_figure(path: str, cap: str, mode: str, skip_lightbox: bool = False) -> list[str]:
+    """Image plus caption. Site pages use a <figure> so the caption sits with the render."""
+    cap_md = P(cap, mode)
+    alt = md_cell(cap, mode)
+    if mode != "site":
+        return [f"![{alt}]({path})", "", f"*{cap_md}*", ""]
+    skip = "{ .skip-lightbox }" if skip_lightbox else ""
+    return [
+        '<figure class="finding-figure" markdown="span">',
+        f"![{alt}]({path}){skip}",
+        f"<figcaption>{cap_md}</figcaption>",
+        "</figure>",
+        "",
+    ]
+
+
+
 def games_covered(f: dict) -> tuple[bool, bool]:
     """Return (covers_jk, covers_mots) from a finding's location rows."""
     has_jk = False
@@ -278,9 +295,7 @@ def render_finding(n: int, f: dict, mode: str) -> list[str]:
         lines.append("")
     if f.get("img"):
         for nm, cap in f["img"]:
-            path = img_path(nm, mode)
-            cap_md = P(cap, mode)
-            lines += [f"![{md_cell(cap, mode)}]({path})", "", f"*{cap_md}*", ""]
+            lines += render_figure(img_path(nm, mode), cap, mode)
     return lines
 
 
@@ -429,14 +444,12 @@ def appendix_a(mode: str) -> list[str]:
 
 def appendix_b(mode: str) -> list[str]:
     cap = "Unused textures (MotS JKMRES.GOO and JK Res2.gob). Index: unused_textures_sheet_index.csv."
-    return [
+    lines = [
         "First cell of a selection of unused textures. Blue colormap labels are the colormap of a level that uses a sibling or same-prefix texture; red labels with \"?\" are best guesses. bloody.mat and 00ramp3.mat have no image cells and are not shown. Every texture on the sheet was checked against both games; three that turned out to be used (13wcanw7, kbface, 09sky01) were removed.",
         "",
-        f"![{P(cap, mode)}]({img_path('unused_textures_sheet', mode)})",
-        "",
-        f"*{P(cap, mode)}*",
-        "",
     ]
+    lines += render_figure(img_path("unused_textures_sheet", mode), cap, mode)
+    return lines
 
 
 def appendix_c(mode: str) -> list[str]:
@@ -769,10 +782,14 @@ def write_docs(sections, credits, walked) -> None:
         "",
         "This site is the web edition of the catalogue of unused, orphaned and leftover files in the retail *Star Wars Jedi Knight: Dark Forces II* (JK) and *Mysteries of the Sith* (MotS) data. Use the sidebar to jump to a section, or the table of contents on each page to jump to a finding. Every finding has a stable link, for example [Finding 34](g-hints-in-comments.md#finding-34).",
         "",
-        "![ks.3do, the unused Kyle-on-speeder-bike model from MotS JKMRES.GOO, posed with its own ksgo.key animation. Grey parts use textures that never shipped.](renders/ks.png){ .skip-lightbox }",
-        "",
-        "*ks.3do, the unused Kyle-on-speeder-bike model from MotS JKMRES.GOO, posed with its own ksgo.key animation. Grey parts use textures that never shipped.*",
-        "",
+    ]
+    home += render_figure(
+        "renders/ks.png",
+        "ks.3do, the unused Kyle-on-speeder-bike model from MotS JKMRES.GOO, posed with its own ksgo.key animation. Grey parts use textures that never shipped.",
+        "site",
+        skip_lightbox=True,
+    )
+    home += [
         "## About this document",
         "",
     ]

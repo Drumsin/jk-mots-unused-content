@@ -38,6 +38,7 @@
   --jk-table-stripe: rgba(179, 157, 219, 0.12);
   --jk-table-hover: rgba(255, 140, 26, 0.18);
   --jk-table-border: rgba(92, 74, 138, 0.28);
+  --jk-caption: #5c4a6e;
   --md-primary-fg-color: #4a3d63;
   --md-primary-fg-color--light: #5c4a8a;
   --md-primary-fg-color--dark: #3a3050;
@@ -79,6 +80,7 @@
   --jk-table-stripe: rgba(179, 157, 219, 0.08);
   --jk-table-hover: rgba(255, 140, 26, 0.16);
   --jk-table-border: rgba(179, 157, 219, 0.28);
+  --jk-caption: #b4a8c4;
   --md-primary-fg-color: #1c1824;
   --md-primary-fg-color--light: #2a2435;
   --md-primary-fg-color--dark: #121016;
@@ -488,4 +490,34 @@
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+/* Image + caption travel as one figure: snug caption, clear gap after. */
+.md-typeset figure.finding-figure {
+  display: block;
+  margin: 0.25em 0 1.75em;
+  padding: 0;
+}
+.md-typeset figure.finding-figure > p {
+  margin: 0;
+  padding: 0;
+}
+.md-typeset figure.finding-figure a.glightbox,
+.md-typeset figure.finding-figure img {
+  display: block;
+  margin: 0;
+}
+.md-typeset figure.finding-figure figcaption {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  margin: 0.4em 0 0;
+  padding: 0.05em 0 0 0.7em;
+  border-left: 2px solid var(--jk-lavender);
+  font-size: 0.78em;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.45;
+  text-align: left;
+  color: var(--jk-caption);
 }

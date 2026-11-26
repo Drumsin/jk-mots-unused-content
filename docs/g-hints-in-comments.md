@@ -157,9 +157,10 @@ misc\pup\vv.pup:3  stand           VVdown.key    0x00    0    0    # standing
 
 - No online mention found (Massassi MotS 3DO index and forums searched).
 
+<figure class="finding-figure" markdown="span">
 ![vv.3do in its rest pose (vvvine.mat colormap is a guess)](renders/vv.png)
-
-*vv.3do in its rest pose (vvvine.mat colormap is a guess)*
+<figcaption>vv.3do in its rest pose (vvvine.mat colormap is a guess)</figcaption>
+</figure>
 
 <div class="finding-head" markdown="block">
 <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span>
@@ -204,13 +205,15 @@ cog\pow_eweb_m.cog:41  jkPrintUNIString(player, 382);    // The Blaster Cannon!
 
 - No online mention of s5 found. Community theory: Shimstock (community discussion, November 2026).
 
+<figure class="finding-figure" markdown="span">
 ![s5.3do (colormap is a best guess; the purple pad matches the puppet comment)](renders/s5.png)
+<figcaption>s5.3do (colormap is a best guess; the purple pad matches the puppet comment)</figcaption>
+</figure>
 
-*s5.3do (colormap is a best guess; the purple pad matches the puppet comment)*
-
+<figure class="finding-figure" markdown="span">
 ![eweb.3do, the MotS E-Web / "Blaster Cannon" turret the theory refers to](renders/eweb.png)
-
-*eweb.3do, the MotS E-Web / "Blaster Cannon" turret the theory refers to*
+<figcaption>eweb.3do, the MotS E-Web / "Blaster Cannon" turret the theory refers to</figcaption>
+</figure>
 
 <div class="finding-head" markdown="block">
 <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span>

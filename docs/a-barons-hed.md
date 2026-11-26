@@ -37,33 +37,40 @@ ksgo.key:  # KEYFRAME '<unnamed>' created from 'KSGO.PRJ in BATCH mode with ver4
 - Reddit r/jediknight, thread 1vnxazh (Aug 2026)
 - TCRF states that no bike model exists; that is true of the JK archives only.
 
+<figure class="finding-figure" markdown="span">
 ![tspd.3do, three angles (missing ts-* textures shown grey)](renders/tspd.png)
+<figcaption>tspd.3do, three angles (missing ts-* textures shown grey)</figcaption>
+</figure>
 
-*tspd.3do, three angles (missing ts-* textures shown grey)*
-
+<figure class="finding-figure" markdown="span">
 ![tspdup.3do](renders/tspdup.png)
+<figcaption>tspdup.3do</figcaption>
+</figure>
 
-*tspdup.3do*
-
+<figure class="finding-figure" markdown="span">
 ![tspov.3do, the first-person cockpit model](renders/tspov.png)
+<figcaption>tspov.3do, the first-person cockpit model</figcaption>
+</figure>
 
-*tspov.3do, the first-person cockpit model*
-
+<figure class="finding-figure" markdown="span">
 ![tsbk_1 to tsbk_8 debris pieces](renders/tsbk_debris.png)
+<figcaption>tsbk_1 to tsbk_8 debris pieces</figcaption>
+</figure>
 
-*tsbk_1 to tsbk_8 debris pieces*
-
+<figure class="finding-figure" markdown="span">
 ![ts.3do, Tusken rider, posed with tsgo.key frame 0](renders/ts.png)
+<figcaption>ts.3do, Tusken rider, posed with tsgo.key frame 0</figcaption>
+</figure>
 
-*ts.3do, Tusken rider, posed with tsgo.key frame 0*
-
+<figure class="finding-figure" markdown="span">
 ![ks.3do, Kyle rider, posed with ksgo.key frame 0](renders/ks.png)
+<figcaption>ks.3do, Kyle rider, posed with ksgo.key frame 0</figcaption>
+</figure>
 
-*ks.3do, Kyle rider, posed with ksgo.key frame 0*
-
+<figure class="finding-figure" markdown="span">
 ![The two shipped bike textures](renders/swatch_tsbike.png)
-
-*The two shipped bike textures*
+<figcaption>The two shipped bike textures</figcaption>
+</figure>
 
 <div class="finding-head" markdown="block">
 <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span>
@@ -103,37 +110,45 @@ roadblk.3do:  # MODEL 'Roadblk2.3do' created from '...\LevelSpecific\05stuff\Roa
 
 - KnightCop, "Road to Barons Hed - Cut Mission Information" (PDF, 2026) lists the 05v* keyframes and identifies the level-4 shed transport. The 05stuff folder evidence and the model-by-model comparison were not found in it.
 
+<figure class="finding-figure" markdown="span">
 ![05road.3do (colormap: JK 04farm, best guess)](renders/05road.png)
+<figcaption>05road.3do (colormap: JK 04farm, best guess)</figcaption>
+</figure>
 
-*05road.3do (colormap: JK 04farm, best guess)*
-
+<figure class="finding-figure" markdown="span">
 ![05road2.3do](renders/05road2.png)
+<figcaption>05road2.3do</figcaption>
+</figure>
 
-*05road2.3do*
-
+<figure class="finding-figure" markdown="span">
 ![05road3.3do](renders/05road3.png)
+<figcaption>05road3.3do</figcaption>
+</figure>
 
-*05road3.3do*
-
+<figure class="finding-figure" markdown="span">
 ![roadblk.3do (texture missing)](renders/roadblk.png)
+<figcaption>roadblk.3do (texture missing)</figcaption>
+</figure>
 
-*roadblk.3do (texture missing)*
-
+<figure class="finding-figure" markdown="span">
 ![roadsign.3do](renders/roadsign.png)
+<figcaption>roadsign.3do</figcaption>
+</figure>
 
-*roadsign.3do*
-
+<figure class="finding-figure" markdown="span">
 ![05vcrowm.3do: Moldy Crow, animation export (the in-game Crow is crow.3do)](renders/05vcrowm.png)
+<figcaption>05vcrowm.3do: Moldy Crow, animation export (the in-game Crow is crow.3do)</figcaption>
+</figure>
 
-*05vcrowm.3do: Moldy Crow, animation export (the in-game Crow is crow.3do)*
-
+<figure class="finding-figure" markdown="span">
 ![05vtiebm.3do: TIE bomber, animation export (the in-game bomber is tieb.3do)](renders/05vtiebm.png)
+<figcaption>05vtiebm.3do: TIE bomber, animation export (the in-game bomber is tieb.3do)</figcaption>
+</figure>
 
-*05vtiebm.3do: TIE bomber, animation export (the in-game bomber is tieb.3do)*
-
+<figure class="finding-figure" markdown="span">
 ![05vtrnwg.3do: the Imperial transport with WeeGee riding it](renders/05vtrnwg.png)
-
-*05vtrnwg.3do: the Imperial transport with WeeGee riding it*
+<figcaption>05vtrnwg.3do: the Imperial transport with WeeGee riding it</figcaption>
+</figure>
 
 <div class="finding-head" markdown="block">
 <span class="game-icons" aria-label="Jedi Knight and Mysteries of the Sith"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span>
@@ -164,9 +179,10 @@ KnightCop PDF: "05wsky01.mat - NO CMP - Droid Works Version heavily dithered"
 - KnightCop, "Road to Barons Hed - Cut Mission Information" (PDF, 2026) (magazine screenshots, pp. 14-17).
 - No earlier source found pairing these textures with a colormap.
 
+<figure class="finding-figure" markdown="span">
 ![05wsky01/02 under JK 04farm.cmp and 10cargo.cmp, with MotS 01narsh.cmp for comparison](renders/swatch_05sky.png)
-
-*05wsky01/02 under JK 04farm.cmp and 10cargo.cmp, with MotS 01narsh.cmp for comparison*
+<figcaption>05wsky01/02 under JK 04farm.cmp and 10cargo.cmp, with MotS 01narsh.cmp for comparison</figcaption>
+</figure>
 
 <div class="finding-head" markdown="block">
 <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span>
@@ -202,26 +218,32 @@ u2.3do:      same geometry as u2alt.3do (used); ug.3do: same geometry as ugalt.3
 
 - Massassi Temple (massassi.net) file and 3DO pages (a retextured Star Destroyer "from the MotS CD"). No single list of the rest was found.
 
+<figure class="finding-figure" markdown="span">
 ![04vatrn.3do: AT-ST transport with AT-ST (unused in both games)](renders/04vatrn.png)
+<figcaption>04vatrn.3do: AT-ST transport with AT-ST (unused in both games)</figcaption>
+</figure>
 
-*04vatrn.3do: AT-ST transport with AT-ST (unused in both games)*
-
+<figure class="finding-figure" markdown="span">
 ![blimp1.3do (unused in both games)](renders/blimp1.png)
+<figcaption>blimp1.3do (unused in both games)</figcaption>
+</figure>
 
-*blimp1.3do (unused in both games)*
-
+<figure class="finding-figure" markdown="span">
 ![sdes.3do (unused in both games; all textures missing)](renders/sdes.png)
+<figcaption>sdes.3do (unused in both games; all textures missing)</figcaption>
+</figure>
 
-*sdes.3do (unused in both games; all textures missing)*
-
+<figure class="finding-figure" markdown="span">
 ![oldja.3do, early Jan Ors (unused in both games)](renders/oldja.png)
+<figcaption>oldja.3do, early Jan Ors (unused in both games)</figcaption>
+</figure>
 
-*oldja.3do, early Jan Ors (unused in both games)*
-
+<figure class="finding-figure" markdown="span">
 ![u2.3do: same geometry as the used u2alt.3do; body textures missing](renders/u2.png)
+<figcaption>u2.3do: same geometry as the used u2alt.3do; body textures missing</figcaption>
+</figure>
 
-*u2.3do: same geometry as the used u2alt.3do; body textures missing*
-
+<figure class="finding-figure" markdown="span">
 ![kelbite.3do: a copy of JK's Kell dragon kd.3do](renders/kelbite.png)
-
-*kelbite.3do: a copy of JK's Kell dragon kd.3do*
+<figcaption>kelbite.3do: a copy of JK's Kell dragon kd.3do</figcaption>
+</figure>
