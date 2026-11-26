@@ -12,13 +12,13 @@ mots,05wcon4a.mat,lvl05,unreferenced,jk/04farm.cmp,by eye (JK lvl4 palette),128,
 mots,05wpipe1.mat,lvl05 pipe,unreferenced,jk/04farm.cmp,by eye (JK lvl4 palette),256,64,8,1
 mots,13cnsky1.mat,storm sky (set reused),unreferenced,mots/01narsh.cmp,sibling 13cnsky*,256,256,8,1
 mots,13cnsky3.mat,storm sky (set reused),unreferenced,mots/01narsh.cmp,sibling 13cnsky*,256,256,8,1
-mots,13sky.mat,Canyon Run sky,unreferenced,jk/12escape.cmp,by eye,256,256,8,1
-mots,13sky04.mat,Canyon Run sky,unreferenced,jk/12escape.cmp,by eye,256,256,8,1
-mots,13wcanw2.mat,Canyon Run canyon wall,unreferenced,mots/06baron.cmp,sibling 13wcanw*,128,256,8,1
-mots,13wcanw5.mat,Canyon Run canyon wall,unreferenced,mots/06baron.cmp,sibling 13wcanw*,128,128,8,1
-mots,13fwat2.mat,Canyon Run water,unreferenced,mots/01narsh.cmp,sibling 13f*,128,128,8,1
-mots,13car4.mat,Canyon Run 13car,unreferenced,mots/01narsh.cmp,sibling 13car*,256,256,8,1
-mots,13wdrok1.mat,Canyon Run rock,unreferenced,mots/01narsh.cmp,sibling 13w*,256,256,8,1
+mots,13sky.mat,level 13 sky,unreferenced,jk/12escape.cmp,by eye,256,256,8,1
+mots,13sky04.mat,level 13 sky,unreferenced,jk/12escape.cmp,by eye,256,256,8,1
+mots,13wcanw2.mat,level 13 canyon wall,unreferenced,mots/06baron.cmp,sibling 13wcanw*,128,256,8,1
+mots,13wcanw5.mat,level 13 canyon wall,unreferenced,mots/06baron.cmp,sibling 13wcanw*,128,128,8,1
+mots,13fwat2.mat,level 13 water,unreferenced,mots/01narsh.cmp,sibling 13f*,128,128,8,1
+mots,13car4.mat,level 13 13car,unreferenced,mots/01narsh.cmp,sibling 13car*,256,256,8,1
+mots,13wdrok1.mat,level 13 rock,unreferenced,mots/01narsh.cmp,sibling 13w*,256,256,8,1
 mots,zpip8.mat,13pipes zpip.3do,ref_only_by_unused,mots/01narsh.cmp,best fit (least magenta),256,64,8,1
 mots,16world.mat,16world.3do,ref_only_by_unused,mots/10cargo.cmp,sibling 16w*,256,256,8,1
 mots,16spir3b.mat,16spir.3do,ref_only_by_unused,jk/16fall.cmp,previous export,128,64,8,1
@@ -31,8 +31,8 @@ mots,53tneon.mat,MotS s5l3 unused,unreferenced,mots/54sith.cmp,sibling 53t*,128,
 mots,22wwire1.mat,MotS s2l2 unused,unreferenced,mots/06baron.cmp,sibling 22w*,32,64,8,1
 mots,21wglyf1.mat,JK lvl21 glyph,unreferenced,jk/20val.cmp,by eye,256,64,8,1
 mots,42acpa.mat,MotS s4l2 unused,unreferenced,mots/01narsh.cmp,best fit (least magenta),32,64,8,2
-jk,13frokg2.mat,JK Canyon Run rock,unreferenced,jk/17sarris.cmp,sibling 13f*,64,64,8,1
-jk,13wconc1.mat,JK Canyon Run concrete,unreferenced,jk/15maw.cmp,sibling 13wconc*,256,256,8,1
+jk,13frokg2.mat,JK level 13 rock,unreferenced,jk/17sarris.cmp,sibling 13f*,64,64,8,1
+jk,13wconc1.mat,JK level 13 concrete,unreferenced,jk/15maw.cmp,sibling 13wconc*,256,256,8,1
 jk,01wgraf2.mat,Nar Shaddaa graffiti,unreferenced,jk/01narsh.cmp,sibling 01wgraf*,128,64,8,1
 jk,kybsshpa.mat,Kyle skin part,unreferenced,jk/01narsh.cmp,sibling kybs*,32,32,8,1
 jk,kyt7bodf.mat,Kyle MP skin t7,unreferenced,jk/01narsh.cmp,sibling kyt*,64,64,8,1

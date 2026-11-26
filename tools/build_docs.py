@@ -622,6 +622,7 @@ def appendix_g(mode: str) -> list[str]:
         "What changed:",
         "",
         "- Finding 2: the leftover level-05 Crow and TIE bomber animations are a paired sky dogfight; the transport animation is a path through the level. The written frame rates do not match, so the files as shipped would not finish together. Credited to Shimstock.",
+        "- Finding 5/6 reworded to rely only on game-file evidence.",
         "- Finding 7: dropped \"snowy\" as a fact about 16world. The pale colors came from a guessed MotS colormap; a complete JK colormap shows a dark valley and a tower, not snow. The colors are uncertain.",
         "- Finding 12: the voiceuu folder has 46 files, not 26. That includes 28 civilian, rebel and announcement clips (previously counted as 26), 15 Ka'Pa the Hutt lines in Huttese, and 3 Abron Mar lines from leftover in-engine cutscenes that the shipped episode never plays. Credited to Shimstock for the folder, and to a review of this catalogue for identifying Ka'Pa.",
         "- Finding 20: added rep0.3do, the repeater's earlier unused projectile. Credited to Shimstock.",

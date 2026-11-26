@@ -2,7 +2,7 @@
 
 <div class="finding-head" markdown="block">
 <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span>
-## 5. The "13pipes" folder: props from the cut "Canyon Run" level {#finding-5}
+## 5. The "13pipes" folder: props from the cut level 13 {#finding-5}
 </div>
 
 <p class="finding-rating">
@@ -17,9 +17,7 @@
 
 Three models come from a source folder named `LevelSpecific\13pipes\`: a canyon rock (13rock, textured with the 13wcanw7 canyon wall, a texture MotS later reused in s1l1_rebelbase), a pipe section (zpip, using zpip4/7/8) and wct3x4 (its two textures are missing). None of the three models is referenced by any file in either game, and no level-13 JKL ships in either game.
 
-Level 13 was "Canyon Run", a flying level on Sulon set right after level 12 (12escape, the escape from the cargo ship). The 1995 script, the 1996 storyboard ("The Sulon Canyons", scene 31 "Canyon Run") and the level description document describe it: the morning after the escape, Jan flies the Moldy Crow through canyons of rock and refinery while Kyle shoots TIE fighters from a top hatch. Flying too high draws fire from orbiting Star Destroyers, and the level ends by flying through the waterfall at Tankers Canyon.
-
-The 13pipes folder fits that description: canyon rock (13rock) and refinery pipes (zpip). The folder name and these models are the new part; they are the only known 3D leftovers of the level.
+The textures suggest a canyon setting: 13rock is a canyon-wall rock, and zpip is a pipe section. Together with the unused 13* textures in the next finding and the gap at slot 13 in the episode numbering (see the comments finding on the two level numberings), these are the file leftovers of a cut level 13. They are the only known 3D leftovers of that slot.
 
 **Evidence**
 
@@ -27,14 +25,11 @@ The 13pipes folder fits that description: canyon rock (13rock) and refinery pipe
 13rock.3do: ... 'D:\Jedi\Products\JK\Data\3DO\LevelSpecific\13pipes\13rock.prj in VISUAL mode with ver4.50.'
 zpip.3do:   ... '...\LevelSpecific\13pipes\Zpip.3do in VISUAL mode with ver4.11.'
 wct3x4.3do: ... '...\LevelSpecific\13pipes\wct3x4\Wct3x4.prj in VISUAL mode with ver4.60.'
-JK level description: "13 Canyon Run ... The level ends when you find the waterfall and fly through it."
-Objective: "2. Fly to the waterfall at Tankers Canyon."
 ```
 
 **Sources**
 
-- Level design: JK script (April 1995), JK storyboard (January 1996), "JK Levels Description" and "Jedi Knight Story" design documents.
-- Folder name and models: no earlier source found.
+- No earlier source found.
 
 <figure class="finding-figure" markdown="1">
 ![13rock.3do](renders/13rock.png)
@@ -52,13 +47,13 @@ Objective: "2. Fly to the waterfall at Tankers Canyon."
 </figure>
 
 <figure class="finding-figure" markdown="1">
-![Canyon Run textures: 13wcanw7 (13rock; MotS also reuses it in s1l1_rebelbase), zpip4/7/8 (zpip), 13sky (shown with JK 12escape.cmp, best guess) and a canyon wall](renders/swatch_13pipes.png)
-<figcaption>Canyon Run textures: 13wcanw7 (13rock; MotS also reuses it in s1l1_rebelbase), zpip4/7/8 (zpip), 13sky (shown with JK 12escape.cmp, best guess) and a canyon wall</figcaption>
+![Unused level 13 textures: 13wcanw7 (13rock; MotS also reuses it in s1l1_rebelbase), zpip4/7/8 (zpip), 13sky (shown with JK 12escape.cmp, best guess) and a canyon wall](renders/swatch_13pipes.png)
+<figcaption>Unused level 13 textures: 13wcanw7 (13rock; MotS also reuses it in s1l1_rebelbase), zpip4/7/8 (zpip), 13sky (shown with JK 12escape.cmp, best guess) and a canyon wall</figcaption>
 </figure>
 
 <div class="finding-head" markdown="block">
 <span class="game-icons" aria-label="Jedi Knight and Mysteries of the Sith"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span>
-## 6. Unused Canyon Run (level 13) textures {#finding-6}
+## 6. Unused level 13 textures {#finding-6}
 </div>
 
 <p class="finding-rating">
@@ -71,13 +66,13 @@ Objective: "2. Fly to the waterfall at Tankers Canyon."
 | MotS | Resource\JKMRES.GOO | mat\13wcanw1-6.mat, 13sky*.mat, 13fwat*.mat, 13wdrok*.mat, 13car*.mat, 13cnsky1/3.mat (41 files) |
 | JK | Resource\Res2.gob | mat\13frokg2.mat, mat\13wconc1.mat |
 
-MotS ships 43 textures with the 13 prefix that no MotS level loads. Checked against JK as well, 41 of them are unused in both games: canyon walls, skies, water, rock and a car/vehicle texture. They match the Canyon Run setting (Sulon canyons, a refinery, the Tankers Canyon waterfall). JK itself ships two more unused 13* textures (13frokg2, also copied into MotS, and 13wconc1). A selection is on the texture contact sheet in Appendix B.
+MotS ships 43 textures with the 13 prefix that no MotS level loads. Checked against JK as well, 41 of them are unused in both games: canyon walls, skies, water, rock and a car/vehicle texture. The textures suggest a canyon setting. JK itself ships two more unused 13* textures (13frokg2, also copied into MotS, and 13wconc1). A selection is on the texture contact sheet in Appendix B.
 
 Two are not unused: **13wcanw7** is used by MotS level s1l1_rebelbase, and MotS's copy of **13fwater** is byte-identical to the JK texture used in 04escapehouse, 06bbarons and 17asarris.
 
-The 13sky* textures are shown with JK 12escape.cmp, the colormap of level 12 (12escape), since Canyon Run is set on the same planet the morning after. That is a best guess.
+The 13sky* textures are shown with JK 12escape.cmp, the colormap of the preceding level 12 (12escape). That is a best guess.
 
-The 13cnsky set is different: it is a grey storm sky, and 13cnsky2 is used by shipped levels (15maw, 17asarris, 17bsarris, 18ascend and some multiplayer maps). Only 13cnsky1 and 13cnsky3 are unused, so this set should not be read as the Canyon Run sky.
+The 13cnsky set is different: it is a grey storm sky, and 13cnsky2 is used by shipped levels (15maw, 17asarris, 17bsarris, 18ascend and some multiplayer maps). Only 13cnsky1 and 13cnsky3 are unused, so this set should not be read as the cut level 13 sky.
 
 **Evidence**
 

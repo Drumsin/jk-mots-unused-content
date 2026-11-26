@@ -25,7 +25,7 @@ Each finding below is classified. **Confirmed cut**: the comment shows that some
 
 The comments in JK's episode.jk number the 21 shipped levels one after another: 06ABarons.jkl is "Level 5", 06BBarons.jkl is "Level 6", 14tower.jkl is "Level 13" and 17asarris.jkl is "Level 16". The section headers in cogstrings.uni keep the old file numbers instead and simply skip two of them: "Level 4 - Escape Morgan's House" is followed by "Level 6a - Barons Hed", and "Level 12" is followed by "Level 14 - The tower Approach". 06a_startlevel.cog still says it starts the music "for level 5".
 
-The two missing numbers are exactly the two cut levels: 05 (the speeder-bike chase) and 13 (Canyon Run). The file names kept the original slots, and the player-facing numbering was closed up after the cuts. The cogstrings.uni headers also call the Katarn home "Morgan's House" and level 8 "Escape the Ballroom".
+The two missing numbers are exactly the two cut levels: 05 (the speeder-bike chase) and 13. The file names kept the original slots, and the player-facing numbering was closed up after the cuts. The cogstrings.uni headers also call the Katarn home "Morgan's House" and level 8 "Escape the Ballroom".
 
 **Evidence**
 
