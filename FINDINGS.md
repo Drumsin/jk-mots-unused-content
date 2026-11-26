@@ -1620,7 +1620,11 @@ MotS ships force_saberthrow.cog and later saber-throw models (sab0gree and relat
 
 *sab0.3do with sab0.key: the unused throw spin (all eight frames overlaid, then each frame in order)*
 
-![MotS sab0gree.3do, the later shipped saber-throw model, for comparison](renders/sabg.png)
+![sabg.3do, a normal JK in-hand saber grip with no blade mesh (the game draws the blade in the engine)](renders/sabg.png)
+
+*sabg.3do, a normal JK in-hand saber grip with no blade mesh (the game draws the blade in the engine)*
+
+![MotS sab0gree.3do, the later shipped saber-throw model, for comparison](renders/sab0gree.png)
 
 *MotS sab0gree.3do, the later shipped saber-throw model, for comparison*
 

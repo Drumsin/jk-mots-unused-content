@@ -48,7 +48,12 @@ MotS ships force_saberthrow.cog and later saber-throw models (sab0gree and relat
 </figure>
 
 <figure class="finding-figure" markdown="1">
-![MotS sab0gree.3do, the later shipped saber-throw model, for comparison](renders/sabg.png)
+![sabg.3do, a normal JK in-hand saber grip with no blade mesh (the game draws the blade in the engine)](renders/sabg.png)
+<figcaption>sabg.3do, a normal JK in-hand saber grip with no blade mesh (the game draws the blade in the engine)</figcaption>
+</figure>
+
+<figure class="finding-figure" markdown="1">
+![MotS sab0gree.3do, the later shipped saber-throw model, for comparison](renders/sab0gree.png)
 <figcaption>MotS sab0gree.3do, the later shipped saber-throw model, for comparison</figcaption>
 </figure>
 
