@@ -27,7 +27,7 @@ CSV_CANDIDATES = [
     Path("/workspace/notes/jk_mots_unused"),
 ]
 
-VERSION = "v2.1"
+VERSION = "v2.2"
 VERSION_MONTH = "November 2026"
 REPO = "https://github.com/Drumsin/jk-mots-unused-content"
 ISSUE = f"{REPO}/issues/new/choose"
@@ -68,6 +68,7 @@ SECTION_FILES = [
     ("F", "f-headers-dates.md"),
     ("G", "g-hints-in-comments.md"),
     ("H", "h-community-feedback.md"),
+    ("I", "i-added-in-v22.md"),
 ]
 APPENDIX_FILES = {
     "A": "appendix-a-unreferenced-lists.md",
@@ -114,7 +115,7 @@ UNCHANGED = [
     "Cut weapons: the community restoration of the Tusken prod and the early Repeater gun (Shimstock and KnightCop) matches the leftovers already described in section E (the prdv, prgv, prdp and prdg prod models and repv/repp). The only other trace in the data is the menu strings \"Repeater\" and \"Repeater Gun\" in jkstrings.uni, and those name the final weapon 6, which is in the game.",
 ]
 CAVEATS = [
-    "The MotS sound archive (JKMsndLO.goo) and the cutscene videos (.smk/.san) were not available for this survey. Many MotS sound files therefore show up as \"missing\" only because that archive was not read, and the MotS subtitle strings for cog IDs 10043, 10000 and 43003 could not be read either.",
+    "The MotS sound archive (JKMsndLO.goo) was checked for Kaerobani (kb*) voice file names; none were found. It has not been fully transcribed, and the MotS subtitle strings for cog IDs 10043, 10000 and 43003 were not read. The cutscene videos (.smk/.san) were not compared line by line, so some MotS sounds may still appear missing only because they live in that archive or inside the videos.",
     "Some names are built at runtime (cog LoadTemplate calls, models.dat, saber and HUD naming rules). The known rules are modeled, but a few \"unreferenced\" files could still be loaded dynamically.",
     "Voice transcripts were made automatically and may contain errors. Check them by ear.",
     "Colormaps for textures that no level uses are best guesses (\"?\"). They are visual matches, not evidence.",
@@ -138,7 +139,7 @@ def load_sources():
     if not (PDF_SRC / "content.py").is_file():
         raise SystemExit(f"PDF content source not found at {PDF_SRC}/content.py")
     sys.path.insert(0, str(PDF_SRC))
-    from content import SECTIONS, KC, RED, TCRF, MAS, TSR, KCSEC
+    from content import SECTIONS, KC, RED, TCRF, MAS, TSR, KCSEC, V22SEC
     from content_comments import CINTRO, CFINDS
 
     sections = list(SECTIONS) + [
@@ -150,15 +151,23 @@ def load_sources():
                 "These two findings were added after KnightCop reviewed the first published version. Thank you to KnightCop for the corrections and pointers; the full list of changes from that review is in Appendix G."
             ],
         ),
+        (
+            V22SEC[0],
+            V22SEC[1],
+            [
+                "These findings were added in v2.2 from community notes and a further pass over leftover templates and scripts."
+            ],
+        ),
     ]
     credits = [
         KC + ". The main reference for the cut speeder-bike mission; recreates the missing bike textures. KnightCop also reviewed the first published version (Appendix G).",
-        "Shimstock: co-author with KnightCop of the Tusken prod and Repeater gun restoration sheet, and the community theories in v2.1 (s5 E-Web gunner, ligt.3do as the prod projectile).",
+        "Shimstock: co-author with KnightCop of the Tusken prod and Repeater gun restoration sheet; the community theories in v2.1 (s5 E-Web gunner, ligt.3do as the prod projectile); and the v2.2 notes on the level-05 ship dogfight, kystab and kyrepel0, rep0.3do, the MotS in-engine cutscenes, the voiceuu folder, and unused Kaerobani lines.",
         RED,
         TCRF,
         MAS + ", including the Early Dev Enemy Pack and 8t88 beast pages.",
         TSR,
         "A Steam community guide on the hidden MotS level S6L1 (Dark Kyle in the garbage room).",
+        "Cogking, for confirming that the Jedi Knight developers were experimenting with a saber throw.",
         "OpenJKDF2 (github.com/shinyquagsire23/OpenJKDF2), for engine-loaded file names, the HUD icon naming rule and the 3DO hierarchy/matrix conventions used by the renderer.",
     ]
     return sections, credits
@@ -219,7 +228,7 @@ def inline_md_to_html(s: str) -> str:
 
 
 def letter_of(title: str) -> str:
-    m = re.match(r"^([A-H])\.", title)
+    m = re.match(r"^([A-Z])\.", title)
     return m.group(1) if m else ""
 
 
@@ -445,6 +454,8 @@ def intro_body(mode: str) -> list[str]:
         "",
         "All shipped archives were extracted and read: JK Episode\\JK1.GOB, JK1CTF.GOB, JK1MP.GOB and Resource\\Res1hi.gob, Res2.gob; MotS Episode\\JKM.GOO, JKM_KFY.GOO, JKM_MP.GOO, JKM_SABER.GOO and Resource\\JKMRES.GOO, plus cutscenes.goo (inside Resource\\VIDEO\\CUTSCENES.ZIP) and the hidden S6L1 level (inside Resource\\VIDEO\\UNSUPPORTED.ZIP).",
         "",
+        "Shimstock pointed out that the MotS cutscenes were built as in-engine levels, played in the game, and recorded to video. Those earlier, unfinished scene setups are the JKL files in Resource\\VIDEO\\CUTSCENES.ZIP, already used as a source in this catalogue. The shipped episode does not load them; after each level it plays the later SMUSH videos (.san). (JK's live-action cutscenes are the .smk files.) The JKL worlds were last saved in late November 1997 through 2 January 1998, before the shipped MotS levels, and they still show unfinished names, disabled subtitles, leftover debug prints, and voice lines and props (including Ka'Pa the Hutt and Abron Mar) that never appear in a normal playthrough.",
+        "",
         "A reference graph was built for every file type. The roots are every level (.jkl), episode.jk, static.jkl, items.dat, models.dat, sabers.dat, the .per and .uni files and the file names hard-coded in the engine (taken from the OpenJKDF2 source, including the HUD icon naming rule and, since the revision after KnightCop's feedback, the AI difficulty rule: *name*.ai0 on Easy and *name*.ai2 on Hard). From the roots, references were followed through templates, cogs, 3DOs, keyframes, puppets, sound sets, materials and colormaps. Comment lines were not counted as references, because a commented-out line loads nothing; the comments themselves were read separately (see "
         + hints
         + '). A file that no root reaches is "unreferenced". A name that is referenced but not present in any archive is a "missing reference".',
@@ -604,6 +615,23 @@ def appendix_g(mode: str) -> list[str]:
         "",
         'The wording for community theories that are not yet confirmed by a file is "Community theory (Name) — Speculative, not yet linked by any file" (or "Speculative" where a shorter label is used).',
         "",
+        f"{h3} v2.2: unused voices, an unfinished saber throw, Warning Sense, and other leftovers",
+        "",
+        "Thank you to Shimstock for a set of notes that led to most of the additions and corrections below, and to Cogking for confirming that the Jedi Knight developers were experimenting with a saber throw.",
+        "",
+        "What changed:",
+        "",
+        "- Finding 2: the leftover level-05 Crow and TIE bomber animations are a paired sky dogfight; the transport animation is a path through the level. The written frame rates do not match, so the files as shipped would not finish together. Credited to Shimstock.",
+        "- Finding 7: dropped \"snowy\" as a fact about 16world. The pale colors came from a guessed MotS colormap; a complete JK colormap shows a dark valley and a tower, not snow. The colors are uncertain.",
+        "- Finding 12: the voiceuu folder has 46 files, not 26. That includes 28 civilian, rebel and announcement clips (previously counted as 26), 15 Ka'Pa the Hutt lines in Huttese, and 3 Abron Mar lines from leftover in-engine cutscenes that the shipped episode never plays. Credited to Shimstock for the folder, and to a review of this catalogue for identifying Ka'Pa.",
+        "- Finding 20: added rep0.3do, the repeater's earlier unused projectile. Credited to Shimstock.",
+        "- Finding 23: added Shimstock's speculative notes on kystab (possibly the Tusken prod melee) and kyrepel0 (a dropped radial push; Boc uses +force_repel with his own animation). Corrected the earlier claim that sab0.3do is used in both games. Short notes on unused +force_lightning2/3/4 templates and leftover MotS +force_repel templates.",
+        "- Finding 24: no evidence for a Kaerobani boss fight. His unused body (kb.3do) stands. The leftover S4L1 opening-cutscene script plays kb74107–kb74109, but those files do not ship in JKMRES, voiceuu or JKMsndLO.goo, so the lines were likely cut from the finished video (not yet compared line by line). Credited to Shimstock for raising the lines.",
+        "- Finding 44 (new): an unfinished JK saber throw (sab0.3do with a solid green blade, sab0.key, and an un-fired +force_saber template). MotS later shipped a working version. Credited to Cogking, and to a review of this catalogue for the model. Appendix F's earlier \"used in both games\" row for sab0.3do is superseded by this correction.",
+        "- Finding 45 (new): MotS force_warning.cog, an unused \"Warning Sense\" Force power written for bin 38, which shipped as Force Push. An in-game test in the original executable confirmed the flags are set, with no visible effect. No other cog reads those flags.",
+        "- Intro: a short paragraph on how MotS cutscenes were filmed in the game engine and recorded to .san videos, and that CUTSCENES.ZIP holds earlier JKL setups. Credited to Shimstock.",
+        "- Housekeeping: the flagged-comment count is 6,688 (the previous text said 6,680). The tractor render uses colormap 20val.cmp, a best guess, instead of the darker 03house.cmp used in the v2.1 PDF.",
+        "",
     ]
     return lines
 
@@ -646,7 +674,7 @@ def write_findings_md(sections, credits, walked) -> Path:
     lines = [
         "# Jedi Knight & Mysteries of the Sith: Unused, orphaned and leftover content in the shipped game data",
         "",
-        f"**Version 2.1** — {VERSION_MONTH}",
+        f"**Version {VERSION.lstrip('v')}** — {VERSION_MONTH}",
         "",
         ISSUE_NOTE,
         "",
@@ -656,7 +684,7 @@ def write_findings_md(sections, credits, walked) -> Path:
         "",
         "*ks.3do, the unused Kyle-on-speeder-bike model from MotS JKMRES.GOO, posed with its own ksgo.key animation. Grey parts use textures that never shipped.*",
         "",
-        f"A print-ready PDF and a zip of this version are on the [Releases]({REPO}/releases/tag/{VERSION}) page.",
+        "A print-ready PDF and a zip of this version will be added on the [Releases](" + REPO + "/releases) page when v2.2 is published. The last published files are still [v2.1](" + REPO + "/releases/tag/v2.1).",
         "",
     ]
     lines += findings_toc(walked)
@@ -807,7 +835,7 @@ def write_data_files_page() -> list[str]:
         "- **Cross-check JK against MotS.** MotS reuses a lot of JK data. The cross-game tables show whether a file is unused in both games, or a leftover copy of something the other game actually uses.",
         "- **Build on it for mods and restorations.** If you are putting a cut weapon or texture back into a level, the lists give you the exact file names, which archive they live in, and which textures or keys belong with them.",
         "",
-        "If you want everything in one go, the [v2.1 release](" + f"{REPO}/releases/tag/{VERSION}" + ") includes a [zip of the whole folder](" + ZIP_URL + ") (PDF, these data files, and the renders).",
+        "If you want everything in one go, a zip of the whole folder (PDF, these data files, and the renders) will be added on the Releases page when v2.2 is published. The last published zip is still in the [v2.1 release](" + REPO + "/releases/tag/v2.1).",
         "",
         "## The files",
         "",
@@ -860,9 +888,9 @@ def write_docs(sections, credits, walked) -> None:
         "",
         "# Unused content from Jedi Knight and Mysteries of the Sith",
         "",
-        f"**Version 2.1** — {VERSION_MONTH}",
+        f"**Version {VERSION.lstrip('v')}** — {VERSION_MONTH}",
         "",
-        f"Have a new finding, a correction, or a file this catalogue should look at again? Please [open an issue]({ISSUE}) and tell us about it. You can also [download the PDF (v2.1)]({PDF_URL}) or the [zip of the folder]({ZIP_URL}).",
+        f"Have a new finding, a correction, or a file this catalogue should look at again? Please [open an issue]({ISSUE}) and tell us about it. The last published PDF is still [v2.1]({REPO}/releases/download/v2.1/JK_MotS_Unused_Content_Findings_v2.1.pdf); the v2.2 PDF and zip will be added on the Releases page when this version is published.",
         "",
         "This site is the web edition of the catalogue of unused, orphaned and leftover files in the retail *Star Wars Jedi Knight: Dark Forces II* (JK) and *Mysteries of the Sith* (MotS) data. Use the sidebar to jump to a section, or the table of contents on each page to jump to a finding. Every finding has a stable link, for example [Finding 34](g-hints-in-comments.md#finding-34).",
         "",

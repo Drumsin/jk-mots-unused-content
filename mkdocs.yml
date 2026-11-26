@@ -47,7 +47,7 @@ theme:
     repo: fontawesome/brands/github
 
 extra:
-  version: v2.1
+  version: v2.2
   issues_url: https://github.com/Drumsin/jk-mots-unused-content/issues/new/choose
   pdf_url: https://github.com/Drumsin/jk-mots-unused-content/releases/download/v2.1/JK_MotS_Unused_Content_Findings_v2.1.pdf
   social:
@@ -102,6 +102,7 @@ nav:
     - "F. Headers, dates and development machines": f-headers-dates.md
     - "G. Hints in comments": g-hints-in-comments.md
     - "H. Added after community feedback": h-community-feedback.md
+    - "I. Added in v2.2": i-added-in-v22.md
   - Appendices:
     - "A. Unreferenced asset lists": appendix-a-unreferenced-lists.md
     - "B. Unused texture contact sheet": appendix-b-texture-sheet.md

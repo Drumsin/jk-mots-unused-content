@@ -4,9 +4,9 @@ title: How to read this catalogue
 
 # Unused content from Jedi Knight and Mysteries of the Sith
 
-**Version 2.1** — November 2026
+**Version 2.2** — November 2026
 
-Have a new finding, a correction, or a file this catalogue should look at again? Please [open an issue](https://github.com/Drumsin/jk-mots-unused-content/issues/new/choose) and tell us about it. You can also [download the PDF (v2.1)](https://github.com/Drumsin/jk-mots-unused-content/releases/download/v2.1/JK_MotS_Unused_Content_Findings_v2.1.pdf) or the [zip of the folder](https://github.com/Drumsin/jk-mots-unused-content/releases/download/v2.1/JK_MotS_Unused_Content_Findings_v2.1.zip).
+Have a new finding, a correction, or a file this catalogue should look at again? Please [open an issue](https://github.com/Drumsin/jk-mots-unused-content/issues/new/choose) and tell us about it. The last published PDF is still [v2.1](https://github.com/Drumsin/jk-mots-unused-content/releases/download/v2.1/JK_MotS_Unused_Content_Findings_v2.1.pdf); the v2.2 PDF and zip will be added on the Releases page when this version is published.
 
 This site is the web edition of the catalogue of unused, orphaned and leftover files in the retail *Star Wars Jedi Knight: Dark Forces II* (JK) and *Mysteries of the Sith* (MotS) data. Use the sidebar to jump to a section, or the table of contents on each page to jump to a finding. Every finding has a stable link, for example [Finding 34](g-hints-in-comments.md#finding-34).
 
@@ -22,6 +22,8 @@ This is a catalogue of files in the retail Jedi Knight (JK) and Mysteries of the
 ## Method
 
 All shipped archives were extracted and read: JK Episode\JK1.GOB, JK1CTF.GOB, JK1MP.GOB and Resource\Res1hi.gob, Res2.gob; MotS Episode\JKM.GOO, JKM_KFY.GOO, JKM_MP.GOO, JKM_SABER.GOO and Resource\JKMRES.GOO, plus cutscenes.goo (inside Resource\VIDEO\CUTSCENES.ZIP) and the hidden S6L1 level (inside Resource\VIDEO\UNSUPPORTED.ZIP).
+
+Shimstock pointed out that the MotS cutscenes were built as in-engine levels, played in the game, and recorded to video. Those earlier, unfinished scene setups are the JKL files in Resource\VIDEO\CUTSCENES.ZIP, already used as a source in this catalogue. The shipped episode does not load them; after each level it plays the later SMUSH videos (.san). (JK's live-action cutscenes are the .smk files.) The JKL worlds were last saved in late November 1997 through 2 January 1998, before the shipped MotS levels, and they still show unfinished names, disabled subtitles, leftover debug prints, and voice lines and props (including Ka'Pa the Hutt and Abron Mar) that never appear in a normal playthrough.
 
 A reference graph was built for every file type. The roots are every level (.jkl), episode.jk, static.jkl, items.dat, models.dat, sabers.dat, the .per and .uni files and the file names hard-coded in the engine (taken from the OpenJKDF2 source, including the HUD icon naming rule and, since the revision after KnightCop's feedback, the AI difficulty rule: *name*.ai0 on Easy and *name*.ai2 on Hard). From the roots, references were followed through templates, cogs, 3DOs, keyframes, puppets, sound sets, materials and colormaps. Comment lines were not counted as references, because a commented-out line loads nothing; the comments themselves were read separately (see [section "Hints in comments"](g-hints-in-comments.md)). A file that no root reaches is "unreferenced". A name that is referenced but not present in any archive is a "missing reference".
 
@@ -61,6 +63,7 @@ Each finding also has a rating: a small "Rating:" label and a colored pill with 
 - [F. Headers, dates and development machines](f-headers-dates.md) — findings 25–28
 - [G. Hints in comments](g-hints-in-comments.md) — findings 29–41
 - [H. Added after community feedback](h-community-feedback.md) — findings 42–43
+- [I. Added in v2.2](i-added-in-v22.md) — findings 44–45
 
 A single-file copy of the same text is also on GitHub as [FINDINGS.md](https://github.com/Drumsin/jk-mots-unused-content/blob/main/FINDINGS.md), and each numbered release includes a print-ready PDF.
 

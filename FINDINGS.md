@@ -1,6 +1,6 @@
 # Jedi Knight & Mysteries of the Sith: Unused, orphaned and leftover content in the shipped game data
 
-**Version 2.1** — November 2026
+**Version 2.2** — November 2026
 
 Have a new finding, a correction, or a file this document should look at again? Please [open an issue](https://github.com/Drumsin/jk-mots-unused-content/issues/new/choose) and tell us about it. Screenshots and exact file names help a lot. If you don't use GitHub, you can still post in Discord and it will be relayed here.
 
@@ -10,7 +10,7 @@ Research notes with file locations, quoted evidence, renders and source ratings.
 
 *ks.3do, the unused Kyle-on-speeder-bike model from MotS JKMRES.GOO, posed with its own ksgo.key animation. Grey parts use textures that never shipped.*
 
-A print-ready PDF and a zip of this version are on the [Releases](https://github.com/Drumsin/jk-mots-unused-content/releases/tag/v2.1) page.
+A print-ready PDF and a zip of this version will be added on the [Releases](https://github.com/Drumsin/jk-mots-unused-content/releases) page when v2.2 is published. The last published files are still [v2.1](https://github.com/Drumsin/jk-mots-unused-content/releases/tag/v2.1).
 
 ## Contents
 
@@ -29,7 +29,7 @@ A print-ready PDF and a zip of this version are on the [Releases](https://github
   - [9. Unused Qu Rahn lines about the Dark Jedi](#finding-9)
   - [10. Other unused JK voice clips](#finding-10)
   - [11. 01_trouble.cog: an unfinished Nar Shaddaa bar exchange](#finding-11)
-  - [12. Unused MotS civilian and rebel lines](#finding-12)
+  - [12. Unused MotS voices in the voiceuu folder](#finding-12)
 - [D. Unused and orphaned scripts](#section-d)
   - [13. Kaerobani base: Mara quip triggers and other unused cogs](#finding-13)
   - [14. s2l1_murder.cog and other Nar Shaddaa scenes](#finding-14)
@@ -66,6 +66,9 @@ A print-ready PDF and a zip of this version are on the [Releases](https://github
 - [H. Added after community feedback](#section-h)
   - [42. 03trcr.3do: the little tractor from the Katarn farm](#finding-42)
   - [43. Unused Katarn farm and house textures that only MotS ships](#finding-43)
+- [I. Added in v2.2](#section-i)
+  - [44. An unfinished saber throw in Jedi Knight](#finding-44)
+  - [45. Warning Sense: an unused MotS Force power that never got an effect](#finding-45)
 - [Appendix A. Unreferenced asset lists](#appendix-a)
 - [Appendix B. Unused texture contact sheet](#appendix-b)
 - [Appendix C. Caveats](#appendix-c)
@@ -82,6 +85,8 @@ This is a catalogue of files in the retail Jedi Knight (JK) and Mysteries of the
 ### Method
 
 All shipped archives were extracted and read: JK Episode\JK1.GOB, JK1CTF.GOB, JK1MP.GOB and Resource\Res1hi.gob, Res2.gob; MotS Episode\JKM.GOO, JKM_KFY.GOO, JKM_MP.GOO, JKM_SABER.GOO and Resource\JKMRES.GOO, plus cutscenes.goo (inside Resource\VIDEO\CUTSCENES.ZIP) and the hidden S6L1 level (inside Resource\VIDEO\UNSUPPORTED.ZIP).
+
+Shimstock pointed out that the MotS cutscenes were built as in-engine levels, played in the game, and recorded to video. Those earlier, unfinished scene setups are the JKL files in Resource\VIDEO\CUTSCENES.ZIP, already used as a source in this catalogue. The shipped episode does not load them; after each level it plays the later SMUSH videos (.san). (JK's live-action cutscenes are the .smk files.) The JKL worlds were last saved in late November 1997 through 2 January 1998, before the shipped MotS levels, and they still show unfinished names, disabled subtitles, leftover debug prints, and voice lines and props (including Ka'Pa the Hutt and Abron Mar) that never appear in a normal playthrough.
 
 A reference graph was built for every file type. The roots are every level (.jkl), episode.jk, static.jkl, items.dat, models.dat, sabers.dat, the .per and .uni files and the file names hard-coded in the engine (taken from the OpenJKDF2 source, including the HUD icon naming rule and, since the revision after KnightCop's feedback, the AI difficulty rule: *name*.ai0 on Easy and *name*.ai2 on Hard). From the roots, references were followed through templates, cogs, 3DOs, keyframes, puppets, sound sets, materials and colormaps. Comment lines were not counted as references, because a commented-out line loads nothing; the comments themselves were read separately (see the section "Hints in comments"). A file that no root reaches is "unreferenced". A name that is referenced but not present in any archive is a "missing reference".
 
@@ -189,6 +194,8 @@ Three "05v" models come from the ship animation folders, each with a matching ke
 
 **05vtrnwg** is the Imperial transport with WeeGee riding on it. Its node list is the transport (T~TRANSP) plus a droid body (BODY01, HEAD01, EYE, NECK, SHLDR, arm segments), and it uses the TTRN* transport textures together with WeeGee's textures (wg.3do, used in JK levels 03 and 04). The transport on its own (ttrn.3do) sits in the shed at the end of JK level 4 (04escapehouse.jkl) and is reused by MotS (s1l2, s1l4, s2l2a/b, s2l4 and a cutscene). KnightCop identifies the shed transport and lists the key as "WeeGee with Transport".
 
+Shimstock pointed out that the leftover level-05 ship animations belong together. The Moldy Crow and TIE bomber keys (`05vcrowa.key` and `05vtieb.key`) have the same 371-frame length, share a dummy path of 70 JK units, and were both exported from the Crow animation folder. The two ships weave around that path; it is a sky dogfight, not two separate fly-bys. The written frame rates differ (21.5 fps for the Crow, 5 fps for the TIE), so the files as shipped would not finish together, and no cog remains to start them. The Imperial transport key (`05vtrnwg.key`) is a shorter, separate animation whose dummy node traces a turning path, which fits a transport flying a route through the cut level rather than fighting.
+
 roadblk.mat and roadsign.mat are missing, so those pieces render partly grey. The other road textures are shown with JK 04farm.cmp (see the next finding); that colormap is a best guess.
 
 **Evidence**
@@ -206,6 +213,7 @@ roadblk.3do:  # MODEL 'Roadblk2.3do' created from '...\LevelSpecific\05stuff\Roa
 **Sources**
 
 - KnightCop, "Road to Barons Hed - Cut Mission Information" (PDF, 2026) lists the 05v* keyframes and identifies the level-4 shed transport. The 05stuff folder evidence and the model-by-model comparison were not found in it.
+- Shimstock identified the Crow and TIE keys as a paired sky dogfight, and the transport key as a path through the level.
 
 ![05road.3do (colormap: JK 04farm, best guess)](renders/05road.png)
 
@@ -415,7 +423,9 @@ See cross_game_verification.csv (rows starting with 13).
 |---|---|---|
 | MotS | Resource\JKMRES.GOO | 3do\16world.3do, 16vale.3do, 16spir.3do; 3do\mat\16world.mat, 16spir2b.mat, 16spir3b.mat |
 
-Three simple models exported in batch mode with an early tool version (ver4.11). 16world is an open cylinder whose texture shows a snowy valley with a tower on the horizon; 16vale and 16spir are tall rock-like pieces. None is referenced. A distant backdrop for the falling-ship levels is one possibility, but nothing in the data confirms the purpose.
+Three simple models exported in batch mode with an early tool version (ver4.11). 16world is an open cylinder whose texture shows a distant valley with a tower on the horizon; 16vale and 16spir are tall rock-like pieces. None is referenced. A distant backdrop for the falling-ship levels is one possibility, but nothing in the data confirms the purpose.
+
+The first published render of 16world used a guessed MotS colormap (`10cargo.cmp`) and looked pale enough to be read as snowy mountains. Those colors are not a fact about the texture: the model's own colormap was not found. With a complete JK colormap (`04farm.cmp`) the same texture is a blue sky with brown clouds over a dark valley and a tower, with no snow. The colors should be treated as uncertain. This colormap concern was raised in a review of this catalogue.
 
 **Evidence**
 
@@ -426,11 +436,15 @@ Three simple models exported in batch mode with an early tool version (ver4.11).
 
 **Sources**
 
-- No earlier source found.
+- No earlier source found. The concern that the pale colors were a colormap guess, not snow, was raised in a review of this catalogue.
 
-![16world.3do (colormap best guess)](renders/16world.png)
+![16world.3do with the guessed MotS 10cargo.cmp used in the first published render (pale, easily read as snow)](renders/16world.png)
 
-*16world.3do (colormap best guess)*
+*16world.3do with the guessed MotS 10cargo.cmp used in the first published render (pale, easily read as snow)*
+
+![16world.3do with JK 04farm.cmp: a blue sky, brown clouds, a dark valley and a tower; not snow](renders/16world_04farm.png)
+
+*16world.3do with JK 04farm.cmp: a blue sky, brown clouds, a dark valley and a tower; not snow*
 
 ![16vale.3do](renders/16vale.png)
 
@@ -561,17 +575,21 @@ sound        riposte=xxx.wav
 - No earlier source found.
 
 <a id="finding-12"></a>
-### 12. Unused MotS civilian and rebel lines
+### 12. Unused MotS voices in the voiceuu folder
 
 **Rating:** Likely new
 
 | Game | Archive | Internal path / files |
 |---|---|---|
-| MotS | Resource\JKMRES.GOO | voiceuu\cm501xx.wav, cm601xx.wav, cw500xx.wav, cw601xx.wav, 2r6011x.wav, cp641xx.wav (26 files) |
+| MotS | Resource\JKMRES.GOO | voiceuu\*.wav (46 files: 28 civilian, rebel and announcement clips; 15 Ka'Pa the Hutt lines; 3 Abron Mar lines) |
 
-voiceuu holds 26 clips that nothing references. They use the same numbering series as the clips S6L1 does use (cm5013x, cm6014x, cw500xx, cw6016x). The civilians offer items ("Take this, it might help you" / "Don't tell anyone where you got this") or refuse ("Not after what you've done"), which suggests a civilian give-item and reaction system that was cut back. 2r6011x are rebel squad lines and cp641xx are station announcements.
+The folder `voiceuu` (uu = unused) in JKMRES.GOO holds 46 WAV files that a normal playthrough never loads. Shimstock pointed out this folder, and recalled that many of the clips were from the cutscenes.
 
-The main MotS voice archive (JKMsndLO.goo) was not examined, so some of these may have duplicates there.
+28 of them are unreferenced civilian, rebel and announcement lines in the same numbering series as clips S6L1 does use (cm501xx, cm601xx, cw500xx, cw601xx, 2r6011x, cp641xx). An earlier version of this document counted 26 of that group. The civilians offer items ("Take this, it might help you" / "Don't tell anyone where you got this") or refuse ("Not after what you've done"), which suggests a civilian give-item and reaction system that was cut back. 2r6011x are rebel squad lines and cp641xx are station announcements.
+
+The other 18 are lines for the leftover in-engine ending cutscenes in CUTSCENES.ZIP. Fifteen are Ka'Pa the Hutt speaking Huttese (`ka921*` from the S2L1 palace ending, and `ka924*` from the S2L4 ending). Three are Abron Mar (`ab92206`, `ab92207` and `ab92208`) from the S2L2 ending. Those leftover cutscene cogs still name the files, but the shipped episode plays SMUSH videos (`.san`) instead, so these WAVs never run in a normal MotS playthrough and exist only under voiceuu. The Ka'Pa clips were identified by listening; they are Huttese, not English, and are not quoted here. Abron Mar's three lines are spoken English in that leftover S2L2 ending, but they are described rather than quoted until they can be transcribed with confidence.
+
+Mara's matching lines from the same cutscenes (`mj921*`, `mj924*`) are not in JKMRES. The MotS sound archive (JKMsndLO.goo) was checked for Kaerobani (`kb*`) voice files and none were found (see Finding 24). It has not been fully transcribed for duplicates of the voiceuu clips.
 
 **Evidence**
 
@@ -581,11 +599,12 @@ cm60143.wav "Take this, it might help you."   cm60144.wav "Don't tell anyone whe
 cm60154.wav "Not after what you've done."   cw60159.wav "Are you really a Jedi?"
 2r60118-21.wav "Hey! Whose side are you on?" / "Traitor" (auto-transcribed as "Trader") / "Follow me!" / "Return fire!"
 cp64114.wav "Warning, depressurization imminent."   cp64117.wav "Depressurization averted."
+voiceuu holds 46 WAVs. Ka'Pa (Huttese, not quoted): ka92102, 04, 05, 07, 09, 12, 13, 14, 16, 17, 18, 20; ka92403, 06, 07. Abron Mar: ab92206, ab92207, ab92208 (English, not quoted here). Referenced only by leftover cutscene cogs s2l1_endcut.cog, s2l4_endcutscene.cog, s2l2b_endcutscene.cog.
 ```
 
 **Sources**
 
-- No earlier source found.
+- Shimstock pointed out the unused voiceuu folder in JKMRES, and that many of the clips came from the cutscenes. The Ka'Pa lines were identified by listening, in a review of this catalogue.
 
 <a id="section-d"></a>
 ## D. Unused and orphaned scripts
@@ -780,8 +799,11 @@ S6L1 defines a darkkyle template (kk.3do, 20,000 health) and JKMRES ships 61dark
 | Game | Archive | Internal path / files |
 |---|---|---|
 | JK | Resource\Res2.gob | 3do\repv.3do (view model), 3do\repp.3do (pickup) |
+| JK + MotS | Resource\Res2.gob; Resource\JKMRES.GOO | 3do\rep0.3do (early projectile; listed in static.jkl, unused) |
 
 The cut rifle is documented. The new detail is in repv.3do's material list: seven hand textures (ft-wrt, ft-wrs, ft-tp, ft-thb, ft-fng, ft-wrb, ft-bt) that do not exist in JK, so the first-person model had a rendered fist and hand. Same-named ft-* textures exist in MotS JKMRES.GOO, and the render below uses those. The source path puts the model under RepeaterGun\View and it was exported with ver2.30, one of the oldest exporter versions in the data.
+
+Shimstock noted that `rep0.3do` is the repeater's projectile and is still in the assets. It is an early export (`RepeaterGun\projectile0\Rep0.prj`, ver2.30) and is listed in both games' static.jkl, but no template uses it as `model3d=`. The shipped repeater fires `+repeaterball`, whose model is the later `rpt0.3do` (`RepeaterGun\projectile\`, ver4.63). The other old projectile0 models (Bryar, concussion, detonator, rail) are still the ones those weapons fire; only the repeater's earlier shot was left behind, in the same generation as the cut `repv` / `repp` rifle.
 
 **Evidence**
 
@@ -790,11 +812,14 @@ repv.3do: # MODEL 'RepV.3do' created from 'D:\Jedi\Products\JK\Data\3DO\Weapons\
 MATERIALS 13
   6:     FT-WRT.MAT   7: FT-WRS.MAT   8: FT-TP.MAT   9: FT-THB.MAT
   10:    FT-FNG.MAT  11: FT-WRB.MAT  12: FT-BT.MAT
+rep0.3do: # MODEL 'Rep0.3do' created from '...\RepeaterGun\projectile0\Rep0.prj in VISUAL mode with ver2.30.'
+static.jkl lists rep0.3do; no template has model3d=rep0.3do; +repeaterball uses model3d=rpt0.3do
 ```
 
 **Sources**
 
 - The Cutting Room Floor, "Star Wars Jedi Knight: Dark Forces II" page (read via an archived Wayback Machine copy, 2025).
+- Shimstock noted that rep0.3do is the repeater's earlier projectile still in the assets.
 
 ![repv.3do (hand textures taken from MotS)](renders/repv.png)
 
@@ -803,6 +828,10 @@ MATERIALS 13
 ![repp.3do](renders/repp.png)
 
 *repp.3do*
+
+![rep0.3do, the unused early repeater projectile (colormap JK 01narsh, best guess)](renders/rep0.png)
+
+*rep0.3do, the unused early repeater projectile (colormap JK 01narsh, best guess)*
 
 <a id="finding-21"></a>
 ### 21. Tusken prod view models
@@ -872,7 +901,13 @@ A winged beast with 14 animations (run, bite, fly, jump attacks, death and more)
 
 These Kyle keyframes are referenced by no puppet, cog or level in either game. Most of them were also copied into MotS, where they are unused too.
 
-One correction from the cross-game check: **kysnap3.key**, documented as unused in JK, is used by MotS (s5l2_darkswamp and s5l4_lowersith, and a MotS puppet file). Two other items sometimes listed as unused are in fact used: sab0.3do (the thrown saber) is loaded in both games, and the bike sounds bikeacl1.wav and biketrn1.wav play as passing traffic in JK level 4 (04_soundofcars.cog in 04escapehouse). score1/score2.wav are unused in both games.
+One correction from the cross-game check: **kysnap3.key**, documented as unused in JK, is used by MotS (s5l2_darkswamp and s5l4_lowersith, and a MotS puppet file). The bike sounds bikeacl1.wav and biketrn1.wav play as passing traffic in JK level 4 (04_soundofcars.cog in 04escapehouse). score1/score2.wav are unused in both games. An earlier version of this document also treated sab0.3do as used in both games and removed it from the unused list; that was a mistake. Almost every JK level lists the `+force_saber` template that uses this model, but no JK script ever fires it. The unused throw model and animation are described in section I.
+
+Community theory (Shimstock) — Speculative, not yet linked by any file. Shimstock suggested that `kystab` is not a dropped saber attack, and was more likely the third-person melee for the Tusken prod. The key is a very short two-handed thrust (6 frames at 15 fps) that no puppet or cog in either game plays. The used saber swings are a different set (`kysabr*`), and the shipped "tusken_prod" inventory slot actually runs the energy-crossbow cog. The unused first-person prod models in the previous finding also never reference these keys. The idea fits the animation, but nothing in the data confirms it. `kystab2` (10 frames) is likewise unreferenced; its purpose is still unknown.
+
+Community theory (Shimstock). Shimstock identified `kyrepel0` as a dropped radial Force-push animation, and noted that Boc still uses the power. The Kyle key (23 frames at 15 fps) is referenced by no puppet or cog, so the player never performs it. Boc's script (`darkjedi_boc.cog`) does create the `+force_repel` explosion — a short radial blast with force 200 and range 0.5 — when his second force power is triggered, but he plays his own throw animation (`bothrow.key`), not `kyrepel0.key`. Gorc's cog also names `+force_repel`. Some MotS levels still carry a leftover `+force_repel` template, but no MotS cog fires it. The leftover Kyle animation and Boc's working repel are the same idea; only the Dark Jedi version shipped in Jedi Knight.
+
+A related leftover, not a community theory: both games still list `+force_lightning2`, `+force_lightning3` and `+force_lightning4` as damage variants, but `force_lightning.cog` always fires `+force_lightning` and only changes the mana cost by rank. Those higher-rank templates are never used.
 
 **Evidence**
 
@@ -884,6 +919,7 @@ kysnap3.key: referenced by mots_JKM.GOO\jkl\s5l2_darkswamp.jkl, s5l4_lowersith.j
 **Sources**
 
 - The Cutting Room Floor, "Star Wars Jedi Knight: Dark Forces II" page (read via an archived Wayback Machine copy, 2025).
+- Community theories (kystab / Tusken prod, and kyrepel0 / Boc's Force Repel): Shimstock.
 
 <a id="finding-24"></a>
 ### 24. Unreferenced alternate exports of models the games do use
@@ -898,7 +934,9 @@ These MotS files are referenced nowhere in either game, but each is an alternate
 
 **yss.3do** is the ysalamiri "shoulder" export (source folder Ysalamiri\shoulder). The ysalamiri itself is in MotS: ys.3do (same textures, near-identical geometry) is used in single-player level s5l2_darkswamp and as the carried creature in all five "Kill the Fool with the Ysalamiri" multiplayer maps (k1-k5), alongside ysbranch.3do; it is also a MotS item (items.dat, pow_ysalamiri.cog). Only the shoulder version is unused; kfy_main.cog notes the ysalamiri is hidden while carried.
 
-**kyasleep** is a sleeping Kyle from a KyleAlternates folder (its texture set matches the MotS Kyle models; face texture kkfagoat). **kb** is a Kaerobani body whose textures match KYkb.3do, the "Kaerrobanii" multiplayer skin. **dvboss** is a level-of-detail copy of the Darth Vader multiplayer skin kydarth.3do. **mjsaber** matches the Mara Jade models, and s0alt/s1alt/du2alt are alternates of used statues and dark undead. Several of the ship _flt/_lo exports have a used counterpart (corv1_flt even has the same geometry as the used corv1.3do).
+**kyasleep** is a sleeping Kyle from a KyleAlternates folder (its texture set matches the MotS Kyle models; face texture kkfagoat). **kb** is a Kaerobani body whose textures match KYkb.3do, the "Kaerrobanii" multiplayer skin. The model header is `SimChars\Kaerrobanii\Kb.prj`. **dvboss** is a level-of-detail copy of the Darth Vader multiplayer skin kydarth.3do. **mjsaber** matches the Mara Jade models, and s0alt/s1alt/du2alt are alternates of used statues and dark undead. Several of the ship _flt/_lo exports have a used counterpart (corv1_flt even has the same geometry as the used corv1.3do).
+
+Shimstock noted unused lines for Kaerobani, and that there may have been a boss fight at the end of his level. No Kaerobani voice files were found in the unused voiceuu folder (the `ka921*`–`ka924*` clips there are Ka'Pa the Hutt, not Kaerobani; see the voiceuu finding). The leftover S4L1 opening-cutscene script (`cutscenes.goo\cog\s4l1_ocs.cog`) plays `kb74107`, `kb74108` and `kb74109`, but those files do not ship in JKMRES, voiceuu or the MotS sound archive JKMsndLO.goo. They were likely cut from the finished opening video, though that video has not been compared line by line, so this is not certain. The shipped Kaerobani's Base level (S4L3) does not place a Kaerobani actor, and its leftover ending cutscene has no Kaerobani dialogue. A fight at the end of the level is not shown in the files. Thank you, Shimstock, for raising the lines.
 
 **Evidence**
 
@@ -913,6 +951,7 @@ dvboss.3do:   # MODEL 'DVboss0.3do' created from 'LOD MODEL'
 **Sources**
 
 - Massassi Temple (massassi.net) file and 3DO pages (unused fighter textures).
+- Shimstock raised unused Kaerobani lines and a possible boss fight at the end of his level. The files support unused cutscene lines that appear to have been cut from the finished video; they do not show a boss fight.
 
 ![kyasleep.3do: sleeping Kyle (unreferenced; Kyle models are used)](renders/kyasleep.png)
 
@@ -1043,7 +1082,7 @@ MotS episode.jk plays SMUSH (.san) cutscenes. The line numbers jump from 141 to 
 
 When the asset lists were built, comment lines were skipped on purpose, because a commented-out line does not make the game load anything. This section reads those comments on their own terms. Every comment in both games was extracted: the # and // comments in cogs, levels (including static.jkl, the cutscene levels and S6L1), templates, puppets, sound sets, AI, particle and sprite files, the .dat, .per, .uni and episode.jk files, and the export headers of every 3DO and KEY file. That came to 172,343 comment lines, of which 36,307 are more than table headers or column labels.
 
-Each comment was scanned for file names, template names, old level numbers, dates and initials, words such as "old", "removed", "was", "temp" or "hack", and commented-out code. Every file or template name found this way was checked against both games, as in the rest of this document. 6,680 lines were flagged; they are listed in [comments_flagged.csv](references/comments_flagged.csv), and all extracted comments are in [comments_all.csv](references/comments_all.csv).
+Each comment was scanned for file names, template names, old level numbers, dates and initials, words such as "old", "removed", "was", "temp" or "hack", and commented-out code. Every file or template name found this way was checked against both games, as in the rest of this document. 6,688 lines were flagged; they are listed in [comments_flagged.csv](references/comments_flagged.csv), and all extracted comments are in [comments_all.csv](references/comments_all.csv).
 
 Each finding below is classified. **Confirmed cut**: the comment shows that something was removed or disabled, and the data confirms it. **Likely rename**: the comment gives an older name, number or source for something that shipped. **Speculative**: the comment hints at something, but the data cannot settle what. **Dev notes**: dates, initials and working notes. Comments can be stale or copied from other files, so none of these is proof of intent.
 
@@ -1538,6 +1577,79 @@ Sweep: 272 03/04 textures; 129 MotS-only and unused in both (109 with 03, 20 wit
 
 *All MotS-only 03/04 textures that neither game uses*
 
+<a id="section-i"></a>
+## I. Added in v2.2
+
+These findings were added in v2.2 from community notes and a further pass over leftover templates and scripts.
+
+<a id="finding-44"></a>
+### 44. An unfinished saber throw in Jedi Knight
+
+**Rating:** Partly known
+
+| Game | Archive | Internal path / files |
+|---|---|---|
+| JK | Resource\Res2.gob | 3do\sab0.3do, 3do\mat\sabvbld.mat, 3do\key\sab0.key |
+| JK | Episode\JK1.GOB (and most other JK levels) | template +force_saber (model3d=sab0.3do); no cog fires it |
+
+`sab0.3do` is a lightsaber with a solid bright-green blade. The blade mesh uses `SABVBLD.MAT`, whose pixels are all palette index 1: pure green (0, 255, 0) in every JK colormap. Ordinary sabers in JK have no blade model, because the game draws the blade in the engine. A matching spin animation, `sab0.key` (8 frames at 15 fps, from the same Sab0 project), is referenced by no puppet, cog or level.
+
+Almost every JK level still lists a `+force_saber` template that uses this model, but no JK cog ever calls `FireProjectile` or `CreateThing` on it, and JK has no saber-throw inventory power. Mysteries of the Sith later shipped a working saber throw (`force_saberthrow.cog`, with later models such as `sab0gree`). The green-shaft model was the experimental JK version of that idea.
+
+This was easy to miss, and an earlier version of this document wrongly removed `sab0.3do` from the unused list because every JK level names it (see Finding 23 and Appendix F). Being listed in a level template is not the same as being fired. Cogking confirmed that the developers were experimenting with a saber throw; the green-shaft model was found in a review of this catalogue.
+
+**Evidence**
+
+```
+sab0.3do: saber model with a solid blade mesh; material SABVBLD.MAT is 8-bit, all pixels palette index 1 (pure green in every JK colormap)
+sab0.key: 8 frames, 15 fps, from the same Sab0.prj; unreferenced
++force_saber appears in almost every JK JKL; no JK cog fires it; JK items.dat has no f_saberthrow
+MotS ships force_saberthrow.cog and later saber-throw models (sab0gree and related)
+```
+
+**Sources**
+
+- Cogking confirmed that the developers were experimenting with a saber throw.
+- The green-shaft model (sab0.3do in Res2.gob) was identified in a review of this catalogue.
+
+![sab0.3do, the unused JK saber-throw model with its solid green blade (colormap JK 01narsh)](renders/sab0.png)
+
+*sab0.3do, the unused JK saber-throw model with its solid green blade (colormap JK 01narsh)*
+
+![MotS sab0gree.3do, the later shipped saber-throw model, for comparison](renders/sabg.png)
+
+*MotS sab0gree.3do, the later shipped saber-throw model, for comparison*
+
+<a id="finding-45"></a>
+### 45. Warning Sense: an unused MotS Force power that never got an effect
+
+**Rating:** Likely new
+
+| Game | Archive | Internal path / files |
+|---|---|---|
+| MotS | Resource\JKMRES.GOO | cog\force_warning.cog |
+
+MotS still contains an unused Force-power script, `force_warning.cog`, titled "Warning Sense" and written for inventory bin 38. On activate it plays the standard Force-cast animation and sets player flags that the script itself comments as `JK_TF_WARNINGON` (0x400), `WARNINGLOW` (0x800) and `WARNINGHIGH` (0x1000). Rank 1 sets 0x400, rank 2 sets 0xC00, rank 3 sets 0x1400 and rank 4 sets 0x1C00. Shutting the power off clears 0x1C00. No other cog in JK or MotS sets or reads those bits: every other `jkGetFlags` check in the scripts looks only at 0x20, the Persuasion flag.
+
+This is not an old name for a power that shipped. MotS still has a separate script for each shipped Force power. Force Push, which occupies bin 38 in the shipped `items.dat` (`f_push`, `cog=force_push.cog`), is a targeted shove cloned from Force Pull. Force Seeing, Far Sight, Persuasion and the rest are also still present as their own scripts and use different flags or effects. Nothing in `items.dat`, any level, or any other cog points at `force_warning.cog`, so the game never loads it. The script itself looks unfinished: it lists a mana cost of 5 but never spends mana, and it never starts the timer or pulse that would turn the flags off.
+
+A temporary test in the original Mysteries of the Sith executable, hooking this script to the Force Push inventory slot, confirmed that the engine accepts and reports the flags (0x400, 0xC00, 0x1400 and 0x1C00). There was no visible change to the screen, the HUD, the Force meter or the automap; enemies still attacked, and fall damage was still taken. The flags are set, but the effect they were meant to switch on was never implemented.
+
+**Evidence**
+
+```
+force_warning.cog header: FORCEPOWER Script - Warning Sense / Bin 38
+//JK_TF_WARNINGON = 0x0400  //JK_TF_WARNINGLOW = 0x0800  //JK_TF_WARNINGHIGH = 0x1000
+ranks 1-4: jkSetFlags 0x0400, 0x0C00, 0x1400, 0x1C00; stop_power: jkClearFlags 0x1C00
+items.dat: f_push  38  ...  cog=force_push.cog   (no line points at force_warning.cog)
+No other extracted JK or MotS cog reads 0x400, 0x800 or 0x1000
+In-game test in the original MotS executable: flags reported back, no visible effect
+```
+
+**Sources**
+
+- No earlier source found. The script was already listed as unreferenced in [mots_unreferenced_assets.csv](references/mots_unreferenced_assets.csv).
+
 <a id="appendix-a"></a>
 ## Appendix A. Unreferenced asset lists
 
@@ -1584,7 +1696,7 @@ First cell of a selection of unused textures. Blue colormap labels are the color
 <a id="appendix-c"></a>
 ## Appendix C. Caveats
 
-- The MotS sound archive (JKMsndLO.goo) and the cutscene videos (.smk/.san) were not available for this survey. Many MotS sound files therefore show up as "missing" only because that archive was not read, and the MotS subtitle strings for cog IDs 10043, 10000 and 43003 could not be read either.
+- The MotS sound archive (JKMsndLO.goo) was checked for Kaerobani (kb*) voice file names; none were found. It has not been fully transcribed, and the MotS subtitle strings for cog IDs 10043, 10000 and 43003 were not read. The cutscene videos (.smk/.san) were not compared line by line, so some MotS sounds may still appear missing only because they live in that archive or inside the videos.
 - Some names are built at runtime (cog LoadTemplate calls, models.dat, saber and HUD naming rules). The known rules are modeled, but a few "unreferenced" files could still be loaded dynamically.
 - Voice transcripts were made automatically and may contain errors. Check them by ear.
 - Colormaps for textures that no level uses are best guesses ("?"). They are visual matches, not evidence.
@@ -1610,12 +1722,13 @@ Work on copies. Do not modify the original archives in the game folder.
 ## Appendix E. Sources and credits
 
 - KnightCop, "Road to Barons Hed - Cut Mission Information" (PDF, 2026). The main reference for the cut speeder-bike mission; recreates the missing bike textures. KnightCop also reviewed the first published version (Appendix G).
-- Shimstock: co-author with KnightCop of the Tusken prod and Repeater gun restoration sheet, and the community theories in v2.1 (s5 E-Web gunner, ligt.3do as the prod projectile).
+- Shimstock: co-author with KnightCop of the Tusken prod and Repeater gun restoration sheet; the community theories in v2.1 (s5 E-Web gunner, ligt.3do as the prod projectile); and the v2.2 notes on the level-05 ship dogfight, kystab and kyrepel0, rep0.3do, the MotS in-engine cutscenes, the voiceuu folder, and unused Kaerobani lines.
 - Reddit r/jediknight, thread 1vnxazh (Aug 2026)
 - The Cutting Room Floor, "Star Wars Jedi Knight: Dark Forces II" page (read via an archived Wayback Machine copy, 2025)
 - Massassi Temple (massassi.net) file and 3DO pages, including the Early Dev Enemy Pack and 8t88 beast pages.
 - The Sounds Resource (sounds-resource.com) JK voice rips
 - A Steam community guide on the hidden MotS level S6L1 (Dark Kyle in the garbage room).
+- Cogking, for confirming that the Jedi Knight developers were experimenting with a saber throw.
 - OpenJKDF2 (github.com/shinyquagsire23/OpenJKDF2), for engine-loaded file names, the HUD icon naming rule and the 3DO hierarchy/matrix conventions used by the renderer.
 
 <a id="appendix-f"></a>
@@ -1677,6 +1790,23 @@ KnightCop reviewed the first published version and wrote that some models and te
 Added to finding 34 (s5.3do) and to the ligt.3do part of the "Internal project name and personal folders" finding, both labelled Community theory (Shimstock) and Speculative, with the file evidence for and against. Also added: the s5.3do source path (MotS JkMiss folder) and an eweb.3do render. Thank you, Shimstock.
 
 The wording for community theories that are not yet confirmed by a file is "Community theory (Name) — Speculative, not yet linked by any file" (or "Speculative" where a shorter label is used).
+
+### v2.2: unused voices, an unfinished saber throw, Warning Sense, and other leftovers
+
+Thank you to Shimstock for a set of notes that led to most of the additions and corrections below, and to Cogking for confirming that the Jedi Knight developers were experimenting with a saber throw.
+
+What changed:
+
+- Finding 2: the leftover level-05 Crow and TIE bomber animations are a paired sky dogfight; the transport animation is a path through the level. The written frame rates do not match, so the files as shipped would not finish together. Credited to Shimstock.
+- Finding 7: dropped "snowy" as a fact about 16world. The pale colors came from a guessed MotS colormap; a complete JK colormap shows a dark valley and a tower, not snow. The colors are uncertain.
+- Finding 12: the voiceuu folder has 46 files, not 26. That includes 28 civilian, rebel and announcement clips (previously counted as 26), 15 Ka'Pa the Hutt lines in Huttese, and 3 Abron Mar lines from leftover in-engine cutscenes that the shipped episode never plays. Credited to Shimstock for the folder, and to a review of this catalogue for identifying Ka'Pa.
+- Finding 20: added rep0.3do, the repeater's earlier unused projectile. Credited to Shimstock.
+- Finding 23: added Shimstock's speculative notes on kystab (possibly the Tusken prod melee) and kyrepel0 (a dropped radial push; Boc uses +force_repel with his own animation). Corrected the earlier claim that sab0.3do is used in both games. Short notes on unused +force_lightning2/3/4 templates and leftover MotS +force_repel templates.
+- Finding 24: no evidence for a Kaerobani boss fight. His unused body (kb.3do) stands. The leftover S4L1 opening-cutscene script plays kb74107–kb74109, but those files do not ship in JKMRES, voiceuu or JKMsndLO.goo, so the lines were likely cut from the finished video (not yet compared line by line). Credited to Shimstock for raising the lines.
+- Finding 44 (new): an unfinished JK saber throw (sab0.3do with a solid green blade, sab0.key, and an un-fired +force_saber template). MotS later shipped a working version. Credited to Cogking, and to a review of this catalogue for the model. Appendix F's earlier "used in both games" row for sab0.3do is superseded by this correction.
+- Finding 45 (new): MotS force_warning.cog, an unused "Warning Sense" Force power written for bin 38, which shipped as Force Push. An in-game test in the original executable confirmed the flags are set, with no visible effect. No other cog reads those flags.
+- Intro: a short paragraph on how MotS cutscenes were filmed in the game engine and recorded to .san videos, and that CUTSCENES.ZIP holds earlier JKL setups. Credited to Shimstock.
+- Housekeeping: the flagged-comment count is 6,688 (the previous text said 6,680). The tractor render uses colormap 20val.cmp, a best guess, instead of the darker 03house.cmp used in the v2.1 PDF.
 
 ---
 

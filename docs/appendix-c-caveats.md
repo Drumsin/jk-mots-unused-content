@@ -1,6 +1,6 @@
 # Appendix C. Caveats
 
-- The MotS sound archive (JKMsndLO.goo) and the cutscene videos (.smk/.san) were not available for this survey. Many MotS sound files therefore show up as "missing" only because that archive was not read, and the MotS subtitle strings for cog IDs 10043, 10000 and 43003 could not be read either.
+- The MotS sound archive (JKMsndLO.goo) was checked for Kaerobani (kb*) voice file names; none were found. It has not been fully transcribed, and the MotS subtitle strings for cog IDs 10043, 10000 and 43003 were not read. The cutscene videos (.smk/.san) were not compared line by line, so some MotS sounds may still appear missing only because they live in that archive or inside the videos.
 - Some names are built at runtime (cog LoadTemplate calls, models.dat, saber and HUD naming rules). The known rules are modeled, but a few "unreferenced" files could still be loaded dynamically.
 - Voice transcripts were made automatically and may contain errors. Check them by ear.
 - Colormaps for textures that no level uses are best guesses ("?"). They are visual matches, not evidence.

@@ -94,7 +94,7 @@ sound        riposte=xxx.wav
 
 <div class="finding-head" markdown="block">
 <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span>
-## 12. Unused MotS civilian and rebel lines {#finding-12}
+## 12. Unused MotS voices in the voiceuu folder {#finding-12}
 </div>
 
 <p class="finding-rating">
@@ -104,11 +104,15 @@ sound        riposte=xxx.wav
 
 | Game | Archive | Internal path / files |
 |---|---|---|
-| MotS | Resource\JKMRES.GOO | voiceuu\cm501xx.wav, cm601xx.wav, cw500xx.wav, cw601xx.wav, 2r6011x.wav, cp641xx.wav (26 files) |
+| MotS | Resource\JKMRES.GOO | voiceuu\*.wav (46 files: 28 civilian, rebel and announcement clips; 15 Ka'Pa the Hutt lines; 3 Abron Mar lines) |
 
-voiceuu holds 26 clips that nothing references. They use the same numbering series as the clips S6L1 does use (cm5013x, cm6014x, cw500xx, cw6016x). The civilians offer items ("Take this, it might help you" / "Don't tell anyone where you got this") or refuse ("Not after what you've done"), which suggests a civilian give-item and reaction system that was cut back. 2r6011x are rebel squad lines and cp641xx are station announcements.
+The folder `voiceuu` (uu = unused) in JKMRES.GOO holds 46 WAV files that a normal playthrough never loads. Shimstock pointed out this folder, and recalled that many of the clips were from the cutscenes.
 
-The main MotS voice archive (JKMsndLO.goo) was not examined, so some of these may have duplicates there.
+28 of them are unreferenced civilian, rebel and announcement lines in the same numbering series as clips S6L1 does use (cm501xx, cm601xx, cw500xx, cw601xx, 2r6011x, cp641xx). An earlier version of this document counted 26 of that group. The civilians offer items ("Take this, it might help you" / "Don't tell anyone where you got this") or refuse ("Not after what you've done"), which suggests a civilian give-item and reaction system that was cut back. 2r6011x are rebel squad lines and cp641xx are station announcements.
+
+The other 18 are lines for the leftover in-engine ending cutscenes in CUTSCENES.ZIP. Fifteen are Ka'Pa the Hutt speaking Huttese (`ka921*` from the S2L1 palace ending, and `ka924*` from the S2L4 ending). Three are Abron Mar (`ab92206`, `ab92207` and `ab92208`) from the S2L2 ending. Those leftover cutscene cogs still name the files, but the shipped episode plays SMUSH videos (`.san`) instead, so these WAVs never run in a normal MotS playthrough and exist only under voiceuu. The Ka'Pa clips were identified by listening; they are Huttese, not English, and are not quoted here. Abron Mar's three lines are spoken English in that leftover S2L2 ending, but they are described rather than quoted until they can be transcribed with confidence.
+
+Mara's matching lines from the same cutscenes (`mj921*`, `mj924*`) are not in JKMRES. The MotS sound archive (JKMsndLO.goo) was checked for Kaerobani (`kb*`) voice files and none were found (see Finding 24). It has not been fully transcribed for duplicates of the voiceuu clips.
 
 **Evidence**
 
@@ -118,8 +122,9 @@ cm60143.wav "Take this, it might help you."   cm60144.wav "Don't tell anyone whe
 cm60154.wav "Not after what you've done."   cw60159.wav "Are you really a Jedi?"
 2r60118-21.wav "Hey! Whose side are you on?" / "Traitor" (auto-transcribed as "Trader") / "Follow me!" / "Return fire!"
 cp64114.wav "Warning, depressurization imminent."   cp64117.wav "Depressurization averted."
+voiceuu holds 46 WAVs. Ka'Pa (Huttese, not quoted): ka92102, 04, 05, 07, 09, 12, 13, 14, 16, 17, 18, 20; ka92403, 06, 07. Abron Mar: ab92206, ab92207, ab92208 (English, not quoted here). Referenced only by leftover cutscene cogs s2l1_endcut.cog, s2l4_endcutscene.cog, s2l2b_endcutscene.cog.
 ```
 
 **Sources**
 
-- No earlier source found.
+- Shimstock pointed out the unused voiceuu folder in JKMRES, and that many of the clips came from the cutscenes. The Ka'Pa lines were identified by listening, in a review of this catalogue.
