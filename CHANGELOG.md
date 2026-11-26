@@ -1,5 +1,11 @@
 # Change log
 
+## Notes for the next update
+
+These items are logged so they can be included the next time the findings text is revised. They are not part of a site-only change, and v2.1 is unchanged.
+
+- The flagged-comment count in the findings text should be **6,688**. The current text says 6,680. The file is `comments_flagged.csv` (Section G / Appendix A).
+
 ## v1.0
 
 First published version (57 pages): findings A–G, the cross-game check (Appendix F) and the comment pass.

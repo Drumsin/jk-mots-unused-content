@@ -1,19 +1,136 @@
 /* Readable, document-like typography to sit closer to the print PDF. */
+:root,
+[data-md-color-scheme="default"] {
+  --jk-heading: #0d6e6e;
+  --jk-link: #0b57d0;
+  --jk-link-visited: #6a1b9a;
+  --jk-chip-jk-bg: #1565c0;
+  --jk-chip-jk-fg: #ffffff;
+  --jk-chip-mots-bg: #c67c00;
+  --jk-chip-mots-fg: #ffffff;
+}
+[data-md-color-scheme="slate"] {
+  --jk-heading: #5ee0d0;
+  --jk-link: #82b1ff;
+  --jk-link-visited: #ce93d8;
+  --jk-chip-jk-bg: #64b5f6;
+  --jk-chip-jk-fg: #0b1c2c;
+  --jk-chip-mots-bg: #ffc107;
+  --jk-chip-mots-fg: #2a1c00;
+}
+
 .md-typeset {
   font-size: 0.84rem;
   line-height: 1.65;
 }
-.md-typeset h1 {
+
+/* Brighter, distinct heading color (not the same as body or links). */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  color: var(--jk-heading);
   font-weight: 700;
+}
+.md-typeset h1 {
   letter-spacing: -0.01em;
 }
 .md-typeset h2 {
-  font-weight: 700;
   margin-top: 1.8em;
 }
 .md-typeset h2[id^="finding-"] {
   scroll-margin-top: 4.5rem;
 }
+
+/* Content links: strong accent, underline with offset, thicker on hover.
+   Sidebar nav and heading permalinks stay on the theme defaults. */
+.md-typeset a,
+.md-typeset a:link {
+  color: var(--jk-link);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  text-decoration-color: currentColor;
+}
+.md-typeset a:visited {
+  color: var(--jk-link-visited);
+}
+.md-typeset a:hover,
+.md-typeset a:focus-visible {
+  color: var(--jk-link);
+  text-decoration-thickness: 2px;
+}
+.md-typeset table a,
+.md-typeset table a:link {
+  color: var(--jk-link);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+.md-typeset table a:visited {
+  color: var(--jk-link-visited);
+}
+.md-typeset table a:hover,
+.md-typeset table a:focus-visible {
+  text-decoration-thickness: 2px;
+}
+
+/* Don't turn heading text or the permalink hash into body-style links. */
+.md-typeset h1 a,
+.md-typeset h2 a,
+.md-typeset h3 a,
+.md-typeset h4 a,
+.md-typeset a.headerlink,
+.md-typeset a.headerlink:visited {
+  color: inherit;
+  text-decoration: none;
+}
+.md-typeset a.headerlink:hover,
+.md-typeset a.headerlink:focus-visible {
+  color: var(--jk-link);
+  text-decoration: none;
+}
+
+/* Banner and footer sit on dark bars in both schemes. */
+.md-banner {
+  font-size: 0.72rem;
+  line-height: 1.5;
+}
+.md-banner a,
+.md-banner a:link,
+.md-banner a:visited {
+  color: #ffe082;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+.md-banner a:hover,
+.md-banner a:focus-visible {
+  color: #fff8e1;
+  text-decoration-thickness: 2px;
+}
+.issue-banner__sep {
+  margin: 0 0.4em;
+  opacity: 0.7;
+}
+.md-footer-copyright a,
+.md-footer-copyright a:link {
+  color: #82b1ff;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+.md-footer-copyright a:visited {
+  color: #ce93d8;
+}
+.md-footer-copyright a:hover,
+.md-footer-copyright a:focus-visible {
+  color: #bbdefb;
+  text-decoration-thickness: 2px;
+}
+
 .md-typeset table {
   font-size: 0.78rem;
 }
@@ -28,18 +145,61 @@
 .md-typeset em:has(+ p) {
   color: var(--md-default-fg-color--light);
 }
-.md-banner {
-  font-size: 0.72rem;
-  line-height: 1.5;
+
+/* Small game chips before finding titles. Not logos. */
+.game-icons {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.18em;
+  margin-right: 0.35em;
+  vertical-align: middle;
 }
-.md-banner a {
-  font-weight: 600;
-  text-decoration: underline;
+.game-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.55em;
+  height: 1.45em;
+  padding: 0 0.32em;
+  border-radius: 0.28em;
+  font-family: "Source Code Pro", ui-monospace, monospace;
+  font-size: 0.52em;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  text-decoration: none !important;
+  color: inherit;
+  vertical-align: middle;
+  position: relative;
+  top: -0.08em;
 }
-.issue-banner__sep {
-  margin: 0 0.4em;
-  opacity: 0.7;
+.game-icon--jk {
+  background: var(--jk-chip-jk-bg);
+  color: var(--jk-chip-jk-fg);
 }
-.md-footer-copyright a {
-  font-weight: 600;
+.game-icon--mots {
+  background: var(--jk-chip-mots-bg);
+  color: var(--jk-chip-mots-fg);
+}
+.game-icons a,
+.md-typeset h2 .game-icon,
+.md-typeset h2 a.game-icon {
+  color: inherit;
+  text-decoration: none !important;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+/* Keep the on-page table of contents as plain titles. */
+.md-nav--secondary .game-icons,
+.md-nav--secondary .game-icon {
+  display: none;
 }

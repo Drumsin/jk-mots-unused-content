@@ -1,6 +1,6 @@
 # F. Headers, dates and development machines
 
-## 25. Level save dates {#finding-25}
+## <span class="game-icons" aria-label="Jedi Knight and Mysteries of the Sith"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 25. Level save dates {#finding-25}
 
 **Rating:** Partly known
 
@@ -21,7 +21,7 @@ Every JKL starts with a "World file ... Created" stamp. JK levels are dated 2-9 
 
 - Full list in [jkl_headers.csv](https://github.com/Drumsin/jk-mots-unused-content/blob/main/references/jkl_headers.csv) ([download](https://github.com/Drumsin/jk-mots-unused-content/raw/main/references/jkl_headers.csv)). Some dates are quoted in community posts.
 
-## 26. Internal project name and personal folders {#finding-26}
+## <span class="game-icons" aria-label="Jedi Knight and Mysteries of the Sith"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 26. Internal project name and personal folders {#finding-26}
 
 **Rating:** Partly known
 
@@ -54,7 +54,7 @@ MotS JKMRES.GOO misc\items.dat:36  tusken_prod  135  0  1  0x0a4  cog=weap_cross
 
 *ligt.3do: earlier copy of the Force Lightning segment (the game uses ligt2.3do)*
 
-## 27. Colormaps no level loads {#finding-27}
+## <span class="game-icons" aria-label="Jedi Knight and Mysteries of the Sith"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 27. Colormaps no level loads {#finding-27}
 
 **Rating:** Likely new
 
@@ -78,7 +78,7 @@ See cross_game_verification.csv (ext = cmp).
 
 - No earlier source found.
 
-## 28. Gaps in the MotS episode list {#finding-28}
+## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 28. Gaps in the MotS episode list {#finding-28}
 
 **Rating:** Partly known
 

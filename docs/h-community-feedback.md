@@ -2,7 +2,7 @@
 
 These two findings were added after KnightCop reviewed the first published version. Thank you to KnightCop for the corrections and pointers; the full list of changes from that review is in Appendix G.
 
-## 42. 03trcr.3do: the little tractor from the Katarn farm {#finding-42}
+## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 42. 03trcr.3do: the little tractor from the Katarn farm {#finding-42}
 
 **Rating:** Partly known
 
@@ -35,7 +35,7 @@ References in JK and MotS (code, comments, substrings): none outside the model i
 
 *03trcr.3do with its own textures (colormap 03house.cmp is a best guess; JK level 3 uses it with the other 03 textures)*
 
-## 43. Unused Katarn farm and house textures that only MotS ships {#finding-43}
+## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 43. Unused Katarn farm and house textures that only MotS ships {#finding-43}
 
 **Rating:** Partly known
 

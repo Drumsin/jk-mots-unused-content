@@ -1,6 +1,6 @@
 # A. The cut "Road to Baron's Hed" level (05) - leftovers in Mysteries of the Sith
 
-## 1. Tusken speeder bike: models, riders, debris and animations {#finding-1}
+## <span class="game-icons" aria-label="Jedi Knight and Mysteries of the Sith"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 1. Tusken speeder bike: models, riders, debris and animations {#finding-1}
 
 **Rating:** Known
 
@@ -62,7 +62,7 @@ ksgo.key:  # KEYFRAME '<unnamed>' created from 'KSGO.PRJ in BATCH mode with ver4
 
 *The two shipped bike textures*
 
-## 2. The level-05 source folder and the 05v* animated ship models {#finding-2}
+## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 2. The level-05 source folder and the 05v* animated ship models {#finding-2}
 
 **Rating:** Partly known
 
@@ -129,7 +129,7 @@ roadblk.3do:  # MODEL 'Roadblk2.3do' created from '...\LevelSpecific\05stuff\Roa
 
 *05vtrnwg.3do: the Imperial transport with WeeGee riding it*
 
-## 3. A palette for the 05 sky textures {#finding-3}
+## <span class="game-icons" aria-label="Jedi Knight and Mysteries of the Sith"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 3. A palette for the 05 sky textures {#finding-3}
 
 **Rating:** Likely new
 
@@ -159,7 +159,7 @@ KnightCop PDF: "05wsky01.mat - NO CMP - Droid Works Version heavily dithered"
 
 *05wsky01/02 under JK 04farm.cmp and 10cargo.cmp, with MotS 01narsh.cmp for comparison*
 
-## 4. Other JK-era models that only ship with Mysteries of the Sith {#finding-4}
+## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 4. Other JK-era models that only ship with Mysteries of the Sith {#finding-4}
 
 **Rating:** Partly known
 

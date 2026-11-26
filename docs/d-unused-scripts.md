@@ -1,6 +1,6 @@
 # D. Unused and orphaned scripts
 
-## 13. Kaerobani base: Mara quip triggers and other unused cogs {#finding-13}
+## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 13. Kaerobani base: Mara quip triggers and other unused cogs {#finding-13}
 
 **Rating:** Likely new
 
@@ -24,7 +24,7 @@
 
 - No earlier source found.
 
-## 14. s2l1_murder.cog and other Nar Shaddaa scenes {#finding-14}
+## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 14. s2l1_murder.cog and other Nar Shaddaa scenes {#finding-14}
 
 **Rating:** Likely new
 
@@ -48,7 +48,7 @@ s2l1_murder.cog is an unused scripted scene: ReeYee threatens and shoots a Rodia
 
 - No earlier source found.
 
-## 15. Rahn on the escape ship, and a missing 17_rahnlines.cog {#finding-15}
+## <span class="game-icons" aria-label="Jedi Knight"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span></span> 15. Rahn on the escape ship, and a missing 17_rahnlines.cog {#finding-15}
 
 **Rating:** Likely new
 
@@ -70,7 +70,7 @@ darkjedi_sariss.cog: // Receives message from 17_rahnlines.cog once game starts
 
 - No earlier source found.
 
-## 16. An early COG syntax {#finding-16}
+## <span class="game-icons" aria-label="Jedi Knight"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span></span> 16. An early COG syntax {#finding-16}
 
 **Rating:** Likely new (observation)
 
@@ -95,7 +95,7 @@ vectortest.cog:
 
 - No earlier source found.
 
-## 17. bddefault.ai: a "Baby Drugon" {#finding-17}
+## <span class="game-icons" aria-label="Jedi Knight"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span></span> 17. bddefault.ai: a "Baby Drugon" {#finding-17}
 
 **Rating:** Likely new
 
@@ -120,7 +120,7 @@ An AI file for a baby drugon. No model or template uses it; the shipped drugon u
 
 - No earlier source found.
 
-## 18. Files that shipped scripts and models point to, but that do not exist {#finding-18}
+## <span class="game-icons" aria-label="Jedi Knight and Mysteries of the Sith"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 18. Files that shipped scripts and models point to, but that do not exist {#finding-18}
 
 **Rating:** Likely new / Partly known
 
@@ -147,7 +147,7 @@ S6L1.jkl:  7:    S6L1_lighttube2.cog    0 -1 activate01.wav
 
 - No earlier source found for most entries.
 
-## 19. Dark Kyle in S6L1 {#finding-19}
+## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 19. Dark Kyle in S6L1 {#finding-19}
 
 **Rating:** Partly known
 

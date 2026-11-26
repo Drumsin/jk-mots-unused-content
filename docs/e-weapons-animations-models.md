@@ -1,6 +1,6 @@
 # E. Weapons, animations and models
 
-## 20. repv / repp: the cut rifle, and its missing hand textures {#finding-20}
+## <span class="game-icons" aria-label="Jedi Knight"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span></span> 20. repv / repp: the cut rifle, and its missing hand textures {#finding-20}
 
 **Rating:** Known (detail likely new)
 
@@ -31,7 +31,7 @@ MATERIALS 13
 
 *repp.3do*
 
-## 21. Tusken prod view models {#finding-21}
+## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 21. Tusken prod view models {#finding-21}
 
 **Rating:** Known
 
@@ -60,7 +60,7 @@ prgv.3do: ... '...\Weapons\TuskenProd\GunView\PrgV.prj ... ver4.11.'
 
 *prgv.3do (gun view)*
 
-## 22. The 8t88 beast {#finding-22}
+## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 22. The 8t88 beast {#finding-22}
 
 **Rating:** Known
 
@@ -85,7 +85,7 @@ A winged beast with 14 animations (run, bite, fly, jump attacks, death and more)
 
 *8b.3do posed with 8brun.key frame 0*
 
-## 23. Unused Kyle animations {#finding-23}
+## <span class="game-icons" aria-label="Jedi Knight and Mysteries of the Sith"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 23. Unused Kyle animations {#finding-23}
 
 **Rating:** Known / Partly known
 
@@ -109,7 +109,7 @@ kysnap3.key: referenced by mots_JKM.GOO\jkl\s5l2_darkswamp.jkl, s5l4_lowersith.j
 
 - The Cutting Room Floor, "Star Wars Jedi Knight: Dark Forces II" page (read via an archived Wayback Machine copy, 2025).
 
-## 24. Unreferenced alternate exports of models the games do use {#finding-24}
+## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 24. Unreferenced alternate exports of models the games do use {#finding-24}
 
 **Rating:** Partly known
 

@@ -216,11 +216,38 @@ def img_path(name: str, mode: str) -> str:
     return f"renders/{name}.png"
 
 
+
+def games_covered(f: dict) -> tuple[bool, bool]:
+    """Return (covers_jk, covers_mots) from a finding's location rows."""
+    has_jk = False
+    has_mots = False
+    for g, _a, _p in f.get("loc") or []:
+        for part in re.split(r"[^A-Za-z0-9]+", g):
+            pl = part.lower()
+            if pl == "jk":
+                has_jk = True
+            elif pl == "mots":
+                has_mots = True
+    return has_jk, has_mots
+
+
+def game_icon_html(f: dict) -> str:
+    has_jk, has_mots = games_covered(f)
+    chips = []
+    if has_jk:
+        chips.append('<span class="game-icon game-icon--jk" title="Jedi Knight">JK</span>')
+    if has_mots:
+        chips.append('<span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span>')
+    names = [n for n, flag in (("Jedi Knight", has_jk), ("Mysteries of the Sith", has_mots)) if flag]
+    aria = " and ".join(names) if names else "Game"
+    return f'<span class="game-icons" aria-label="{aria}">{" ".join(chips)}</span>'
+
+
 def render_finding(n: int, f: dict, mode: str) -> list[str]:
     lines = []
     title = P(f["t"], mode)
     if mode == "site":
-        lines += [f"## {n}. {title} {{#finding-{n}}}", ""]
+        lines += [f"## {game_icon_html(f)} {n}. {title} {{#finding-{n}}}", ""]
     else:
         lines += [f'<a id="finding-{n}"></a>', f"### {n}. {title}", ""]
     extra = f"  ·  Classification: **{P(f['cls'], mode)}**" if f.get("cls") else ""
@@ -745,6 +772,8 @@ def write_docs(sections, credits, walked) -> None:
     home += intro_body("site")
     home += [
         "## Browse the findings",
+        "",
+        'A small chip before each finding title shows which game it is about: a blue <span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> for Jedi Knight, an amber <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span> for Mysteries of the Sith, and both when the finding covers both games. Hover a chip for the full name. The location table under each finding still has the exact archives.',
         "",
     ]
     file_by_letter = dict(SECTION_FILES)

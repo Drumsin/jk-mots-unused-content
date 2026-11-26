@@ -6,7 +6,7 @@ Each comment was scanned for file names, template names, old level numbers, date
 
 Each finding below is classified. **Confirmed cut**: the comment shows that something was removed or disabled, and the data confirms it. **Likely rename**: the comment gives an older name, number or source for something that shipped. **Speculative**: the comment hints at something, but the data cannot settle what. **Dev notes**: dates, initials and working notes. Comments can be stale or copied from other files, so none of these is proof of intent.
 
-## 29. Two level numberings in the JK episode and string files {#finding-29}
+## <span class="game-icons" aria-label="Jedi Knight"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span></span> 29. Two level numberings in the JK episode and string files {#finding-29}
 
 **Rating:** Partly known  ·  Classification: **Likely rename**
 
@@ -36,7 +36,7 @@ cog\06a_startlevel.cog:5  # Start music for level 5
 
 - The gaps in the level file numbering (no 05, no 13) are known; see KnightCop's PDF and TCRF. No online mention of these comment labels was found.
 
-## 30. Level 19A objectives that were rewritten {#finding-30}
+## <span class="game-icons" aria-label="Jedi Knight"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span></span> 30. Level 19A objectives that were rewritten {#finding-30}
 
 **Rating:** Likely new  ·  Classification: **Confirmed cut (reworded)**
 
@@ -59,7 +59,7 @@ misc\cogstrings.uni:217  "GOAL_19001"   0  "The control room will allow you to l
 
 - No online mention found.
 
-## 31. Commented-out control functions: Game Restore, Game Record and Debug {#finding-31}
+## <span class="game-icons" aria-label="Jedi Knight"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span></span> 31. Commented-out control functions: Game Restore, Game Record and Debug {#finding-31}
 
 **Rating:** Likely new  ·  Classification: **Speculative**
 
@@ -85,7 +85,7 @@ ui\jkstrings.uni:4  # to UNICODE when we find a UNICODE editor. [WW] 12/5/1996
 
 - No online mention found. The Sith engine UNI format is documented on the "Jedi Knight Sith Engine Specs" wiki (jksith.wikidot.com).
 
-## 32. Officer and trooper voice lines that were listed but never shipped {#finding-32}
+## <span class="game-icons" aria-label="Jedi Knight"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span></span> 32. Officer and trooper voice lines that were listed but never shipped {#finding-32}
 
 **Rating:** Likely new  ·  Classification: **Confirmed cut**
 
@@ -118,7 +118,7 @@ misc\snd\gr.snd:57  ## I00GR11U.WAV  # tah boni tom ket sa infa dite
 
 - The Massassi Temple sound tutorial shows the same st.snd comment format. No online mention of these specific missing lines was found.
 
-## 33. "Cling Vines": a complete cut swamp creature in MotS {#finding-33}
+## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 33. "Cling Vines": a complete cut swamp creature in MotS {#finding-33}
 
 **Rating:** Likely new  ·  Classification: **Confirmed cut**
 
@@ -146,7 +146,7 @@ misc\pup\vv.pup:3  stand           VVdown.key    0x00    0    0    # standing
 
 *vv.3do in its rest pose (vvvine.mat colormap is a guess)*
 
-## 34. A purple stormtrooper variant (s5.3do) {#finding-34}
+## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 34. A purple stormtrooper variant (s5.3do) {#finding-34}
 
 **Rating:** Likely new  ·  Classification: **Speculative**
 
@@ -194,7 +194,7 @@ cog\pow_eweb_m.cog:41  jkPrintUNIString(player, 382);    // The Blaster Cannon!
 
 *eweb.3do, the MotS E-Web / "Blaster Cannon" turret the theory refers to*
 
-## 35. Kill the Fool with the Ysalamiri: a bobbing animation and a deathmatch mode, switched off {#finding-35}
+## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 35. Kill the Fool with the Ysalamiri: a bobbing animation and a deathmatch mode, switched off {#finding-35}
 
 **Rating:** Likely new  ·  Classification: **Confirmed cut**
 
@@ -218,7 +218,7 @@ cog\kfy_main.cog:218  // PlayKey(ysalamiri, ysalamiri_anim, 1, 0);
 
 - No online mention found.
 
-## 36. MotS finale: disabled subtitles and a third model swap {#finding-36}
+## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 36. MotS finale: disabled subtitles and a third model swap {#finding-36}
 
 **Rating:** Likely new  ·  Classification: **Confirmed cut (disabled)**
 
@@ -243,7 +243,7 @@ cog\s5_finale.cog:33  template    kboss=kylebossactor              local
 
 - The fan "Mysteries of the Sith Remastered" mod adds its own subtitles for the engine cutscenes; it does not mention these disabled calls.
 
-## 37. S6L1 was built from the S1L1 scripts {#finding-37}
+## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 37. S6L1 was built from the S1L1 scripts {#finding-37}
 
 **Rating:** Partly known  ·  Classification: **Likely rename**
 
@@ -268,7 +268,7 @@ cog\S6L1_tiefighter.cog:41  //vtiebomber2=creatething(bombertemplate, bomberdumm
 
 - S6L1 itself is known (Steam community guide). No online mention of these script leftovers was found.
 
-## 38. The TIE bomber script says "level 04" {#finding-38}
+## <span class="game-icons" aria-label="Jedi Knight and Mysteries of the Sith"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 38. The TIE bomber script says "level 04" {#finding-38}
 
 **Rating:** Likely new  ·  Classification: **Speculative**
 
@@ -291,7 +291,7 @@ cog\s1l1_tiefighter.cog:5  # Tiebomber cog for level 04
 
 - No online mention found.
 
-## 39. Script names in headers that differ from the shipped names {#finding-39}
+## <span class="game-icons" aria-label="Jedi Knight and Mysteries of the Sith"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 39. Script names in headers that differ from the shipped names {#finding-39}
 
 **Rating:** Likely new  ·  Classification: **Likely rename**
 
@@ -322,7 +322,7 @@ cog\s1l3_elev_switch.cog:13  ## Modified 8/14/97 by Chris K (copied M8_elev_swit
 
 - The full list is in [comments_flagged.csv](https://github.com/Drumsin/jk-mots-unused-content/blob/main/references/comments_flagged.csv) ([download](https://github.com/Drumsin/jk-mots-unused-content/raw/main/references/comments_flagged.csv)) (flag asset_not_used_or_missing on header lines). No online mention found.
 
-## 40. Source names inside model and animation headers {#finding-40}
+## <span class="game-icons" aria-label="Jedi Knight and Mysteries of the Sith"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 40. Source names inside model and animation headers {#finding-40}
 
 **Rating:** Partly known  ·  Classification: **Likely rename**
 
@@ -368,7 +368,7 @@ misc\pup\mjdueling.pup:57  fidget2        kyidle1.key    0x20    1    1    # sub
 
 - Reuse of JK creatures in MotS is broadly known. These specific source names were not found online.
 
-## 41. Change logs: dates, initials and an early start on MotS {#finding-41}
+## <span class="game-icons" aria-label="Jedi Knight and Mysteries of the Sith"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 41. Change logs: dates, initials and an early start on MotS {#finding-41}
 
 **Rating:** Partly known  ·  Classification: **Dev notes**
 

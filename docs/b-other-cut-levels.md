@@ -1,6 +1,6 @@
 # B. Traces of other cut or reworked JK levels
 
-## 5. The "13pipes" folder: props from the cut "Canyon Run" level {#finding-5}
+## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 5. The "13pipes" folder: props from the cut "Canyon Run" level {#finding-5}
 
 **Rating:** Likely new
 
@@ -46,7 +46,7 @@ Objective: "2. Fly to the waterfall at Tankers Canyon."
 
 *Canyon Run textures: 13wcanw7 (13rock; MotS also reuses it in s1l1_rebelbase), zpip4/7/8 (zpip), 13sky (shown with JK 12escape.cmp, best guess) and a canyon wall*
 
-## 6. Unused Canyon Run (level 13) textures {#finding-6}
+## <span class="game-icons" aria-label="Jedi Knight and Mysteries of the Sith"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 6. Unused Canyon Run (level 13) textures {#finding-6}
 
 **Rating:** Partly known
 
@@ -75,7 +75,7 @@ See cross_game_verification.csv (rows starting with 13).
 
 - Covered in part by existing community texture exports.
 
-## 7. 16world, 16vale and 16spir {#finding-7}
+## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 7. 16world, 16vale and 16spir {#finding-7}
 
 **Rating:** Likely new (purpose speculative)
 
@@ -112,7 +112,7 @@ Three simple models exported in batch mode with an early tool version (ver4.11).
 
 *16world / 16spir textures*
 
-## 8. The "06fall" set pieces {#finding-8}
+## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 8. The "06fall" set pieces {#finding-8}
 
 **Rating:** Likely new
 
