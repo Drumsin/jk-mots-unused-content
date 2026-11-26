@@ -131,9 +131,30 @@
 .md-typeset h2 {
   margin-top: 1.8em;
 }
-.md-typeset h2[id^="finding-"] {
-  scroll-margin-top: 4.5rem;
+/* Hash jumps and toc.follow share this offset. Material treats a heading
+   as active once its document Y is above (scrollY + header height +
+   0.8 * main inset), about 72px on desktop. The announcement banner is
+   not sticky, so sizing this to banner+header overshoots that line and
+   leaves the previous TOC item highlighted. 3.2rem (64px at the 20px
+   root) clears the 48px header and stays just inside the spy threshold. */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset [id],
+.finding-head {
+  scroll-margin-top: 3.2rem;
 }
+.md-typeset h2[id^="finding-"] {
+  scroll-margin-top: 3.2rem;
+}
+.md-typeset :target {
+  --md-scroll-margin: 3.4rem;
+  --md-scroll-offset: 0.2rem;
+}
+/* Do not also set html { scroll-padding-top }: it adds to scroll-margin
+   and lands the heading past the toc.follow line (~72px), so the previous
+   TOC item stays bold. */
 
 /* Body links: distinct link / visited / hover / active. */
 .md-typeset a,
@@ -196,15 +217,21 @@
 
 /* Banner and footer sit on dark bars in both schemes. Use the same palette. */
 .md-banner {
-  font-size: 0.72rem;
-  line-height: 1.5;
+  font-size: 0.65rem;
+  line-height: 1.35;
   background-color: #1c1610;
-  color: #e8d5b8;
+  color: #c4b8a0;
+}
+.md-banner__inner {
+  margin-top: 0.22rem;
+  margin-bottom: 0.22rem;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .md-banner__inner,
 .md-banner__inner p,
 .md-banner {
-  color: #e8d5b8;
+  color: #c4b8a0;
 }
 .md-banner a,
 .md-banner a:link {
@@ -517,9 +544,14 @@
   font-weight: 600;
 }
 
+.md-header__title {
+  font-size: 1.02rem;
+}
 .md-header__topic {
   color: var(--jk-title);
-  font-weight: 700;
+  font-weight: 800;
+  font-size: 1.02rem;
+  letter-spacing: 0.01em;
 }
 [data-md-color-scheme="default"] .md-header__topic {
   color: #f6eee2;
