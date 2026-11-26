@@ -1,5 +1,5 @@
-/* JK orange + MotS lavender palette, plus neutrals.
-   Light and dark schemes use tints and shades of the same family. */
+/* JK orange leads the palette (base game); MotS lavender is a secondary accent.
+   Light is the default scheme. Dark uses muted shades of the same family. */
 
 :root {
   --jk-orange: #ff8c1a;
@@ -10,23 +10,23 @@
 }
 
 [data-md-color-scheme="default"] {
-  --jk-heading: #7a4e14;
-  --jk-link: #5e3d9e;
-  --jk-link-visited: #7a3d7e;
-  --jk-link-hover: #9a4e00;
+  --jk-heading: #6e4510;
+  --jk-link: #9a4e00;
+  --jk-link-visited: #5e3d9e;
+  --jk-link-hover: #8a4500;
   --jk-link-active: #6b3200;
-  --jk-title: #4a3d63;
-  --jk-nav-section: #7a4e14;
-  --jk-nav-link: #5e3d9e;
-  --jk-nav-link-visited: #7a3d7e;
-  --jk-nav-link-hover: #9a4e00;
+  --jk-title: #6e4510;
+  --jk-nav-section: #6e4510;
+  --jk-nav-link: #9a4e00;
+  --jk-nav-link-visited: #5e3d9e;
+  --jk-nav-link-hover: #8a4500;
   --jk-nav-link-active: #6b3200;
-  --jk-nav-active-bg: rgba(179, 157, 219, 0.22);
-  --jk-toc-link: #5e3d9e;
-  --jk-toc-visited: #7a3d7e;
-  --jk-toc-hover: #9a4e00;
+  --jk-nav-active-bg: rgba(255, 140, 26, 0.18);
+  --jk-toc-link: #9a4e00;
+  --jk-toc-visited: #5e3d9e;
+  --jk-toc-hover: #8a4500;
   --jk-toc-active: #6b3200;
-  --jk-divider: rgba(92, 74, 138, 0.28);
+  --jk-divider: rgba(154, 78, 0, 0.28);
   --jk-chip-jk-bg: #ff8c1a;
   --jk-chip-jk-fg: #1a1a1a;
   --jk-chip-jk-border: #c66a00;
@@ -34,17 +34,17 @@
   --jk-chip-mots-fg: #1a1a1a;
   --jk-chip-mots-border: #7e69b0;
   --jk-heading-emboss: 0 1px 0 rgba(255, 255, 255, 0.8);
-  --jk-table-head: rgba(92, 74, 138, 0.14);
-  --jk-table-stripe: rgba(179, 157, 219, 0.12);
+  --jk-table-head: rgba(154, 78, 0, 0.12);
+  --jk-table-stripe: rgba(255, 140, 26, 0.07);
   --jk-table-hover: rgba(255, 140, 26, 0.18);
-  --jk-table-border: rgba(92, 74, 138, 0.28);
-  --jk-caption: #5c4a6e;
-  --md-primary-fg-color: #4a3d63;
-  --md-primary-fg-color--light: #5c4a8a;
-  --md-primary-fg-color--dark: #3a3050;
+  --jk-table-border: rgba(154, 78, 0, 0.28);
+  --jk-caption: #6e5a40;
+  --md-primary-fg-color: #3f2a14;
+  --md-primary-fg-color--light: #6e4510;
+  --md-primary-fg-color--dark: #2e1c0c;
   --md-accent-fg-color: #9a4e00;
   --md-accent-fg-color--transparent: rgba(154, 78, 0, 0.12);
-  --md-typeset-a-color: #5e3d9e;
+  --md-typeset-a-color: #9a4e00;
   --md-default-bg-color: #faf8f6;
   --md-default-fg-color: #2a2a2c;
   --md-default-fg-color--light: #5a585c;
@@ -53,22 +53,22 @@
 
 [data-md-color-scheme="slate"] {
   --jk-heading: #c4a882;
-  --jk-link: #cbb6ea;
-  --jk-link-visited: #a78cbf;
+  --jk-link: #e09a45;
+  --jk-link-visited: #c4aee0;
   --jk-link-hover: #ffb347;
   --jk-link-active: #ff8c1a;
-  --jk-title: #e8e0d4;
+  --jk-title: #e8d5b8;
   --jk-nav-section: #c4a882;
-  --jk-nav-link: #c4aee0;
-  --jk-nav-link-visited: #a78cbf;
+  --jk-nav-link: #e09a45;
+  --jk-nav-link-visited: #c4aee0;
   --jk-nav-link-hover: #ffb347;
   --jk-nav-link-active: #ff8c1a;
-  --jk-nav-active-bg: rgba(179, 157, 219, 0.16);
-  --jk-toc-link: #c4aee0;
-  --jk-toc-visited: #a78cbf;
+  --jk-nav-active-bg: rgba(255, 140, 26, 0.16);
+  --jk-toc-link: #e09a45;
+  --jk-toc-visited: #c4aee0;
   --jk-toc-hover: #ffb347;
   --jk-toc-active: #ff8c1a;
-  --jk-divider: rgba(179, 157, 219, 0.28);
+  --jk-divider: rgba(255, 140, 26, 0.28);
   --jk-chip-jk-bg: #ff8c1a;
   --jk-chip-jk-fg: #1a1a1a;
   --jk-chip-jk-border: transparent;
@@ -76,18 +76,18 @@
   --jk-chip-mots-fg: #1a1a1a;
   --jk-chip-mots-border: transparent;
   --jk-heading-emboss: 0 1px 0 rgba(0, 0, 0, 0.6);
-  --jk-table-head: rgba(179, 157, 219, 0.16);
-  --jk-table-stripe: rgba(179, 157, 219, 0.08);
+  --jk-table-head: rgba(255, 140, 26, 0.14);
+  --jk-table-stripe: rgba(255, 140, 26, 0.07);
   --jk-table-hover: rgba(255, 140, 26, 0.16);
-  --jk-table-border: rgba(179, 157, 219, 0.28);
-  --jk-caption: #b4a8c4;
-  --md-primary-fg-color: #1c1824;
-  --md-primary-fg-color--light: #2a2435;
-  --md-primary-fg-color--dark: #121016;
+  --jk-table-border: rgba(196, 168, 130, 0.28);
+  --jk-caption: #c4b8a0;
+  --md-primary-fg-color: #1c1610;
+  --md-primary-fg-color--light: #2a2218;
+  --md-primary-fg-color--dark: #120e0a;
   --md-accent-fg-color: #ffb347;
   --md-accent-fg-color--transparent: rgba(255, 179, 71, 0.14);
-  --md-typeset-a-color: #cbb6ea;
-  --md-default-bg-color: #16141c;
+  --md-typeset-a-color: #e09a45;
+  --md-default-bg-color: #161410;
   --md-default-fg-color: #d8d6db;
   --md-default-fg-color--light: #b4b1b8;
   --md-default-fg-color--lighter: #8a8790;
@@ -124,7 +124,7 @@
   width: 5.5rem;
   height: 3px;
   margin-top: 0.38em;
-  background: linear-gradient(90deg, #ff8c1a 0%, #b39ddb 100%);
+  background: linear-gradient(90deg, #ff8c1a 0%, #e07a10 88%, #b39ddb 100%);
   /* 45-degree cut on the trailing end */
   clip-path: polygon(0 0, 100% 0, calc(100% - 3px) 100%, 0 100%);
 }
@@ -198,13 +198,13 @@
 .md-banner {
   font-size: 0.72rem;
   line-height: 1.5;
-  background-color: #1c1824;
-  color: #e8e0d4;
+  background-color: #1c1610;
+  color: #e8d5b8;
 }
 .md-banner__inner,
 .md-banner__inner p,
 .md-banner {
-  color: #e8e0d4;
+  color: #e8d5b8;
 }
 .md-banner a,
 .md-banner a:link {
@@ -231,14 +231,14 @@
 }
 .md-footer-copyright a,
 .md-footer-copyright a:link {
-  color: #cbb6ea;
+  color: #ffb347;
   font-weight: 600;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.16em;
 }
 .md-footer-copyright a:visited {
-  color: #a78cbf;
+  color: #c4aee0;
 }
 .md-footer-copyright a:hover,
 .md-footer-copyright a:focus-visible {
@@ -474,10 +474,10 @@
   font-weight: 700;
 }
 [data-md-color-scheme="default"] .md-header__topic {
-  color: #f3eefc;
+  color: #f6eee2;
 }
 [data-md-color-scheme="slate"] .md-header__topic {
-  color: #e8e0d4;
+  color: #e8d5b8;
 }
 
 .visually-hidden {
