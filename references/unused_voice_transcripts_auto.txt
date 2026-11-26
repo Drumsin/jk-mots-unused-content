@@ -1,0 +1,36 @@
+i00ky28z.wav | Big enough door.
+i00ky47z.wav | This must lead to the upper bulkhead.
+i00ky71z.wav | Ooh.
+i00ra20z.wav | This young man grew up knowing only the dark side and has never seen the light side and its power.
+i00ra51z.wav | He may look clumsy and uncoordinated almost drunk at times, but I found that he is very able and can sustain an effective energy level that would leave most exhausted.
+i00ra52z.wav | If it isn't his manner that throws you, it would be his hyperactive skill.
+i00wm02z.wav | Run!
+i00wm03z.wav | No blasters, no blasters!
+2r60118.wav | Hey! Who's side are you on?
+2r60119.wav | Trader
+2r60120.wav | Follow me!
+2r60121.wav | Return fire!
+cm50131.wav | No blasters! No blasters!
+cm50138.wav | WAAAAAHHHHH!
+cm50139.wav | Leave me alone.
+cm50140.wav | Long live the rebellion!
+cm50141.wav | I know nothing!
+cm50142.wav | mind your own business.
+cm60143.wav | Take this, it might help you.
+cm60144.wav | Don't tell anyone where you got this.
+cm60145.wav | Long live the new republic.
+cm60147.wav | I hope this can help Romo.
+cm60148.wav | Here, take this.
+cm60153.wav | Not after what happened earlier.
+cm60154.wav | Not after what you've done.
+cp64114.wav | Warning, depressurization imminent.
+cp64117.wav | depressurization averted.
+cp64144.wav | Control-diverted.
+cw50003.wav | No blasters, no blasters!
+cw50011.wav | Long live the rebellion!
+cw60156.wav | Take this, it might help you.
+cw60157.wav | Don't tell anyone where you got this.
+cw60158.wav | Long live the new republic.
+cw60159.wav | Are you really a Jedi?
+cw60160.wav | I hope this can help.
+cw60161.wav | Here, take this.

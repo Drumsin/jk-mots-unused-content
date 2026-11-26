@@ -1,0 +1,273 @@
+mat,prefix,present_in,jk_archive,jk_status,mots_archive,mots_status,verdict,referenced_by
+0301sky2.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+0303csky1z.mat,03,mots,,,mots_JKMRES.GOO,used,used in MOTS only,mots:mdm03_canopy.jkl
+03c01.mat,03,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:03katarn.jkl; mots:s5l3_uppersith.jkl
+03c01b.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03c01c.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03c01d.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03c02.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03c03.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03c03brn.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03c03c.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03c03wd.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03c03wd1.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03c03wda.mat,03,mots,,,mots_JKMRES.GOO,used,used in MOTS only,mots:mdm03_canopy.jkl
+03c03wdb.mat,03,mots,,,mots_JKMRES.GOO,used,used in MOTS only,mots:mdm03_canopy.jkl
+03c03wdc.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03c03wdd.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03c04.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03cfoli.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03cfoli2.mat,03,mots,,,mots_JKMRES.GOO,used,used in MOTS only,mots:mdm03_canopy.jkl
+03ctile.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03d2x3.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03d2x3.3do;03katarn.jkl
+03d2x3_2.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03d2x3_2.3do;03katarn.jkl
+03d3x3.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03d3x3.3do;03katarn.jkl
+03d4x3.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03d4x3_a.3do;03d4x3_b.3do;03katarn.jkl
+03d4x4ke.mat,03,mots,,,mots_JKMRES.GOO,ref_only_by_unused,unused in both,mots:03d4x4_a.3do;03d4x4_b.3do
+03diadoor.mat,03,mots,,,mots_JKMRES.GOO,used,used in MOTS only,mots:03d3x3_3a.3do;mdm03_canopy.jkl
+03e01.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03e01a.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03e01b.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03e01c.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03e01drk.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03e01lt.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03e01med.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03f01.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03f02.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03f02crs.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03f02wk1.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03f02wk2.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03f03.mat,03,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:03katarn.jkl; mots:mdm03_canopy.jkl
+03f03a.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03f03b.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03f03rgh.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03fgd01.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03fgd02.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03fgd03.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03fgd04.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03fgrdn.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03fgrs01.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03fgrs02.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03fgrs03.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03fgrs04.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03fgrss.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03fp01.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03fp01a.mat,03,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,unreferenced,used in JK only,jk:03katarn.jkl
+03fp01b.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03fstfrt.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03fsttp.mat,03,mots,,,mots_JKMRES.GOO,used,used in MOTS only,mots:mdm03_canopy.jkl
+03fwd1a.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03fwd1b.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03fwdpnl.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03fwksh1.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03fwksh2.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03hole.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03lock.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03pict01.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03pict02.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03pict03.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03pict04.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03pict1a.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03pict1b.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03pict1c.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03pict1d.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03r01.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03r02.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03r03.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03r04.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03s01.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03shuttr.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl;wn3a.3do;wn3b.3do
+03sky01k.mat,03,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:c1.jkl; mots:k4.jkl
+03sky02k.mat,03,mots,,,mots_JKMRES.GOO,used,used in MOTS only,mots:mdm05_reactor.jkl;mdm07_vaporator.jkl
+03sky03k.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03sky04k.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03sky05k.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03sky06k.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03sky07k.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03sky08k.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03sky09k.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03sky1.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03sky2.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03t01d.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03tblue.mat,03,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:03katarn.jkl; mots:s4l2_shipyards.jkl
+03tgrwd.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03tinwn.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03tplaf.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03tplaff.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03trcrar.mat,03,mots,,,mots_JKMRES.GOO,ref_only_by_unused,unused in both,mots:03trcr.3do
+03trcrsd.mat,03,mots,,,mots_JKMRES.GOO,ref_only_by_unused,unused in both,mots:03trcr.3do
+03trcrtd.mat,03,mots,,,mots_JKMRES.GOO,ref_only_by_unused,unused in both,mots:03trcr.3do
+03trcrtp.mat,03,mots,,,mots_JKMRES.GOO,ref_only_by_unused,unused in both,mots:03trcr.3do
+03trcrww.mat,03,mots,,,mots_JKMRES.GOO,ref_only_by_unused,unused in both,mots:03trcr.3do
+03tree.mat,03,mots,,,mots_JKMRES.GOO,used,used in MOTS only,mots:mdm03_canopy.jkl
+03tyel.mat,03,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:03katarn.jkl; mots:s4l2_shipyards.jkl
+03vap1.mat,03,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:03katarn.jkl;v_deb1.3do;v_deb2.3do;v_deb3.3do;v_deb4.3do;v_deb5.3do;vap1.3do; mots:mdm15_homestead.jkl;msb1_home.jkl;v_deb1.3do;vap1.3do
+03w01.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03d3x3_2.3do;03katarn.jkl
+03w02.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w02a.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w02b.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w02c.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w02d.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w02mt1.mat,03,mots,,,mots_JKMRES.GOO,used,used in MOTS only,mots:s4l3_ocs.jkl
+03w02mt2.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w02mt3.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w02mt4.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w03.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03w04.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03w04a.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03w05.mat,03,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,unreferenced,used in JK only,jk:03katarn.jkl
+03w06.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w06a.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w06b.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w06c.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w06mss.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03w06sm1.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w07.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w071a.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w071b.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w071c.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w071d.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w07pl1.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w07pl2.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w07pnl.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03w07wd.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03w07wd1.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03w07wd2.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl;lfix.3do
+03w07wd3.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03water.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wblst.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wcbnt1.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wcbnt2.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wcbnt3.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wclr1.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wclr2.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wdr1a.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wdr1b.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wdr1c.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wdr1d.mat,03,mots,,,mots_JKMRES.GOO,used,used in MOTS only,mots:mdm03_canopy.jkl
+03wdr1e.mat,03,mots,,,mots_JKMRES.GOO,used,used in MOTS only,mots:mdm03_canopy.jkl
+03wdrawing.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl;04escapehouse.jkl
+03wdtrm.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03went.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03went1.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03went2.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wexrck.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wexter.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wgrw01.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03winwn.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wivy.mat,03,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:03katarn.jkl; mots:mdm03_canopy.jkl
+03wkch1.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wkch2.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wkch2a.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wkch3.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wkch3a.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wkch4.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wkch4a.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wkhlg.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wmtl.mat,03,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:03katarn.jkl; mots:mdm03_canopy.jkl
+03wnw1a.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wnw2a.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wplaf.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wplt01.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wplt02.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wplt03.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wplt04.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wplt05.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wplt06.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wplt07.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wplt08.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wplt09.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wplt10.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wpnl1a.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wpnl1b.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wrck1.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wrck1a.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wrck1b.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wrck1c.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wrck2.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wrck2a.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wrck2b.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wrck2c.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wseat.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wshpdr.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wsht1a.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wsht1b.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wshtr.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wshtr1.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wsign.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wsink.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wst.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wstr1a.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wstr1b.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wstr1c.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wswt1a.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wswt1b.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wswt1c.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wswt1d.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wtp1a.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wtp1b.mat,03,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl
+03wtp1c.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wtp1d.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+03wtp1e.mat,03,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+04ctile.mat,04,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+04d2x3.mat,04,mots,,,mots_JKMRES.GOO,ref_only_by_unused,unused in both,mots:04d2x3.3do
+04f02.mat,04,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+04f02wk1.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:03katarn.jkl;04escapehouse.jkl; mots:mdm12_spaceport.jkl;s2l2_ecs.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl
+04fmtl1a.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:04escapehouse.jkl; mots:mdm12_spaceport.jkl;s2l2a_katraasii.jkl;s2l4_rancorcs.jkl;s2l4_stronghold.jkl;s4l1_ecs.jkl
+04fmtl2a.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:04escapehouse.jkl;08escape88.jkl; mots:s2l4_rancorcs.jkl;s2l4_stronghold.jkl
+04fmtl3a.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:04escapehouse.jkl; mots:mdm04_palace.jkl;s2l4_rancorcs.jkl
+04fp01.mat,04,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+04sky01.mat,04,jk,jk_Res2.gob,used,,,used in JK only,jk:04escapehouse.jkl
+04sky02.mat,04,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+04sky03.mat,04,mots,,,mots_JKMRES.GOO,used,used in MOTS only,mots:s2l4_stronghold.jkl
+04tpractice.mat,04,jk,jk_Res2.gob,used,,,used in JK only,jk:03katarn.jkl;04escapehouse.jkl
+04w03.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:04escapehouse.jkl; mots:mdm12_spaceport.jkl;s2l2a_katraasii.jkl
+04w05.mat,04,jk,jk_Res2.gob,used,,,used in JK only,jk:04escapehouse.jkl
+04w07wd1.mat,04,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+04wcbnt1.mat,04,jk,jk_Res2.gob,used,,,used in JK only,jk:04escapehouse.jkl
+04wcbnt2.mat,04,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+04wdr1a.mat,04,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+04wex1.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:04escapehouse.jkl;09fuelstation.jkl; mots:mdm07_vaporator.jkl;mdm08_cargo.jkl;s2l4_stronghold.jkl
+04wex2a.mat,04,mots,,,mots_JKMRES.GOO,used,used in MOTS only,mots:s2l4_stronghold.jkl
+04wex2b.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:04escapehouse.jkl; mots:s2l1_palace.jkl
+04wex2c.mat,04,jk,jk_Res2.gob,used,,,used in JK only,jk:04escapehouse.jkl
+04wex2d.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:04escapehouse.jkl; mots:mdm07_vaporator.jkl
+04wex2e.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,unreferenced,used in JK only,jk:04beam1.3do;04beam2.3do;04escapehouse.jkl
+04wex2f.mat,04,jk,jk_Res2.gob,used,,,used in JK only,jk:04escapehouse.jkl
+04wex3a.mat,04,jk,jk_Res2.gob,used,,,used in JK only,jk:04escapehouse.jkl
+04wex3b.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:04escapehouse.jkl; mots:mdm12_spaceport.jkl;s2l1_palace.jkl;s2l2a_katraasii.jkl
+04wex3c.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:04escapehouse.jkl; mots:s2l4_stronghold.jkl;s4l3_kaerobanibase.jkl
+04wex3d.mat,04,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+04wex3e.mat,04,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+04wex3f.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:06abarons.jkl;08escape88.jkl; mots:s2l1_palace.jkl
+04wex4a.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:04escapehouse.jkl;06abarons.jkl;06bbarons.jkl; mots:mdm07_vaporator.jkl
+04wex4b.mat,04,jk,jk_Res2.gob,used,,,used in JK only,jk:04escapehouse.jkl
+04wex4c.mat,04,jk,jk_Res2.gob,used,,,used in JK only,jk:04escapehouse.jkl
+04wex4d.mat,04,mots,,,mots_JKMRES.GOO,used,used in MOTS only,mots:mdm04_palace.jkl
+04wex5a.mat,04,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+04wex5b.mat,04,jk,jk_Res2.gob,used,,,used in JK only,jk:04escapehouse.jkl
+04wex5c.mat,04,jk,jk_Res2.gob,used,,,used in JK only,jk:04escapehouse.jkl
+04wex5d.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:04escapehouse.jkl; mots:mdm04_palace.jkl;s2l1_ocs.jkl;s2l1_palace.jkl
+04wex6a.mat,04,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+04wex6b.mat,04,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+04wex6c.mat,04,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+04wex6d.mat,04,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+04wex6e.mat,04,jk,jk_Res2.gob,used,,,used in JK only,jk:04escapehouse.jkl
+04wex6f.mat,04,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+04wgrd1a.mat,04,mots,,,mots_JKMRES.GOO,used,used in MOTS only,mots:s2l4_stronghold.jkl
+04wgrd1b.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,unreferenced,used in JK only,jk:04escapehouse.jkl
+04wgrd1c.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,unreferenced,used in JK only,jk:04escapehouse.jkl
+04wgrd2a.mat,04,jk,jk_Res2.gob,used,,,used in JK only,jk:04escapehouse.jkl
+04wgrd2b.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:04escapehouse.jkl; mots:s4l3_ecs.jkl;s4l3_kaerobanibase.jkl
+04wgrd3a.mat,04,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+04wgrd4a.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:04escapehouse.jkl; mots:mdm04_palace.jkl;s2l4_stronghold.jkl
+04wgrd5a.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,unreferenced,used in JK only,jk:04escapehouse.jkl
+04wmtbm1.mat,04,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+04wmtbm2.mat,04,jk,jk_Res2.gob,used,,,used in JK only,jk:04escapehouse.jkl
+04wmtbm3.mat,04,jk,jk_Res2.gob,used,,,used in JK only,jk:04escapehouse.jkl
+04wmtl1a.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:04escapehouse.jkl; mots:s2l4_rancorcs.jkl;s2l4_stronghold.jkl
+04wmtl1b.mat,04,jk+mots,jk_Res2.gob,used,mots_JKMRES.GOO,used,used in both,jk:04escapehouse.jkl; mots:s2l4_rancorcs.jkl
+04wmtl1c.mat,04,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,
+04wmtl1d.mat,04,mots,,,mots_JKMRES.GOO,used,used in MOTS only,mots:s4l3_kaerobanibase.jkl
+04wmtl2a.mat,04,jk,jk_Res2.gob,used,,,used in JK only,jk:04beam1.3do;04beam2.3do;04escapehouse.jkl
+04wseat.mat,04,mots,,,mots_JKMRES.GOO,unreferenced,unused in both,

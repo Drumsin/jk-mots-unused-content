@@ -1,0 +1,44 @@
+game,mat,label,status,cmp,cmp_source,w,h,bits,cells
+mots,05wsky01.mat,cut lvl05 sky,unreferenced,jk/04farm.cmp,by eye (JK lvl4 palette),256,256,8,1
+mots,05wsky02.mat,cut lvl05 sky,unreferenced,jk/04farm.cmp,by eye (JK lvl4 palette),256,256,8,1
+mots,05fasph1.mat,lvl05 road (05road.3do),ref_only_by_unused,jk/04farm.cmp,by eye (JK lvl4 palette),256,256,8,1
+mots,05ggrs1a.mat,lvl05 grass,unreferenced,jk/04farm.cmp,by eye (JK lvl4 palette),128,128,8,1
+mots,05wtunl1.mat,lvl05 tunnel,unreferenced,jk/04farm.cmp,by eye (JK lvl4 palette),128,128,8,1
+mots,05wrwal.mat,lvl05 wall,unreferenced,jk/04farm.cmp,by eye (JK lvl4 palette),64,128,8,1
+mots,05tshoot.mat,lvl05 anim/target,unreferenced,jk/04farm.cmp,by eye (JK lvl4 palette),32,64,8,2
+mots,05wcrb1a.mat,lvl05 curb,unreferenced,jk/04farm.cmp,by eye (JK lvl4 palette),128,128,8,1
+mots,05wbrm2.mat,lvl05,unreferenced,jk/04farm.cmp,by eye (JK lvl4 palette),256,128,8,1
+mots,05wcon4a.mat,lvl05,unreferenced,jk/04farm.cmp,by eye (JK lvl4 palette),128,128,8,1
+mots,05wpipe1.mat,lvl05 pipe,unreferenced,jk/04farm.cmp,by eye (JK lvl4 palette),256,64,8,1
+mots,13cnsky1.mat,storm sky (set reused),unreferenced,mots/01narsh.cmp,sibling 13cnsky*,256,256,8,1
+mots,13cnsky3.mat,storm sky (set reused),unreferenced,mots/01narsh.cmp,sibling 13cnsky*,256,256,8,1
+mots,13sky.mat,Canyon Run sky,unreferenced,jk/12escape.cmp,by eye,256,256,8,1
+mots,13sky04.mat,Canyon Run sky,unreferenced,jk/12escape.cmp,by eye,256,256,8,1
+mots,13wcanw2.mat,Canyon Run canyon wall,unreferenced,mots/06baron.cmp,sibling 13wcanw*,128,256,8,1
+mots,13wcanw5.mat,Canyon Run canyon wall,unreferenced,mots/06baron.cmp,sibling 13wcanw*,128,128,8,1
+mots,13fwat2.mat,Canyon Run water,unreferenced,mots/01narsh.cmp,sibling 13f*,128,128,8,1
+mots,13car4.mat,Canyon Run 13car,unreferenced,mots/01narsh.cmp,sibling 13car*,256,256,8,1
+mots,13wdrok1.mat,Canyon Run rock,unreferenced,mots/01narsh.cmp,sibling 13w*,256,256,8,1
+mots,zpip8.mat,13pipes zpip.3do,ref_only_by_unused,mots/01narsh.cmp,best fit (least magenta),256,64,8,1
+mots,16world.mat,16world.3do,ref_only_by_unused,mots/10cargo.cmp,sibling 16w*,256,256,8,1
+mots,16spir3b.mat,16spir.3do,ref_only_by_unused,jk/16fall.cmp,previous export,128,64,8,1
+mots,b_wings.mat,winged beast 8b.3do,ref_only_by_unused,mots/01narsh.cmp,best fit (least magenta),128,128,8,1
+mots,b_face.mat,winged beast,ref_only_by_unused,mots/01narsh.cmp,best fit (least magenta),64,64,8,1
+mots,iced.mat,iced.3do,ref_only_by_unused,mots/01narsh.cmp,best fit (least magenta),4,4,8,1
+mots,41awarp.mat,MotS s4l1 unused,unreferenced,mots/01narsh.cmp,sibling 41a*,128,128,8,2
+mots,41ardscrn.mat,MotS s4l1 unused,unreferenced,mots/01narsh.cmp,sibling 41a*,256,128,8,2
+mots,53tneon.mat,MotS s5l3 unused,unreferenced,mots/54sith.cmp,sibling 53t*,128,32,8,6
+mots,22wwire1.mat,MotS s2l2 unused,unreferenced,mots/06baron.cmp,sibling 22w*,32,64,8,1
+mots,21wglyf1.mat,JK lvl21 glyph,unreferenced,jk/20val.cmp,by eye,256,64,8,1
+mots,42acpa.mat,MotS s4l2 unused,unreferenced,mots/01narsh.cmp,best fit (least magenta),32,64,8,2
+jk,13frokg2.mat,JK Canyon Run rock,unreferenced,jk/17sarris.cmp,sibling 13f*,64,64,8,1
+jk,13wconc1.mat,JK Canyon Run concrete,unreferenced,jk/15maw.cmp,sibling 13wconc*,256,256,8,1
+jk,01wgraf2.mat,Nar Shaddaa graffiti,unreferenced,jk/01narsh.cmp,sibling 01wgraf*,128,64,8,1
+jk,kybsshpa.mat,Kyle skin part,unreferenced,jk/01narsh.cmp,sibling kybs*,32,32,8,1
+jk,kyt7bodf.mat,Kyle MP skin t7,unreferenced,jk/01narsh.cmp,sibling kyt*,64,64,8,1
+jk,sabp.mat,saber part,unreferenced,jk/01narsh.cmp,sibling sab*,16,64,8,1
+jk,20frstf1.mat,lvl20 floor,unreferenced,jk/20val.cmp,sibling 20f*,128,128,8,1
+jk,tarp1.mat,tarp,unreferenced,jk/06baron.cmp,sibling tarp*,128,128,8,1
+jk,rldvbck.mat,railgun view back,unreferenced,jk/01narsh.cmp,sibling rldvb*,64,64,8,1
+jk,crt1sde.mat,crt1.3do (unused),ref_only_by_unused,jk/15maw.cmp,sibling crt*,128,32,8,1
+jk,reppsde1.mat,repeater pickup repp.3do,ref_only_by_unused,jk/20val.cmp,sibling rep*,64,16,8,1

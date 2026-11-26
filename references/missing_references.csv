@@ -1,0 +1,1173 @@
+game,missing_file,referenced_by,note
+jk,00_glass.mat,shard0.3do,
+jk,00electrexplo02.wav,14_forcefield.cog;14tower.jkl,
+jk,03-04a.smk,episode.jk,FMV/SAN video not on box
+jk,06a.smk,episode.jk,FMV/SAN video not on box
+jk,08-10a.smk,episode.jk,FMV/SAN video not on box
+jk,12a.smk,episode.jk,FMV/SAN video not on box
+jk,16a.smk,episode.jk,FMV/SAN video not on box
+jk,17_rahnlines.cog,darkjedi_sariss.cog,
+jk,18-19a.smk,episode.jk,FMV/SAN video not on box
+jk,21a.smk,episode.jk,FMV/SAN video not on box
+jk,23a.smk,episode.jk,FMV/SAN video not on box
+jk,25a.smk,episode.jk,FMV/SAN video not on box
+jk,27a.smk,episode.jk,FMV/SAN video not on box
+jk,33-34a.smk,episode.jk,FMV/SAN video not on box
+jk,36a.smk,episode.jk,FMV/SAN video not on box
+jk,38a.smk,episode.jk,FMV/SAN video not on box
+jk,39a.smk,episode.jk,FMV/SAN video not on box
+jk,41-42a.smk,episode.jk,FMV/SAN video not on box
+jk,41da.smk,episode.jk,FMV/SAN video not on box
+jk,41dsa.smk,episode.jk,FMV/SAN video not on box
+jk,44a.smk,episode.jk,FMV/SAN video not on box
+jk,46a.smk,episode.jk,FMV/SAN video not on box
+jk,48a.smk,episode.jk,FMV/SAN video not on box
+jk,50a.smk,episode.jk,FMV/SAN video not on box
+jk,52-53a.smk,episode.jk,FMV/SAN video not on box
+jk,54a.smk,episode.jk,FMV/SAN video not on box
+jk,57a.smk,episode.jk,FMV/SAN video not on box
+jk,df_machine2.wav,06bbarons.jkl;08escape88.jkl;09fuelstation.jkl;10cargo.jkl;12escape.jkl;14tower.jkl;18ascend.jkl;turret.snd,
+jk,ft-bt.mat,repv.3do,
+jk,ft-fng.mat,repv.3do,
+jk,ft-thb.mat,repv.3do,
+jk,ft-tp.mat,repv.3do,
+jk,ft-wrb.mat,repv.3do,
+jk,ft-wrs.mat,repv.3do,
+jk,ft-wrt.mat,repv.3do,
+jk,i00pi02z.wav,pi.snd,
+jk,item_supershields.cog,items.dat,
+jk,ltsaberhit012.wav,14_forcefield.cog;14_oopsdoor2.cog;14tower.jkl;18_ffieldswitch.cog;18ascend.jkl,
+jk,railclr.mat,r2x1.3do,
+jk,test.mat,test.par,
+jk,xtank2.mat,xtank1b.3do;xtank3b.3do;xtank4b.3do,
+jk,xxx.wav,01_trouble.cog,
+mots,00alarmloop01.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;kfy_main.cog;mdm05_coreclient.cog;mdm05_coretest.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,00alarmloop03.wav,s1l1_alarm.cog;s1l1_rebelbase.jkl;s1l1_wrench.cog;s1l2_astcrust.jkl;s1l2_elev_switch2.cog;s1l3_astcore.jkl;s2l1_baydoor.cog;s2l2_hangardoor.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,00conveyoramb01.wav,s1l2_astcrust.jkl;s2l4_conveyor.cog;s2l4_stronghold.jkl;s4l1_endcutscene.cog;s4l2_shipyards.jkl;s4l2_startup.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,00conveyoramb02.wav,payload.snd;s4l1_ecs.cog;s4l1_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,00electrexplo01.wav,00_breakinglamp.cog;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l1_palace.jkl;s2l2_neonsign.cog;s2l2b_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00electrexplo03.wav,exp_remote.snd;lb.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l1_ocs.jkl;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00electrexplo3.wav,00_simplesparks.cog;00_sparks.cog;s1l1_doorsparks.cog;s1l3_sparks.cog;s2l1_pumpswitch.cog;s2l1_sparks.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,00exhaustamb01.wav,mdm02_freezer.jkl;mdm17_bespin.jkl;s4l2_shipyards.jkl;s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00exhaustamb04.wav,s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00gamordeath01.wav,gm.snd;s2l1_ecs.jkl;s2l1_palace.jkl;s2l2a_katraasii.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00gamordeath02.wav,gm.snd;s2l1_ecs.jkl;s2l1_palace.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00gamorfall01.wav,gm.snd;s2l1_ecs.jkl;s2l1_palace.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00gamorgethit01.wav,gm.snd;s2l1_ecs.jkl;s2l1_palace.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00gamorgethit02.wav,gm.snd;s2l1_ecs.jkl;s2l1_palace.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00gamorgibberish01.wav,gm.snd;s2l1_ecs.jkl;s2l1_palace.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00gamorwakeup01.wav,gm.snd;s2l1_ecs.jkl;s2l1_palace.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00gamorwakeup02.wav,gm.snd;s2l1_ecs.jkl;s2l1_palace.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00industrialamb01.wav,mdm02_freezer.jkl;mdm10_gantry.jkl;mdm10_window.cog;mdm17_bespin.jkl;msb2_gantry.jkl;s1l1_rebelbase.jkl;s2l2a_ecs.cog;s2l2a_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00industrialamb02.wav,mdm10_gantry.jkl;mdm17_bespin.jkl;msb2_gantry.jkl;s4l2_ecs.jkl;s4l2_ocs.jkl;s4l2_shipyards.jkl;s4l3_kaerobanibase.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00industrialamb03.wav,s1l2_astcrust.jkl;s4l3_kaerobanibase.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00industrialamb04.wav,s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00river01.wav,s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00rock4.mat,s1l2_ocs.jkl,
+mots,00rumbleamb01.wav,mdm07_vaporator.jkl;s4l2_shipyards.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00rumbleamb02.wav,mdm07_vaporator.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00rumbleamb03.wav,k3.jkl;mdm02_freezer.jkl;mdm07_vaporator.jkl;mdm08_cargo.jkl;mdm10_gantry.jkl;mdm17_bespin.jkl;msb2_gantry.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00techamb02.wav,mdm07_vaporator.jkl;mdm08_cargo.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l3_static.cog;s4l2_shipyards.jkl;s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00techamb03.wav,k3.jkl;mdm08_cargo.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00techamb04.wav,mdm07_vaporator.jkl;s4l2_ecs.jkl;s4l2_shipyards.jkl;s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00techamb05.wav,mdm02_freezer.jkl;mdm08_cargo.jkl;mdm17_bespin.jkl;s2l2a_katraasii.jkl;s4l3_kaerobanibase.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00tuskendie01.wav,kytusken.snd;s2l1_ecs.jkl;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl;s4l2_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00tuskendie02.wav,kytusken.snd;s2l1_ecs.jkl;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl;s4l2_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00tuskenfalling01.wav,kytusken.snd;s2l1_ecs.jkl;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl;s4l2_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00tuskengethit01.wav,kytusken.snd;s2l1_ecs.jkl;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl;s4l2_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00tuskengethit02.wav,kytusken.snd;s2l1_ecs.jkl;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl;s4l2_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00tuskengethit03.wav,kytusken.snd;s2l1_ecs.jkl;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl;s4l2_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00tuskenhowl01.wav,s2l1_ecs.jkl;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2a_katraasii.jkl;s2l2b_endcutscene.cog;s2l2b_katraasii.jkl;s2l4_stronghold.jkl;s4l2_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00tuskenhowl02.wav,s2l1_ecs.jkl;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl;s4l2_ocs.jkl;s4l3_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00tuskenhowl03.wav,kytusken.snd;s2l1_ecs.jkl;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl;s4l2_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00underwater.wav,k2.jkl;k3.jkl;k5.jkl;mdm07_vaporator.jkl;s2l4_stronghold.jkl;s4l3_kaerobanibase.jkl;s5l2_darkswamp.jkl;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00waterfall02.wav,s4l3_kaerobanibase.jkl;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00waterfall03.wav,k2.jkl;s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00waterthrupipes02.wav,k5.jkl;s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00wind02.wav,k2.jkl;mdm05_reactor.jkl;mdm07_vaporator.jkl;mdm10_gantry.jkl;mdm17_bespin.jkl;msb2_gantry.jkl;s2l1_palace.jkl;s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,00wind03.wav,k1.jkl;k4.jkl;msb4_k1.jkl;s4l3_kaerobanibase.jkl;s4l3_ocs.jkl;s5l3_uppersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,01cantinaband02.wav,s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,01shipflyby01.wav,s2l2a_katraasii.jkl;s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,01shipflyby02.wav,s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,01shipflyby03.wav,s2l2a_katraasii.jkl;s4l2_ocs.cog;s4l2_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,01shipflyby04.wav,s2l2a_katraasii.jkl;s5l3_uppersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,05fcon3b.mat,05road2.3do;05road3.3do,
+mots,05fcon3c.mat,roadsign.3do,
+mots,09freighter.wav,s4l2_doorrumble.cog;s4l2_shipyards.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,09pipesdetach.wav,s2l2a_ecs.cog;s4l1_endcutscene.cog;s4l2_ecs.cog;s4l2_ocs.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,09pipesdetatch.wav,00_carbsector.cog;mdm02_carboclient.cog;mdm02_carbonite.cog;mdm02_carboserver.cog;mdm02_carbsector.cog;mdm17_bespin.jkl;s1l1_dropship.cog;s6l1_carboclient.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,09pipesmove.wav,00_carbsector.cog;mdm02_carboclient.cog;mdm02_carbonite.cog;mdm02_carboserver.cog;mdm02_carbsector.cog;mdm02_freezer.jkl;mdm17_bespin.jkl;s1l1_dropship.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,16enginestart01.wav,s1l1_poweron.cog;s1l1_rebelbase.jkl;s2l2a_ecs.cog;s2l2a_ecs.jkl;s4l1_endcutscene.cog;s4l2_ecs.cog;s4l2_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,16metalcreak01.wav,s2l4_device.cog;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,16metalcreak02.wav,s2l4_prisondoor.cog;s2l4_prisonkeydoor.cog;s2l4_rancordoor.cog;s2l4_stronghold.jkl;s4l1_escortship.jkl;s4l1_hangcont.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,16metalcreak05.wav,s2l4_bigdoor.cog;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,16metalgroan01.wav,s2l1_palace.jkl;s4l1_cratelift.cog;s4l1_escortship.jkl;s4l1_hangcont.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,16metalgroan03.wav,s4l1_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,16metalgroan04.wav,s1l1_dropship.cog;s1l1_explode.cog;s1l1_rebelbase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,18airburst01.wav,00_carbsector.cog;00_kbaseventout.cog;00_kbaseventthrust.cog;mdm02_carboclient.cog;mdm02_carbonite.cog;mdm02_carbsector.cog;mdm02_freezer.jkl;mdm05_coreclient.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,18particlestream01.wav,s4l2_ctrthrust.cog;s4l2_shipyards.jkl;s5l3_uppersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,19counterweight01.wav,19counterweight.snd;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,19cweightstart.wav,19counterweight.snd;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,19cweightstop.wav,19counterweight.snd;s2l1_palace.jkl;s2l4_prisonkeydoor.cog;s2l4_stronghold.jkl;s4l3_kaerobanibase.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,19stonedoor01.wav,19stone_door.snd;s2l1_baydoor.cog;s2l1_palace.jkl;s2l1_thronedoor.cog;s5l2_darkswamp.jkl;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,21forceabsorb1.wav,s5l3_uppersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,2r60122.wav,rc.snd;s1l1_rebelbase.jkl;s1l4_ecs.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,accomplish1.wav,01_endlevel.cog;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;kfy_main.cog;s1l1_endlevel.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,activate01.wav,00_lighttube.cog;00_secretareas.cog;item_irgoggles.cog;item_tusken_clothes.cog;k1.jkl;k2.jkl;k3.jkl;k4.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,activate02.wav,00_elev_switch.cog;mdm02_carboclient.cog;mdm02_carbsector.cog;mdm02_freezer.jkl;mdm03_canopy.jkl;mdm05_coreelevators.cog;mdm05_reactor.jkl;mdm07_vaporator.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,activate04.wav,item_fieldlight.cog;mdm07_vaporator.jkl;s1l2_astcrust.jkl;s2l4_stronghold.jkl;s2l4_torture.cog;s2l4_watertrap.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,assasinfire1.wav,ad.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,assasinfire2.wav,ad.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,assasinhit1.wav,ad.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,assasinhit2.wav,ad.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,atststp1.wav,atst.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,atststp2.wav,atst.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,bactapu1.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl;mdm04_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,bactause01.wav,ctf_itemkeygold.cog;ctf_itemkeyred.cog;item_bacta.cog;item_datadisk.cog;item_droidarm.cog;item_heavy_explosive.cog;item_holocron.cog;item_keyblue.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,bcchargeup.wav,weap_blastech_m.cog;weap_crossbow_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,bcfire01.wav,s2l1_ecs.jkl;s2l1_palace.jkl;tk.snd;weap_crossbow_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,bcfire02.wav,s2l1_ecs.jkl;weap_crossbow_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,beep1.wav,00_elev_switch3.cog;00_elevcall.cog;mdm07_vaporator.jkl;mdm10_gantry.jkl;mdm17_bespin.jkl;msb2_gantry.jkl;s1l1_rebelbase.jkl;s1l2_astcrust.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,beep2.wav,00_elevcall.cog;00_multicam.cog;00_singlecam.cog;00_unicam.cog;k1.jkl;k2.jkl;k3.jkl;k5.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,bigfan01.wav,s1l1_fan.cog;s1l1_rebelbase.jkl;s1l4_astdestruct.jkl;s1l4_criticalpath.cog;s2l4_stronghold.jkl;s4l2_blade01.cog;s4l2_shipyards.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,bodyfall01.wav,gr.snd;gr_s1.snd;io.snd;io2.snd;io2_s1.snd;io_s1.snd;kygreedo.snd;mn1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,bodyfall03.wav,gm.snd;ic.snd;ic_s1.snd;icrpt.snd;icrpt_s1.snd;k1.jkl;k2.jkl;k3.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,bodyfall05.wav,bs.snd;bsrld.snd;itstr.snd;kybossk.snd;ry.snd;ryfist.snd;rystr.snd;s2l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,bossk-1.wav,s2l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,bossk-3.wav,s2l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,bosskdie.wav,s2l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,bottlebreak01.wav,exp_bottle.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,bs50056.wav,bs.snd;bsrld.snd;s2l2_chattycandy.cog;s2l2_chattycathy.cog;s2l2b_katraasii.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,bs50059.wav,bs.snd;bsrld.snd;kybossk.snd;s2l2b_katraasii.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,bs50060.wav,bs.snd;bsrld.snd;kybossk.snd;s2l2b_katraasii.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,bs50061.wav,bs.snd;bsrld.snd;kybossk.snd;s2l2b_katraasii.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,bs50062.wav,bs.snd;bsrld.snd;kybossk.snd;s2l2b_katraasii.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,bs50063.wav,bs.snd;bsrld.snd;s2l2_chattycathy.cog;s2l2b_katraasii.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,bs50064.wav,bs.snd;bsrld.snd;kybossk.snd;s2l2b_katraasii.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cantina2blp.wav,s2l2b_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,catwalkfall.wav,catwalkfall.snd;mdm07_vaporator.jkl;mdm14_throne.jkl;msb3_throne.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cgunfire.wav,s2l1_murder.cog;weap_carbgun_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cm50129.wav,mn1.snd;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cm50130.wav,mn1.snd;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cm50132.wav,mn1.snd;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cm50133.wav,mn1.snd;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cm50134.wav,mn1.snd;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cm50135.wav,mn1.snd;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cm50136.wav,mn1.snd;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cm50137.wav,mn1.snd;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cm50143.wav,actor_pm.cog;mn1.snd;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cm50145.wav,actor_pm.cog;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cm50146.wav,actor_pm.cog;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cm60142.wav,actor_mn.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cm60146.wav,actor_mn.cog;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cm60149.wav,actor_mn.cog;actor_pm.cog;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cm60150.wav,actor_bt.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cm60151.wav,actor_bt.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cm60152.wav,actor_mn.cog;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cm60155.wav,actor_mn.cog;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,co00013a.mat,falcon_lo1_flt.3do,
+mots,concuss1.wav,weap_concrifle_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,concuss5.wav,__s1l3_cutscene.cog;bs.snd;s1l3_ecs.jkl;s2l1_ecs.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl;weap_concrifle_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61304.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61305.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61307.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61308.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61309.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61310.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61311.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61317.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61318.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61404.wav,s1l4_astdestruct.jkl;s1l4_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61405.wav,s1l4_astdestruct.jkl;s1l4_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61406.wav,s1l4_astdestruct.jkl;s1l4_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61407.wav,s1l4_astdestruct.jkl;s1l4_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61408.wav,s1l4_astdestruct.jkl;s1l4_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61409.wav,s1l4_astdestruct.jkl;s1l4_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61410.wav,s1l4_astdestruct.jkl;s1l4_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61411.wav,s1l4_astdestruct.jkl;s1l4_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61412.wav,s1l4_astdestruct.jkl;s1l4_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61413.wav,s1l4_astdestruct.jkl;s1l4_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61414.wav,s1l4_astdestruct.jkl;s1l4_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp61415.wav,s1l4_astdestruct.jkl;s1l4_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp64115.wav,s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp64116.wav,s4l1_escortship.jkl;s4l1_evaccode.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp64118.wav,s4l1_escortship.jkl;s4l1_openshake.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,cp64145.wav,s4l1_coolrod.cog;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cpelletexplo.wav,exp_cpel.cog;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,critter1.wav,s5_ocs.jkl;s5l2_csrandomambient.cog;s5l2_darkswamp.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,critter2.wav,s5_ocs.jkl;s5l2_csrandomambient.cog;s5l2_darkswamp.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,critter3.wav,s5_ocs.jkl;s5l2_csrandomambient.cog;s5l2_darkswamp.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,critter4.wav,s5_ocs.jkl;s5l2_csrandomambient.cog;s5l2_darkswamp.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,crowenginewhine02.wav,mdm12_spaceport.jkl;s1l2_cutscene.cog;s1l2_ocs.jkl;s2l2_ocs.jkl;s2l2a_katraasii.jkl;s2l4_endlevel.cog;s2l4_stronghold.jkl;s4l2_flight.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,crpickup01.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl;mdm04_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cw50001.wav,s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;wm1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,cw50002.wav,s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;wm1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,cw50004.wav,s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;wm1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,cw50005.wav,s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;wm1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,cw50006.wav,s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;wm1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,cw50007.wav,s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;wm1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,cw50008.wav,s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;wm1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,cw50009.wav,s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;wm1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,cw50010.wav,s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;wm1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,cw50012.wav,actor_fn.cog;s2l2a_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cw50013.wav,actor_fn.cog;s2l2a_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cw50014.wav,actor_pf.cog;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cw50015.wav,s2l2_yaaa.cog;s2l2b_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cw50016.wav,actor_pf.cog;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cw50017.wav,actor_pf.cog;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;wm1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,cw60162.wav,actor_fn.cog;s2l2a_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cw60163.wav,s2l2b_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,cw60165.wav,actor_fn.cog;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,d262110.wav,s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,d262112.wav,s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,dd72108.wav,s2l1_ocs.cog;s2l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,dd72110.wav,s2l1_ocs.cog;s2l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,dd72111.wav,s2l1_ocs.cog;s2l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,dd72113.wav,s2l1_ocs.cog;s2l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,deactivate02.wav,00_multicam.cog;00_singlecam.cog;00_unicam.cog;s1l3_cameraviewswitch.cog;s1l3_criticalpath.cog;s1l3_securitydoor.cog;s1l3_viewcamera3only.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,deactivate03.wav,item_irgoggles.cog;item_tusken_clothes.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,deactivate04.wav,00_lighttube.cog;item_fieldlight.cog;mdm02_freezer.jkl;mdm02_lighttube.cog;mdm02_lighttube2.cog;mdm17_bespin.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_2-2.wav,mdm04_circledoor2.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_bry_ready.wav,weap_blastech_m.cog;weap_bryar_m.cog;weap_carbgun_m.cog;weap_crossbow_m.cog;weap_repeater_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_door1-1.wav,k3.jkl;k5.jkl;mdm02_freezer.jkl;mdm07_vaporator.jkl;mdm10_gantry.jkl;mdm12_spaceport.jkl;mdm17_bespin.jkl;msb2_gantry.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_door1-2.wav,k3.jkl;k5.jkl;mdm02_freezer.jkl;mdm07_vaporator.jkl;mdm10_gantry.jkl;mdm12_spaceport.jkl;mdm17_bespin.jkl;msb2_gantry.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_door1-3.wav,k3.jkl;k5.jkl;mdm02_freezer.jkl;mdm07_vaporator.jkl;mdm10_gantry.jkl;mdm12_spaceport.jkl;mdm17_bespin.jkl;msb2_gantry.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_door2-1.wav,k5.jkl;mdm04_palace.jkl;mdm07_vaporator.jkl;mdm12_spaceport.jkl;med_door.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_door2-2.wav,k5.jkl;mdm04_palace.jkl;mdm07_vaporator.jkl;mdm12_spaceport.jkl;med_door.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_door2-3.wav,00_doorswitch.cog;k5.jkl;mdm04_palace.jkl;mdm04_thronetrap.cog;mdm04_trapdoor.cog;mdm04_traprelease.cog;mdm07_doorswitch.cog;mdm07_vaporator.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_door3-1.wav,09accessdoor.snd;lg_door.snd;mdm04_palace.jkl;mdm07_vaporator.jkl;mdm12_spaceport.jkl;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_door3-2.wav,09accessdoor.snd;lg_door.snd;mdm04_palace.jkl;mdm07_vaporator.jkl;mdm12_spaceport.jkl;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_door3-3.wav,09accessdoor.snd;lg_door.snd;mdm04_palace.jkl;mdm07_vaporator.jkl;mdm12_spaceport.jkl;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_elev1-1.wav,k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl;mdm05_reactor.jkl;mdm07_vaporator.jkl;mdm08_cargo.jkl;mdm10_gantry.jkl;mdm14_throne.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_elev1-2.wav,k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl;mdm05_reactor.jkl;mdm07_vaporator.jkl;mdm08_cargo.jkl;mdm10_gantry.jkl;mdm14_throne.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_elev1-3.wav,k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl;mdm05_reactor.jkl;mdm07_vaporator.jkl;mdm08_cargo.jkl;mdm10_gantry.jkl;mdm14_throne.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_elev2-1.wav,k1.jkl;k2.jkl;k5.jkl;mdm05_reactor.jkl;mdm07_vaporator.jkl;med_elev.snd;msb4_k1.jkl;s1l2_astcrust.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_elev2-2.wav,k1.jkl;k2.jkl;k5.jkl;mdm05_reactor.jkl;mdm07_vaporator.jkl;med_elev.snd;msb4_k1.jkl;s1l2_astcrust.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_elev2-3.wav,k1.jkl;k2.jkl;k5.jkl;mdm05_reactor.jkl;mdm07_vaporator.jkl;med_elev.snd;msb4_k1.jkl;s1l2_astcrust.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_elev3-1.wav,lg_elev.snd;mdm02_freezer.jkl;mdm07_vaporator.jkl;mdm17_bespin.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_elev3-2.wav,lg_elev.snd;mdm02_freezer.jkl;mdm07_vaporator.jkl;mdm17_bespin.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_elev3-3.wav,lg_elev.snd;mdm02_freezer.jkl;mdm07_vaporator.jkl;mdm17_bespin.jkl;payload.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_machine2.wav,turret.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,df_rif_ready.wav,weap_concrifle_m.cog;weap_eweb_m.cog;weap_strifle_m.cog;weap_stscope_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,droidbody1.wav,ad.snd;c3po.snd;gonk.snd;ky3po.snd;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l1_ecs.jkl;s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,droidbody2.wav,lb.snd;r2.snd;s1l1_rebelbase.jkl;s1l4_astdestruct.jkl;s2l2b_katraasii.jkl;s4l1_escortship.jkl;s4l2_shipyards.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,dv_choke.wav,kydarth.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,dv_die1.wav,kydarth.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,dv_die2.wav,kydarth.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,dv_drwn1.wav,kydarth.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,dv_drwn2.wav,kydarth.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,dv_drwn3.wav,kydarth.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,dv_fall.wav,kydarth.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,dv_hit1.wav,kydarth.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,dv_hit2.wav,kydarth.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,ejectpod.wav,s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,energypulse.wav,s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ewebfirebig1.wav,weap_eweb_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ewebfiresm1.wav,weap_eweb_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ewebturn2.wav,s2l2_skiff1.cog;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,expl_01.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s2l1_palace.jkl;s2l4_stronghold.jkl;s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,expl_02.wav,s4l1_escortship.jkl;s4l1_openshake.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,expl_03.wav,s1l1_cutscene.cog;s1l1_ocs.jkl;s2l2b_endcutscene2.cog;s4l1_ocs.cog;s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,expl_04.wav,__s1l3_cutscene.cog;exp_tie.snd;k3.jkl;s1l1_brokenlift.cog;s1l1_cutscene.cog;s1l1_dropship.cog;s1l1_ocs.jkl;s1l1_rebelbase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,expl_06.wav,exp_det.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,expl_07.wav,exp_med.snd;exp_raildet.snd;exp_small.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,expl_09.wav,exp_conc.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,farsight1.wav,force_farsight.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,finale.jkl,episode.jk,
+mots,finale.san,episode.jk,FMV/SAN video not on box
+mots,floweratk.wav,s5l2_darkswamp.jkl;s5l4_lowersith.jkl;vf.snd;vf2.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,flowerdie.wav,s5l2_darkswamp.jkl;s5l4_lowersith.jkl;vf.snd;vf2.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,flowerhurt.wav,s5l2_darkswamp.jkl;s5l4_lowersith.jkl;vf.snd;vf2.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,flowerwake.wav,s5l2_darkswamp.jkl;s5l4_lowersith.jkl;vf.snd;vf2.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,forceabsorb02.wav,force_absorb.cog;s5_takeoff.jkl;s5l2_darkswamp.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,forceblind01.wav,61darkjedi_mara.cog;darkjedi_mara.cog;force_blinding.cog;s5l2_darkswamp.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcedefense.wav,force_defense.cog;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;kyle_m.cog;luke_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcedestruct01.wav,force_destruction.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcedestruct02.wav,exp_dest.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcedsight01.wav,force_deadlysight.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcedsight02.wav,force_deadlysight.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcefieldhit01.wav,00_forcefield.cog;actor_fn.cog;actor_mn.cog;actor_pf.cog;actor_pm.cog;actor_rc.cog;actor_ro.cog;actor_ug.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcefieldhum01.wav,00_forcefield.cog;mdm05_coreclientff.cog;mdm05_forcefields.cog;mdm05_reactor.jkl;s1l3_astcore.jkl;s1l3_ffieldswitch.cog;s2l4_conveyor.cog;s2l4_forcefield.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcefieldoff01.wav,mdm05_coreclientff.cog;mdm05_forcefields.cog;mdm05_reactor.jkl;s1l2_astcrust.jkl;s1l2_ffieldswitch.cog;s1l3_astcore.jkl;s1l3_criticalpath.cog;s1l3_ffieldswitch.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcefieldon01.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog;s1l3_ffieldswitch.cog;s1l4_astdestruct.jkl;s1l4_securitydoor.cog;s4l3_forcefieldswitch.cog;s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcegrip01.wav,force_grip.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcehealing01.wav,force_heal.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcejump01.wav,force_jump.cog;mdm05_coreclient.cog;mdm05_coretest.cog;mdm05_reactor.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcejump02.wav,force_jump.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcelightnin01.wav,61darkjedi_kyle.cog;61darkjedi_mara.cog;darkjedi_kyle.cog;darkjedi_mara.cog;force_chainlight.cog;s5l2_darkswamp.jkl;s5l4_lowersith.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcelitning02.wav,force_lightning.cog;k1.jkl;k1_lightning.cog;msb4_k1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcelitning03.wav,du.snd;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcepersuas01.wav,force_persuasion.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcepersuas02.wav,force_persuasion.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,forceprotect01.wav,force_protection.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,forceprotect02.wav,force_protection.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcepull01.wav,force_push.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcesee01.wav,force_farsight.cog;force_seeing.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcesee02.wav,force_seeing.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcespeed01.wav,force_speed.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcespeed02.wav,force_speed.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,forcethrow01.wav,61darkjedi_kyle.cog;darkjedi_kyle.cog;force_throw.cog;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,fproject.wav,force_project.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,fpush.wav,force_pull.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,fr00000a.mat,freight1_flt.3do,
+mots,freeze.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;kyle_m.cog;luke_m.cog;mara_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,fsout1.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,fswtr1l.wav,ad.snd;du.snd;gm.snd;gr.snd;gr_s1.snd;ic.snd;ic_s1.snd;icrpt.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,fswtr2l.wav,ad.snd;du.snd;gm.snd;gr.snd;gr_s1.snd;ic.snd;ic_s1.snd;icrpt.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,fswtr2r.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,funicularmove01.wav,funicular.snd;s1l1_poweron.cog;s1l1_rebelbase.jkl;s4l1_escortship.jkl;s4l1_hangdoor.cog;s4l2_ecs.jkl;s4l2_ocs.jkl;s4l2_shipyards.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,funicularstart01.wav,funicular.snd;s4l1_escortship.jkl;s4l1_hangdoor.cog;s4l2_ecs.jkl;s4l2_ocs.jkl;s4l2_shipyards.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,funicularstop01.wav,funicular.snd;s1l1_poweron.cog;s1l1_rebelbase.jkl;s4l1_escortship.jkl;s4l2_ecs.jkl;s4l2_ocs.jkl;s4l2_shipyards.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,g174202.wav,s4l2_ocs.cog;s4l2_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,g174204.wav,s4l2_ocs.cog;s4l2_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,g274203.wav,s4l2_ocs.cog;s4l2_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,g274205.wav,s4l2_ocs.cog;s4l2_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,g274206.wav,s4l2_ocs.cog;s4l2_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,glassbreak1.wav,00_breakingglass.cog;mdm10_gantry.jkl;mdm10_window.cog;mdm17_bespin.jkl;msb2_gantry.jkl;point_sound.cog;s2l1_palace.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,gonkdie1.wav,gonk.snd;s1l3_astcore.jkl;s2l2a_katraasii.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,gonkdie2.wav,gonk.snd;ky3po.snd;lb.snd;s1l3_astcore.jkl;s2l2a_katraasii.jkl;s2l4_stronghold.jkl;s4l1_escortship.jkl;s4l2_shipyards.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,gonktalk1.wav,actor_go.cog;actor_go1.cog;gonk.snd;s1l3_astcore.jkl;s2l2a_katraasii.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,gonktalk2.wav,actor_go.cog;actor_go1.cog;gonk.snd;s1l3_astcore.jkl;s2l2a_katraasii.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,gr50018.wav,gr.snd;gr_s1.snd;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,gr50020.wav,gr.snd;gr_s1.snd;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,gr50021.wav,gr.snd;gr_s1.snd;kygreedo.snd;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,gr50022.wav,gr.snd;gr_s1.snd;kygreedo.snd;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,gr50023.wav,gr.snd;gr_s1.snd;kygreedo.snd;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,gr50024.wav,gr.snd;gr_s1.snd;kygreedo.snd;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,gr50026.wav,gr.snd;gr_s1.snd;kygreedo.snd;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,gr50027.wav,gr.snd;gr_s1.snd;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,gr50030.wav,gr.snd;gr_s1.snd;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,gr50031.wav,gr.snd;gr_s1.snd;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,gr50032.wav,gr.snd;gr_s1.snd;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,gr50033.wav,gr.snd;gr_s1.snd;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,gr50034.wav,gr.snd;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,gr50035.wav,gr.snd;gr_s1.snd;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,gurgle2.wav,s2l4_rancordoor.cog;s2l4_stronghold.jkl;s5l3_uppersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,hangaramb1.wav,s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,helthpu1.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl;mdm04_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,hieropulse.wav,s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,hiss.wav,s4l1_coolrod.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,hsblaster.wav,weap_blastech_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,hyperin.wav,s4l1_ocs.cog;s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,hyperout.wav,s2l2_abronaway.cog;s2l2_falconaway.cog;s2l2b_katraasii.jkl;s4l1_ecs.cog;s4l1_ecs.jkl;s4l1_endcutscene.cog;s4l2_ecs.cog;s4l2_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00gr01t.wav,s2l1_ecs.jkl;s4l3_ecs.jkl;s4l3_ocs.jkl;ws.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00gr02z.wav,s2l1_ecs.jkl;s4l3_ecs.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00gr03z.wav,s2l1_ecs.jkl;s4l3_ecs.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00gr04z.wav,s2l1_ecs.jkl;s4l3_ecs.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00gr05z.wav,s2l1_ecs.jkl;s4l3_ecs.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00gr06z.wav,s2l1_ecs.jkl;s4l3_ecs.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00gr07z.wav,s2l1_ecs.jkl;s4l3_ecs.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00gr08z.wav,s2l1_ecs.jkl;s4l3_ecs.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00gr09z.wav,s2l1_ecs.jkl;s4l3_ecs.jkl;s4l3_ocs.jkl;ws.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00gr10z.wav,du.snd;s2l1_ecs.jkl;s4l3_ecs.jkl;s4l3_ocs.jkl;ws.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00gr11z.wav,s2l1_ecs.jkl;s4l3_ecs.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00gr12z.wav,s2l1_ecs.jkl;s4l3_ecs.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00ic01z.wav,s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00ic02z.wav,s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00ic03z.wav,s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00ic04z.wav,s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00ic10z.wav,s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00ic12z.wav,s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00ic13z.wav,s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00ic15z.wav,s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00ic16z.wav,s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00ic17z.wav,s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00ic18z.wav,s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00ic19z.wav,s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00ic20z.wav,s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00ic21z.wav,s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00ky106.wav,s1l1_ecs.jkl;s1l2_ocs.jkl;s1l3_ecs.jkl;s1l3_ocs.jkl;s2l4_rancorcs.jkl;s4l1_ocs.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00ky71t.wav,s1l1_ecs.jkl;s1l2_ecs.jkl;s1l2_ocs.jkl;s1l3_ecs.jkl;s1l3_ocs.jkl;s2l1_ecs.jkl;s2l1_ocs.jkl;s2l4_rancorcs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00ky86z.wav,s1l1_ecs.jkl;s1l2_ocs.jkl;s1l3_ecs.jkl;s1l3_ocs.jkl;s2l4_rancorcs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s101z.wav,s1l1_ecs.jkl;s1l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s102z.wav,s1l1_ecs.jkl;s1l2_endcutscene.cog;s1l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s103z.wav,s1l1_ecs.jkl;s1l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s107z.wav,s1l1_ecs.jkl;s1l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s110z.wav,s1l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s111z.wav,s1l1_ecs.jkl;s1l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s112z.wav,s1l1_ecs.jkl;s1l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s113z.wav,s1l1_ecs.jkl;s1l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s114z.wav,s1l1_ecs.jkl;s1l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s116z.wav,s1l1_ecs.jkl;s1l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s117z.wav,s1l1_ecs.jkl;s1l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s118z.wav,s1l1_ecs.jkl;s1l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s119z.wav,s1l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s120z.wav,s1l1_ecs.jkl;s1l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s121z.wav,s1l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s122z.wav,s1l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s123z.wav,s1l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s124z.wav,s1l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s125z.wav,s1l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s127z.wav,s1l1_ecs.jkl;s1l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s128z.wav,s1l1_ecs.jkl;s1l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s129z.wav,s1l1_ecs.jkl;s1l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s130z.wav,s1l1_ecs.jkl;s1l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s131z.wav,s1l1_ecs.jkl;s1l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s132z.wav,s1l1_ecs.jkl;s1l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s202z.wav,s1l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s204z.wav,s1l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00s205z.wav,s1l1_ecs.jkl;s1l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00sa01z.wav,s1l3_ecs.jkl;s2l4_rancorcs.jkl;s4l1_ocs.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00sa02z.wav,s1l3_ecs.jkl;s2l4_rancorcs.jkl;s4l1_ocs.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00sa03z.wav,s1l3_ecs.jkl;s2l4_rancorcs.jkl;s4l1_ocs.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00sa04z.wav,s1l3_ecs.jkl;s2l4_rancorcs.jkl;s4l1_ocs.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00sa11z.wav,s1l3_ecs.jkl;s2l4_rancorcs.jkl;s4l1_ocs.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00sa12z.wav,s1l3_ecs.jkl;s2l4_rancorcs.jkl;s4l1_ocs.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,i00sa14z.wav,s1l3_ecs.jkl;s2l4_rancorcs.jkl;s4l1_ocs.jkl;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ic50101.wav,ic_s1.snd;icrpt_s1.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ic50102.wav,ic.snd;ic_s1.snd;icrpt.snd;icrpt_s1.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ic50103.wav,ic.snd;ic_s1.snd;icrpt.snd;icrpt_s1.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ic50104.wav,ic_s1.snd;icrpt_s1.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ic50110.wav,ic_s1.snd;icrpt_s1.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ic50111.wav,ic.snd;ic_s1.snd;icrpt.snd;icrpt_s1.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ic50112.wav,ic.snd;ic_s1.snd;icrpt.snd;icrpt_s1.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ic50114.wav,ic.snd;ic_s1.snd;icrpt.snd;icrpt_s1.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ic50115.wav,ic.snd;ic_s1.snd;icrpt.snd;icrpt_s1.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ic50116.wav,ic.snd;ic_s1.snd;icrpt.snd;icrpt_s1.snd;io.snd;io2.snd;io2_s1.snd;io_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,ic50117.wav,ic.snd;ic_s1.snd;icrpt.snd;icrpt_s1.snd;io.snd;io2.snd;io2_s1.snd;io_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,ic50118.wav,ic.snd;ic_s1.snd;icrpt.snd;icrpt_s1.snd;io2.snd;io2_s1.snd;kyipcom.snd;s1l2_astcrust.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ic50119.wav,ic.snd;ic_s1.snd;icrpt.snd;icrpt_s1.snd;io2.snd;io2_s1.snd;kyipcom.snd;s1l2_astcrust.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ic50120.wav,ic.snd;ic_s1.snd;icrpt.snd;icrpt_s1.snd;io.snd;io2.snd;io2_s1.snd;io_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,ic50121.wav,io.snd;io2.snd;io2_s1.snd;io_s1.snd;kyipcom.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,icwrenc16.bm,items.dat,
+mots,icwrenc8.bm,items.dat,
+mots,in71105.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,io50122.wav,io2_s1.snd;io_s1.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,io50123.wav,io.snd;io2_s1.snd;s1l2_astcrust.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,io50124.wav,io.snd;io2.snd;io2_s1.snd;io_s1.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,io50125.wav,io2.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,io50128.wav,io.snd;io2.snd;io2_s1.snd;io_s1.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,io60137.wav,ic.snd;icrpt.snd;io.snd;io2.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,io60138.wav,ic.snd;icrpt.snd;io2.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,io60142.wav,ic.snd;icrpt.snd;io2.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,item_supershields.cog,items.dat,
+mots,ithdie1.wav,itstr.snd;s2l1_palace.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ithhurt1.wav,itstr.snd;s2l1_palace.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ithhurt2.wav,itstr.snd;s2l1_palace.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ithwake1.wav,itstr.snd;s2l1_palace.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ithwake2.wav,itstr.snd;s2l1_palace.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ja-mchn.mat,oldja.3do,
+mots,jabbabaroquelp.wav,s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,jesaber1.mat,dvboss.3do,
+mots,jumpbasic01.wav,io.snd;io2.snd;io2_s1.snd;io_s1.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,jumpdirt01.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,jumpmetaldry01.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,k4facebk.mat,oldk4.3do,
+mots,k4facefb.mat,oldk4.3do,
+mots,k4facesd.mat,oldk4.3do,
+mots,k4facetp.mat,oldk4.3do,
+mots,kb74107.wav,s2l4_csopen.cog;s4l1_ocs.cog;s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kb74108.wav,s2l4_csopen.cog;s4l1_ocs.cog;s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kb74109.wav,s2l4_csopen.cog;s4l1_ocs.cog;s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kbodyhit01.wav,exp_fleshy.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kellbite01.wav,kd.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kelldie01.wav,kd.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kellgethit01.wav,kd.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kellgethit02.wav,kd.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kellgrowl01.wav,kd.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kellgrowl03.wav,kd.snd;s5l3_secretelev.cog;s5l3_uppersith.jkl;s5l4_lowersith.jkl;vr.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kitchen1.wav,s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60002.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;kybobafett.snd;kyjerec.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60003.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;kybobafett.snd;kyjerec.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60004.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;kybobafett.snd;kyjerec.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60005.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;kybobafett.snd;kyjerec.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60006.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60007.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;mdm02_freezer.jkl;mdm03_canopy.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60009.wav,s1l1_getwrench.cog;s1l2_astcrust.jkl;s2l2_getwrench.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60015.wav,s1l2_astcrust.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60018.wav,s1l1_getwrench.cog;s2l2_getwrench.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60019.wav,s1l1_wrench.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60026.wav,s1l1_bluedoor.cog;s1l1_rebelbase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60027.wav,00_doorkey.cog;s1l2_astcrust.jkl;s1l3_astcore.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60031.wav,s1l2_astcrust.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60065.wav,s1l2_astcrust.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60067.wav,s1l2_astcrust.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60069.wav,s1l2_astcrust.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60079.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60080.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;kyipcom.snd;kyst.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60081.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;kybobafett.snd;kybossk.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60082.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;kygreedo.snd;kyipcom.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60097.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;kybobafett.snd;kyjerec.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk60098.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;kybobafett.snd;kyjerec.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk61301.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk61302.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk61303.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk61306.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk61312.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk61313.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk61314.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk61315.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk61316.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk61401.wav,s1l4_astdestruct.jkl;s1l4_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk61402.wav,s1l4_astdestruct.jkl;s1l4_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk61403.wav,s1l4_astdestruct.jkl;s1l4_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk61416.wav,s1l4_astdestruct.jkl;s1l4_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk65401.wav,s5l4_coffin.cog;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk65403.wav,s5l4_elev_disc2.cog;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk65405.wav,s5l4_lowersith.jkl;s5l4_voice.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk65406.wav,61darkjedi_kyle.cog;darkjedi_kyle.cog;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk71101.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk71102.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk71103.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk71106.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk71110.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk71118.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk71120.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk71121.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk71124.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk71127.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk71201.wav,s1l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk71202.wav,s1l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk71301.wav,s1l3_ocs.jkl;s1l3_opencutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk75402.wav,s5l4_lowersith.jkl;s5l4_voice.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk75403.wav,s5l4_lowersith.jkl;s5l4_voice.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk85301.wav,s5l3_ecs.jkl;s5l3_end.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk85303.wav,s5l3_ecs.jkl;s5l3_end.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk85304.wav,s5l3_ecs.jkl;s5l3_end.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk85306.wav,s5l3_ecs.jkl;s5l3_end.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk85307.wav,s5l3_ecs.jkl;s5l3_end.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk85309.wav,s5l3_ecs.jkl;s5l3_end.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk85310.wav,s5l3_ecs.jkl;s5l3_end.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk85311.wav,s5l3_ecs.jkl;s5l3_end.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk91101.wav,s1l1_endcustscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk91102.wav,s1l1_endcustscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk91301.wav,__s1l3_cutscene.cog;s1l3_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk91401.wav,s1l4_ecs.jkl;s1l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk91404.wav,s1l4_ecs.jkl;s1l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk91405.wav,s1l4_ecs.jkl;s1l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk91407.wav,s1l4_ecs.jkl;s1l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk91409.wav,s1l4_ecs.jkl;s1l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk91411.wav,s1l4_ecs.jkl;s1l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk91413.wav,s1l4_ecs.jkl;s1l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk91414.wav,s1l4_ecs.jkl;s1l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk95001.wav,__s5_finale.cog;s5_finale.cog;s5_finale.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk95002.wav,__s5_finale.cog;s5_finale.cog;s5_finale.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk95003.wav,__s5_finale.cog;s5_finale.cog;s5_finale.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk95005.wav,__s5_finale.cog;s5_finale.cog;s5_finale.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk95007.wav,__s5_finale.cog;s5_finale.cog;s5_finale.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk95401.wav,s5l4_lowersith.jkl;s5l4_voice.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk95402.wav,s5l4_lowersith.jkl;s5l4_voice.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk95403.wav,s5l4_lowersith.jkl;s5l4_voice.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk95405.wav,s5l4_lowersith.jkl;s5l4_voice.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk95406.wav,s5l4_lowersith.jkl;s5l4_voice.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kk95407.wav,s5l4_lowersith.jkl;s5l4_voice.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kshieldhit01.wav,item_shields.cog;item_shields_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,kwalk01.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kwalk02.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kwaterdeath1.wav,s1l1_ecs.jkl;s1l2_ecs.jkl;s1l2_ocs.jkl;s1l3_ecs.jkl;s1l3_ocs.jkl;s2l4_rancorcs.jkl;s5l3_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kyle.cog,force_grip.cog;weap_saber_m.cog,
+mots,kylerun01.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kylerun02.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,kylgnb.wav,s1l1_ecs.jkl;s1l2_ecs.jkl;s1l2_ocs.jkl;s1l3_ecs.jkl;s1l3_ocs.jkl;s2l4_rancorcs.jkl;s5l3_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kylgtla.wav,s1l1_ecs.jkl;s1l2_ecs.jkl;s1l2_ocs.jkl;s1l3_ecs.jkl;s1l3_ocs.jkl;s2l4_rancorcs.jkl;s5l3_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kylgtlb.wav,s1l1_ecs.jkl;s1l2_ecs.jkl;s1l2_ocs.jkl;s1l3_ecs.jkl;s1l3_ocs.jkl;s2l4_rancorcs.jkl;s5l3_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kylgtlc.wav,s1l1_ecs.jkl;s1l2_ecs.jkl;s1l2_ocs.jkl;s1l3_ecs.jkl;s1l3_ocs.jkl;s2l4_rancorcs.jkl;s5l3_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kylgtsa.wav,s1l1_ecs.jkl;s1l2_ecs.jkl;s1l2_ocs.jkl;s1l3_ecs.jkl;s1l3_ocs.jkl;s2l4_rancorcs.jkl;s5l3_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kylgtsb.wav,s1l1_ecs.jkl;s1l2_ecs.jkl;s1l2_ocs.jkl;s1l3_ecs.jkl;s1l3_ocs.jkl;s2l4_rancorcs.jkl;s5l3_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kylgtsc.wav,s1l1_ecs.jkl;s1l2_ecs.jkl;s1l2_ocs.jkl;s1l3_ecs.jkl;s1l3_ocs.jkl;s2l4_rancorcs.jkl;s5l3_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kyljpa.wav,s1l1_ecs.jkl;s1l2_ecs.jkl;s1l2_ocs.jkl;s1l3_ecs.jkl;s1l3_ocs.jkl;s2l4_rancorcs.jkl;s5l3_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kyljpd.wav,s1l1_ecs.jkl;s1l2_ecs.jkl;s1l2_ocs.jkl;s1l3_ecs.jkl;s1l3_ocs.jkl;s2l4_rancorcs.jkl;s5l3_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,kylyld.wav,s1l1_ecs.jkl;s1l2_ecs.jkl;s1l2_endcutscene.cog;s1l2_ocs.jkl;s1l3_ecs.jkl;s1l3_ocs.jkl;s2l4_rancorcs.jkl;s5l3_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,landbasic01.wav,ad.snd;du.snd;gm.snd;gr.snd;gr_s1.snd;ic.snd;ic_s1.snd;icrpt.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,landdirt01.wav,ad.snd;du.snd;gm.snd;gr.snd;gr_s1.snd;ic.snd;ic_s1.snd;icrpt.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,landhard01.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,landmetaldry01.wav,ad.snd;du.snd;gm.snd;gr.snd;gr_s1.snd;ic.snd;ic_s1.snd;icrpt.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,lasercannontail.wav,s1l3_astcore.jkl;s1l3_criticalpath.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,lgclick1.wav,00_doorswitch.cog;k2.jkl;k2_thrustclient.cog;mdm00_dettrap.cog;mdm00_dttrapclient.cog;mdm00_dttrapclient2.cog;mdm04_dttrapclient2.cog;mdm04_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,lightning1.wav,k4_randomambient.cog;s5_ocs.jkl;s5l2_csstorm.cog;s5l2_darkswamp.jkl;s5l2_storm.cog;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,lightning2.wav,k4_randomambient.cog;s5_ocs.jkl;s5l2_csstorm.cog;s5l2_darkswamp.jkl;s5l2_storm.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,lotekswitch.wav,s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberbodyhit01.wav,exp_saber_blood.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberhit01.wav,exp_saber_saber.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberhit012.wav,mdm05_coreclientff.cog;mdm05_forcefields.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberhit02.wav,exp_saber_saber.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberhit03.wav,weap_saber_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberhit05.wav,exp_saber_wall.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberhit06.wav,exp_saber_wall.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberhit07.wav,exp_saber_wall.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberhit12.wav,00_slashgrate.cog;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberhit14.wav,weap_saber_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberhit15.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberlp01.wav,actor_ss0.cog;actor_ss0c.cog;actor_ss1.cog;actor_ss1c.cog;s5l3_uppersith.jkl;s5l4_lowersith.jkl;weap_saber_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberoff01.wav,s5_finale.cog;s5_finale.jkl;weap_saber_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberon01.wav,actor_ss0.cog;actor_ss0c.cog;actor_ss1.cog;actor_ss1c.cog;s5l3_uppersith.jkl;s5l4_lowersith.jkl;weap_saber_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberswing01.wav,weap_saber_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberswing02.wav,weap_saber_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberswing03.wav,weap_saber_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberswing04.wav,s0.snd;s5l3_uppersith.jkl;s5l4_lowersith.jkl;weap_saber_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberswing05.wav,weap_saber_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberswing06.wav,weap_saber_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberswing07.wav,weap_saber_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberswing08.wav,weap_saber_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ltsaberswingdbl01.wav,weap_saber_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,lvrclik1.wav,00_elev_switch2.cog;mdm07_vaporator.jkl;mdm12_crow.cog;mdm12_spaceport.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s2l2_skiff1.cog;s2l2_skiff2.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,lvrclik2.wav,00_doorkey.cog;00_doorlocked1side.cog;s1l1_bluedoor.cog;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l2_doorlocked1side.cog;s1l2_doorswitch.cog;s1l2_exploswitch.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,m12ball.mat,m12ball.3do,
+mots,marketplace.wav,s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mdroidshutoff01.wav,00_twoonebee.cog;mdm04_palace.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,meddroidheal01.wav,00_twoonebee.cog;mdm04_palace.jkl;s2l4_heal.cog;s2l4_stronghold.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj60104.wav,s4l1_escortship.jkl;s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj60109.wav,s2l1_palace.jkl;s4l2_dialog3.cog;s4l2_shipyards.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj60110.wav,s2l2b_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj60117.wav,s2l2a_katraasii.jkl;s4l1_escortship.jkl;s4l1_hangplat.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61000.wav,kyfemale.snd;mj.snd;s1l1_ocs.jkl;s1l4_ecs.jkl;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2_ocs.jkl;s2l2a_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61002.wav,kyfemale.snd;mj.snd;s1l1_ocs.jkl;s1l4_ecs.jkl;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2_ocs.jkl;s2l2a_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61005.wav,kyfemale.snd;mj.snd;s1l1_ocs.jkl;s1l4_ecs.jkl;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2_ocs.jkl;s2l2a_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61006.wav,kyfemale.snd;mj.snd;s1l1_ocs.jkl;s1l4_ecs.jkl;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2_ocs.jkl;s2l2a_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61007.wav,kyfemale.snd;mj.snd;s1l1_ocs.jkl;s1l4_ecs.jkl;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2_ocs.jkl;s2l2a_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61008.wav,s2l2b_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61015.wav,s4l2_doorswitch.cog;s4l2_shipyards.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61018.wav,s2l4_prybarpickup.cog;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61019.wav,s2l2_hangardoor.cog;s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61020.wav,s2l1_doorkeygoal.cog;s2l1_palace.jkl;s4l2_hatchwrnc4.cog;s4l2_hatchwrnch.cog;s4l2_shipyards.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61021.wav,s4l1_escortship.jkl;s4l1_evackey.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61022.wav,s4l2_doortrigger.cog;s4l2_shipyards.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61026.wav,00_doorlocked1side.cog;s2l1_doorkeyns.cog;s2l1_palace.jkl;s2l2_doorkey.cog;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl;s4l2_hatchwrnc1.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61027.wav,s2l1_doorkey.cog;s2l1_palace.jkl;s4l1_cargoelev.cog;s4l1_escortship.jkl;s4l1_evaccode.cog;s4l1_hangelev.cog;s4l1_r2.cog;s4l2_cameradoor.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61031.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;kyle_m.cog;luke_m.cog;mara_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61035.wav,s4l1_escortship.jkl;s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61039.wav,pow_wrenchblue.cog;s2l2a_katraasii.jkl;s4l2_shipyards.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61040.wav,pow_wrenchyellow.cog;s4l2_shipyards.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61043.wav,s4l2_dialog1.cog;s4l2_shipyards.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61047.wav,s4l1_escortship.jkl;s4l1_r2.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61052.wav,s2l2_abron3.cog;s2l2a_katraasii.jkl;s4l2_dialog2.cog;s4l2_shipyards.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61054.wav,s2l2_doorkey.cog;s2l2b_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61058.wav,s6l1.jkl;s6l1_carbsector.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61066.wav,s5l3_uppersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61068.wav,s4l1_escortship.jkl;s4l1_r2.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61069.wav,s4l1_escortship.jkl;s4l1_r2.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61070.wav,s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61072.wav,s4l1_escortship.jkl;s4l1_r2.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61073.wav,s4l1_escortship.jkl;s4l1_r2.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61077.wav,s4l1_escortship.jkl;s4l1_hangelev.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61081.wav,kyfemale.snd;mj.snd;s1l1_ocs.jkl;s1l4_ecs.jkl;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2_ocs.jkl;s2l2a_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61084.wav,kyfemale.snd;mj.snd;s1l1_ocs.jkl;s1l4_ecs.jkl;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2_ocs.jkl;s2l2a_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61086.wav,kyfemale.snd;mj.snd;s1l1_ocs.jkl;s1l4_ecs.jkl;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2_ocs.jkl;s2l2a_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61088.wav,s1l1_ocs.jkl;s1l4_ecs.jkl;s2l2_ecs.jkl;s2l2_ocs.jkl;s2l2a_ecs.jkl;s2l4_ecs.jkl;s4l1_ecs.jkl;s4l2_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61091.wav,kyfemale.snd;mj.snd;s1l1_ocs.jkl;s1l4_ecs.jkl;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2_ocs.jkl;s2l2a_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61107.wav,s1l1_getout.cog;s1l1_rebelbase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61108.wav,s1l1_getout.cog;s1l1_rebelbase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61127.wav,s1l1_getout.cog;s1l1_rebelbase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61128.wav,s1l1_getout.cog;s1l1_rebelbase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61129.wav,s1l1_getout.cog;s1l1_rebelbase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj61130.wav,s1l1_getout.cog;s1l1_rebelbase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62101.wav,s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62102.wav,item_tusken_clothes.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62103.wav,s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62104.wav,pow_tusken_clothes.cog;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62105.wav,pow_heavy_explosive.cog;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62106.wav,s2l1_droideye.cog;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62107.wav,s2l1_endlevel.cog;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62109.wav,s2l1_endlevel.cog;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62201.wav,s2l2b_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62202.wav,s2l2b_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62203.wav,s2l2b_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62204.wav,s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62205.wav,s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62206.wav,s2l2b_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62207.wav,s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62208.wav,s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62209.wav,s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62212.wav,s2l2_yaaa.cog;s2l2b_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62213.wav,s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62214.wav,s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62401.wav,s2l4_csopen.cog;s2l4_csrancor2.cog;s2l4_rancorcs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62402.wav,s2l4_device.cog;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62403.wav,s2l4_device.cog;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62405.wav,s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62406.wav,s2l4_prybarpickup.cog;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62407.wav,s2l4_sewerdoor.cog;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj62408.wav,s2l4_bigdoor.cog;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj64120.wav,s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj64123.wav,s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj64124.wav,s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj64126.wav,s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj64141.wav,s4l1_r2.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj64142.wav,s4l1_cargoopen.cog;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj64143.wav,s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj64147.wav,s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj64152.wav,s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj64153.wav,s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj64301.wav,s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj64302.wav,s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj64304.wav,s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj64308.wav,s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj64328.wav,s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj65202.wav,s5l2_darkswamp.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj65203.wav,s5l2_darkswamp.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj71104.wav,s1l1_cutscene.cog;s1l1_ocs.jkl;s4l1_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj71111.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj71119.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj71203.wav,s1l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj72104.wav,s2l1_ocs.cog;s2l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj72107.wav,s2l1_ocs.cog;s2l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj72109.wav,s2l1_ocs.cog;s2l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj72112.wav,s2l1_ocs.cog;s2l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj72114.wav,s2l1_ocs.cog;s2l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj72201.wav,s2l2_csopen.cog;s2l2_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj72202.wav,s2l2_csopen.cog;s2l2_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj72203.wav,s2l2_csopen.cog;s2l2_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj74101.wav,s2l4_csopen.cog;s4l1_ocs.cog;s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj74105.wav,s2l4_csopen.cog;s4l1_ocs.cog;s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj74110.wav,s2l2b_katraasii.jkl;s2l4_csopen.cog;s4l1_ocs.cog;s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj74208.wav,s4l2_ocs.cog;s4l2_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj74301.wav,s4l3_ocs.cog;s4l3_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj74302.wav,s4l3_ocs.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj75002.wav,s5_ocs.jkl;s5_opencut.cog;s5l2_opencutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj75003.wav,s5_ocs.jkl;s5_opencut.cog;s5l2_opencutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj75005.wav,s5_ocs.jkl;s5_opencut.cog;s5l2_opencutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj75007.wav,s5_ocs.jkl;s5_opencut.cog;s5l2_opencutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj75203.wav,s5_ocs.jkl;s5l2_opencutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj75204.wav,s5_ocs.jkl;s5l2_opencutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj75205.wav,s5_ocs.jkl;s5l2_opencutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj75301.wav,s5l2_darkswamp.jkl;s5l2_endlevel.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj75401.wav,s5l4_lowersith.jkl;s5l4_voice.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj75404.wav,s5l4_lowersith.jkl;s5l4_voice.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj82401.wav,s2l4_csrancor2.cog;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj85302.wav,s5l3_ecs.jkl;s5l3_end.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj85305.wav,s5l3_ecs.jkl;s5l3_end.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj85308.wav,s5l3_ecs.jkl;s5l3_end.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj85312.wav,s5l3_ecs.jkl;s5l3_end.cog;s5l3_uppersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj85313.wav,s5l3_ecs.jkl;s5l3_end.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj91103.wav,s1l1_endcustscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj91402.wav,s1l4_ecs.jkl;s1l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj91403.wav,s1l4_ecs.jkl;s1l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj91406.wav,s1l4_ecs.jkl;s1l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj91408.wav,s1l4_ecs.jkl;s1l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj91410.wav,s1l4_ecs.jkl;s1l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj91412.wav,s1l4_ecs.jkl;s1l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj91415.wav,s1l4_ecs.jkl;s1l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj92101.wav,s2l1_ecs.jkl;s2l1_endcut.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj92103.wav,s2l1_ecs.jkl;s2l1_endcut.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj92106.wav,s2l1_ecs.jkl;s2l1_endcut.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj92108.wav,s2l1_ecs.jkl;s2l1_endcut.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj92110.wav,s2l1_ecs.jkl;s2l1_endcut.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj92115.wav,s2l1_ecs.jkl;s2l1_endcut.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj92119.wav,s2l1_ecs.jkl;s2l1_endcut.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj92204.wav,s2l2_ecs.jkl;s2l2b_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj92205.wav,s2l2_ecs.jkl;s2l2b_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj92401.wav,s2l4_ecs.jkl;s2l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj92402.wav,s2l4_ecs.jkl;s2l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj92404.wav,s2l4_ecs.jkl;s2l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj92405.wav,s2l4_ecs.jkl;s2l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj92408.wav,s2l4_ecs.jkl;s2l4_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj94128.wav,s4l1_ecs.cog;s4l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj94129.wav,s2l2a_ecs.cog;s2l2a_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj94201.wav,s4l2_ecs.cog;s4l2_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj94301.wav,s4l3_ecs.cog;s4l3_ecs.jkl;s4l3_ecsadd.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj95004.wav,__s5_finale.cog;s5_finale.cog;s5_finale.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj95006.wav,__s5_finale.cog;s5_finale.cog;s5_finale.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj95008.wav,__s5_finale.cog;s5_finale.cog;s5_finale.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mj95404.wav,s5l4_lowersith.jkl;s5l4_voice.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mm75001.wav,s5_ocs.jkl;s5_opencut.cog;s5l2_opencutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mm75004.wav,s5_ocs.jkl;s5_opencut.cog;s5l2_opencutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mm75006.wav,s5_ocs.jkl;s5_opencut.cog;s5l2_opencutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,mn62211.wav,s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mousebot1.wav,mousebot.snd;s1l2_astcrust.jkl;s2l4_bigdoor.cog;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mousebot2.wav,mousebot.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,mousebot3.wav,mousebot.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,mpip5.mat,mpip5.3do,
+mots,mpip6.mat,mpip6.3do,
+mots,mpip9.mat,mpip9.3do,
+mots,mynocattack1.wav,mynoc.snd;s5l2_darkswamp.jkl;s5l3_uppersith.jkl;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mynocattack2.wav,mynoc.snd;s5l2_darkswamp.jkl;s5l3_uppersith.jkl;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mynocchirp1.wav,mynoc.snd;s5l2_darkswamp.jkl;s5l3_uppersith.jkl;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mynocdie1.wav,mynoc.snd;s5l2_darkswamp.jkl;s5l3_uppersith.jkl;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mynocdie2.wav,mynoc.snd;s5l2_darkswamp.jkl;s5l3_uppersith.jkl;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mynocfly1.wav,mynoc.snd;s5l2_darkswamp.jkl;s5l3_uppersith.jkl;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mynocgethit1.wav,mynoc.snd;s5l2_darkswamp.jkl;s5l3_uppersith.jkl;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,mynocgethit2.wav,mynoc.snd;s5l2_darkswamp.jkl;s5l3_uppersith.jkl;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,nogalurk.wav,ng.snd;s4l3_kaerobanibase.jkl;s5l2_darkswamp.jkl;s5l3_uppersith.jkl;ws.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,nogdie1.wav,ng.snd;s4l3_kaerobanibase.jkl;s5l2_darkswamp.jkl;s5l3_uppersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,nogdie2.wav,ng.snd;s4l3_kaerobanibase.jkl;s5l2_darkswamp.jkl;s5l3_uppersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,noghurt1.wav,ng.snd;s4l3_kaerobanibase.jkl;s5l2_darkswamp.jkl;s5l3_uppersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,noghurt2.wav,ng.snd;s4l3_kaerobanibase.jkl;s5l2_darkswamp.jkl;s5l3_uppersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,nogslash1.wav,ng.snd;s4l3_kaerobanibase.jkl;s5l2_darkswamp.jkl;s5l3_uppersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,nogslash2.wav,ng.snd;s4l3_kaerobanibase.jkl;s5l2_darkswamp.jkl;s5l3_uppersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,nrgpu1.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl;mdm04_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,o261105.wav,s1l1_rebelbase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,o261106.wav,s1l1_rebelbase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,palacealarm.wav,s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,pistol-1.wav,gr.snd;gr_s1.snd;pr.snd;s1l1_ecs.jkl;s1l1_endcustscene.cog;s2l1_ecs.jkl;s2l1_palace.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,pistout1.wav,exp_flash.cog;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ploop01.wav,cpel.snd;det.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,pow_dblastech_m.cog,s1l1_ocs.jkl;s4l1_ecs.jkl;s5_finale.jkl,
+mots,powerpu1.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl;mdm04_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,pr64130.wav,pr.snd;prrld.snd;prstr.snd;s4l1_escortship.jkl;s4l2_ocs.jkl;s4l2_shipyards.jkl;s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,pr64131.wav,pr.snd;prrld.snd;prstr.snd;s4l1_escortship.jkl;s4l2_ocs.jkl;s4l2_shipyards.jkl;s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,pr64132.wav,pr.snd;prrld.snd;prstr.snd;s4l1_escortship.jkl;s4l2_ocs.jkl;s4l2_shipyards.jkl;s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,pr64135.wav,pr.snd;prrld.snd;prstr.snd;s4l1_escortship.jkl;s4l2_ocs.jkl;s4l2_shipyards.jkl;s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,pr64136.wav,pr.snd;prrld.snd;prstr.snd;s4l1_escortship.jkl;s4l2_ocs.jkl;s4l2_shipyards.jkl;s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,prdpblde.mat,prdg.3do;prdp.3do,
+mots,prdpprod.mat,prdg.3do;prdp.3do;prdv.3do;prgv.3do,
+mots,prdvblad.mat,prdv.3do;prgv.3do,
+mots,prdvside.mat,prdv.3do;prgv.3do,
+mots,prdvsm.mat,prdv.3do;prgv.3do,
+mots,probedroidgun01.wav,pb.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,probedroidloop01.wav,pb.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,probeexplode01.wav,atst.snd;exp_probe.snd;k3.jkl;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l2_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,probegethit01.wav,atst.snd;pb.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l1_ocs.jkl;s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,probegethit02.wav,atst.snd;lb.snd;pb.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,probetalk01.wav,ad.snd;ky3po.snd;pb.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,probetalk03.wav,ad.snd;pb.snd;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ptcldroiddie01.wav,c3po.snd;ky3po.snd;s2l1_ecs.jkl;s2l2a_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ptcldroidgethit01.wav,c3po.snd;ky3po.snd;s2l1_ecs.jkl;s2l2a_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ptcldroidtalk01.wav,actor_c3po.cog;c3po.snd;s2l1_ecs.jkl;s2l2a_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ptcldroidwalk01.wav,c3po.snd;gonk.snd;r2.snd;s1l1_rebelbase.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l1_ecs.jkl;s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ptcldroidwalk02.wav,c3po.snd;gonk.snd;r2.snd;s1l1_rebelbase.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l1_ecs.jkl;s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,pumpdie.wav,s2l1_palace.jkl;s2l1_watershak.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,pumprun.wav,mdm07_vaporator.jkl;s2l1_palace.jkl;s2l1_watershak.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,punch02.wav,exp_axe.snd;gm.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,punch03.wav,exp_punch.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,putweaponaway01.wav,pow_smbkpk_1m.cog;pow_smbkpk_2m.cog;pow_smbkpk_3m.cog;pow_smbkpk_4m.cog;pow_smbkpk_5m.cog;pow_smbkpk_6m.cog;pow_smbkpk_7m.cog;pow_smbkpk_8m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,quench.wav,s4l1_coolrod.cog;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,r2fall01.wav,r2.snd;s1l1_rebelbase.jkl;s1l4_astdestruct.jkl;s2l2b_katraasii.jkl;s4l1_escortship.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,r2gethit01.wav,r2.snd;s1l1_rebelbase.jkl;s1l4_astdestruct.jkl;s2l2b_katraasii.jkl;s4l1_escortship.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,r2gethit02.wav,r2.snd;s1l1_rebelbase.jkl;s1l4_astdestruct.jkl;s2l2b_katraasii.jkl;s4l1_escortship.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,r2gethit03.wav,r2.snd;s1l1_rebelbase.jkl;s1l4_astdestruct.jkl;s2l2b_katraasii.jkl;s4l1_escortship.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,r2talk01.wav,actor_r2.cog;r2.snd;s1l1_rebelbase.jkl;s1l4_astdestruct.jkl;s2l2b_katraasii.jkl;s4l1_escortship.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,r2talk02.wav,actor_r5.cog;r2.snd;s1l1_rebelbase.jkl;s1l4_astdestruct.jkl;s2l2b_katraasii.jkl;s4l1_escortship.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,r2talk05.wav,actor_r2.cog;r2.snd;s1l1_poweron.cog;s1l1_rebelbase.jkl;s1l4_astdestruct.jkl;s2l1_audience.cog;s2l1_disguise.cog;s2l1_mess_explos.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,railchargearm01.wav,weap_raildet_m.cog;weap_railseek_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,railchargeattach.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl;mdm04_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,railchargeempty01.wav,weap_raildet_m.cog;weap_railseek_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,railchargefire01.wav,bsrld.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,railchargefly01.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl;mdm04_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,railclr.mat,r2x1.3do,
+mots,rancattack1.wav,ra.snd;s2l4_rancorcs.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rancattack2.wav,ra.snd;s2l4_rancorcs.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rancchew3.wav,ra.snd;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rancdie.wav,ra.snd;s2l4_rancorcs.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ranceatmara.wav,s2l4_endlevel.cog;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rancexhale.wav,ra.snd;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ranchurt1.wav,ra.snd;s2l4_rancorcs.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ranchurt2.wav,ra.snd;s2l4_rancorcs.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rancinhale.wav,ra.snd;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rancroar.wav,ra.snd;s2l4_csopen.cog;s2l4_csrancor2.cog;s2l4_endlevel.cog;s2l4_rancorcs.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rancwake.wav,ra.snd;s2l4_csopen.cog;s2l4_csrancor2.cog;s2l4_rancorcs.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rancwalk1.wav,ra.snd;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rancwalk2.wav,ra.snd;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rc61121.wav,rc.snd;s1l1_rebelbase.jkl;s1l4_ecs.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rc61122.wav,rc.snd;s1l1_rebelbase.jkl;s1l4_ecs.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rc61123.wav,rc.snd;s1l1_rebelbase.jkl;s1l4_ecs.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rc61124.wav,rc.snd;s1l1_rebelbase.jkl;s1l4_ecs.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rc61125.wav,rc.snd;s1l1_rebelbase.jkl;s1l4_ecs.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rc61126.wav,rc.snd;s1l1_rebelbase.jkl;s1l4_ecs.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rc61138.wav,rc.snd;s1l1_rebelbase.jkl;s1l4_ecs.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rc61139.wav,rc.snd;s1l1_rebelbase.jkl;s1l4_ecs.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,reeyee02.wav,s2l1_ecs.jkl;s2l1_murder.cog;s2l2_annoyee.cog;s2l2_annoyme.cog;s5l3_ecs.jkl;s5l4_annoyme.cog;s5l4_annoyme2.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,reeyee03.wav,s2l1_murder.cog;s2l2_annoyee.cog;s2l2_annoyme.cog;s5l3_ecs.jkl;s5l4_annoyme.cog;s5l4_annoyme2.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,reeyee2.wav,s2l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,reeyee4.wav,s2l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,remotefire01.wav,re.snd;s1l3_astcore.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,remotehiss02.wav,re.snd;s1l3_astcore.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,repeat-1.wav,icrpt.snd;icrpt_s1.snd;s1l1_ecs.jkl;s1l1_endcustscene.cog;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,reptrrico01.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl;mdm04_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ricochet01.wav,bry.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ricochet02.wav,bow.snd;conc.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ricochet03.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl;mdm04_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm61101.wav,s1l1_rebelbase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm61102.wav,s1l1_explode.cog;s1l1_rebelbase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm61103.wav,s1l1_rebelbase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm61110.wav,s1l1_explodewmessage.cog;s1l1_rebelbase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm64101.wav,s4l1_endlevel.cog;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm64103.wav,s4l1_escortship.jkl;s4l1_openshake.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm64107.wav,s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm64108.wav,s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm64109.wav,s4l1_escortship.jkl;s4l1_openshake.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm64110.wav,s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm64111.wav,s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm64112.wav,s4l1_endlevel.cog;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm71107.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm71108.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm71109.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm71115.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm71117.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm71122.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm71123.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm71125.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm72101.wav,s2l1_ocs.cog;s2l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm72102.wav,s2l1_ocs.cog;s2l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm72105.wav,s2l1_ocs.cog;s2l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm72106.wav,s2l1_ocs.cog;s2l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm74102.wav,s2l4_csopen.cog;s4l1_ocs.cog;s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm74103.wav,s2l4_csopen.cog;s4l1_ocs.cog;s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,rm74106.wav,s2l4_csopen.cog;s4l1_ocs.cog;s4l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ro61104.wav,s1l1_rebelbase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ro71113.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ro71114.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ro71116.wav,s1l1_cutscene.cog;s1l1_ocs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,roadblk.mat,roadblk.3do,
+mots,roadsign.mat,roadsign.3do,
+mots,rpeatrlp.wav,weap_repeater_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,rundirt01.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,rundirt02.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,runmetaldry01.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,runmetaldry02.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,rushairtail.wav,s4l1_ecs.cog;s4l1_ecs.jkl;s4l1_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ry50037.wav,ry.snd;ryfist.snd;rystr.snd;s2l1_palace.jkl;s2l2_chattycandy.cog;s2l2_chattycathy.cog;s2l2_ecs.jkl;s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ry50038.wav,s2l2_chattycandy.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ry50039.wav,s2l2_chattycandy.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ry50040.wav,ry.snd;ryfist.snd;rystr.snd;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ry50041.wav,ry.snd;ryfist.snd;rystr.snd;s2l1_palace.jkl;s2l2_chattycandy.cog;s2l2_ecs.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ry50042.wav,ry.snd;ryfist.snd;rystr.snd;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ry50043.wav,ry.snd;ryfist.snd;rystr.snd;s2l1_palace.jkl;s2l2_ecs.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ry50044.wav,ry.snd;ryfist.snd;rystr.snd;s2l1_palace.jkl;s2l2_chattycandy.cog;s2l2_chattycathy.cog;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ry50048.wav,s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ry50049.wav,s2l2_chattycathy.cog;s2l2_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ry50050.wav,s2l2_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ry50051.wav,s2l2_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ry50052.wav,s2l2_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ry50054.wav,s2l2_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,s1l1ecs.san,episode.jk,FMV/SAN video not on box
+mots,s1l1ocs.san,s1l1_endlevel.cog;s6l1_endlevel.cog,FMV/SAN video not on box
+mots,s1l2ecs.san,episode.jk,FMV/SAN video not on box
+mots,s1l2ocs.san,s1l2_endlevel.cog,FMV/SAN video not on box
+mots,s1l3ecs.san,episode.jk,FMV/SAN video not on box
+mots,s1l3ocs.san,s1l3_endlevel.cog,FMV/SAN video not on box
+mots,s1l4ecs.san,episode.jk,FMV/SAN video not on box
+mots,s2.snd,s1l1_ecs.jkl;s1l3_ocs.jkl,
+mots,s250180.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l2a_katraasii.jkl;st3.snd;st3_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,s250181.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s6l1.jkl;st4.snd;st4_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,s250182.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l2a_katraasii.jkl;st3.snd;st3_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,s250183.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;st.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,s250184.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l4_astdestruct.jkl;s6l1.jkl;st.snd;st_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,s2l1ecs.san,episode.jk,FMV/SAN video not on box
+mots,s2l1ocs.san,s2l1_endlevel.cog,FMV/SAN video not on box
+mots,s2l2aecs.san,episode.jk,FMV/SAN video not on box
+mots,s2l2ecs.san,episode.jk,FMV/SAN video not on box
+mots,s2l2ocs.san,s2l2a_endlevel.cog,FMV/SAN video not on box
+mots,s2l4ecs.san,episode.jk,FMV/SAN video not on box
+mots,s3.snd,s1l1_ecs.jkl,
+mots,s4l1ecs.san,episode.jk,FMV/SAN video not on box
+mots,s4l1ocs.san,s4l1_endlevel.cog,FMV/SAN video not on box
+mots,s4l2ecs.san,episode.jk,FMV/SAN video not on box
+mots,s4l2ocs.san,s4l2_endlevel.cog,FMV/SAN video not on box
+mots,s4l3ecs.san,episode.jk,FMV/SAN video not on box
+mots,s4l3ocs.san,s4l3_endlevel.cog,FMV/SAN video not on box
+mots,s5l2_ocs.jkl,episode.jk,
+mots,s5l2ocs.san,s5l2_endlevel.cog,FMV/SAN video not on box
+mots,s5l3ecs.san,episode.jk,FMV/SAN video not on box
+mots,s6l1_lighttube2.cog,s6l1.jkl,
+mots,sabb2.bm,sabers.dat,
+mots,sabdr2.bm,sabers.dat,
+mots,saberthrow.wav,force_saberthrow.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,sabg2.bm,sabers.dat,
+mots,sabo2.bm,sabers.dat,
+mots,sabr2.bm,sabers.dat,
+mots,sabv2.bm,sabers.dat,
+mots,saby2.bm,sabers.dat,
+mots,sal02.mat,sal.3do,
+mots,sal04.mat,sal.3do,
+mots,scalarm.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl;mdm04_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,sch1blue.mat,sch1.3do,
+mots,schargecountdown02.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl;mdm04_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,schargeplace01.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl;mdm04_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,sdes_bay.mat,sdes.3do,
+mots,sdesback.mat,sdes.3do,
+mots,sdesbrid.mat,sdes.3do,
+mots,sdesexhs.mat,sdes.3do,
+mots,sdesglow.mat,sdes.3do,
+mots,sdesl4gn.mat,sdes.3do,
+mots,sdespanl.mat,sdes.3do,
+mots,sdessbox.mat,sdes.3do,
+mots,sdessdet.mat,sdes.3do,
+mots,sdesspbk.mat,sdes.3do,
+mots,sdesspft.mat,sdes.3do,
+mots,sdessppt.mat,sdes.3do,
+mots,sdestile.mat,sdes.3do,
+mots,sdestowr.mat,sdes.3do,
+mots,set_hi2.wav,00_doorswitch.cog;k2.jkl;k2_thrustclient.cog;mdm00_dettrap.cog;mdm00_dttrapclient.cog;mdm00_dttrapclient2.cog;mdm04_dttrapclient2.cog;mdm04_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,set_med2.wav,s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l1_ocs.jkl;s2l1_palace.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s4l2_shipyards.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,sfishattack1.wav,s4l3_kaerobanibase.jkl;s5l2_darkswamp.jkl;s5l3_uppersith.jkl;s5l4_lowersith.jkl;sucker.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,sfishdie1.wav,s4l3_kaerobanibase.jkl;s5l2_darkswamp.jkl;s5l3_uppersith.jkl;s5l4_lowersith.jkl;sucker.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,sfishgethit1.wav,s4l3_kaerobanibase.jkl;s5l2_darkswamp.jkl;s5l3_uppersith.jkl;s5l4_lowersith.jkl;sucker.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,sfishgethit2.wav,s4l3_kaerobanibase.jkl;s5l2_darkswamp.jkl;s5l3_uppersith.jkl;s5l4_lowersith.jkl;sucker.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,sfishgrowl1.wav,s4l3_kaerobanibase.jkl;s5l2_darkswamp.jkl;s5l3_uppersith.jkl;s5l4_lowersith.jkl;sucker.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,shothit01.wav,exp_bowhit.snd;exp_rpthit.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,shothit02.wav,exp_laserhit.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,shrikesteadylp.wav,s4l3_kaerobanibase.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,shuttletakeoff.wav,s1l1_rebelbase.jkl;s1l1_troopship.cog;s1l1_troopship2.cog;s1l2_ocs.jkl;s2l2_abronaway.cog;s2l2_abronhangar.cog;s2l2_falconaway.cog;s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,sithdie1.wav,actor_du.cog;du.snd;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,sithdie2.wav,actor_du.cog;du.snd;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,sithffrun.wav,s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,sithtmplloop2.wav,s5l3_ecs.jkl;s5l3_end.cog;s5l3_uppersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,slideloop2.wav,s5l3_uppersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,slidestart.wav,s2l2_bed.cog;s2l2b_katraasii.jkl;s5l3_rock.cog;s5l3_uppersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,splash1.wav,ad.snd;bs.snd;bsrld.snd;c3po.snd;du.snd;gm.snd;gonk.snd;gr.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,sprobegethit01.wav,rs.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s4l2_shipyards.jkl;s6l1.jkl;td.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,sprobegun01.wav,rs.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s4l2_shipyards.jkl;s6l1.jkl;td.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,sprobehover01.wav,lb.snd;mdm15_homestead.jkl;msb1_home.jkl;rs.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,sprobetalk01.wav,lb.snd;rs.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s4l1_escortship.jkl;s4l2_shipyards.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50147.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;st.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50148.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s6l1.jkl;st2_s1.snd;st4_s1.snd;st_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50149.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l2_elev_switch2.cog;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50150.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l2a_katraasii.jkl;s6l1.jkl;st.snd;st3.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50153.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;st.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50154.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s6l1.jkl;st.snd;st4.snd;st4_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50156.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s6l1.jkl;st.snd;st3_s1.snd;st4_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50157.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;st.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50158.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;st2.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50159.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s6l1.jkl;st2_s1.snd;st3_s1.snd;st4_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50160.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;st.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50161.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l4_astdestruct.jkl;s6l1.jkl;st.snd;st_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50162.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;st2_s1.snd;st3_s1.snd;st4_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50163.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s6l1.jkl;st2_s1.snd;st3_s1.snd;st4_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50164.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;st2_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50165.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;st3_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50166.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s6l1.jkl;st2_s1.snd;st_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50167.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l2a_katraasii.jkl;s6l1.jkl;st3.snd;st3_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50168.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l2a_katraasii.jkl;s6l1.jkl;st3.snd;st3_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50170.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l2a_katraasii.jkl;s6l1.jkl;st3.snd;st3_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50171.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l2a_katraasii.jkl;s6l1.jkl;st3.snd;st3_s1.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50173.wav,kyst.snd;pr.snd;prrld.snd;prstr.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50174.wav,kyst.snd;pr.snd;prrld.snd;prstr.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50175.wav,kyst.snd;pr.snd;prrld.snd;prstr.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50176.wav,kyst.snd;pr.snd;prrld.snd;prstr.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50177.wav,kyst.snd;rc.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s1l4_ecs.jkl;s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,st50178.wav,kyst.snd;rc.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s1l4_ecs.jkl;s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,st60123.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;st.snd;st2.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st60124.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;st.snd;st2.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st60127.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;st.snd;st2.snd;st3.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st60128.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;st.snd;st2.snd;st3.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st60129.wav,s1l1_rebelbase.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;st2.snd;st3.snd;st4.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st60130.wav,s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;st.snd;st2.snd;st3.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st60131.wav,s1l1_rebelbase.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s6l1.jkl;st2.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st60132.wav,s2l2a_katraasii.jkl;s6l1.jkl;st3.snd;st4.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,st91201.wav,s1l2_ecs.jkl;s1l2_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,st91202.wav,s1l2_ecs.jkl;s1l2_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,stonedoorlp.wav,54stonedoors.snd;mdm04_palace.jkl;s5l3_uppersith.jkl;s5l4_elev_throne.cog;s5l4_lowersith.jkl;s5l4_seeswitch.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,stonedoorstart.wav,54stonedoors.snd;s5l3_uppersith.jkl;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,stonedoorstop.wav,54stonedoors.snd;s2l1_palace.jkl;s5l3_uppersith.jkl;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,stoneelevlp.wav,53stoneelev.snd;54stoneelev.snd;s5l3_uppersith.jkl;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,stoneelevstart2.wav,53stoneelev.snd;54stoneelev.snd;s5l3_uppersith.jkl;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,stoneelevstop.wav,53stoneelev.snd;54stoneelev.snd;s5l3_uppersith.jkl;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,stroke1.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,stroke2.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,stunblast.wav,s2l2_ecs.jkl;s2l2b_endcutscene.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,supt.mat,supt.3do,
+mots,swingfist01.wav,itstr.snd;ry.snd;ryfist.snd;rystr.snd;s2l1_palace.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,swingfist02.wav,bs.snd;bsrld.snd;gm.snd;prrld.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l2_ecs.jkl;s1l3_astcore.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,templdrip1.wav,mdm07_vaporator.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,templdrip2.wav,mdm07_vaporator.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,templeend.wav,s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,templghost2.wav,s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,templghost3.wav,s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,templroar.wav,s0.snd;s5l3_uppersith.jkl;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,templswitch.wav,s5l4_doorswitch.cog;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,thaw.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;kyle_m.cog;luke_m.cog;mara_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,thermal1.wav,cpel.snd;det.snd;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,thermalthrow01.wav,ry.snd;s2l1_palace.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl;weap_flash_m.cog;weap_thermdet_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,thermclick01.wav,weap_flash_m.cog;weap_thermdet_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,thermclick02.wav,weap_flash_m.cog;weap_thermdet_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,thermloop01.wav,weap_flash_m.cog;weap_thermdet_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,thrmlpu2.wav,00_returnsaber.cog;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;mdm02_freezer.jkl;mdm03_canopy.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,thunder1.wav,k4.jkl;k4_randomambient.cog;s5_ocs.jkl;s5l2_csstorm.cog;s5l2_darkswamp.jkl;s5l2_storm.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,thunder2.wav,k4.jkl;k4_randomambient.cog;s5_ocs.jkl;s5l2_csstorm.cog;s5l2_darkswamp.jkl;s5l2_storm.cog;s5l3_uppersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,tiebomberstartup.wav,s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,tieenginewhine01.wav,s1l1_rebelbase.jkl;s4l3_kaerobanibase.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,tk62113.wav,s2l1_palace.jkl;s2l2_chattycandy.cog;s2l2b_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,tkvicry.wav,s2l1_palace.jkl;s2l2_chattycandy.cog;s2l2b_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,torturedroid1.wav,s1l2_astcrust.jkl;td.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,torturedroid3.wav,s1l2_astcrust.jkl;td.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,tree.mat,tree.3do,
+mots,treetrnk.mat,tree.3do,
+mots,trooperbody1.wav,s1l1_ecs.jkl;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l2_ecs.jkl;s1l3_astcore.jkl;s1l3_ocs.jkl;s1l4_astdestruct.jkl;s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,trooperbody2.wav,s1l1_ecs.jkl;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l2_ecs.jkl;s1l3_astcore.jkl;s1l3_ocs.jkl;s1l4_astdestruct.jkl;s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,trprout.wav,ad.snd;s1l3_astcore.jkl;s1l4_astdestruct.jkl;weap_crossbow_m.cog;weap_eweb_m.cog;weap_repeater_m.cog;weap_strifle_m.cog;weap_stscope_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,trprsht1.wav,io.snd;io2.snd;io2_s1.snd;io_s1.snd;itstr.snd;prstr.snd;rystr.snd;s1l1_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,trprsht2.wav,ic.snd;ic_s1.snd;rc.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s1l4_ecs.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ts-bdy1.mat,ks.3do;ts.3do;tsbk_6.3do;tspd.3do;tspdup.3do;tspov.3do,
+mots,ts-bdy2.mat,ks.3do;ts.3do;tsbk_8.3do;tspd.3do;tspdup.3do;tspov.3do,
+mots,ts-bdy2t.mat,ks.3do;ts.3do;tsbk_8.3do;tspd.3do;tspdup.3do;tspov.3do,
+mots,ts-bdy3.mat,ks.3do;ts.3do;tsbk_5.3do;tspd.3do;tspdup.3do;tspov.3do,
+mots,ts-bdy4.mat,ks.3do;ts.3do;tspd.3do;tspdup.3do,
+mots,ts-bdy4t.mat,ks.3do;ts.3do;tspd.3do;tspdup.3do,
+mots,ts-bdycl.mat,ks.3do;ts.3do;tsbk_1.3do;tsbk_4.3do;tsbk_6.3do;tspd.3do;tspdup.3do;tspov.3do,
+mots,ts-bdydk.mat,ks.3do;ts.3do;tsbk_2.3do;tspd.3do;tspdup.3do,
+mots,ts-eng.mat,ks.3do;ts.3do;tsbk_6.3do;tspd.3do;tspdup.3do;tspov.3do,
+mots,ts-engbt.mat,ks.3do;ts.3do;tsbk_6.3do;tspd.3do;tspdup.3do;tspov.3do,
+mots,ts-fin.mat,ks.3do;ts.3do;tsbk_2.3do;tsbk_7.3do;tspd.3do;tspdup.3do;tspov.3do,
+mots,ts-mech.mat,ks.3do;ts.3do;tsbk_1.3do;tsbk_6.3do;tspd.3do;tspdup.3do;tspov.3do,
+mots,ts-mtl2.mat,ks.3do;ts.3do;tsbk_6.3do;tspd.3do;tspdup.3do;tspov.3do,
+mots,ts-pod.mat,ks.3do;ts.3do;tsbk_2.3do;tspd.3do;tspdup.3do,
+mots,ts-podbk.mat,ks.3do;ts.3do;tsbk_2.3do;tspd.3do;tspdup.3do,
+mots,tusken1.wav,s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,tusken2.wav,s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,tusken3.wav,s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,tusknquest.wav,s2l2_chattycandy.cog;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,twingby1.wav,s2l2a_katraasii.jkl;s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,twingby2.wav,s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,twingstdylp.wav,s2l2b_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,ug-arm.mat,u2.3do;ug.3do,
+mots,ug-bd.mat,u2.3do;ug.3do,
+mots,ug-bdf.mat,u2.3do;ug.3do,
+mots,ug-hpb.mat,u2.3do;ug.3do,
+mots,ug-hpf.mat,u2.3do;ug.3do,
+mots,ug-leg.mat,u2.3do;ug.3do,
+mots,ugnautdie01.wav,s2l1_palace.jkl;s2l2_ocs.jkl;s2l2a_ecs.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s5l2_darkswamp.jkl;s6l1.jkl;ug.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,ugnautgethit01.wav,s2l1_palace.jkl;s2l2_ocs.jkl;s2l2a_ecs.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s5l2_darkswamp.jkl;s6l1.jkl;ug.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,ugnautgethit02.wav,s2l1_palace.jkl;s2l2_ocs.jkl;s2l2a_ecs.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s5l2_darkswamp.jkl;s6l1.jkl;ug.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,ugnauttalk01.wav,actor_ug.cog;s2l1_palace.jkl;s2l2_ocs.jkl;s2l2a_ecs.jkl;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s5l2_darkswamp.jkl;s6l1.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,undeadatk1.wav,du.snd;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,undeadatk2.wav,du.snd;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,undeadfs_l.wav,du.snd;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,undeadfs_r.wav,du.snd;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,undeadhurt1.wav,du.snd;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,undeadhurt2.wav,du.snd;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,undeadsniff1.wav,du.snd;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,undeadwake1.wav,du.snd;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,undeadwake2.wav,du.snd;s5l4_lowersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,vc62404.wav,s2l4_device.cog;s2l4_stronghold.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,vineatk.wav,vv.snd;vv2.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,vinedie.wav,vv.snd;vv2.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,vinehurt.wav,vv.snd;vv2.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,vinewake.wav,vv.snd;vv2.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,vornattack1.wav,s5l3_uppersith.jkl;s5l4_lowersith.jkl;vr.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,vornattack2.wav,s5l3_uppersith.jkl;s5l4_lowersith.jkl;vr.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,vorndie1.wav,s5l3_uppersith.jkl;s5l4_lowersith.jkl;vr.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,vorndie2.wav,s5l3_uppersith.jkl;s5l4_lowersith.jkl;vr.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,vornhurt1.wav,s5l3_uppersith.jkl;s5l4_lowersith.jkl;vr.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,vornhurt2.wav,s5l3_uppersith.jkl;s5l4_lowersith.jkl;vr.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,vornwake1.wav,s5l3_uppersith.jkl;s5l4_lowersith.jkl;vr.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,vornwake2.wav,s5l3_uppersith.jkl;s5l4_lowersith.jkl;vr.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,walkdirt01.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,walkdirt02.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,walkmetaldry01.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,walkmetaldry02.wav,k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;ky.snd;ky3po.snd;kybobafett.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,walttubk.mat,walt.3do,
+mots,walttuft.mat,walt.3do,
+mots,walttusd.mat,walt.3do,
+mots,waltwall.mat,crt9.3do,
+mots,wampadie1.wav,s5l2_darkswamp.jkl;ws.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,wampahurt1.wav,s5l2_darkswamp.jkl;ws.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,wampahurt2.wav,s5l2_darkswamp.jkl;ws.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,wampatak1.wav,s5l2_darkswamp.jkl;ws.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,wampatak2.wav,s5l2_darkswamp.jkl;ws.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,wampawake1.wav,s5l2_darkswamp.jkl;ws.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,wampawake2.wav,s5l2_darkswamp.jkl;ws.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,wct3x4.mat,wct3x4.3do,
+mots,wct3x4~1.mat,wct3x4.3do,
+mots,weapfail.wav,weap_blastech_m.cog;weap_bryar_m.cog;weap_carbgun_m.cog;weap_concrifle_m.cog;weap_crossbow_m.cog;weap_raildet_m.cog;weap_railseek_m.cog;weap_repeater_m.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,weegeetalk01.wav,actor_wg.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,weegeetalk02.wav,actor_wg.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,windowopen.wav,s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,windowshut.wav,s2l1_palace.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,wlkrsht2.wav,atst.snd;s1l1_rebelbase.jkl;s1l2_astcrust.jkl;s1l3_astcore.jkl;s1l4_astdestruct.jkl;s2l1_ocs.jkl;s2l1_palace.jkl;s2l2a_katraasii.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,woodenslidingdoor01.wav,03wood_door.snd;s2l1_palace.jkl;s5l3_uppersith.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,woodslat.wav,00_bridge.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,wq50076.wav,s2l2_chattycandy.cog;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl;wqstr.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,wq50079.wav,s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl;wqstr.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,wq50080.wav,s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl;wqstr.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,wq50084.wav,s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl;wqstr.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,wq50095.wav,s2l2_chattycandy.cog;s2l2a_katraasii.jkl;s2l2b_katraasii.jkl;s2l4_stronghold.jkl;wqstr.snd,MotS voice/sound archive (JKMsndLO) not on box
+mots,wwhlbase.mat,wwhl.3do,
+mots,wwhlbdy.mat,wwhl.3do,
+mots,wwhlpdl.mat,wwhl.3do,
+mots,wwhlsd.mat,wwhl.3do,
+mots,xwlsr2.wav,s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,xwlsr3.wav,s4l1_escortship.jkl,MotS voice/sound archive (JKMsndLO) not on box
+mots,xwstdy.wav,s2l2a_katraasii.jkl;s4l1_escortship.jkl;s4l1_xlaunch.cog;s6l1.jkl;s6l1_end.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,xwtakeoff.wav,s2l2a_katraasii.jkl;s4l1_escortship.jkl;s4l1_xlaunch.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ysalaidle1.wav,actor_ys.cog;k1.jkl;k2.jkl;k3.jkl;k4.jkl;k5.jkl;kfy_main.cog;pow_ysalamiri.cog,MotS voice/sound archive (JKMsndLO) not on box
+mots,ysfall.key,ys.pup,
