@@ -157,7 +157,7 @@ misc\pup\vv.pup:3  stand           VVdown.key    0x00    0    0    # standing
 
 - No online mention found (Massassi MotS 3DO index and forums searched).
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![vv.3do in its rest pose (vvvine.mat colormap is a guess)](renders/vv.png)
 <figcaption>vv.3do in its rest pose (vvvine.mat colormap is a guess)</figcaption>
 </figure>
@@ -205,12 +205,12 @@ cog\pow_eweb_m.cog:41  jkPrintUNIString(player, 382);    // The Blaster Cannon!
 
 - No online mention of s5 found. Community theory: Shimstock (community discussion, November 2026).
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![s5.3do (colormap is a best guess; the purple pad matches the puppet comment)](renders/s5.png)
 <figcaption>s5.3do (colormap is a best guess; the purple pad matches the puppet comment)</figcaption>
 </figure>
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![eweb.3do, the MotS E-Web / "Blaster Cannon" turret the theory refers to](renders/eweb.png)
 <figcaption>eweb.3do, the MotS E-Web / "Blaster Cannon" turret the theory refers to</figcaption>
 </figure>

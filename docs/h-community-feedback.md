@@ -34,9 +34,9 @@ References in JK and MotS (code, comments, substrings): none outside the model i
 
 - Pointed out by KnightCop (community feedback, November 2026). No published note naming the file was found.
 
-<figure class="finding-figure" markdown="span">
-![03trcr.3do with its own textures (colormap 03house.cmp is a best guess; JK level 3 uses it with the other 03 textures)](renders/03trcr.png)
-<figcaption>03trcr.3do with its own textures (colormap 03house.cmp is a best guess; JK level 3 uses it with the other 03 textures)</figcaption>
+<figure class="finding-figure" markdown="1">
+![03trcr.3do with its own textures (colormap 20val.cmp is a best guess; closest match to KnightCop's screenshot. 03house.cmp, which JK level 3 uses with the other 03 textures, makes the rust too dark)](renders/03trcr.png)
+<figcaption>03trcr.3do with its own textures (colormap 20val.cmp is a best guess; closest match to KnightCop's screenshot. 03house.cmp, which JK level 3 uses with the other 03 textures, makes the rust too dark)</figcaption>
 </figure>
 
 <div class="finding-head" markdown="block">
@@ -73,12 +73,12 @@ Sweep: 272 03/04 textures; 129 MotS-only and unused in both (109 with 03, 20 wit
 
 - Pointed out by KnightCop (community feedback, November 2026). Full list: [katarn_home_mats.csv](https://github.com/Drumsin/jk-mots-unused-content/blob/main/references/katarn_home_mats.csv) ([download](https://github.com/Drumsin/jk-mots-unused-content/raw/main/references/katarn_home_mats.csv)).
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![The textures in KnightCop's screenshots, identified](renders/kc_pictured_textures.png)
 <figcaption>The textures in KnightCop's screenshots, identified</figcaption>
 </figure>
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![All MotS-only 03/04 textures that neither game uses](renders/kc_katarn_home_sheet.png)
 <figcaption>All MotS-only 03/04 textures that neither game uses</figcaption>
 </figure>

@@ -189,7 +189,7 @@ S6L1 defines a darkkyle template (kk.3do, 20,000 health) and JKMRES ships 61dark
 
 - A Steam community guide says Dark Kyle appears in the garbage room of S6L1.
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![kk.3do (Dark Kyle)](renders/kk.png)
 <figcaption>kk.3do (Dark Kyle)</figcaption>
 </figure>

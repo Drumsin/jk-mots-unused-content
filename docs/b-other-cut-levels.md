@@ -33,22 +33,22 @@ Objective: "2. Fly to the waterfall at Tankers Canyon."
 - Level design: JK script (April 1995), JK storyboard (January 1996), "JK Levels Description" and "Jedi Knight Story" design documents.
 - Folder name and models: no earlier source found.
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![13rock.3do](renders/13rock.png)
 <figcaption>13rock.3do</figcaption>
 </figure>
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![zpip.3do](renders/zpip.png)
 <figcaption>zpip.3do</figcaption>
 </figure>
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![wct3x4.3do (textures missing)](renders/wct3x4.png)
 <figcaption>wct3x4.3do (textures missing)</figcaption>
 </figure>
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![Canyon Run textures: 13wcanw7 (13rock; MotS also reuses it in s1l1_rebelbase), zpip4/7/8 (zpip), 13sky (shown with JK 12escape.cmp, best guess) and a canyon wall](renders/swatch_13pipes.png)
 <figcaption>Canyon Run textures: 13wcanw7 (13rock; MotS also reuses it in s1l1_rebelbase), zpip4/7/8 (zpip), 13sky (shown with JK 12escape.cmp, best guess) and a canyon wall</figcaption>
 </figure>
@@ -109,22 +109,22 @@ Three simple models exported in batch mode with an early tool version (ver4.11).
 
 - No earlier source found.
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![16world.3do (colormap best guess)](renders/16world.png)
 <figcaption>16world.3do (colormap best guess)</figcaption>
 </figure>
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![16vale.3do](renders/16vale.png)
 <figcaption>16vale.3do</figcaption>
 </figure>
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![16spir.3do](renders/16spir.png)
 <figcaption>16spir.3do</figcaption>
 </figure>
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![16world / 16spir textures](renders/swatch_16.png)
 <figcaption>16world / 16spir textures</figcaption>
 </figure>
@@ -155,17 +155,17 @@ Related models are used: 06struta/06strutb share their textures with strut03/str
 
 - No earlier source found.
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![06buck.3do](renders/06buck.png)
 <figcaption>06buck.3do</figcaption>
 </figure>
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![06struta.3do](renders/06struta.png)
 <figcaption>06struta.3do</figcaption>
 </figure>
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![06strutb.3do](renders/06strutb.png)
 <figcaption>06strutb.3do</figcaption>
 </figure>

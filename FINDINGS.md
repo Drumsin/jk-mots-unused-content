@@ -1494,9 +1494,9 @@ References in JK and MotS (code, comments, substrings): none outside the model i
 
 - Pointed out by KnightCop (community feedback, November 2026). No published note naming the file was found.
 
-![03trcr.3do with its own textures (colormap 03house.cmp is a best guess; JK level 3 uses it with the other 03 textures)](renders/03trcr.png)
+![03trcr.3do with its own textures (colormap 20val.cmp is a best guess; closest match to KnightCop's screenshot. 03house.cmp, which JK level 3 uses with the other 03 textures, makes the rust too dark)](renders/03trcr.png)
 
-*03trcr.3do with its own textures (colormap 03house.cmp is a best guess; JK level 3 uses it with the other 03 textures)*
+*03trcr.3do with its own textures (colormap 20val.cmp is a best guess; closest match to KnightCop's screenshot. 03house.cmp, which JK level 3 uses with the other 03 textures, makes the rust too dark)*
 
 <a id="finding-43"></a>
 ### 43. Unused Katarn farm and house textures that only MotS ships

@@ -205,6 +205,19 @@ def md_cell(s: str, mode: str) -> str:
     return P(s, mode).replace("\n", " ").replace("|", "\\|")
 
 
+def inline_md_to_html(s: str) -> str:
+    """Render the inline Markdown that P() emits (links, code, bold, italics).
+
+    Figcaptions live inside a raw HTML <figure>, and Python-Markdown's
+    md_in_html extension does not parse a nested <figcaption> unless that
+    tag also has a markdown= attribute. Pre-rendering avoids that pitfall.
+    """
+    import markdown as md
+
+    out = md.markdown(s, extensions=["extra"]).strip()
+    return re.sub(r"^<p>(.*)</p>$", r"\1", out, flags=re.S)
+
+
 def letter_of(title: str) -> str:
     m = re.match(r"^([A-H])\.", title)
     return m.group(1) if m else ""
@@ -224,10 +237,11 @@ def render_figure(path: str, cap: str, mode: str, skip_lightbox: bool = False) -
     if mode != "site":
         return [f"![{alt}]({path})", "", f"*{cap_md}*", ""]
     skip = "{ .skip-lightbox }" if skip_lightbox else ""
+    cap_html = inline_md_to_html(cap_md)
     return [
-        '<figure class="finding-figure" markdown="span">',
+        '<figure class="finding-figure" markdown="1">',
         f"![{alt}]({path}){skip}",
-        f"<figcaption>{cap_md}</figcaption>",
+        f"<figcaption>{cap_html}</figcaption>",
         "</figure>",
         "",
     ]

@@ -26,12 +26,12 @@ MATERIALS 13
 
 - The Cutting Room Floor, "Star Wars Jedi Knight: Dark Forces II" page (read via an archived Wayback Machine copy, 2025).
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![repv.3do (hand textures taken from MotS)](renders/repv.png)
 <figcaption>repv.3do (hand textures taken from MotS)</figcaption>
 </figure>
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![repp.3do](renders/repp.png)
 <figcaption>repp.3do</figcaption>
 </figure>
@@ -60,12 +60,12 @@ prgv.3do: ... '...\Weapons\TuskenProd\GunView\PrgV.prj ... ver4.11.'
 
 - Massassi Temple (massassi.net) file and 3DO pages ("Early Dev Enemy Pack").
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![prdv.3do (fork view)](renders/prdv.png)
 <figcaption>prdv.3do (fork view)</figcaption>
 </figure>
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![prgv.3do (gun view)](renders/prgv.png)
 <figcaption>prgv.3do (gun view)</figcaption>
 </figure>
@@ -94,7 +94,7 @@ A winged beast with 14 animations (run, bite, fly, jump attacks, death and more)
 
 - Massassi Temple (massassi.net) file and 3DO pages.
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![8b.3do posed with 8brun.key frame 0](renders/8b.png)
 <figcaption>8b.3do posed with 8brun.key frame 0</figcaption>
 </figure>
@@ -157,22 +157,22 @@ dvboss.3do:   # MODEL 'DVboss0.3do' created from 'LOD MODEL'
 
 - Massassi Temple (massassi.net) file and 3DO pages (unused fighter textures).
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![kyasleep.3do: sleeping Kyle (unreferenced; Kyle models are used)](renders/kyasleep.png)
 <figcaption>kyasleep.3do: sleeping Kyle (unreferenced; Kyle models are used)</figcaption>
 </figure>
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![kb.3do: Kaerobani body (the used MP skin is KYkb.3do)](renders/kb.png)
 <figcaption>kb.3do: Kaerobani body (the used MP skin is KYkb.3do)</figcaption>
 </figure>
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![dvboss.3do: LOD copy of the used kydarth.3do](renders/dvboss.png)
 <figcaption>dvboss.3do: LOD copy of the used kydarth.3do</figcaption>
 </figure>
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![yss.3do: ysalamiri shoulder export (the used ysalamiri is ys.3do)](renders/yss.png)
 <figcaption>yss.3do: ysalamiri shoulder export (the used ysalamiri is ys.3do)</figcaption>
 </figure>

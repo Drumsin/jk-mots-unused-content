@@ -5,6 +5,7 @@
 These items are logged so they can be included the next time the findings text is revised. They are not part of a site-only change, and v2.1 is unchanged.
 
 - The flagged-comment count in the findings text should be **6,688**. The current text says 6,680. The file is `comments_flagged.csv` (Section G / Appendix A).
+- The tractor render `renders/03trcr.png` was re-done with colormap `20val.cmp` (still a best guess). `03house.cmp` made the rust body too dark compared with KnightCop's screenshot. The v2.1 PDF and zip still have the older, darker render and the 03house.cmp caption.
 
 ## v1.0
 

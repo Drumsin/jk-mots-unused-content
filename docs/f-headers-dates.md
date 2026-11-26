@@ -56,7 +56,7 @@ MotS JKMRES.GOO misc\items.dat:36  tusken_prod  135  0  1  0x0a4  cog=weap_cross
 
 - Full list in [3do_dev_source_paths.csv](https://github.com/Drumsin/jk-mots-unused-content/blob/main/references/3do_dev_source_paths.csv) ([download](https://github.com/Drumsin/jk-mots-unused-content/raw/main/references/3do_dev_source_paths.csv)). Community theory on ligt.3do: Shimstock (community discussion, November 2026).
 
-<figure class="finding-figure" markdown="span">
+<figure class="finding-figure" markdown="1">
 ![ligt.3do: earlier copy of the Force Lightning segment (the game uses ligt2.3do)](renders/ligt.png)
 <figcaption>ligt.3do: earlier copy of the Force Lightning segment (the game uses ligt2.3do)</figcaption>
 </figure>
