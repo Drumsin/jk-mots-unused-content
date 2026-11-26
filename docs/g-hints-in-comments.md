@@ -41,7 +41,7 @@ cog\06a_startlevel.cog:5  # Start music for level 5
 
 **Sources**
 
-- The gaps in the level file numbering (no 05, no 13) are known; see KnightCop's PDF and TCRF. No online mention of these comment labels was found.
+- The gaps in the level file numbering (no 05, no 13) are known; see community modder KnightCop's PDF and TCRF. No online mention of these comment labels was found.
 
 <div class="finding-head" markdown="block">
 <span class="game-icons" aria-label="Jedi Knight"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span></span>
@@ -201,7 +201,7 @@ s5.pup is headed "puppet control file for purple alt. stormtrooper with no gun i
 
 The model header shows it is MotS work, not a JK leftover: it was saved in the MotS project folder (`E:\Jedi\Products\JkMiss\Data\3do\SimChars\Stormtrooper\S5.3do`, ver4.63), and its s5stand and s5fire animations were exported with ver4.65. s5 and all of its files ship only in MotS.
 
-**Community theory (Shimstock) - Speculative.** Shimstock suggests the s5 trooper was made to fire the E-Web: "The s5 stormtrooper looked like it was made to shoot the discarded eweb gun... if you ever watched the s5 stormtrooper animation, he recoils like he is shooting an eweb from ESB. The eweb was replaced by the blaster cannon. That's why its weapon cog is called eweb."
+**Community theory (Shimstock) - Speculative.** Community modder Shimstock suggests the s5 trooper was made to fire the E-Web: "The s5 stormtrooper looked like it was made to shoot the discarded eweb gun... if you ever watched the s5 stormtrooper animation, he recoils like he is shooting an eweb from ESB. The eweb was replaced by the blaster cannon. That's why its weapon cog is called eweb."
 
 What the data shows. For it: the puppet says "no gun in hand", yet its fire mode plays its own s5fire.key (7 frames at 15 fps). In that animation the whole body jolts: the torso pitches about 8 degrees, the head about 18, the forearms 7-9, and the legs move. That is a full-body recoil rather than a rifle shot, which fits a trooper firing a mounted gun.
 
@@ -227,7 +227,7 @@ cog\pow_eweb_m.cog:41  jkPrintUNIString(player, 382);    // The Blaster Cannon!
 
 **Sources**
 
-- No online mention of s5 found. Community theory: Shimstock (community discussion, November 2026).
+- No online mention of s5 found. Community theory: Community modder Shimstock.
 
 <figure class="finding-figure" markdown="1">
 ![s5.3do (colormap is a best guess; the purple pad matches the puppet comment)](renders/s5.png)

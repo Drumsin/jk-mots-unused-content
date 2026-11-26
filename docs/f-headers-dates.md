@@ -46,7 +46,7 @@ MotS is called "JkMiss" in every path. Personal folders leak into a few headers:
 
 ligt.3do is an earlier export of the Force Lightning segment. The effect is used in both games: the +force_ltpeice template uses **ligt2.3do**, which has the same single texture (ligt3.mat) and the same 30 vertices and comes from the official Weapons\ForceWeapons\ForceBolt folder. ligt2.3do appears in JK levels 03, 07, 14, 15, 17a, 19a, 21a, the CTF maps and MotS s2l2b and cutscenes. Only the personal-folder copy, ligt.3do, is unreferenced.
 
-**Community theory (Shimstock) - Speculative, not yet linked by any file.** "The unused lightning 3do might've been the Tusken prod projectile." What the data shows: ligt.3do is a single lightning strip (one texture, LIGT3.MAT; 30 vertices, 26 faces) exported from a personal folder with ver4.50, older than the ligt2.3do the Force Lightning effect uses (official Weapons\ForceWeapons\ForceBolt folder, ver4.63). The cut prod does leave a slot behind: JK items.dat keeps tusken_prod in slot 5, wired to weap_crossbow.cog, and MotS keeps it in slot 135 with weap_crossbow_m.cog. No file names ligt.3do together with the prod, and no file states which effect ligt.3do was meant for, so no file confirms or rules this out yet.
+**Community theory (Shimstock) - Speculative, not yet linked by any file.** Community modder Shimstock suggested: "The unused lightning 3do might've been the Tusken prod projectile." What the data shows: ligt.3do is a single lightning strip (one texture, LIGT3.MAT; 30 vertices, 26 faces) exported from a personal folder with ver4.50, older than the ligt2.3do the Force Lightning effect uses (official Weapons\ForceWeapons\ForceBolt folder, ver4.63). The cut prod does leave a slot behind: JK items.dat keeps tusken_prod in slot 5, wired to weap_crossbow.cog, and MotS keeps it in slot 135 with weap_crossbow_m.cog. No file names ligt.3do together with the prod, and no file states which effect ligt.3do was meant for, so no file confirms or rules this out yet.
 
 **Evidence**
 
@@ -60,7 +60,7 @@ MotS JKMRES.GOO misc\items.dat:36  tusken_prod  135  0  1  0x0a4  cog=weap_cross
 
 **Sources**
 
-- Full list in [3do_dev_source_paths.csv](https://github.com/Drumsin/jk-mots-unused-content/blob/main/references/3do_dev_source_paths.csv) ([download](https://github.com/Drumsin/jk-mots-unused-content/raw/main/references/3do_dev_source_paths.csv)). Community theory on ligt.3do: Shimstock (community discussion, November 2026).
+- Full list in [3do_dev_source_paths.csv](https://github.com/Drumsin/jk-mots-unused-content/blob/main/references/3do_dev_source_paths.csv) ([download](https://github.com/Drumsin/jk-mots-unused-content/raw/main/references/3do_dev_source_paths.csv)). Community theory on ligt.3do: Community modder Shimstock.
 
 <figure class="finding-figure" markdown="1">
 ![ligt.3do: earlier copy of the Force Lightning segment (the game uses ligt2.3do)](renders/ligt.png)

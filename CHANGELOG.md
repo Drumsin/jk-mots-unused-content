@@ -2,7 +2,7 @@
 
 ## v2.2 — Unused voices, an unfinished saber throw, Warning Sense, and other leftovers
 
-Thank you to Shimstock for a set of notes that led to most of the additions and corrections below, and to Cogking for confirming that the Jedi Knight developers were experimenting with a saber throw.
+Thank you to community modder Shimstock for a set of notes that led to most of the additions and corrections below, and to Cogking, a developer on the original game who helped create the COG scripting language, for confirming that the Jedi Knight developers were experimenting with a saber throw.
 
 - Finding 2: the leftover level-05 Crow and TIE bomber animations are a paired sky dogfight; the transport animation is a path through the level. The written frame rates do not match, so the files as shipped would not finish together. Credited to Shimstock.
 - Finding 7: dropped "snowy" as a fact about 16world. The pale colors came from a guessed MotS colormap; a complete JK colormap shows a dark valley and a tower, not snow. The colors are uncertain.
@@ -19,16 +19,16 @@ Thank you to Shimstock for a set of notes that led to most of the additions and 
 
 First published version (57 pages): findings A–G, the cross-game check (Appendix F) and the comment pass.
 
-## v2.0 — Rev after KnightCop feedback
+## v2.0 — Rev after community modder KnightCop feedback
 
-KnightCop reviewed the first published version and wrote that some models and textures looked like ones used in multiplayer maps, that a sound looked like one JK uses, and that the little tractor model and the many unused Morgan Katarn home textures were missing. Thank you, KnightCop. Every point was checked again against both games, including every multiplayer, CTF and Kill-the-Fool map.
+Community modder KnightCop reviewed the first published version and wrote that some models and textures looked like ones used in multiplayer maps, that a sound looked like one JK uses, and that the little tractor model and the many unused Morgan Katarn home textures were missing. Thank you, KnightCop. Every point was checked again against both games, including every multiplayer, CTF and Kill-the-Fool map.
 
 ### What changed
 
 | Asset | Ships in | Evidence | Change |
 |---|---|---|---|
-| 03trcr.3do (tractor) + 5 textures | MotS JKMRES | Identified from KnightCop's screenshot. Shipped only in MotS, used by neither game. | Added (section H) |
-| 03wswt1a-d, 03went, 03went1, 03went2, 03wstr1a, 03wstr1c, 03pict1d | MotS JKMRES | Matched pixel for pixel to KnightCop's screenshots. MotS-only, used by neither game, including multiplayer. | Added (section H) |
+| 03trcr.3do (tractor) + 5 textures | MotS JKMRES | Identified from community modder KnightCop's screenshot. Shipped only in MotS, used by neither game. | Added (section H) |
+| 03wswt1a-d, 03went, 03went1, 03went2, 03wstr1a, 03wstr1c, 03pict1d | MotS JKMRES | Matched pixel for pixel to community modder KnightCop's screenshots. MotS-only, used by neither game, including multiplayer. | Added (section H) |
 | 03wstr1b.mat | JK Res2 | The plain wood grain in the same screenshot. Used by JK level 3 (03katarn). | Noted as used |
 | 129 MotS-only 03/04 textures | MotS JKMRES | Sweep of all 272 level 3/4 textures in both games. | Added with a contact sheet (`katarn_home_mats.csv`) |
 | 179 .ai0/.ai2 files (114 JK, 65 MotS) | JK Res2, MotS JKMRES | The engine loads name.ai0 on Easy and name.ai2 on Hard (OpenJKDF2 `sithAIClass_LoadEntry`). Variants of used .ai files are used. | Moved to used; lists and counts updated (`kc_feedback_ai_difficulty_files.csv`) |
@@ -39,10 +39,10 @@ KnightCop reviewed the first published version and wrote that some models and te
 
 - Models and textures in multiplayer maps: every asset named in the document, every entry on the contact sheet and every row of both unreferenced lists (1,990 names) was searched again in every level of both games, including multiplayer, CTF and Kill-the-Fool maps. Apart from the AI difficulty files, nothing turned out to be loaded.
 - Sounds: each JK sound called unused was compared by name, with siblings, and by waveform against all 690 sounds in both games. None is a copy of a sound the games play.
-- Cut weapons: the community restoration of the Tusken prod and the early Repeater gun (Shimstock and KnightCop) matches the leftovers already described in section E.
+- Cut weapons: the community restoration of the Tusken prod and the early Repeater gun (community modders Shimstock and KnightCop) matches the leftovers already described in section E.
 
-## v2.1 — Community theories from Shimstock
+## v2.1 — Community theories from community modder Shimstock
 
-Added to finding 34 (`s5.3do`) and to the `ligt.3do` part of the "Internal project name and personal folders" finding, both labelled Community theory (Shimstock) and Speculative, with the file evidence for and against. Also added: the `s5.3do` source path (MotS JkMiss folder) and an `eweb.3do` render. Thank you, Shimstock.
+Community modder Shimstock's notes were added to finding 34 (`s5.3do`) and to the `ligt.3do` part of the "Internal project name and personal folders" finding, both labelled Community theory (Shimstock) and Speculative, with the file evidence for and against. Also added: the `s5.3do` source path (MotS JkMiss folder) and an `eweb.3do` render. Thank you, Shimstock.
 
 The wording for community theories that are not yet confirmed by a file is "Community theory (Name) — Speculative, not yet linked by any file" (or "Speculative" where a shorter label is used).

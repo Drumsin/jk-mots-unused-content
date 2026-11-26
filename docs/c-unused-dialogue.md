@@ -106,7 +106,7 @@ sound        riposte=xxx.wav
 |---|---|---|
 | MotS | Resource\JKMRES.GOO | voiceuu\*.wav (46 files: 28 civilian, rebel and announcement clips; 15 Ka'Pa the Hutt lines; 3 Abron Mar lines) |
 
-The folder `voiceuu` (uu = unused) in JKMRES.GOO holds 46 WAV files that a normal playthrough never loads. Shimstock pointed out this folder, and recalled that many of the clips were from the cutscenes.
+The folder `voiceuu` (uu = unused) in JKMRES.GOO holds 46 WAV files that a normal playthrough never loads. Community modder Shimstock pointed out this folder, and recalled that many of the clips were from the cutscenes.
 
 28 of them are unreferenced civilian, rebel and announcement lines in the same numbering series as clips S6L1 does use (cm501xx, cm601xx, cw500xx, cw601xx, 2r6011x, cp641xx). An earlier version of this document counted 26 of that group. The civilians offer items ("Take this, it might help you" / "Don't tell anyone where you got this") or refuse ("Not after what you've done"), which suggests a civilian give-item and reaction system that was cut back. 2r6011x are rebel squad lines and cp641xx are station announcements.
 
@@ -127,4 +127,4 @@ voiceuu holds 46 WAVs. Ka'Pa (Huttese, not quoted): ka92102, 04, 05, 07, 09, 12,
 
 **Sources**
 
-- Shimstock pointed out the unused voiceuu folder in JKMRES, and that many of the clips came from the cutscenes. The Ka'Pa lines were identified by listening, in a review of this catalogue.
+- Community modder Shimstock pointed out the unused voiceuu folder in JKMRES, and that many of the clips came from the cutscenes. The Ka'Pa lines were identified by listening, in a review of this catalogue.

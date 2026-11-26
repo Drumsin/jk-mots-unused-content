@@ -36,7 +36,7 @@ ksgo.key:  # KEYFRAME '<unnamed>' created from 'KSGO.PRJ in BATCH mode with ver4
 
 **Sources**
 
-- KnightCop, "Road to Barons Hed - Cut Mission Information" (PDF, 2026) - documents the bike set and recreates the missing ts-* textures.
+- Community modder KnightCop, "Road to Barons Hed - Cut Mission Information" (PDF, 2026) - documents the bike set and recreates the missing ts-* textures.
 - Reddit r/jediknight, thread 1vnxazh (Aug 2026)
 - TCRF states that no bike model exists; that is true of the JK archives only.
 
@@ -96,9 +96,9 @@ Three "05v" models come from the ship animation folders, each with a matching ke
 
 **05vcrowm** is the Moldy Crow. It uses exactly the texture set of crow.3do (fewer vertices), which JK places in 02, 04, 08, 09, 12, 16a/16b and 17b and MotS uses in multiplayer map mdm12_spaceport. **05vtiebm** is the TIE bomber: same textures and same vertex count as tieb.3do, which appears in JK levels 01narshadda, 06bbarons and 08escape88 and in MotS s1l1_rebelbase. So the TIE bomber and the Crow are seen in game, but through tieb.3do and crow.3do, not through these 05v files.
 
-**05vtrnwg** is the Imperial transport with WeeGee riding on it. Its node list is the transport (T~TRANSP) plus a droid body (BODY01, HEAD01, EYE, NECK, SHLDR, arm segments), and it uses the TTRN* transport textures together with WeeGee's textures (wg.3do, used in JK levels 03 and 04). The transport on its own (ttrn.3do) sits in the shed at the end of JK level 4 (04escapehouse.jkl) and is reused by MotS (s1l2, s1l4, s2l2a/b, s2l4 and a cutscene). KnightCop identifies the shed transport and lists the key as "WeeGee with Transport".
+**05vtrnwg** is the Imperial transport with WeeGee riding on it. Its node list is the transport (T~TRANSP) plus a droid body (BODY01, HEAD01, EYE, NECK, SHLDR, arm segments), and it uses the TTRN* transport textures together with WeeGee's textures (wg.3do, used in JK levels 03 and 04). The transport on its own (ttrn.3do) sits in the shed at the end of JK level 4 (04escapehouse.jkl) and is reused by MotS (s1l2, s1l4, s2l2a/b, s2l4 and a cutscene). Community modder KnightCop identifies the shed transport and lists the key as "WeeGee with Transport".
 
-Shimstock pointed out that the leftover level-05 ship animations belong together. The Moldy Crow and TIE bomber keys (`05vcrowa.key` and `05vtieb.key`) have the same 371-frame length, share a dummy path of 70 JK units, and were both exported from the Crow animation folder. The two ships weave around that path; it is a sky dogfight, not two separate fly-bys. The written frame rates differ (21.5 fps for the Crow, 5 fps for the TIE), so the files as shipped would not finish together, and no cog remains to start them. The Imperial transport key (`05vtrnwg.key`) is a shorter, separate animation whose dummy node traces a turning path, which fits a transport flying a route through the cut level rather than fighting.
+Community modder Shimstock pointed out that the leftover level-05 ship animations belong together. The Moldy Crow and TIE bomber keys (`05vcrowa.key` and `05vtieb.key`) have the same 371-frame length, share a dummy path of 70 JK units, and were both exported from the Crow animation folder. The two ships weave around that path; it is a sky dogfight, not two separate fly-bys. The written frame rates differ (21.5 fps for the Crow, 5 fps for the TIE), so the files as shipped would not finish together, and no cog remains to start them. The Imperial transport key (`05vtrnwg.key`) is a shorter, separate animation whose dummy node traces a turning path, which fits a transport flying a route through the cut level rather than fighting.
 
 roadblk.mat and roadsign.mat are missing, so those pieces render partly grey. The other road textures are shown with JK 04farm.cmp (see the next finding); that colormap is a best guess.
 
@@ -116,8 +116,8 @@ roadblk.3do:  # MODEL 'Roadblk2.3do' created from '...\LevelSpecific\05stuff\Roa
 
 **Sources**
 
-- KnightCop, "Road to Barons Hed - Cut Mission Information" (PDF, 2026) lists the 05v* keyframes and identifies the level-4 shed transport. The 05stuff folder evidence and the model-by-model comparison were not found in it.
-- Shimstock identified the Crow and TIE keys as a paired sky dogfight, and the transport key as a path through the level.
+- Community modder KnightCop, "Road to Barons Hed - Cut Mission Information" (PDF, 2026) lists the 05v* keyframes and identifies the level-4 shed transport. The 05stuff folder evidence and the model-by-model comparison were not found in it.
+- Community modder Shimstock identified the Crow and TIE keys as a paired sky dogfight, and the transport key as a path through the level.
 
 <figure class="finding-figure" markdown="1">
 ![05road.3do (colormap: JK 04farm, best guess)](renders/05road.png)
@@ -174,7 +174,7 @@ roadblk.3do:  # MODEL 'Roadblk2.3do' created from '...\LevelSpecific\05stuff\Roa
 | MotS | Resource\JKMRES.GOO | mat\05wsky01.mat, mat\05wsky02.mat |
 | JK | Resource\Res2.gob | misc\cmp\04farm.cmp |
 
-05wsky01/02 are 8-bit textures, so they need a colormap, and no level loads them. KnightCop's document lists them as "NO CMP". Shown through JK's 04farm.cmp (the colormap of level 4, the escape from Kyle's family house, the level just before the cut 05 slot), they come out as a clean blue sky with white clouds. 10cargo.cmp gives a similar result. The other 05 textures (road, walls, grass) also look natural under 04farm.cmp.
+05wsky01/02 are 8-bit textures, so they need a colormap, and no level loads them. Community modder KnightCop's document lists them as "NO CMP". Shown through JK's 04farm.cmp (the colormap of level 4, the escape from Kyle's family house, the level just before the cut 05 slot), they come out as a clean blue sky with white clouds. 10cargo.cmp gives a similar result. The other 05 textures (road, walls, grass) also look natural under 04farm.cmp.
 
 Period screenshots of the level support this. The magazine shots collected in KnightCop's document (PC Games, April 1997; Computer and Videogames, August 1997; PC Zone issue 51, June 1997) show the bike chase under a blue daytime sky with white clouds, which is what these two textures look like under 04farm.cmp.
 
@@ -183,12 +183,12 @@ This is still a visual match, not proof. It does suggest that level 05 shared a 
 **Evidence**
 
 ```
-KnightCop PDF: "05wsky01.mat - NO CMP - Droid Works Version heavily dithered"
+Community modder KnightCop PDF: "05wsky01.mat - NO CMP - Droid Works Version heavily dithered"
 ```
 
 **Sources**
 
-- KnightCop, "Road to Barons Hed - Cut Mission Information" (PDF, 2026) (magazine screenshots, pp. 14-17).
+- Community modder KnightCop, "Road to Barons Hed - Cut Mission Information" (PDF, 2026) (magazine screenshots, pp. 14-17).
 - No earlier source found pairing these textures with a colormap.
 
 <figure class="finding-figure" markdown="1">

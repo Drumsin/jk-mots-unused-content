@@ -1,6 +1,6 @@
 # H. Added after community feedback
 
-These two findings were added after KnightCop reviewed the first published version. Thank you to KnightCop for the corrections and pointers; the full list of changes from that review is in Appendix G.
+These two findings were added after community modder KnightCop reviewed the first published version. Thank you to KnightCop for the corrections and pointers; the full list of changes from that review is in Appendix G.
 
 <div class="finding-head" markdown="block">
 <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span>
@@ -16,7 +16,7 @@ These two findings were added after KnightCop reviewed the first published versi
 |---|---|---|
 | MotS | Resource\JKMRES.GOO | 3do\03trcr.3do; 3do\mat\03trcrww.mat, 03trcrar.mat, 03trcrtp.mat, 03trcrsd.mat, 03trcrtd.mat |
 
-KnightCop pointed out a small tractor model that the first version of this document did not describe. It is 03trcr.3do ("trcr" = tractor): a boxy rust-orange body on two big hexagonal wheels, with a long perforated boom. It is one mesh with 115 vertices and five textures of its own.
+Community modder KnightCop pointed out a small tractor model that the first version of this document did not describe. It is 03trcr.3do ("trcr" = tractor): a boxy rust-orange body on two big hexagonal wheels, with a long perforated boom. It is one mesh with 115 vertices and five textures of its own.
 
 The 03 prefix is JK level 3 (03katarn, the Katarn farm), and the header says it was exported from `Environment\Tractor3` in the JK data folder with exporter ver2.31, one of the earliest versions in the data. The mesh inside is named 04trcr, so it may have been meant for level 4 (04escapehouse) at some point. "Tractor3" suggests there were earlier versions.
 
@@ -35,11 +35,11 @@ References in JK and MotS (code, comments, substrings): none outside the model i
 
 **Sources**
 
-- Pointed out by KnightCop (community feedback, November 2026). No published note naming the file was found.
+- Pointed out by community modder KnightCop. No published note naming the file was found.
 
 <figure class="finding-figure" markdown="1">
-![03trcr.3do with its own textures (colormap 20val.cmp is a best guess; closest match to KnightCop's screenshot. 03house.cmp, which JK level 3 uses with the other 03 textures, makes the rust too dark)](renders/03trcr.png)
-<figcaption>03trcr.3do with its own textures (colormap 20val.cmp is a best guess; closest match to KnightCop's screenshot. 03house.cmp, which JK level 3 uses with the other 03 textures, makes the rust too dark)</figcaption>
+![03trcr.3do with its own textures (colormap 20val.cmp is a best guess; closest match to community modder KnightCop's screenshot. 03house.cmp, which JK level 3 uses with the other 03 textures, makes the rust too dark)](renders/03trcr.png)
+<figcaption>03trcr.3do with its own textures (colormap 20val.cmp is a best guess; closest match to community modder KnightCop's screenshot. 03house.cmp, which JK level 3 uses with the other 03 textures, makes the rust too dark)</figcaption>
 </figure>
 
 <div class="finding-head" markdown="block">
@@ -56,7 +56,7 @@ References in JK and MotS (code, comments, substrings): none outside the model i
 |---|---|---|
 | MotS | Resource\JKMRES.GOO | mat\03wswt1a-d.mat, 03went.mat, 03went1.mat, 03went2.mat, 03wstr1a.mat, 03wstr1c.mat, 03pict1d.mat, and 119 more 03*/04* textures ([katarn_home_mats.csv](https://github.com/Drumsin/jk-mots-unused-content/blob/main/references/katarn_home_mats.csv) ([download](https://github.com/Drumsin/jk-mots-unused-content/raw/main/references/katarn_home_mats.csv))) |
 
-KnightCop also mentioned the many unused textures from Morgan Katarn's home. The ones in his screenshots were matched pixel for pixel against every texture in both games:
+Community modder KnightCop also mentioned the many unused textures from Morgan Katarn's home. The ones in his screenshots were matched pixel for pixel against every texture in both games:
 
 **03wswt1a, 03wswt1b, 03wswt1c, 03wswt1d** (wood wall panels with inset gadgets), **03went** (dark console with screen), **03went1** and **03went2** (the two dark panels next to it), **03wstr1a** (wood-framed TV), **03wstr1c** (metal vent on wood) and **03pict1d** (the red painting) ship only in MotS JKMRES.GOO and are used by neither game. JK does not ship them. The plain wood grain in the same screenshot is **03wstr1b**, which is the one exception: JK ships it and uses it in level 3 (03katarn).
 
@@ -77,11 +77,11 @@ Sweep: 272 03/04 textures; 129 MotS-only and unused in both (109 with 03, 20 wit
 
 **Sources**
 
-- Pointed out by KnightCop (community feedback, November 2026). Full list: [katarn_home_mats.csv](https://github.com/Drumsin/jk-mots-unused-content/blob/main/references/katarn_home_mats.csv) ([download](https://github.com/Drumsin/jk-mots-unused-content/raw/main/references/katarn_home_mats.csv)).
+- Pointed out by community modder KnightCop. Full list: [katarn_home_mats.csv](https://github.com/Drumsin/jk-mots-unused-content/blob/main/references/katarn_home_mats.csv) ([download](https://github.com/Drumsin/jk-mots-unused-content/raw/main/references/katarn_home_mats.csv)).
 
 <figure class="finding-figure" markdown="1">
-![The textures in KnightCop's screenshots, identified](renders/kc_pictured_textures.png)
-<figcaption>The textures in KnightCop's screenshots, identified</figcaption>
+![The textures in community modder KnightCop's screenshots, identified](renders/kc_pictured_textures.png)
+<figcaption>The textures in community modder KnightCop's screenshots, identified</figcaption>
 </figure>
 
 <figure class="finding-figure" markdown="1">

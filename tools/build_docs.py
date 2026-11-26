@@ -101,8 +101,8 @@ CROSS_GAME_CHANGES = [
     ("00_glass.mat", "missing in JK", "JK shard0.3do asks for it; JK does not ship it but MotS ships and uses it.", "Missing-reference note updated"),
 ]
 V20_CHANGES = [
-    ("03trcr.3do (tractor) + 5 textures", "MotS JKMRES", "Identified from KnightCop's screenshot. Shipped only in MotS, used by neither game.", "Added (section H)"),
-    ("03wswt1a-d, 03went, 03went1, 03went2, 03wstr1a, 03wstr1c, 03pict1d", "MotS JKMRES", "Matched pixel for pixel to KnightCop's screenshots. MotS-only, used by neither game, including multiplayer.", "Added (section H)"),
+    ("03trcr.3do (tractor) + 5 textures", "MotS JKMRES", "Identified from community modder KnightCop's screenshot. Shipped only in MotS, used by neither game.", "Added (section H)"),
+    ("03wswt1a-d, 03went, 03went1, 03went2, 03wstr1a, 03wstr1c, 03pict1d", "MotS JKMRES", "Matched pixel for pixel to community modder KnightCop's screenshots. MotS-only, used by neither game, including multiplayer.", "Added (section H)"),
     ("03wstr1b.mat", "JK Res2", "The plain wood grain in the same screenshot. Used by JK level 3 (03katarn).", "Noted as used"),
     ("129 MotS-only 03/04 textures", "MotS JKMRES", "Sweep of all 272 level 3/4 textures in both games.", "Added with a contact sheet (katarn_home_mats.csv)"),
     ("179 .ai0/.ai2 files (114 JK, 65 MotS)", "JK Res2, MotS JKMRES", "The engine loads name.ai0 on Easy and name.ai2 on Hard (OpenJKDF2 sithAIClass_LoadEntry). Variants of used .ai files are used.", "Moved to used; lists and counts updated (kc_feedback_ai_difficulty_files.csv)"),
@@ -111,8 +111,8 @@ V20_CHANGES = [
 ]
 UNCHANGED = [
     "Models and textures in multiplayer maps: every asset named in this document, every entry on the contact sheet and every row of both unreferenced lists (1,990 names) was searched again by full name, by name without the extension and by substring in every level of both games, every multiplayer, CTF and Kill-the-Fool map, the cutscene levels, S6L1, static.jkl, models.dat, sabers.dat, items.dat, and every template, cog, puppet, sound set, particle, sprite and AI file. Comments were left out, and any hit in a file that is itself loaded was looked at by hand. Apart from the AI difficulty files, nothing turned out to be loaded. The other hits were name collisions, for example \"sphere\" inside sphere.par, \"sign\" as a cog surface name, or \"tree\" in the map title \"Tree Canopy\".",
-    "Sounds: each JK sound called unused was compared by name, with siblings (such as the \"t\" and \"z\" takes of a line), and by waveform against all 690 sounds in both games. None is a copy of a sound the games play. The bike sounds bikeacl1/biketrn1 (used in JK level 4) and the bartender line i00mn19z (used by 01_bartender.cog in level 1) were already marked as used. If the sound KnightCop meant is not one of these, the file name would settle it.",
-    "Cut weapons: the community restoration of the Tusken prod and the early Repeater gun (Shimstock and KnightCop) matches the leftovers already described in section E (the prdv, prgv, prdp and prdg prod models and repv/repp). The only other trace in the data is the menu strings \"Repeater\" and \"Repeater Gun\" in jkstrings.uni, and those name the final weapon 6, which is in the game.",
+    "Sounds: each JK sound called unused was compared by name, with siblings (such as the \"t\" and \"z\" takes of a line), and by waveform against all 690 sounds in both games. None is a copy of a sound the games play. The bike sounds bikeacl1/biketrn1 (used in JK level 4) and the bartender line i00mn19z (used by 01_bartender.cog in level 1) were already marked as used. If the sound community modder KnightCop meant is not one of these, the file name would settle it.",
+    "Cut weapons: the community restoration of the Tusken prod and the early Repeater gun (community modders Shimstock and KnightCop) matches the leftovers already described in section E (the prdv, prgv, prdp and prdg prod models and repv/repp). The only other trace in the data is the menu strings \"Repeater\" and \"Repeater Gun\" in jkstrings.uni, and those name the final weapon 6, which is in the game.",
 ]
 CAVEATS = [
     "The MotS sound archive (JKMsndLO.goo) was checked for Kaerobani (kb*) voice file names; none were found. It has not been fully transcribed, and the MotS subtitle strings for cog IDs 10043, 10000 and 43003 were not read. The cutscene videos (.smk/.san) were not compared line by line, so some MotS sounds may still appear missing only because they live in that archive or inside the videos.",
@@ -148,7 +148,7 @@ def load_sources():
             KCSEC[0],
             KCSEC[1],
             [
-                "These two findings were added after KnightCop reviewed the first published version. Thank you to KnightCop for the corrections and pointers; the full list of changes from that review is in Appendix G."
+                "These two findings were added after community modder KnightCop reviewed the first published version. Thank you to KnightCop for the corrections and pointers; the full list of changes from that review is in Appendix G."
             ],
         ),
         (
@@ -161,13 +161,13 @@ def load_sources():
     ]
     credits = [
         KC + ". The main reference for the cut speeder-bike mission; recreates the missing bike textures. KnightCop also reviewed the first published version (Appendix G).",
-        "Shimstock: co-author with KnightCop of the Tusken prod and Repeater gun restoration sheet; the community theories in v2.1 (s5 E-Web gunner, ligt.3do as the prod projectile); and the v2.2 notes on the level-05 ship dogfight, kystab and kyrepel0, rep0.3do, the MotS in-engine cutscenes, the voiceuu folder, and unused Kaerobani lines.",
+        "Community modder Shimstock: co-author with community modder KnightCop of the Tusken prod and Repeater gun restoration sheet; the community theories in v2.1 (s5 E-Web gunner, ligt.3do as the prod projectile); and the v2.2 notes on the level-05 ship dogfight, kystab and kyrepel0, rep0.3do, the MotS in-engine cutscenes, the voiceuu folder, and unused Kaerobani lines.",
         RED,
         TCRF,
         MAS + ", including the Early Dev Enemy Pack and 8t88 beast pages.",
         TSR,
         "A Steam community guide on the hidden MotS level S6L1 (Dark Kyle in the garbage room).",
-        "Cogking, for confirming that the Jedi Knight developers were experimenting with a saber throw.",
+        "Cogking, a developer on the original game who helped create the COG scripting language, for confirming that the Jedi Knight developers were experimenting with a saber throw.",
         "OpenJKDF2 (github.com/shinyquagsire23/OpenJKDF2), for engine-loaded file names, the HUD icon naming rule and the 3DO hierarchy/matrix conventions used by the renderer.",
     ]
     return sections, credits
@@ -454,9 +454,9 @@ def intro_body(mode: str) -> list[str]:
         "",
         "All shipped archives were extracted and read: JK Episode\\JK1.GOB, JK1CTF.GOB, JK1MP.GOB and Resource\\Res1hi.gob, Res2.gob; MotS Episode\\JKM.GOO, JKM_KFY.GOO, JKM_MP.GOO, JKM_SABER.GOO and Resource\\JKMRES.GOO, plus cutscenes.goo (inside Resource\\VIDEO\\CUTSCENES.ZIP) and the hidden S6L1 level (inside Resource\\VIDEO\\UNSUPPORTED.ZIP).",
         "",
-        "Shimstock pointed out that the MotS cutscenes were built as in-engine levels, played in the game, and recorded to video. Those earlier, unfinished scene setups are the JKL files in Resource\\VIDEO\\CUTSCENES.ZIP, already used as a source in this catalogue. The shipped episode does not load them; after each level it plays the later SMUSH videos (.san). (JK's live-action cutscenes are the .smk files.) The JKL worlds were last saved in late November 1997 through 2 January 1998, before the shipped MotS levels, and they still show unfinished names, disabled subtitles, leftover debug prints, and voice lines and props (including Ka'Pa the Hutt and Abron Mar) that never appear in a normal playthrough.",
+        "Community modder Shimstock pointed out that the MotS cutscenes were built as in-engine levels, played in the game, and recorded to video. Those earlier, unfinished scene setups are the JKL files in Resource\\VIDEO\\CUTSCENES.ZIP, already used as a source in this catalogue. The shipped episode does not load them; after each level it plays the later SMUSH videos (.san). (JK's live-action cutscenes are the .smk files.) The JKL worlds were last saved in late November 1997 through 2 January 1998, before the shipped MotS levels, and they still show unfinished names, disabled subtitles, leftover debug prints, and voice lines and props (including Ka'Pa the Hutt and Abron Mar) that never appear in a normal playthrough.",
         "",
-        "A reference graph was built for every file type. The roots are every level (.jkl), episode.jk, static.jkl, items.dat, models.dat, sabers.dat, the .per and .uni files and the file names hard-coded in the engine (taken from the OpenJKDF2 source, including the HUD icon naming rule and, since the revision after KnightCop's feedback, the AI difficulty rule: *name*.ai0 on Easy and *name*.ai2 on Hard). From the roots, references were followed through templates, cogs, 3DOs, keyframes, puppets, sound sets, materials and colormaps. Comment lines were not counted as references, because a commented-out line loads nothing; the comments themselves were read separately (see "
+        "A reference graph was built for every file type. The roots are every level (.jkl), episode.jk, static.jkl, items.dat, models.dat, sabers.dat, the .per and .uni files and the file names hard-coded in the engine (taken from the OpenJKDF2 source, including the HUD icon naming rule and, since the revision after community modder KnightCop's feedback, the AI difficulty rule: *name*.ai0 on Easy and *name*.ai2 on Hard). From the roots, references were followed through templates, cogs, 3DOs, keyframes, puppets, sound sets, materials and colormaps. Comment lines were not counted as references, because a commented-out line loads nothing; the comments themselves were read separately (see "
         + hints
         + '). A file that no root reaches is "unreferenced". A name that is referenced but not present in any archive is a "missing reference".',
         "",
@@ -476,7 +476,7 @@ def intro_body(mode: str) -> list[str]:
         "",
         "### Credits" if mode != "site" else "## Credits",
         "",
-        "KnightCop's \"Road to Barons Hed - Cut Mission Information\" is the reference for the cut speeder-bike level and the bike assets. Other sources: The Cutting Room Floor, the Massassi Temple, r/jediknight, The Sounds Resource and the OpenJKDF2 project (engine file names and conventions). Full list in "
+        "Community modder KnightCop's \"Road to Barons Hed - Cut Mission Information\" is the reference for the cut speeder-bike level and the bike assets. Other sources: The Cutting Room Floor, the Massassi Temple, r/jediknight, The Sounds Resource and the OpenJKDF2 project (engine file names and conventions). Full list in "
         + app_e_link
         + ".",
         "",
@@ -593,9 +593,9 @@ def appendix_g(mode: str) -> list[str]:
         "",
         "First published version (57 pages): findings A-G, the cross-game check (Appendix F) and the comment pass.",
         "",
-        f"{h3} v2.0: Rev after KnightCop feedback",
+        f"{h3} v2.0: Rev after community modder KnightCop feedback",
         "",
-        "KnightCop reviewed the first published version and wrote that some models and textures looked like ones used in multiplayer maps, that a sound looked like one JK uses, and that the little tractor model and the many unused Morgan Katarn home textures were missing. Thank you, KnightCop. Every point was checked again against both games, including every multiplayer, CTF and Kill-the-Fool map.",
+        "Community modder KnightCop reviewed the first published version and wrote that some models and textures looked like ones used in multiplayer maps, that a sound looked like one JK uses, and that the little tractor model and the many unused Morgan Katarn home textures were missing. Thank you, KnightCop. Every point was checked again against both games, including every multiplayer, CTF and Kill-the-Fool map.",
         "",
         f"{h4} What changed",
         "",
@@ -609,15 +609,15 @@ def appendix_g(mode: str) -> list[str]:
         lines.append(f"- {P(x, mode)}")
     lines += [
         "",
-        f"{h3} v2.1: community theories from Shimstock (s5 E-Web gunner, ligt prod projectile)",
+        f"{h3} v2.1: community theories from community modder Shimstock (s5 E-Web gunner, ligt prod projectile)",
         "",
-        "Added to finding 34 (s5.3do) and to the ligt.3do part of the \"Internal project name and personal folders\" finding, both labelled Community theory (Shimstock) and Speculative, with the file evidence for and against. Also added: the s5.3do source path (MotS JkMiss folder) and an eweb.3do render. Thank you, Shimstock.",
+        "Community modder Shimstock's notes were added to finding 34 (s5.3do) and to the ligt.3do part of the \"Internal project name and personal folders\" finding, both labelled Community theory (Shimstock) and Speculative, with the file evidence for and against. Also added: the s5.3do source path (MotS JkMiss folder) and an eweb.3do render. Thank you, Shimstock.",
         "",
         'The wording for community theories that are not yet confirmed by a file is "Community theory (Name) — Speculative, not yet linked by any file" (or "Speculative" where a shorter label is used).',
         "",
         f"{h3} v2.2: unused voices, an unfinished saber throw, Warning Sense, and other leftovers",
         "",
-        "Thank you to Shimstock for a set of notes that led to most of the additions and corrections below, and to Cogking for confirming that the Jedi Knight developers were experimenting with a saber throw.",
+        "Thank you to community modder Shimstock for a set of notes that led to most of the additions and corrections below, and to Cogking, a developer on the original game who helped create the COG scripting language, for confirming that the Jedi Knight developers were experimenting with a saber throw.",
         "",
         "What changed:",
         "",
