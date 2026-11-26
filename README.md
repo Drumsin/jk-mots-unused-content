@@ -17,10 +17,10 @@ Have a new finding, a correction, or a file this catalogue should look at again?
 
 ## Download a frozen copy
 
-Each numbered release includes a PDF and a zip of the whole folder. The last published release is still **[v2.1](https://github.com/Drumsin/jk-mots-unused-content/releases/tag/v2.1)**. The v2.2 PDF and zip will be added on the Releases page when this version is published.
+Each numbered release includes a PDF and a zip of the whole folder. The latest is **[v2.2](https://github.com/Drumsin/jk-mots-unused-content/releases/tag/v2.2)**:
 
-- [JK_MotS_Unused_Content_Findings_v2.1.pdf](https://github.com/Drumsin/jk-mots-unused-content/releases/download/v2.1/JK_MotS_Unused_Content_Findings_v2.1.pdf)
-- [JK_MotS_Unused_Content_Findings_v2.1.zip](https://github.com/Drumsin/jk-mots-unused-content/releases/download/v2.1/JK_MotS_Unused_Content_Findings_v2.1.zip)
+- [JK_MotS_Unused_Content_Findings_v2.2.pdf](https://github.com/Drumsin/jk-mots-unused-content/releases/download/v2.2/JK_MotS_Unused_Content_Findings_v2.2.pdf)
+- [JK_MotS_Unused_Content_Findings_v2.2.zip](https://github.com/Drumsin/jk-mots-unused-content/releases/download/v2.2/JK_MotS_Unused_Content_Findings_v2.2.zip)
 
 The website and the files in this repository always show the current text. Use the release assets when you want a snapshot that will not change.
 

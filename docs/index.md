@@ -6,7 +6,7 @@ title: How to read this catalogue
 
 **Version 2.2** — November 2026
 
-Have a new finding, a correction, or a file this catalogue should look at again? Please [open an issue](https://github.com/Drumsin/jk-mots-unused-content/issues/new/choose) and tell us about it. The last published PDF is still [v2.1](https://github.com/Drumsin/jk-mots-unused-content/releases/download/v2.1/JK_MotS_Unused_Content_Findings_v2.1.pdf); the v2.2 PDF and zip will be added on the Releases page when this version is published.
+Have a new finding, a correction, or a file this catalogue should look at again? Please [open an issue](https://github.com/Drumsin/jk-mots-unused-content/issues/new/choose) and tell us about it. You can also [download the PDF (v2.2)](https://github.com/Drumsin/jk-mots-unused-content/releases/download/v2.2/JK_MotS_Unused_Content_Findings_v2.2.pdf) or the [zip of the folder](https://github.com/Drumsin/jk-mots-unused-content/releases/download/v2.2/JK_MotS_Unused_Content_Findings_v2.2.zip).
 
 This site is the web edition of the catalogue of unused, orphaned and leftover files in the retail *Star Wars Jedi Knight: Dark Forces II* (JK) and *Mysteries of the Sith* (MotS) data. Use the sidebar to jump to a section, or the table of contents on each page to jump to a finding. Every finding has a stable link, for example [Finding 34](g-hints-in-comments.md#finding-34).
 

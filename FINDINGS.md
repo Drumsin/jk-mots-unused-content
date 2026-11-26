@@ -10,7 +10,7 @@ Research notes with file locations, quoted evidence, renders and source ratings.
 
 *ks.3do, the unused Kyle-on-speeder-bike model from MotS JKMRES.GOO, posed with its own ksgo.key animation. Grey parts use textures that never shipped.*
 
-A print-ready PDF and a zip of this version will be added on the [Releases](https://github.com/Drumsin/jk-mots-unused-content/releases) page when v2.2 is published. The last published files are still [v2.1](https://github.com/Drumsin/jk-mots-unused-content/releases/tag/v2.1).
+A print-ready PDF and a zip of this version are on the [Releases](https://github.com/Drumsin/jk-mots-unused-content/releases/tag/v2.2) page.
 
 ## Contents
 

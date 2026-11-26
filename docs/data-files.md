@@ -12,7 +12,7 @@ If you like to check the work yourself, or go hunting for things the write-ups h
 - **Cross-check JK against MotS.** MotS reuses a lot of JK data. The cross-game tables show whether a file is unused in both games, or a leftover copy of something the other game actually uses.
 - **Build on it for mods and restorations.** If you are putting a cut weapon or texture back into a level, the lists give you the exact file names, which archive they live in, and which textures or keys belong with them.
 
-If you want everything in one go, a zip of the whole folder (PDF, these data files, and the renders) will be added on the Releases page when v2.2 is published. The last published zip is still in the [v2.1 release](https://github.com/Drumsin/jk-mots-unused-content/releases/tag/v2.1).
+If you want everything in one go, a [zip of the whole folder](https://github.com/Drumsin/jk-mots-unused-content/releases/download/v2.2/JK_MotS_Unused_Content_Findings_v2.2.zip) (PDF, these data files, and the renders) is in the [v2.2 release](https://github.com/Drumsin/jk-mots-unused-content/releases/tag/v2.2).
 
 ## The files
 

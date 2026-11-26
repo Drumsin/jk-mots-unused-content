@@ -685,7 +685,7 @@ def write_findings_md(sections, credits, walked) -> Path:
         "",
         "*ks.3do, the unused Kyle-on-speeder-bike model from MotS JKMRES.GOO, posed with its own ksgo.key animation. Grey parts use textures that never shipped.*",
         "",
-        "A print-ready PDF and a zip of this version will be added on the [Releases](" + REPO + "/releases) page when v2.2 is published. The last published files are still [v2.1](" + REPO + "/releases/tag/v2.1).",
+        f"A print-ready PDF and a zip of this version are on the [Releases]({REPO}/releases/tag/{VERSION}) page.",
         "",
     ]
     lines += findings_toc(walked)
@@ -836,7 +836,7 @@ def write_data_files_page() -> list[str]:
         "- **Cross-check JK against MotS.** MotS reuses a lot of JK data. The cross-game tables show whether a file is unused in both games, or a leftover copy of something the other game actually uses.",
         "- **Build on it for mods and restorations.** If you are putting a cut weapon or texture back into a level, the lists give you the exact file names, which archive they live in, and which textures or keys belong with them.",
         "",
-        "If you want everything in one go, a zip of the whole folder (PDF, these data files, and the renders) will be added on the Releases page when v2.2 is published. The last published zip is still in the [v2.1 release](" + REPO + "/releases/tag/v2.1).",
+        f"If you want everything in one go, a [zip of the whole folder]({ZIP_URL}) (PDF, these data files, and the renders) is in the [v2.2 release]({REPO}/releases/tag/{VERSION}).",
         "",
         "## The files",
         "",
@@ -891,7 +891,7 @@ def write_docs(sections, credits, walked) -> None:
         "",
         f"**Version {VERSION.lstrip('v')}** — {VERSION_MONTH}",
         "",
-        f"Have a new finding, a correction, or a file this catalogue should look at again? Please [open an issue]({ISSUE}) and tell us about it. The last published PDF is still [v2.1]({REPO}/releases/download/v2.1/JK_MotS_Unused_Content_Findings_v2.1.pdf); the v2.2 PDF and zip will be added on the Releases page when this version is published.",
+        f"Have a new finding, a correction, or a file this catalogue should look at again? Please [open an issue]({ISSUE}) and tell us about it. You can also [download the PDF ({VERSION})]({PDF_URL}) or the [zip of the folder]({ZIP_URL}).",
         "",
         "This site is the web edition of the catalogue of unused, orphaned and leftover files in the retail *Star Wars Jedi Knight: Dark Forces II* (JK) and *Mysteries of the Sith* (MotS) data. Use the sidebar to jump to a section, or the table of contents on each page to jump to a finding. Every finding has a stable link, for example [Finding 34](g-hints-in-comments.md#finding-34).",
         "",
