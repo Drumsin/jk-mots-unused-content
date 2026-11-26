@@ -81,9 +81,9 @@
   --jk-table-hover: rgba(255, 140, 26, 0.16);
   --jk-table-border: rgba(196, 168, 130, 0.28);
   --jk-caption: #c4b8a0;
-  --md-primary-fg-color: #1c1610;
-  --md-primary-fg-color--light: #2a2218;
-  --md-primary-fg-color--dark: #120e0a;
+  --md-primary-fg-color: #3a2d1e;
+  --md-primary-fg-color--light: #4a3c2e;
+  --md-primary-fg-color--dark: #2e2418;
   --md-accent-fg-color: #ffb347;
   --md-accent-fg-color--transparent: rgba(255, 179, 71, 0.14);
   --md-typeset-a-color: #e09a45;
@@ -359,24 +359,74 @@
 .game-icons a,
 .md-typeset .game-icon,
 .md-typeset a.game-icon {
-  color: inherit;
   text-decoration: none !important;
 }
 
-/* Left sidebar: title reads as a title, sections are divided, links are distinct. */
-.md-nav--primary > .md-nav__title {
-  color: var(--jk-title);
+/* Chip text stays near-black in both schemes. A more specific rule than
+   heading inheritance or [data-md-color-scheme="slate"] body color. */
+.game-icon.game-icon--jk,
+.game-icon.game-icon--mots,
+.md-typeset .game-icon.game-icon--jk,
+.md-typeset .game-icon.game-icon--mots,
+.md-typeset h2 .game-icon.game-icon--jk,
+.md-typeset h2 .game-icon.game-icon--mots,
+[data-md-color-scheme="default"] .game-icon.game-icon--jk,
+[data-md-color-scheme="default"] .game-icon.game-icon--mots,
+[data-md-color-scheme="slate"] .game-icon.game-icon--jk,
+[data-md-color-scheme="slate"] .game-icon.game-icon--mots,
+[data-md-color-scheme="default"] .md-typeset .game-icon.game-icon--jk,
+[data-md-color-scheme="default"] .md-typeset .game-icon.game-icon--mots,
+[data-md-color-scheme="slate"] .md-typeset .game-icon.game-icon--jk,
+[data-md-color-scheme="slate"] .md-typeset .game-icon.game-icon--mots {
+  color: #1a1a1a;
+  -webkit-text-fill-color: #1a1a1a;
   font-weight: 700;
-  font-size: 0.78rem;
-  line-height: 1.35;
-  padding-bottom: 0.7rem;
-  margin-bottom: 0.35rem;
-  border-bottom: 1px solid var(--jk-divider);
-  background: transparent;
-  box-shadow: none;
+}
+
+/* Left sidebar: title reads as a title, sections are divided, links are distinct.
+   On desktop the title is sticky; it needs an opaque page-colored background
+   so scrolling nav links cannot show through. */
+@media screen and (min-width: 76.25em) {
+  .md-nav--primary > .md-nav__title,
+  .md-nav--primary .md-nav__title {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    color: var(--jk-title);
+    font-weight: 700;
+    font-size: 0.78rem;
+    line-height: 1.35;
+    padding-top: 0.35rem;
+    padding-bottom: 0.7rem;
+    margin-bottom: 0.35rem;
+    border-bottom: 1px solid var(--jk-divider);
+    background: var(--md-default-bg-color);
+    background-color: var(--md-default-bg-color);
+    /* Spread shadow in the page color hides links as they pass underneath;
+       a light drop shadow marks the edge once the list has scrolled. */
+    box-shadow:
+      0 0 0.4rem 0.4rem var(--md-default-bg-color),
+      0 4px 8px -4px rgba(28, 22, 16, 0.28);
+  }
 }
 .md-nav--primary > .md-nav__title .md-nav__button {
   color: var(--jk-title);
+}
+
+/* Mobile drawer: keep the top bar on the primary color; other drawer
+   titles (section back-links) get the same opaque page background. */
+@media screen and (max-width: 76.234375em) {
+  .md-nav--primary .md-nav__title[for="__drawer"] {
+    background-color: var(--md-primary-fg-color);
+    color: #f6eee2;
+    box-shadow: none;
+    border-bottom: 0;
+  }
+  .md-nav--primary .md-nav__title:not([for="__drawer"]) {
+    background-color: var(--md-default-bg-color);
+    color: var(--jk-title);
+    z-index: 3;
+  }
 }
 
 .md-nav--primary .md-nav__item--section {
@@ -401,13 +451,12 @@
   color: var(--jk-nav-section);
 }
 
-/* Nav page links: their own link / visited / hover / active colors. */
+/* Nav page links stay orange even after visiting (lavender is for body links only). */
 .md-nav--primary a.md-nav__link,
-.md-nav--primary a.md-nav__link:link {
-  color: var(--jk-nav-link);
-}
+.md-nav--primary a.md-nav__link:link,
 .md-nav--primary a.md-nav__link:visited {
-  color: var(--jk-nav-link-visited);
+  color: var(--jk-nav-link);
+  padding: 0.35em 0.5em 0.35em 0.75em;
 }
 .md-nav--primary a.md-nav__link:hover,
 .md-nav--primary a.md-nav__link:focus-visible {
@@ -424,6 +473,7 @@
   box-shadow: inset 2px 0 0 var(--jk-orange);
   font-weight: 600;
   border-radius: 0 0.2rem 0.2rem 0;
+  padding: 0.35em 0.5em 0.35em 0.75em;
 }
 
 /* Data Files (and any other top-level item after a section) gets a divider. */
@@ -450,11 +500,9 @@
   box-shadow: none;
 }
 .md-nav--secondary a.md-nav__link,
-.md-nav--secondary a.md-nav__link:link {
-  color: var(--jk-toc-link);
-}
+.md-nav--secondary a.md-nav__link:link,
 .md-nav--secondary a.md-nav__link:visited {
-  color: var(--jk-toc-visited);
+  color: var(--jk-toc-link);
 }
 .md-nav--secondary a.md-nav__link:hover,
 .md-nav--secondary a.md-nav__link:focus-visible {
@@ -478,6 +526,28 @@
 }
 [data-md-color-scheme="slate"] .md-header__topic {
   color: #e8d5b8;
+}
+
+/* Dark header is a lighter warm charcoal so it separates from the page. */
+[data-md-color-scheme="slate"] .md-header {
+  background-color: #3a2d1e;
+  border-bottom: 1px solid rgba(224, 154, 69, 0.6);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+[data-md-color-scheme="slate"] .md-header .md-header__button,
+[data-md-color-scheme="slate"] .md-header .md-source,
+[data-md-color-scheme="slate"] .md-header .md-source__repository,
+[data-md-color-scheme="slate"] .md-header .md-search__input,
+[data-md-color-scheme="slate"] .md-header .md-search__input + .md-search__icon,
+[data-md-color-scheme="slate"] .md-header .md-search__input::placeholder {
+  color: #e8d5b8;
+}
+[data-md-color-scheme="slate"] .md-header .md-search__form {
+  background-color: #4a3c2e;
+}
+/* Banner stays darker than the toolbar so the two bars read as separate layers. */
+[data-md-color-scheme="slate"] .md-banner {
+  background-color: #1c1610;
 }
 
 .visually-hidden {
