@@ -1,30 +1,104 @@
-/* Readable, document-like typography to sit closer to the print PDF. */
-:root,
-[data-md-color-scheme="default"] {
-  --jk-heading: #0d6e6e;
-  --jk-link: #0b57d0;
-  --jk-link-visited: #6a1b9a;
-  --jk-chip-jk-bg: #1565c0;
-  --jk-chip-jk-fg: #ffffff;
-  --jk-chip-mots-bg: #c67c00;
-  --jk-chip-mots-fg: #ffffff;
-}
-[data-md-color-scheme="slate"] {
-  --jk-heading: #5ee0d0;
-  --jk-link: #82b1ff;
-  --jk-link-visited: #ce93d8;
-  --jk-chip-jk-bg: #64b5f6;
-  --jk-chip-jk-fg: #0b1c2c;
-  --jk-chip-mots-bg: #ffc107;
-  --jk-chip-mots-fg: #2a1c00;
+/* JK orange + MotS lavender palette, plus neutrals.
+   Light and dark schemes use tints and shades of the same family. */
+
+:root {
+  --jk-orange: #ff8c1a;
+  --jk-orange-deep: #9a4e00;
+  --jk-orange-active: #6b3200;
+  --jk-lavender: #b39ddb;
+  --jk-chip-fg: #1a1a1a;
 }
 
+[data-md-color-scheme="default"] {
+  --jk-heading: #7a4e14;
+  --jk-link: #5e3d9e;
+  --jk-link-visited: #7a3d7e;
+  --jk-link-hover: #9a4e00;
+  --jk-link-active: #6b3200;
+  --jk-title: #4a3d63;
+  --jk-nav-section: #7a4e14;
+  --jk-nav-link: #5e3d9e;
+  --jk-nav-link-visited: #7a3d7e;
+  --jk-nav-link-hover: #9a4e00;
+  --jk-nav-link-active: #6b3200;
+  --jk-nav-active-bg: rgba(179, 157, 219, 0.22);
+  --jk-toc-link: #5e3d9e;
+  --jk-toc-visited: #7a3d7e;
+  --jk-toc-hover: #9a4e00;
+  --jk-toc-active: #6b3200;
+  --jk-divider: rgba(92, 74, 138, 0.28);
+  --jk-chip-jk-bg: #ff8c1a;
+  --jk-chip-jk-fg: #1a1a1a;
+  --jk-chip-jk-border: #c66a00;
+  --jk-chip-mots-bg: #b39ddb;
+  --jk-chip-mots-fg: #1a1a1a;
+  --jk-chip-mots-border: #7e69b0;
+  --jk-heading-emboss: 0 1px 0 rgba(255, 255, 255, 0.8);
+  --jk-table-head: rgba(92, 74, 138, 0.14);
+  --jk-table-stripe: rgba(179, 157, 219, 0.12);
+  --jk-table-hover: rgba(255, 140, 26, 0.18);
+  --jk-table-border: rgba(92, 74, 138, 0.28);
+  --md-primary-fg-color: #4a3d63;
+  --md-primary-fg-color--light: #5c4a8a;
+  --md-primary-fg-color--dark: #3a3050;
+  --md-accent-fg-color: #9a4e00;
+  --md-accent-fg-color--transparent: rgba(154, 78, 0, 0.12);
+  --md-typeset-a-color: #5e3d9e;
+  --md-default-bg-color: #faf8f6;
+  --md-default-fg-color: #2a2a2c;
+  --md-default-fg-color--light: #5a585c;
+  --md-default-fg-color--lighter: #8a868c;
+}
+
+[data-md-color-scheme="slate"] {
+  --jk-heading: #c4a882;
+  --jk-link: #cbb6ea;
+  --jk-link-visited: #a78cbf;
+  --jk-link-hover: #ffb347;
+  --jk-link-active: #ff8c1a;
+  --jk-title: #e8e0d4;
+  --jk-nav-section: #c4a882;
+  --jk-nav-link: #c4aee0;
+  --jk-nav-link-visited: #a78cbf;
+  --jk-nav-link-hover: #ffb347;
+  --jk-nav-link-active: #ff8c1a;
+  --jk-nav-active-bg: rgba(179, 157, 219, 0.16);
+  --jk-toc-link: #c4aee0;
+  --jk-toc-visited: #a78cbf;
+  --jk-toc-hover: #ffb347;
+  --jk-toc-active: #ff8c1a;
+  --jk-divider: rgba(179, 157, 219, 0.28);
+  --jk-chip-jk-bg: #ff8c1a;
+  --jk-chip-jk-fg: #1a1a1a;
+  --jk-chip-jk-border: transparent;
+  --jk-chip-mots-bg: #b39ddb;
+  --jk-chip-mots-fg: #1a1a1a;
+  --jk-chip-mots-border: transparent;
+  --jk-heading-emboss: 0 1px 0 rgba(0, 0, 0, 0.6);
+  --jk-table-head: rgba(179, 157, 219, 0.16);
+  --jk-table-stripe: rgba(179, 157, 219, 0.08);
+  --jk-table-hover: rgba(255, 140, 26, 0.16);
+  --jk-table-border: rgba(179, 157, 219, 0.28);
+  --md-primary-fg-color: #1c1824;
+  --md-primary-fg-color--light: #2a2435;
+  --md-primary-fg-color--dark: #121016;
+  --md-accent-fg-color: #ffb347;
+  --md-accent-fg-color--transparent: rgba(255, 179, 71, 0.14);
+  --md-typeset-a-color: #cbb6ea;
+  --md-default-bg-color: #16141c;
+  --md-default-fg-color: #d8d6db;
+  --md-default-fg-color--light: #b4b1b8;
+  --md-default-fg-color--lighter: #8a8790;
+}
+
+/* Body stays a neutral gray, distinct from headings and links. */
 .md-typeset {
   font-size: 0.84rem;
   line-height: 1.65;
+  color: var(--md-default-fg-color);
 }
 
-/* Brighter, distinct heading color (not the same as body or links). */
+/* Headings: muted gold/bronze from the JK orange family. */
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3,
@@ -32,8 +106,25 @@
   color: var(--jk-heading);
   font-weight: 700;
 }
-.md-typeset h1 {
+
+/* h1/h2: thin 1px emboss plus a short 45-degree clipped accent rule. */
+.md-typeset h1,
+.md-typeset h2 {
+  position: relative;
   letter-spacing: -0.01em;
+  padding-bottom: 0.42em;
+  text-shadow: var(--jk-heading-emboss);
+}
+.md-typeset h1::after,
+.md-typeset h2::after {
+  content: "";
+  display: block;
+  width: 5.5rem;
+  height: 3px;
+  margin-top: 0.38em;
+  background: linear-gradient(90deg, #ff8c1a 0%, #b39ddb 100%);
+  /* 45-degree cut on the trailing end */
+  clip-path: polygon(0 0, 100% 0, calc(100% - 3px) 100%, 0 100%);
 }
 .md-typeset h2 {
   margin-top: 1.8em;
@@ -42,8 +133,7 @@
   scroll-margin-top: 4.5rem;
 }
 
-/* Content links: strong accent, underline with offset, thicker on hover.
-   Sidebar nav and heading permalinks stay on the theme defaults. */
+/* Body links: distinct link / visited / hover / active. */
 .md-typeset a,
 .md-typeset a:link {
   color: var(--jk-link);
@@ -57,8 +147,11 @@
 }
 .md-typeset a:hover,
 .md-typeset a:focus-visible {
-  color: var(--jk-link);
+  color: var(--jk-link-hover);
   text-decoration-thickness: 2px;
+}
+.md-typeset a:active {
+  color: var(--jk-link-active);
 }
 .md-typeset table a,
 .md-typeset table a:link {
@@ -72,7 +165,11 @@
 }
 .md-typeset table a:hover,
 .md-typeset table a:focus-visible {
+  color: var(--jk-link-hover);
   text-decoration-thickness: 2px;
+}
+.md-typeset table a:active {
+  color: var(--jk-link-active);
 }
 
 /* Don't turn heading text or the permalink hash into body-style links. */
@@ -84,31 +181,47 @@
 .md-typeset a.headerlink:visited {
   color: inherit;
   text-decoration: none;
+  text-shadow: none;
 }
 .md-typeset a.headerlink:hover,
 .md-typeset a.headerlink:focus-visible {
-  color: var(--jk-link);
+  color: var(--jk-link-hover);
   text-decoration: none;
 }
+.md-typeset a.headerlink:active {
+  color: var(--jk-link-active);
+}
 
-/* Banner and footer sit on dark bars in both schemes. */
+/* Banner and footer sit on dark bars in both schemes. Use the same palette. */
 .md-banner {
   font-size: 0.72rem;
   line-height: 1.5;
+  background-color: #1c1824;
+  color: #e8e0d4;
+}
+.md-banner__inner,
+.md-banner__inner p,
+.md-banner {
+  color: #e8e0d4;
 }
 .md-banner a,
-.md-banner a:link,
-.md-banner a:visited {
-  color: #ffe082;
+.md-banner a:link {
+  color: #ffb347;
   font-weight: 600;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.16em;
 }
+.md-banner a:visited {
+  color: #c4aee0;
+}
 .md-banner a:hover,
 .md-banner a:focus-visible {
-  color: #fff8e1;
+  color: #ffd19a;
   text-decoration-thickness: 2px;
+}
+.md-banner a:active {
+  color: #ff8c1a;
 }
 .issue-banner__sep {
   margin: 0 0.4em;
@@ -116,27 +229,56 @@
 }
 .md-footer-copyright a,
 .md-footer-copyright a:link {
-  color: #82b1ff;
+  color: #cbb6ea;
   font-weight: 600;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.16em;
 }
 .md-footer-copyright a:visited {
-  color: #ce93d8;
+  color: #a78cbf;
 }
 .md-footer-copyright a:hover,
 .md-footer-copyright a:focus-visible {
-  color: #bbdefb;
+  color: #ffb347;
   text-decoration-thickness: 2px;
+}
+.md-footer-copyright a:active {
+  color: #ff8c1a;
+}
+
+/* Tables fill the bordered wrapper; hover and stripes span the full row. */
+.md-typeset .md-typeset__table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+.md-typeset table:not([class]) {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border-color: var(--jk-table-border);
+}
+.md-typeset table:not([class]) th {
+  background-color: var(--jk-table-head);
+  color: var(--md-default-fg-color);
+  font-weight: 700;
+}
+.md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background-color: var(--jk-table-stripe);
+}
+.md-typeset table:not([class]) tbody tr:hover,
+.md-typeset table:not([class]) tr:hover {
+  background-color: var(--jk-table-hover) !important;
+  box-shadow: none;
+}
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  border-color: var(--jk-table-border);
 }
 
 .md-typeset table {
   font-size: 0.78rem;
-}
-.md-typeset .md-typeset__table {
-  display: block;
-  overflow-x: auto;
 }
 .md-typeset img {
   border-radius: 2px;
@@ -144,6 +286,29 @@
 .md-typeset figcaption,
 .md-typeset em:has(+ p) {
   color: var(--md-default-fg-color--light);
+}
+
+/* Finding title + chips sit on one row; chips stay out of the heading/TOC. */
+.finding-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45rem;
+  margin-top: 1.8em;
+}
+.finding-head > p {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+.finding-head h2 {
+  flex: 1;
+  margin-top: 0;
+  min-width: 0;
+}
+.finding-head .game-icons {
+  flex-shrink: 0;
+  margin-top: 0.48em;
+  margin-right: 0;
 }
 
 /* Small game chips before finding titles. Not logos. */
@@ -162,6 +327,7 @@
   height: 1.45em;
   padding: 0 0.32em;
   border-radius: 0.28em;
+  border: 1px solid transparent;
   font-family: "Source Code Pro", ui-monospace, monospace;
   font-size: 0.52em;
   font-weight: 700;
@@ -173,20 +339,145 @@
   position: relative;
   top: -0.08em;
 }
+.finding-head .game-icon {
+  font-size: 0.68rem;
+  height: 1.35em;
+  top: 0;
+}
 .game-icon--jk {
   background: var(--jk-chip-jk-bg);
   color: var(--jk-chip-jk-fg);
+  border-color: var(--jk-chip-jk-border);
 }
 .game-icon--mots {
   background: var(--jk-chip-mots-bg);
   color: var(--jk-chip-mots-fg);
+  border-color: var(--jk-chip-mots-border);
 }
 .game-icons a,
-.md-typeset h2 .game-icon,
-.md-typeset h2 a.game-icon {
+.md-typeset .game-icon,
+.md-typeset a.game-icon {
   color: inherit;
   text-decoration: none !important;
 }
+
+/* Left sidebar: title reads as a title, sections are divided, links are distinct. */
+.md-nav--primary > .md-nav__title {
+  color: var(--jk-title);
+  font-weight: 700;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  padding-bottom: 0.7rem;
+  margin-bottom: 0.35rem;
+  border-bottom: 1px solid var(--jk-divider);
+  background: transparent;
+  box-shadow: none;
+}
+.md-nav--primary > .md-nav__title .md-nav__button {
+  color: var(--jk-title);
+}
+
+.md-nav--primary .md-nav__item--section {
+  margin-top: 0.7rem;
+  padding-top: 0.15rem;
+}
+.md-nav--primary .md-nav__item--section > label.md-nav__link,
+.md-nav--primary .md-nav__item--section > .md-nav__link {
+  color: var(--jk-nav-section);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--jk-divider);
+  margin: 0 0 0.35rem 0;
+  padding-bottom: 0.35rem;
+  background: transparent;
+}
+.md-nav--primary .md-nav__item--section > label.md-nav__link:hover,
+.md-nav--primary .md-nav__item--section > label.md-nav__link:focus,
+.md-nav--primary .md-nav__item--section > .md-nav__link:hover {
+  color: var(--jk-nav-section);
+}
+
+/* Nav page links: their own link / visited / hover / active colors. */
+.md-nav--primary a.md-nav__link,
+.md-nav--primary a.md-nav__link:link {
+  color: var(--jk-nav-link);
+}
+.md-nav--primary a.md-nav__link:visited {
+  color: var(--jk-nav-link-visited);
+}
+.md-nav--primary a.md-nav__link:hover,
+.md-nav--primary a.md-nav__link:focus-visible {
+  color: var(--jk-nav-link-hover);
+}
+.md-nav--primary a.md-nav__link:active {
+  color: var(--jk-nav-link-active);
+}
+.md-nav--primary a.md-nav__link--active,
+.md-nav--primary a.md-nav__link--active:link,
+.md-nav--primary a.md-nav__link--active:visited {
+  color: var(--jk-nav-link-active);
+  background: var(--jk-nav-active-bg);
+  box-shadow: inset 2px 0 0 var(--jk-orange);
+  font-weight: 600;
+  border-radius: 0 0.2rem 0.2rem 0;
+}
+
+/* Data Files (and any other top-level item after a section) gets a divider. */
+.md-nav--primary > .md-nav__list > .md-nav__item:not(.md-nav__item--section) + .md-nav__item:not(.md-nav__item--section) {
+  /* no extra rule: keep How-to-read tight under the title */
+}
+.md-nav--primary > .md-nav__list > .md-nav__item--section + .md-nav__item:not(.md-nav__item--section) {
+  margin-top: 0.7rem;
+  padding-top: 0.55rem;
+  border-top: 1px solid var(--jk-divider);
+}
+
+/* Right-hand TOC: distinct link states, no leftover chip text. */
+.md-nav--secondary .md-nav__title {
+  color: var(--jk-nav-section);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--jk-divider);
+  margin-bottom: 0.35rem;
+  padding-bottom: 0.35rem;
+  background: transparent;
+  box-shadow: none;
+}
+.md-nav--secondary a.md-nav__link,
+.md-nav--secondary a.md-nav__link:link {
+  color: var(--jk-toc-link);
+}
+.md-nav--secondary a.md-nav__link:visited {
+  color: var(--jk-toc-visited);
+}
+.md-nav--secondary a.md-nav__link:hover,
+.md-nav--secondary a.md-nav__link:focus-visible {
+  color: var(--jk-toc-hover);
+}
+.md-nav--secondary a.md-nav__link:active {
+  color: var(--jk-toc-active);
+}
+.md-nav--secondary a.md-nav__link--active,
+.md-sidebar--secondary .md-nav__link--active {
+  color: var(--jk-toc-active);
+  font-weight: 600;
+}
+
+.md-header__topic {
+  color: var(--jk-title);
+  font-weight: 700;
+}
+[data-md-color-scheme="default"] .md-header__topic {
+  color: #f3eefc;
+}
+[data-md-color-scheme="slate"] .md-header__topic {
+  color: #e8e0d4;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -197,9 +488,4 @@
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
-}
-/* Keep the on-page table of contents as plain titles. */
-.md-nav--secondary .game-icons,
-.md-nav--secondary .game-icon {
-  display: none;
 }

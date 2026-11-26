@@ -247,7 +247,14 @@ def render_finding(n: int, f: dict, mode: str) -> list[str]:
     lines = []
     title = P(f["t"], mode)
     if mode == "site":
-        lines += [f"## {game_icon_html(f)} {n}. {title} {{#finding-{n}}}", ""]
+        # Chips sit beside the heading so the TOC stays a clean title.
+        lines += [
+            '<div class="finding-head" markdown="block">',
+            game_icon_html(f),
+            f"## {n}. {title} {{#finding-{n}}}",
+            "</div>",
+            "",
+        ]
     else:
         lines += [f'<a id="finding-{n}"></a>', f"### {n}. {title}", ""]
     extra = f"  ·  Classification: **{P(f['cls'], mode)}**" if f.get("cls") else ""
@@ -773,7 +780,7 @@ def write_docs(sections, credits, walked) -> None:
     home += [
         "## Browse the findings",
         "",
-        'A small chip before each finding title shows which game it is about: a blue <span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> for Jedi Knight, an amber <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span> for Mysteries of the Sith, and both when the finding covers both games. Hover a chip for the full name. The location table under each finding still has the exact archives.',
+        'A small chip before each finding title shows which game it is about: an orange <span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> for Jedi Knight, a lavender <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span> for Mysteries of the Sith, and both when the finding covers both games. Hover a chip for the full name. The location table under each finding still has the exact archives.',
         "",
     ]
     file_by_letter = dict(SECTION_FILES)

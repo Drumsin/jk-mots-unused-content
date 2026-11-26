@@ -42,7 +42,7 @@ Paths are given as *game - archive - internal path*. Archive paths are relative 
 
 ## Browse the findings
 
-A small chip before each finding title shows which game it is about: a blue <span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> for Jedi Knight, an amber <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span> for Mysteries of the Sith, and both when the finding covers both games. Hover a chip for the full name. The location table under each finding still has the exact archives.
+A small chip before each finding title shows which game it is about: an orange <span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> for Jedi Knight, a lavender <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span> for Mysteries of the Sith, and both when the finding covers both games. Hover a chip for the full name. The location table under each finding still has the exact archives.
 
 - [A. The cut "Road to Baron's Hed" level (05) - leftovers in Mysteries of the Sith](a-barons-hed.md) — findings 1–4
 - [B. Traces of other cut or reworked JK levels](b-other-cut-levels.md) — findings 5–8

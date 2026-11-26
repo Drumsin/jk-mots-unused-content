@@ -1,6 +1,9 @@
 # C. Unused dialogue
 
-## <span class="game-icons" aria-label="Jedi Knight"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span></span> 9. Unused Qu Rahn lines about the Dark Jedi {#finding-9}
+<div class="finding-head" markdown="block">
+<span class="game-icons" aria-label="Jedi Knight"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span></span>
+## 9. Unused Qu Rahn lines about the Dark Jedi {#finding-9}
+</div>
 
 **Rating:** Partly known
 
@@ -24,7 +27,10 @@ i00ra52z.wav: "If it isn't his manner that throws you, it would be his hyperacti
 
 - The Sounds Resource (sounds-resource.com) JK voice rips include the audio. No source was found that flags these lines as unused.
 
-## <span class="game-icons" aria-label="Jedi Knight"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span></span> 10. Other unused JK voice clips {#finding-10}
+<div class="finding-head" markdown="block">
+<span class="game-icons" aria-label="Jedi Knight"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span></span>
+## 10. Other unused JK voice clips {#finding-10}
+</div>
 
 **Rating:** Likely new
 
@@ -50,7 +56,10 @@ i00wm03z.wav: "No blasters, no blasters!"
 
 - No earlier source found.
 
-## <span class="game-icons" aria-label="Jedi Knight"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span></span> 11. 01_trouble.cog: an unfinished Nar Shaddaa bar exchange {#finding-11}
+<div class="finding-head" markdown="block">
+<span class="game-icons" aria-label="Jedi Knight"><span class="game-icon game-icon--jk" title="Jedi Knight">JK</span></span>
+## 11. 01_trouble.cog: an unfinished Nar Shaddaa bar exchange {#finding-11}
+</div>
 
 **Rating:** Likely new
 
@@ -74,7 +83,10 @@ sound        riposte=xxx.wav
 
 - No earlier source found.
 
-## <span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span> 12. Unused MotS civilian and rebel lines {#finding-12}
+<div class="finding-head" markdown="block">
+<span class="game-icons" aria-label="Mysteries of the Sith"><span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span></span>
+## 12. Unused MotS civilian and rebel lines {#finding-12}
+</div>
 
 **Rating:** Likely new
 
