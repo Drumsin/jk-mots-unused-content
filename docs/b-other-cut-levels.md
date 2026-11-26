@@ -102,7 +102,7 @@ See cross_game_verification.csv (rows starting with 13).
 
 Three simple models exported in batch mode with an early tool version (ver4.11). 16world is an open cylinder whose texture shows a distant valley with a tower on the horizon; 16vale and 16spir are tall rock-like pieces. None is referenced. A distant backdrop for the falling-ship levels is one possibility, but nothing in the data confirms the purpose.
 
-The first published render of 16world used a guessed MotS colormap (`10cargo.cmp`) and looked pale enough to be read as snowy mountains. Those colors are not a fact about the texture: the model's own colormap was not found. With a complete JK colormap (`04farm.cmp`) the same texture is a blue sky with brown clouds over a dark valley and a tower, with no snow. The colors should be treated as uncertain. This colormap concern was raised in a review of this catalogue.
+The first published render of 16world used a guessed MotS colormap (`10cargo.cmp`) and looked pale enough to be read as snowy mountains. Those colors are not a fact about the texture: the model's own colormap was not found. With a complete JK colormap (`04farm.cmp`) the same texture is a blue sky with brown clouds over a dark valley and a tower, with no snow. The colors should be treated as uncertain. This colormap concern turned up while re-checking this document.
 
 **Evidence**
 
@@ -113,7 +113,7 @@ The first published render of 16world used a guessed MotS colormap (`10cargo.cmp
 
 **Sources**
 
-- No earlier source found. The concern that the pale colors were a colormap guess, not snow, was raised in a review of this catalogue.
+- No earlier source found. The concern that the pale colors were a colormap guess, not snow, turned up while re-checking this document.
 
 <figure class="finding-figure" markdown="1">
 ![16world.3do with the guessed MotS 10cargo.cmp used in the first published render (pale, easily read as snow)](renders/16world.png)

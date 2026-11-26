@@ -420,7 +420,7 @@ See cross_game_verification.csv (rows starting with 13).
 
 Three simple models exported in batch mode with an early tool version (ver4.11). 16world is an open cylinder whose texture shows a distant valley with a tower on the horizon; 16vale and 16spir are tall rock-like pieces. None is referenced. A distant backdrop for the falling-ship levels is one possibility, but nothing in the data confirms the purpose.
 
-The first published render of 16world used a guessed MotS colormap (`10cargo.cmp`) and looked pale enough to be read as snowy mountains. Those colors are not a fact about the texture: the model's own colormap was not found. With a complete JK colormap (`04farm.cmp`) the same texture is a blue sky with brown clouds over a dark valley and a tower, with no snow. The colors should be treated as uncertain. This colormap concern was raised in a review of this catalogue.
+The first published render of 16world used a guessed MotS colormap (`10cargo.cmp`) and looked pale enough to be read as snowy mountains. Those colors are not a fact about the texture: the model's own colormap was not found. With a complete JK colormap (`04farm.cmp`) the same texture is a blue sky with brown clouds over a dark valley and a tower, with no snow. The colors should be treated as uncertain. This colormap concern turned up while re-checking this document.
 
 **Evidence**
 
@@ -431,7 +431,7 @@ The first published render of 16world used a guessed MotS colormap (`10cargo.cmp
 
 **Sources**
 
-- No earlier source found. The concern that the pale colors were a colormap guess, not snow, was raised in a review of this catalogue.
+- No earlier source found. The concern that the pale colors were a colormap guess, not snow, turned up while re-checking this document.
 
 ![16world.3do with the guessed MotS 10cargo.cmp used in the first published render (pale, easily read as snow)](renders/16world.png)
 
@@ -599,7 +599,7 @@ voiceuu holds 46 WAVs. Ka'Pa (Huttese, not quoted): ka92102, 04, 05, 07, 09, 12,
 
 **Sources**
 
-- Community modder Shimstock pointed out the unused voiceuu folder in JKMRES, and that many of the clips came from the cutscenes. The Ka'Pa lines were identified by listening, in a review of this catalogue.
+- Community modder Shimstock pointed out the unused voiceuu folder in JKMRES, and that many of the clips came from the cutscenes. The Ka'Pa lines were identified by listening while re-checking this document.
 
 <a id="section-d"></a>
 ## D. Unused and orphaned scripts
@@ -1591,7 +1591,7 @@ These findings were added in v2.2 from community notes and a further pass over l
 
 Almost every JK level still lists a `+force_saber` template that uses this model, but no JK cog ever calls `FireProjectile` or `CreateThing` on it, and JK has no saber-throw inventory power. Mysteries of the Sith later shipped a working saber throw (`force_saberthrow.cog`, with later models such as `sab0gree`). The green-shaft model was the experimental JK version of that idea.
 
-This was easy to miss, and an earlier version of this document wrongly removed `sab0.3do` from the unused list because every JK level names it (see Finding 23 and Appendix F). Being listed in a level template is not the same as being fired. Cogking, a developer on the original game who helped create the COG scripting language, confirmed that the developers were experimenting with a saber throw; the green-shaft model was found in a review of this catalogue.
+This was easy to miss, and an earlier version of this document wrongly removed `sab0.3do` from the unused list because every JK level names it (see Finding 23 and Appendix F). Being listed in a level template is not the same as being fired. Cogking, a developer on the original game who helped create the COG scripting language, confirmed that the developers were experimenting with a saber throw; the green-shaft model turned up while re-checking this document's asset lists.
 
 **Evidence**
 
@@ -1605,7 +1605,7 @@ MotS ships force_saberthrow.cog and later saber-throw models (sab0gree and relat
 **Sources**
 
 - Cogking, a developer on the original game who helped create the COG scripting language, confirmed that the developers were experimenting with a saber throw.
-- The green-shaft model (sab0.3do in Res2.gob) was identified in a review of this catalogue.
+- The green-shaft model (sab0.3do in Res2.gob) turned up while re-checking this document's asset lists.
 
 ![sab0.3do, the unused JK saber-throw model with its solid green blade (colormap JK 01narsh)](renders/sab0.png)
 
@@ -1666,8 +1666,8 @@ The full lists are in [jk_unreferenced_assets.csv](references/jk_unreferenced_as
 | `key` | 32 | 125 |
 | `wav` | 14 | 28 |
 | `ai` | 14 | 19 |
-| `ai0` | 10 | 3 |
 | `ai2` | 10 | 3 |
+| `ai0` | 10 | 3 |
 | `snd` | 1 | 8 |
 | `pup` | 2 | 5 |
 | `bm` | 6 | 0 |
@@ -1800,16 +1800,16 @@ Thank you to community modder Shimstock for a set of notes that led to most of t
 
 What changed:
 
-- Finding 2: the leftover level-05 Crow and TIE bomber animations are a paired sky dogfight; the transport animation is a path through the level. The written frame rates do not match, so the files as shipped would not finish together. Credited to Shimstock.
+- Finding 2: the leftover level-05 Crow and TIE bomber animations are a paired sky dogfight; the transport animation is a path through the level. The written frame rates do not match, so the files as shipped would not finish together. Credited to community modder Shimstock.
 - Finding 5/6 reworded to rely only on game-file evidence.
 - Finding 7: dropped "snowy" as a fact about 16world. The pale colors came from a guessed MotS colormap; a complete JK colormap shows a dark valley and a tower, not snow. The colors are uncertain.
-- Finding 12: the voiceuu folder has 46 files, not 26. That includes 28 civilian, rebel and announcement clips (previously counted as 26), 15 Ka'Pa the Hutt lines in Huttese, and 3 Abron Mar lines from leftover in-engine cutscenes that the shipped episode never plays. Credited to Shimstock for the folder, and to a review of this catalogue for identifying Ka'Pa.
-- Finding 20: added rep0.3do, the repeater's earlier unused projectile. Credited to Shimstock.
-- Finding 23: added Shimstock's speculative notes on kystab (possibly the Tusken prod melee) and kyrepel0 (a dropped radial push; Boc uses +force_repel with his own animation). Corrected the earlier claim that sab0.3do is used in both games. Short notes on unused +force_lightning2/3/4 templates and leftover MotS +force_repel templates.
-- Finding 24: no evidence for a Kaerobani boss fight. His unused body (kb.3do) stands. The leftover S4L1 opening-cutscene script plays kb74107–kb74109, but those files do not ship in JKMRES, voiceuu or JKMsndLO.goo, so the lines were likely cut from the finished video (not yet compared line by line). Credited to Shimstock for raising the lines.
-- Finding 44 (new): an unfinished JK saber throw (sab0.3do with a solid green blade, sab0.key, and an un-fired +force_saber template). MotS later shipped a working version. Credited to Cogking, and to a review of this catalogue for the model. Appendix F's earlier "used in both games" row for sab0.3do is superseded by this correction.
+- Finding 12: the voiceuu folder has 46 files, not 26. That includes 28 civilian, rebel and announcement clips (previously counted as 26), 15 Ka'Pa the Hutt lines in Huttese, and 3 Abron Mar lines from leftover in-engine cutscenes that the shipped episode never plays. Credited to community modder Shimstock for the folder. Ka'Pa's lines were identified while re-checking this document.
+- Finding 20: added rep0.3do, the repeater's earlier unused projectile. Credited to community modder Shimstock.
+- Finding 23: added community modder Shimstock's speculative notes on kystab (possibly the Tusken prod melee) and kyrepel0 (a dropped radial push; Boc uses +force_repel with his own animation). Corrected the earlier claim that sab0.3do is used in both games. Short notes on unused +force_lightning2/3/4 templates and leftover MotS +force_repel templates.
+- Finding 24: no evidence for a Kaerobani boss fight. His unused body (kb.3do) stands. The leftover S4L1 opening-cutscene script plays kb74107–kb74109, but those files do not ship in JKMRES, voiceuu or JKMsndLO.goo, so the lines were likely cut from the finished video (not yet compared line by line). Credited to community modder Shimstock for raising the lines.
+- Finding 44 (new): an unfinished JK saber throw (sab0.3do with a solid green blade, sab0.key, and an un-fired +force_saber template). MotS later shipped a working version. Credited to Cogking, a developer on the original game who helped create the COG scripting language, for confirming the saber-throw experiments. The model itself turned up while re-checking this document's asset lists. Appendix F's earlier "used in both games" row for sab0.3do is superseded by this correction.
 - Finding 45 (new): MotS force_warning.cog, an unused "Warning Sense" Force power written for bin 38, which shipped as Force Push. An in-game test in the original executable confirmed the flags are set, with no visible effect. No other cog reads those flags.
-- Intro: a short paragraph on how MotS cutscenes were filmed in the game engine and recorded to .san videos, and that CUTSCENES.ZIP holds earlier JKL setups. Credited to Shimstock.
+- Intro: a short paragraph on how MotS cutscenes were filmed in the game engine and recorded to .san videos, and that CUTSCENES.ZIP holds earlier JKL setups. Credited to community modder Shimstock.
 - Housekeeping: the flagged-comment count is 6,688 (the previous text said 6,680). The tractor render uses colormap 20val.cmp, a best guess, instead of the darker 03house.cmp used in the v2.1 PDF.
 
 ---

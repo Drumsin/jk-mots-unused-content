@@ -21,7 +21,7 @@ These findings were added in v2.2 from community notes and a further pass over l
 
 Almost every JK level still lists a `+force_saber` template that uses this model, but no JK cog ever calls `FireProjectile` or `CreateThing` on it, and JK has no saber-throw inventory power. Mysteries of the Sith later shipped a working saber throw (`force_saberthrow.cog`, with later models such as `sab0gree`). The green-shaft model was the experimental JK version of that idea.
 
-This was easy to miss, and an earlier version of this document wrongly removed `sab0.3do` from the unused list because every JK level names it (see Finding 23 and Appendix F). Being listed in a level template is not the same as being fired. Cogking, a developer on the original game who helped create the COG scripting language, confirmed that the developers were experimenting with a saber throw; the green-shaft model was found in a review of this catalogue.
+This was easy to miss, and an earlier version of this document wrongly removed `sab0.3do` from the unused list because every JK level names it (see Finding 23 and Appendix F). Being listed in a level template is not the same as being fired. Cogking, a developer on the original game who helped create the COG scripting language, confirmed that the developers were experimenting with a saber throw; the green-shaft model turned up while re-checking this document's asset lists.
 
 **Evidence**
 
@@ -35,7 +35,7 @@ MotS ships force_saberthrow.cog and later saber-throw models (sab0gree and relat
 **Sources**
 
 - Cogking, a developer on the original game who helped create the COG scripting language, confirmed that the developers were experimenting with a saber throw.
-- The green-shaft model (sab0.3do in Res2.gob) was identified in a review of this catalogue.
+- The green-shaft model (sab0.3do in Res2.gob) turned up while re-checking this document's asset lists.
 
 <figure class="finding-figure" markdown="1">
 ![sab0.3do, the unused JK saber-throw model with its solid green blade (colormap JK 01narsh)](renders/sab0.png)
