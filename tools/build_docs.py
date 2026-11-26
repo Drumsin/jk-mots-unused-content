@@ -168,6 +168,7 @@ def load_sources():
         TSR,
         "A Steam community guide on the hidden MotS level S6L1 (Dark Kyle in the garbage room).",
         "Cogking, a developer on the original game who helped create the COG scripting language, for confirming that the Jedi Knight developers were experimenting with a saber throw.",
+        "Community modder DarkahnKiralv, for an independent check of the original Windows MotS executable confirming that the Warning Sense flags have no warning light, screen tint, or sound in retail ([DarkahnKiralv's COG Workshop flag notes](https://richard-pemberton-research.darkahn.chatgpt.site/projects/jk-mots-cog-workshop/docs/FLAG_DISCOVERIES)).",
         "OpenJKDF2 (github.com/shinyquagsire23/OpenJKDF2), for engine-loaded file names, the HUD icon naming rule and the 3DO hierarchy/matrix conventions used by the renderer.",
     ]
     return sections, credits
@@ -186,6 +187,12 @@ def xml_to_md(s: str) -> str:
     s = re.sub(r"<b>(.*?)</b>", r"**\1**", s, flags=re.I | re.S)
     s = re.sub(r"<i>(.*?)</i>", r"*\1*", s, flags=re.I | re.S)
     s = re.sub(r"<br\s*/?>", "\n\n", s, flags=re.I)
+    s = re.sub(
+        r'<a href="([^"]+)">(.*?)</a>',
+        lambda m: f"[{m.group(2)}]({m.group(1)})",
+        s,
+        flags=re.I | re.S,
+    )
     s = re.sub(r"</?[^>]+>", "", s)
     return html.unescape(s).strip()
 
@@ -630,6 +637,7 @@ def appendix_g(mode: str) -> list[str]:
         "- Finding 24: no evidence for a Kaerobani boss fight. His unused body (kb.3do) stands. The leftover S4L1 opening-cutscene script plays kb74107–kb74109, but those files do not ship in JKMRES, voiceuu or JKMsndLO.goo, so the lines were likely cut from the finished video (not yet compared line by line). Credited to community modder Shimstock for raising the lines.",
         "- Finding 44 (new): an unfinished JK saber throw (sab0.3do with a solid green blade, sab0.key, and an un-fired +force_saber template). MotS later shipped a working version. Credited to Cogking, a developer on the original game who helped create the COG scripting language, for confirming the saber-throw experiments. The model itself turned up while re-checking this document's asset lists. Appendix F's earlier \"used in both games\" row for sab0.3do is superseded by this correction.",
         "- Finding 45 (new): MotS force_warning.cog, an unused \"Warning Sense\" Force power written for bin 38, which shipped as Force Push. An in-game test in the original executable confirmed the flags are set, with no visible effect. No other cog reads those flags.",
+        "- Finding 45: added community modder DarkahnKiralv's independent check of the MotS executable, which also found no warning effect tied to the flags.",
         "- Intro: a short paragraph on how MotS cutscenes were filmed in the game engine and recorded to .san videos, and that CUTSCENES.ZIP holds earlier JKL setups. Credited to community modder Shimstock.",
         "- Housekeeping: the flagged-comment count is 6,688 (the previous text said 6,680). The tractor render uses colormap 20val.cmp, a best guess, instead of the darker 03house.cmp used in the v2.1 PDF.",
         "",

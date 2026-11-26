@@ -8,4 +8,5 @@
 - The Sounds Resource (sounds-resource.com) JK voice rips
 - A Steam community guide on the hidden MotS level S6L1 (Dark Kyle in the garbage room).
 - Cogking, a developer on the original game who helped create the COG scripting language, for confirming that the Jedi Knight developers were experimenting with a saber throw.
+- Community modder DarkahnKiralv, for an independent check of the original Windows MotS executable confirming that the Warning Sense flags have no warning light, screen tint, or sound in retail ([DarkahnKiralv's COG Workshop flag notes](https://richard-pemberton-research.darkahn.chatgpt.site/projects/jk-mots-cog-workshop/docs/FLAG_DISCOVERIES)).
 - OpenJKDF2 (github.com/shinyquagsire23/OpenJKDF2), for engine-loaded file names, the HUD icon naming rule and the 3DO hierarchy/matrix conventions used by the renderer.

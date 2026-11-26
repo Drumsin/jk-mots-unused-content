@@ -77,6 +77,8 @@ This is not an old name for a power that shipped. MotS still has a separate scri
 
 A temporary test in the original Mysteries of the Sith executable, hooking this script to the Force Push inventory slot, confirmed that the engine accepts and reports the flags (0x400, 0xC00, 0x1400 and 0x1C00). There was no visible change to the screen, the HUD, the Force meter or the automap; enemies still attacked, and fall damage was still taken. The flags are set, but the effect they were meant to switch on was never implemented.
 
+Separately, community modder DarkahnKiralv reached the same conclusion from a disassembly of the original Windows MotS executable. He followed the three individual flag bits (0x400, 0x800 and 0x1000; the rank values 0xC00, 0x1400 and 0x1C00 are just those bits combined) into the program. Retail stores all three, but he found no native warning light, screen tint, or sound attached to any of them. He checked the direct references to that flag field and found that the Force-bubble code tests a different bit (0x100); there was no equivalent test for 0x400, 0x800 or 0x1000 that would pick a warning effect. That reading is from the disassembly; he did not run a retail audiovisual test, which the in-game test above complements. He also noted what this finding already records from the shipped files: `force_warning.cog` sets the bits by rank, plays the cast animation, and prints string 38 on selection, with no threat scan, sound or tint, and `items.dat` gives bin 38 to Force Push. His read is that the names preserve the design for Warning Sense, but the retail code never "cashes them in for a danger cue."
+
 **Evidence**
 
 ```
@@ -86,8 +88,10 @@ ranks 1-4: jkSetFlags 0x0400, 0x0C00, 0x1400, 0x1C00; stop_power: jkClearFlags 0
 items.dat: f_push  38  ...  cog=force_push.cog   (no line points at force_warning.cog)
 No other extracted JK or MotS cog reads 0x400, 0x800 or 0x1000
 In-game test in the original MotS executable: flags reported back, no visible effect
+Community modder DarkahnKiralv, MotS executable disassembly: flag field Thing+0x2B4; shared update at 0x51ADF6; Force-bubble tests 0x100 at 0x40F566; no equivalent test for 0x400, 0x800 or 0x1000; no retail audiovisual test
 ```
 
 **Sources**
 
 - No earlier source found. The script was already listed as unreferenced in [mots_unreferenced_assets.csv](https://github.com/Drumsin/jk-mots-unused-content/blob/main/references/mots_unreferenced_assets.csv) ([download](https://github.com/Drumsin/jk-mots-unused-content/raw/main/references/mots_unreferenced_assets.csv)).
+- Community modder DarkahnKiralv independently checked the original Windows MotS executable and found no warning light, tint, or sound tied to the flags. [DarkahnKiralv's COG Workshop flag notes](https://richard-pemberton-research.darkahn.chatgpt.site/projects/jk-mots-cog-workshop/docs/FLAG_DISCOVERIES).
