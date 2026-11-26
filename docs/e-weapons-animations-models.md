@@ -5,7 +5,10 @@
 ## 20. repv / repp: the cut rifle, and its missing hand textures {#finding-20}
 </div>
 
-**Rating:** Known (detail likely new)
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--known"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z"/></svg>Known (detail likely new)</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -41,7 +44,10 @@ MATERIALS 13
 ## 21. Tusken prod view models {#finding-21}
 </div>
 
-**Rating:** Known
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--known"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z"/></svg>Known</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -75,7 +81,10 @@ prgv.3do: ... '...\Weapons\TuskenProd\GunView\PrgV.prj ... ver4.11.'
 ## 22. The 8t88 beast {#finding-22}
 </div>
 
-**Rating:** Known
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--known"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z"/></svg>Known</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -104,7 +113,10 @@ A winged beast with 14 animations (run, bite, fly, jump attacks, death and more)
 ## 23. Unused Kyle animations {#finding-23}
 </div>
 
-**Rating:** Known / Partly known
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--partly"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8z"/></svg>Known / Partly known</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -131,7 +143,10 @@ kysnap3.key: referenced by mots_JKM.GOO\jkl\s5l2_darkswamp.jkl, s5l4_lowersith.j
 ## 24. Unreferenced alternate exports of models the games do use {#finding-24}
 </div>
 
-**Rating:** Partly known
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--partly"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8z"/></svg>Partly known</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|

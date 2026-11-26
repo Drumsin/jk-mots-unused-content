@@ -5,7 +5,10 @@
 ## 25. Level save dates {#finding-25}
 </div>
 
-**Rating:** Partly known
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--partly"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8z"/></svg>Partly known</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -29,7 +32,10 @@ Every JKL starts with a "World file ... Created" stamp. JK levels are dated 2-9 
 ## 26. Internal project name and personal folders {#finding-26}
 </div>
 
-**Rating:** Partly known
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--partly"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8z"/></svg>Partly known</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -66,7 +72,10 @@ MotS JKMRES.GOO misc\items.dat:36  tusken_prod  135  0  1  0x0a4  cog=weap_cross
 ## 27. Colormaps no level loads {#finding-27}
 </div>
 
-**Rating:** Likely new
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -93,7 +102,10 @@ See cross_game_verification.csv (ext = cmp).
 ## 28. Gaps in the MotS episode list {#finding-28}
 </div>
 
-**Rating:** Partly known
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--partly"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8z"/></svg>Partly known</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|

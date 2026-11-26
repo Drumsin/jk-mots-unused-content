@@ -274,6 +274,73 @@ def game_icon_html(f: dict) -> str:
     return f'<span class="game-icons" aria-label="{aria}">{" ".join(chips)}</span>'
 
 
+
+# Material icons (path data from Material for MkDocs), used in rating pills.
+_RATING_ICON_PATHS = {
+    "check": "M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z",
+    "half": "M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8z",
+    "star": "M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z",
+    "help": "m15.07 11.25-.9.92C13.45 12.89 13 13.5 13 15h-2v-.5c0-1.11.45-2.11 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41a2 2 0 0 0-2-2 2 2 0 0 0-2 2H8a4 4 0 0 1 4-4 4 4 0 0 1 4 4 3.2 3.2 0 0 1-.93 2.25M13 19h-2v-2h2M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-5.53-4.5-10-10-10",
+    "bookmark": "M17 3H7a2 2 0 0 0-2 2v16l7-3 7 3V5a2 2 0 0 0-2-2",
+    "tag": "m21.41 11.58-9-9A2 2 0 0 0 11 2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 .59 1.42l9 9A2 2 0 0 0 13 22a2 2 0 0 0 1.41-.59l7-7A2 2 0 0 0 22 13a2 2 0 0 0-.59-1.42M13 20l-9-9V4h7l9 9M6.5 5A1.5 1.5 0 1 1 5 6.5 1.5 1.5 0 0 1 6.5 5",
+    "doc": "M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 2h7v5h5v11H6zm2 8v2h8v-2zm0 4v2h5v-2z",
+}
+
+# slug, icon-key  — one style per distinct rating level
+RATING_STYLES = {
+    "Known": ("known", "check"),
+    "Known (detail likely new)": ("known", "check"),
+    "Known / Partly known": ("partly", "half"),
+    "Partly known": ("partly", "half"),
+    "Likely new": ("new", "star"),
+    "Likely new (observation)": ("new", "star"),
+    "Likely new / Partly known": ("new", "star"),
+    "Likely new (purpose speculative)": ("speculative", "help"),
+}
+CLASSIFICATION_STYLES = {
+    "Speculative": ("speculative", "help"),
+    "Confirmed cut": ("cut", "bookmark"),
+    "Confirmed cut (reworded)": ("cut", "bookmark"),
+    "Confirmed cut (disabled)": ("cut", "bookmark"),
+    "Likely rename": ("rename", "tag"),
+    "Dev notes": ("notes", "doc"),
+}
+
+
+def rating_icon_svg(key: str) -> str:
+    d = _RATING_ICON_PATHS[key]
+    return (
+        f'<svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" '
+        f'viewBox="0 0 24 24" aria-hidden="true" focusable="false">'
+        f'<path d="{d}"/></svg>'
+    )
+
+
+def rating_pill_html(text: str, slug: str, icon: str) -> str:
+    label = html.escape(text)
+    return (
+        f'<span class="rating-pill rating-pill--{slug}">'
+        f"{rating_icon_svg(icon)}{label}</span>"
+    )
+
+
+def render_rating_line(f: dict, mode: str) -> list[str]:
+    extra = f"  ·  Classification: **{P(f['cls'], mode)}**" if f.get("cls") else ""
+    if mode != "site":
+        return [f"**Rating:** {f['r']}{extra}", ""]
+    slug, icon = RATING_STYLES.get(f["r"], ("fallback", "help"))
+    parts = [
+        '<p class="finding-rating">',
+        '<span class="finding-rating__label">Rating:</span>',
+        rating_pill_html(f["r"], slug, icon),
+    ]
+    if f.get("cls"):
+        cslug, cicon = CLASSIFICATION_STYLES.get(f["cls"], ("fallback", "tag"))
+        parts.append(rating_pill_html(f["cls"], cslug, cicon))
+    parts.append("</p>")
+    return parts + [""]
+
+
 def render_finding(n: int, f: dict, mode: str) -> list[str]:
     lines = []
     title = P(f["t"], mode)
@@ -288,8 +355,7 @@ def render_finding(n: int, f: dict, mode: str) -> list[str]:
         ]
     else:
         lines += [f'<a id="finding-{n}"></a>', f"### {n}. {title}", ""]
-    extra = f"  ·  Classification: **{P(f['cls'], mode)}**" if f.get("cls") else ""
-    lines += [f"**Rating:** {f['r']}{extra}", ""]
+    lines += render_rating_line(f, mode)
     lines += ["| Game | Archive | Internal path / files |", "|---|---|---|"]
     for g, a, pth in f["loc"]:
         lines.append(f"| {md_cell(g, mode)} | {md_cell(a, mode)} | {md_cell(pth, mode)} |")
@@ -788,7 +854,11 @@ def write_docs(sections, credits, walked) -> None:
 
     # Home
     home = [
-        "# JK / MotS unused content findings",
+        "---",
+        "title: How to read this catalogue",
+        "---",
+        "",
+        "# Unused content from Jedi Knight and Mysteries of the Sith",
         "",
         f"**Version 2.1** — {VERSION_MONTH}",
         "",
@@ -812,6 +882,15 @@ def write_docs(sections, credits, walked) -> None:
         "## Browse the findings",
         "",
         'A small chip before each finding title shows which game it is about: an orange <span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> for Jedi Knight, a lavender <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span> for Mysteries of the Sith, and both when the finding covers both games. Hover a chip for the full name. The location table under each finding still has the exact archives.',
+        "",
+        'Each finding also has a rating: a small "Rating:" label and a colored pill with an icon. Some findings add a second pill for a further classification, such as Confirmed cut or Likely rename.',
+        "",
+        '<p class="legend-pills">'
+        + rating_pill_html("Known", "known", "check")
+        + rating_pill_html("Partly known", "partly", "half")
+        + rating_pill_html("Likely new", "new", "star")
+        + rating_pill_html("Speculative", "speculative", "help")
+        + "</p>",
         "",
     ]
     file_by_letter = dict(SECTION_FILES)

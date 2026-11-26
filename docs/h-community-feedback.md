@@ -7,7 +7,10 @@ These two findings were added after KnightCop reviewed the first published versi
 ## 42. 03trcr.3do: the little tractor from the Katarn farm {#finding-42}
 </div>
 
-**Rating:** Partly known
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--partly"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8z"/></svg>Partly known</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -44,7 +47,10 @@ References in JK and MotS (code, comments, substrings): none outside the model i
 ## 43. Unused Katarn farm and house textures that only MotS ships {#finding-43}
 </div>
 
-**Rating:** Partly known
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--partly"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8z"/></svg>Partly known</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|

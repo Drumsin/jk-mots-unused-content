@@ -5,7 +5,10 @@
 ## 5. The "13pipes" folder: props from the cut "Canyon Run" level {#finding-5}
 </div>
 
-**Rating:** Likely new
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -58,7 +61,10 @@ Objective: "2. Fly to the waterfall at Tankers Canyon."
 ## 6. Unused Canyon Run (level 13) textures {#finding-6}
 </div>
 
-**Rating:** Partly known
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--partly"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8z"/></svg>Partly known</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -90,7 +96,10 @@ See cross_game_verification.csv (rows starting with 13).
 ## 7. 16world, 16vale and 16spir {#finding-7}
 </div>
 
-**Rating:** Likely new (purpose speculative)
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--speculative"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m15.07 11.25-.9.92C13.45 12.89 13 13.5 13 15h-2v-.5c0-1.11.45-2.11 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41a2 2 0 0 0-2-2 2 2 0 0 0-2 2H8a4 4 0 0 1 4-4 4 4 0 0 1 4 4 3.2 3.2 0 0 1-.93 2.25M13 19h-2v-2h2M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-5.53-4.5-10-10-10"/></svg>Likely new (purpose speculative)</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -134,7 +143,10 @@ Three simple models exported in batch mode with an early tool version (ver4.11).
 ## 8. The "06fall" set pieces {#finding-8}
 </div>
 
-**Rating:** Likely new
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|

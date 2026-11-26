@@ -5,7 +5,10 @@
 ## 13. Kaerobani base: Mara quip triggers and other unused cogs {#finding-13}
 </div>
 
-**Rating:** Likely new
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -32,7 +35,10 @@
 ## 14. s2l1_murder.cog and other Nar Shaddaa scenes {#finding-14}
 </div>
 
-**Rating:** Likely new
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -59,7 +65,10 @@ s2l1_murder.cog is an unused scripted scene: ReeYee threatens and shoots a Rodia
 ## 15. Rahn on the escape ship, and a missing 17_rahnlines.cog {#finding-15}
 </div>
 
-**Rating:** Likely new
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -84,7 +93,10 @@ darkjedi_sariss.cog: // Receives message from 17_rahnlines.cog once game starts
 ## 16. An early COG syntax {#finding-16}
 </div>
 
-**Rating:** Likely new (observation)
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new (observation)</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -112,7 +124,10 @@ vectortest.cog:
 ## 17. bddefault.ai: a "Baby Drugon" {#finding-17}
 </div>
 
-**Rating:** Likely new
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -140,7 +155,10 @@ An AI file for a baby drugon. No model or template uses it; the shipped drugon u
 ## 18. Files that shipped scripts and models point to, but that do not exist {#finding-18}
 </div>
 
-**Rating:** Likely new / Partly known
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new / Partly known</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -170,7 +188,10 @@ S6L1.jkl:  7:    S6L1_lighttube2.cog    0 -1 activate01.wav
 ## 19. Dark Kyle in S6L1 {#finding-19}
 </div>
 
-**Rating:** Partly known
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--partly"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8z"/></svg>Partly known</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|

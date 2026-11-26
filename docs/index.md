@@ -1,4 +1,8 @@
-# JK / MotS unused content findings
+---
+title: How to read this catalogue
+---
+
+# Unused content from Jedi Knight and Mysteries of the Sith
 
 **Version 2.1** — November 2026
 
@@ -44,6 +48,10 @@ Paths are given as *game - archive - internal path*. Archive paths are relative 
 ## Browse the findings
 
 A small chip before each finding title shows which game it is about: an orange <span class="game-icon game-icon--jk" title="Jedi Knight">JK</span> for Jedi Knight, a lavender <span class="game-icon game-icon--mots" title="Mysteries of the Sith">MotS</span> for Mysteries of the Sith, and both when the finding covers both games. Hover a chip for the full name. The location table under each finding still has the exact archives.
+
+Each finding also has a rating: a small "Rating:" label and a colored pill with an icon. Some findings add a second pill for a further classification, such as Confirmed cut or Likely rename.
+
+<p class="legend-pills"><span class="rating-pill rating-pill--known"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z"/></svg>Known</span><span class="rating-pill rating-pill--partly"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8z"/></svg>Partly known</span><span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span><span class="rating-pill rating-pill--speculative"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m15.07 11.25-.9.92C13.45 12.89 13 13.5 13 15h-2v-.5c0-1.11.45-2.11 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41a2 2 0 0 0-2-2 2 2 0 0 0-2 2H8a4 4 0 0 1 4-4 4 4 0 0 1 4 4 3.2 3.2 0 0 1-.93 2.25M13 19h-2v-2h2M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-5.53-4.5-10-10-10"/></svg>Speculative</span></p>
 
 - [A. The cut "Road to Baron's Hed" level (05) - leftovers in Mysteries of the Sith](a-barons-hed.md) — findings 1–4
 - [B. Traces of other cut or reworked JK levels](b-other-cut-levels.md) — findings 5–8

@@ -5,7 +5,10 @@
 ## 9. Unused Qu Rahn lines about the Dark Jedi {#finding-9}
 </div>
 
-**Rating:** Partly known
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--partly"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8z"/></svg>Partly known</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -32,7 +35,10 @@ i00ra52z.wav: "If it isn't his manner that throws you, it would be his hyperacti
 ## 10. Other unused JK voice clips {#finding-10}
 </div>
 
-**Rating:** Likely new
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -61,7 +67,10 @@ i00wm03z.wav: "No blasters, no blasters!"
 ## 11. 01_trouble.cog: an unfinished Nar Shaddaa bar exchange {#finding-11}
 </div>
 
-**Rating:** Likely new
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -88,7 +97,10 @@ sound        riposte=xxx.wav
 ## 12. Unused MotS civilian and rebel lines {#finding-12}
 </div>
 
-**Rating:** Likely new
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|

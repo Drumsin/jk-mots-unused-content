@@ -5,7 +5,10 @@
 ## 1. Tusken speeder bike: models, riders, debris and animations {#finding-1}
 </div>
 
-**Rating:** Known
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--known"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z"/></svg>Known</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -77,7 +80,10 @@ ksgo.key:  # KEYFRAME '<unnamed>' created from 'KSGO.PRJ in BATCH mode with ver4
 ## 2. The level-05 source folder and the 05v* animated ship models {#finding-2}
 </div>
 
-**Rating:** Partly known
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--partly"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8z"/></svg>Partly known</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -155,7 +161,10 @@ roadblk.3do:  # MODEL 'Roadblk2.3do' created from '...\LevelSpecific\05stuff\Roa
 ## 3. A palette for the 05 sky textures {#finding-3}
 </div>
 
-**Rating:** Likely new
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -189,7 +198,10 @@ KnightCop PDF: "05wsky01.mat - NO CMP - Droid Works Version heavily dithered"
 ## 4. Other JK-era models that only ship with Mysteries of the Sith {#finding-4}
 </div>
 
-**Rating:** Partly known
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--partly"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8z"/></svg>Partly known</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|

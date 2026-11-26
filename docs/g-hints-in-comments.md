@@ -11,7 +11,11 @@ Each finding below is classified. **Confirmed cut**: the comment shows that some
 ## 29. Two level numberings in the JK episode and string files {#finding-29}
 </div>
 
-**Rating:** Partly known  ·  Classification: **Likely rename**
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--partly"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8z"/></svg>Partly known</span>
+<span class="rating-pill rating-pill--rename"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m21.41 11.58-9-9A2 2 0 0 0 11 2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 .59 1.42l9 9A2 2 0 0 0 13 22a2 2 0 0 0 1.41-.59l7-7A2 2 0 0 0 22 13a2 2 0 0 0-.59-1.42M13 20l-9-9V4h7l9 9M6.5 5A1.5 1.5 0 1 1 5 6.5 1.5 1.5 0 0 1 6.5 5"/></svg>Likely rename</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -44,7 +48,11 @@ cog\06a_startlevel.cog:5  # Start music for level 5
 ## 30. Level 19A objectives that were rewritten {#finding-30}
 </div>
 
-**Rating:** Likely new  ·  Classification: **Confirmed cut (reworded)**
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+<span class="rating-pill rating-pill--cut"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17 3H7a2 2 0 0 0-2 2v16l7-3 7 3V5a2 2 0 0 0-2-2"/></svg>Confirmed cut (reworded)</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -70,7 +78,11 @@ misc\cogstrings.uni:217  "GOAL_19001"   0  "The control room will allow you to l
 ## 31. Commented-out control functions: Game Restore, Game Record and Debug {#finding-31}
 </div>
 
-**Rating:** Likely new  ·  Classification: **Speculative**
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+<span class="rating-pill rating-pill--speculative"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m15.07 11.25-.9.92C13.45 12.89 13 13.5 13 15h-2v-.5c0-1.11.45-2.11 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41a2 2 0 0 0-2-2 2 2 0 0 0-2 2H8a4 4 0 0 1 4-4 4 4 0 0 1 4 4 3.2 3.2 0 0 1-.93 2.25M13 19h-2v-2h2M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-5.53-4.5-10-10-10"/></svg>Speculative</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -99,7 +111,11 @@ ui\jkstrings.uni:4  # to UNICODE when we find a UNICODE editor. [WW] 12/5/1996
 ## 32. Officer and trooper voice lines that were listed but never shipped {#finding-32}
 </div>
 
-**Rating:** Likely new  ·  Classification: **Confirmed cut**
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+<span class="rating-pill rating-pill--cut"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17 3H7a2 2 0 0 0-2 2v16l7-3 7 3V5a2 2 0 0 0-2-2"/></svg>Confirmed cut</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -135,7 +151,11 @@ misc\snd\gr.snd:57  ## I00GR11U.WAV  # tah boni tom ket sa infa dite
 ## 33. "Cling Vines": a complete cut swamp creature in MotS {#finding-33}
 </div>
 
-**Rating:** Likely new  ·  Classification: **Confirmed cut**
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+<span class="rating-pill rating-pill--cut"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17 3H7a2 2 0 0 0-2 2v16l7-3 7 3V5a2 2 0 0 0-2-2"/></svg>Confirmed cut</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -167,7 +187,11 @@ misc\pup\vv.pup:3  stand           VVdown.key    0x00    0    0    # standing
 ## 34. A purple stormtrooper variant (s5.3do) {#finding-34}
 </div>
 
-**Rating:** Likely new  ·  Classification: **Speculative**
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+<span class="rating-pill rating-pill--speculative"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m15.07 11.25-.9.92C13.45 12.89 13 13.5 13 15h-2v-.5c0-1.11.45-2.11 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41a2 2 0 0 0-2-2 2 2 0 0 0-2 2H8a4 4 0 0 1 4-4 4 4 0 0 1 4 4 3.2 3.2 0 0 1-.93 2.25M13 19h-2v-2h2M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-5.53-4.5-10-10-10"/></svg>Speculative</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -220,7 +244,11 @@ cog\pow_eweb_m.cog:41  jkPrintUNIString(player, 382);    // The Blaster Cannon!
 ## 35. Kill the Fool with the Ysalamiri: a bobbing animation and a deathmatch mode, switched off {#finding-35}
 </div>
 
-**Rating:** Likely new  ·  Classification: **Confirmed cut**
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+<span class="rating-pill rating-pill--cut"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17 3H7a2 2 0 0 0-2 2v16l7-3 7 3V5a2 2 0 0 0-2-2"/></svg>Confirmed cut</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -247,7 +275,11 @@ cog\kfy_main.cog:218  // PlayKey(ysalamiri, ysalamiri_anim, 1, 0);
 ## 36. MotS finale: disabled subtitles and a third model swap {#finding-36}
 </div>
 
-**Rating:** Likely new  ·  Classification: **Confirmed cut (disabled)**
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+<span class="rating-pill rating-pill--cut"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17 3H7a2 2 0 0 0-2 2v16l7-3 7 3V5a2 2 0 0 0-2-2"/></svg>Confirmed cut (disabled)</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -275,7 +307,11 @@ cog\s5_finale.cog:33  template    kboss=kylebossactor              local
 ## 37. S6L1 was built from the S1L1 scripts {#finding-37}
 </div>
 
-**Rating:** Partly known  ·  Classification: **Likely rename**
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--partly"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8z"/></svg>Partly known</span>
+<span class="rating-pill rating-pill--rename"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m21.41 11.58-9-9A2 2 0 0 0 11 2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 .59 1.42l9 9A2 2 0 0 0 13 22a2 2 0 0 0 1.41-.59l7-7A2 2 0 0 0 22 13a2 2 0 0 0-.59-1.42M13 20l-9-9V4h7l9 9M6.5 5A1.5 1.5 0 1 1 5 6.5 1.5 1.5 0 0 1 6.5 5"/></svg>Likely rename</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -303,7 +339,11 @@ cog\S6L1_tiefighter.cog:41  //vtiebomber2=creatething(bombertemplate, bomberdumm
 ## 38. The TIE bomber script says "level 04" {#finding-38}
 </div>
 
-**Rating:** Likely new  ·  Classification: **Speculative**
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+<span class="rating-pill rating-pill--speculative"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m15.07 11.25-.9.92C13.45 12.89 13 13.5 13 15h-2v-.5c0-1.11.45-2.11 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41a2 2 0 0 0-2-2 2 2 0 0 0-2 2H8a4 4 0 0 1 4-4 4 4 0 0 1 4 4 3.2 3.2 0 0 1-.93 2.25M13 19h-2v-2h2M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-5.53-4.5-10-10-10"/></svg>Speculative</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -329,7 +369,11 @@ cog\s1l1_tiefighter.cog:5  # Tiebomber cog for level 04
 ## 39. Script names in headers that differ from the shipped names {#finding-39}
 </div>
 
-**Rating:** Likely new  ·  Classification: **Likely rename**
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--new"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 1 9 9l-8 3 8 3 3 8 3-8 8-3-8-3z"/></svg>Likely new</span>
+<span class="rating-pill rating-pill--rename"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m21.41 11.58-9-9A2 2 0 0 0 11 2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 .59 1.42l9 9A2 2 0 0 0 13 22a2 2 0 0 0 1.41-.59l7-7A2 2 0 0 0 22 13a2 2 0 0 0-.59-1.42M13 20l-9-9V4h7l9 9M6.5 5A1.5 1.5 0 1 1 5 6.5 1.5 1.5 0 0 1 6.5 5"/></svg>Likely rename</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -363,7 +407,11 @@ cog\s1l3_elev_switch.cog:13  ## Modified 8/14/97 by Chris K (copied M8_elev_swit
 ## 40. Source names inside model and animation headers {#finding-40}
 </div>
 
-**Rating:** Partly known  ·  Classification: **Likely rename**
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--partly"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8z"/></svg>Partly known</span>
+<span class="rating-pill rating-pill--rename"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m21.41 11.58-9-9A2 2 0 0 0 11 2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 .59 1.42l9 9A2 2 0 0 0 13 22a2 2 0 0 0 1.41-.59l7-7A2 2 0 0 0 22 13a2 2 0 0 0-.59-1.42M13 20l-9-9V4h7l9 9M6.5 5A1.5 1.5 0 1 1 5 6.5 1.5 1.5 0 0 1 6.5 5"/></svg>Likely rename</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
@@ -412,7 +460,11 @@ misc\pup\mjdueling.pup:57  fidget2        kyidle1.key    0x20    1    1    # sub
 ## 41. Change logs: dates, initials and an early start on MotS {#finding-41}
 </div>
 
-**Rating:** Partly known  ·  Classification: **Dev notes**
+<p class="finding-rating">
+<span class="finding-rating__label">Rating:</span>
+<span class="rating-pill rating-pill--partly"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8 8 8 0 0 1-8 8z"/></svg>Partly known</span>
+<span class="rating-pill rating-pill--notes"><svg class="rating-pill__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 2h7v5h5v11H6zm2 8v2h8v-2zm0 4v2h5v-2z"/></svg>Dev notes</span>
+</p>
 
 | Game | Archive | Internal path / files |
 |---|---|---|
