@@ -3,7 +3,7 @@ site_description: "A catalogue of unused, orphaned and leftover files in the shi
 site_url: https://drumsin.github.io/jk-mots-unused-content/
 repo_url: https://github.com/Drumsin/jk-mots-unused-content
 repo_name: Drumsin/jk-mots-unused-content
-edit_uri: edit/main/docs/
+edit_uri: ""
 copyright: >
   Have a new finding or a correction?
   <a href="https://github.com/Drumsin/jk-mots-unused-content/issues/new/choose">Open an issue</a>
@@ -42,13 +42,9 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
-    - content.action.edit
-    - content.action.view
     - content.code.copy
   icon:
     repo: fontawesome/brands/github
-    edit: material/pencil
-    view: material/github
 
 extra:
   version: v2.1
