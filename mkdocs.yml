@@ -9,7 +9,7 @@ copyright: >
   <a href="https://github.com/Drumsin/jk-mots-unused-content/issues/new/choose">Open an issue</a>
   and tell us about it.
   &middot;
-  <a href="https://github.com/Drumsin/jk-mots-unused-content/releases/download/v2.1/JK_MotS_Unused_Content_Findings_v2.1.pdf">Download PDF (v2.1)</a>
+  <a href="https://github.com/Drumsin/jk-mots-unused-content/releases/download/v2.2/JK_MotS_Unused_Content_Findings_v2.2.pdf">Download PDF (v2.2)</a>
 
 theme:
   name: material
@@ -49,7 +49,7 @@ theme:
 extra:
   version: v2.2
   issues_url: https://github.com/Drumsin/jk-mots-unused-content/issues/new/choose
-  pdf_url: https://github.com/Drumsin/jk-mots-unused-content/releases/download/v2.1/JK_MotS_Unused_Content_Findings_v2.1.pdf
+  pdf_url: https://github.com/Drumsin/jk-mots-unused-content/releases/download/v2.2/JK_MotS_Unused_Content_Findings_v2.2.pdf
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Drumsin/jk-mots-unused-content
