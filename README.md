@@ -12,6 +12,7 @@ Have a new finding, a correction, or a file this catalogue should look at again?
 
 - **[FINDINGS.md](FINDINGS.md)** is the same document as a single file, with a clickable table of contents at the top. Useful if you want everything on one GitHub page or in a text editor.
 - The [references](references/) folder holds the supporting CSVs (unreferenced-asset lists, comment extracts, cross-game checks, and more). GitHub shows each one as a searchable table. The website links each table to this folder and to a raw download.
+- The website also has a [Data Files](https://drumsin.github.io/jk-mots-unused-content/data-files/) page that lists each of those files, what it contains, and view or download links.
 - The [renders](renders/) folder holds the 3DO and texture images used in the document.
 
 ## Download a frozen copy

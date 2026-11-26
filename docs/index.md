@@ -52,3 +52,5 @@ Paths are given as *game - archive - internal path*. Archive paths are relative 
 - [H. Added after community feedback](h-community-feedback.md) — findings 42–43
 
 A single-file copy of the same text is also on GitHub as [FINDINGS.md](https://github.com/Drumsin/jk-mots-unused-content/blob/main/FINDINGS.md), and each numbered release includes a print-ready PDF.
+
+The [Data Files](data-files.md) page lists the CSVs and the voice-transcript file behind this catalogue, with a short description of each and links to view or download them.

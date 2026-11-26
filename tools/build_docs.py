@@ -385,6 +385,11 @@ def appendix_a(mode: str) -> list[str]:
             mode,
         )
     lines += [ai_note, "", more, ""]
+    if mode == "site":
+        lines += [
+            "The [Data Files](data-files.md) page lists each of these tables with a short description, a row count, and view or download links.",
+            "",
+        ]
     return lines
 
 
@@ -554,6 +559,160 @@ def write_findings_md(sections, credits, walked) -> Path:
     return path
 
 
+
+def _fmt_count(n: int) -> str:
+    return f"{n:,}"
+
+
+def _fmt_size(n: int) -> str:
+    mb = n / (1024 * 1024)
+    if mb >= 10:
+        return f"{mb:.0f} MB"
+    if mb >= 1:
+        # 18.7 MB reads as "about 19 MB" in the notes; keep one decimal otherwise
+        if 18.5 <= mb < 19.5:
+            return "19 MB"
+        return f"{mb:.1f} MB"
+    return f"{n / 1024:.0f} KB"
+
+
+def write_data_files_page() -> list[str]:
+    """Build the Data Files page from the reference files on disk."""
+    d = csv_dir()
+    blob = BLOB
+    raw = RAW
+
+    def stats(name: str):
+        path = d / name
+        size = path.stat().st_size
+        if name.endswith(".csv"):
+            with path.open(encoding="utf-8", errors="replace", newline="") as f:
+                r = csv.reader(f)
+                header = next(r, [])
+                rows = sum(1 for _ in r)
+            return rows, "rows", size, header
+        text = path.read_text(encoding="utf-8", errors="replace")
+        lines = [ln for ln in text.splitlines() if ln.strip()]
+        return len(lines), "lines", size, []
+
+    # Semantic "supports" links for the website. Keep these in PDF/finding order.
+    catalog = [
+        {
+            "name": "jk_unreferenced_assets.csv",
+            "desc": "Every Jedi Knight file the reference graph never reached, with the archive path, status (unreferenced or only pointed to by another unused file), and how it checked out against MotS.",
+            "supports": "[Appendix A](appendix-a-unreferenced-lists.md); the unused JK lists behind the findings in sections A–F",
+        },
+        {
+            "name": "mots_unreferenced_assets.csv",
+            "desc": "The same kind of list for Mysteries of the Sith, plus columns that flag a file with the same name as, or identical bytes to, a JK file.",
+            "supports": "[Appendix A](appendix-a-unreferenced-lists.md); [Section A](a-barons-hed.md) (JK-era leftovers that only MotS ships); [Section H](h-community-feedback.md) (the tractor and Katarn-home textures were on this list)",
+        },
+        {
+            "name": "cross_game_verification.csv",
+            "desc": "The per-asset check of items named in this catalogue against both games: where each file ships, what references it in JK and in MotS, and the verdict.",
+            "supports": "[How to read this catalogue](index.md#cross-game-check); [Appendix F](appendix-f-cross-game-check.md); used throughout the findings",
+        },
+        {
+            "name": "missing_references.csv",
+            "desc": "Names that a shipped file points to, but that are not in any archive that was read (the file is missing, or, for many MotS sounds, the MotS sound archive was not available).",
+            "supports": "[Finding 18](d-unused-scripts.md#finding-18); [Appendix A](appendix-a-unreferenced-lists.md)",
+        },
+        {
+            "name": "3do_dev_source_paths.csv",
+            "desc": "The source path and exporter version from the header of every 3DO in both games (used and unused), which is how cut-level folders such as 05stuff and 13pipes were grouped.",
+            "supports": "[Finding 26](f-headers-dates.md#finding-26); [Section A](a-barons-hed.md); [Appendix A](appendix-a-unreferenced-lists.md)",
+        },
+        {
+            "name": "jkl_headers.csv",
+            "desc": "The development path and \"Created\" stamp from the header of every level, including multiplayer, cutscene and S6L1 maps.",
+            "supports": "[Finding 25](f-headers-dates.md#finding-25); [Appendix A](appendix-a-unreferenced-lists.md)",
+        },
+        {
+            "name": "katarn_home_mats.csv",
+            "desc": "Every texture with a level 3 or 4 prefix (03* and 04*) in both games: where it ships, whether either game uses it, and what references it.",
+            "supports": "[Finding 43](h-community-feedback.md#finding-43); [Appendix G](appendix-g-changelog.md)",
+        },
+        {
+            "name": "kc_feedback_ai_difficulty_files.csv",
+            "desc": "The Easy (.ai0) and Hard (.ai2) difficulty variants of used AI files that were first listed as unused, then moved to used after the engine load rule was applied.",
+            "supports": "[Appendix A](appendix-a-unreferenced-lists.md); [Appendix G](appendix-g-changelog.md) (the v2.0 revision)",
+        },
+        {
+            "name": "comments_all.csv",
+            "desc": "Every comment line extracted from both games (cogs, levels, templates, headers and the other text data files), with flags and any names that were cross-checked.",
+            "supports": "[Section G](g-hints-in-comments.md); [Appendix A](appendix-a-unreferenced-lists.md)",
+            "note": "This file is about 19 MB and may be slow to open as a table in the browser. Downloading it is the better option.",
+        },
+        {
+            "name": "comments_flagged.csv",
+            "desc": "The subset of extracted comments that looked interesting (old names, dates, commented-out code, and similar), with the cross-game checks on any file names they mention.",
+            "supports": "[Section G](g-hints-in-comments.md); [Appendix A](appendix-a-unreferenced-lists.md)",
+        },
+        {
+            "name": "comment_findings.csv",
+            "desc": "The quoted comment lines used as evidence in the \"Hints in comments\" findings, with the classification and reasoning for each one.",
+            "supports": "[Section G](g-hints-in-comments.md) (findings 29–41); [Appendix A](appendix-a-unreferenced-lists.md)",
+        },
+        {
+            "name": "unused_textures_sheet_index.csv",
+            "desc": "An index of the unused-texture contact sheet: each texture, the colormap used to draw it, whether that colormap is a known match or a best guess, and its size.",
+            "supports": "[Appendix B](appendix-b-texture-sheet.md); [Finding 3](a-barons-hed.md#finding-3)",
+        },
+        {
+            "name": "unused_voice_transcripts_auto.txt",
+            "desc": "Automatic transcripts of the unused voice clips (approximate wording; check the recordings by ear).",
+            "supports": "[Section C](c-unused-dialogue.md) (findings 9–12); [Appendix A](appendix-a-unreferenced-lists.md)",
+        },
+    ]
+
+    lines = [
+        "# Data Files",
+        "",
+        "These are the raw data behind the findings, for anyone who wants to verify a claim or dig deeper. Most readers can skip this page and stay with the write-ups and renders.",
+        "",
+        "## Why these files are useful",
+        "",
+        "If you like to check the work yourself, or go hunting for things the write-ups have not covered yet, the CSVs are the place to do it. They open in Excel, Google Sheets or LibreOffice, and you can search, sort and filter them like any spreadsheet.",
+        "",
+        "- **Verify any claim yourself.** Every unused file named in the catalogue is in the unreferenced lists, with the archive path and how it was checked against both games. If a finding says a model never loads, you can look up that name and see the result.",
+        "- **Search and filter.** You can, for example, list every unused file that ships in one archive, or every 3DO whose source path contains a cut-level folder. Try opening `jk_unreferenced_assets.csv` and filtering the `ext` column to `wav` to see the unused JK sounds in one list. Or open `3do_dev_source_paths.csv` and search for `05stuff` to see the models exported from the cut \"Road to Baron's Hed\" folder.",
+        "- **Spot leads that are not written up yet.** The unreferenced lists are longer than the findings. An odd 3DO comment, or a model with a surprising development path, may be a new finding.",
+        "- **Cross-check JK against MotS.** MotS reuses a lot of JK data. The cross-game tables show whether a file is unused in both games, or a leftover copy of something the other game actually uses.",
+        "- **Build on it for mods and restorations.** If you are putting a cut weapon or texture back into a level, the lists give you the exact file names, which archive they live in, and which textures or keys belong with them.",
+        "",
+        "If you want everything in one go, the [v2.1 release](" + f"{REPO}/releases/tag/{VERSION}" + ") includes a [zip of the whole folder](" + ZIP_URL + ") (PDF, these data files, and the renders).",
+        "",
+        "## The files",
+        "",
+        "| File | What's in it | Supports | Links |",
+        "|---|---|---|---|",
+    ]
+
+    for item in catalog:
+        name = item["name"]
+        n, unit, size, _header = stats(name)
+        size_s = _fmt_size(size)
+        count_s = f"{_fmt_count(n)} {unit}"
+        desc = item["desc"]
+        extra = ""
+        if item.get("note"):
+            extra = f" {item['note']}"
+        what = f"{count_s} ({size_s}). {desc}{extra}"
+        view = f"[View on GitHub]({blob}/{name})"
+        dl = f"[Download]({raw}/{name})"
+        # escape pipes in cells
+        what = what.replace("|", "\\|")
+        supports = item["supports"].replace("|", "\\|")
+        lines.append(f"| [`{name}`]({blob}/{name}) | {what} | {supports} | {view} · {dl} |")
+
+    lines += [
+        "",
+        "`comments_all.csv` is about 19 MB. GitHub can show it as a table, but it may take a while to load; downloading it is recommended.",
+        "",
+    ]
+    return lines
+
+
 def write_docs(sections, credits, walked) -> None:
     docs = ROOT / "docs"
     docs.mkdir(exist_ok=True)
@@ -597,6 +756,8 @@ def write_docs(sections, credits, walked) -> None:
         "",
         "A single-file copy of the same text is also on GitHub as [FINDINGS.md](" + REPO + "/blob/main/FINDINGS.md), and each numbered release includes a print-ready PDF.",
         "",
+        "The [Data Files](data-files.md) page lists the CSVs and the voice-transcript file behind this catalogue, with a short description of each and links to view or download them.",
+        "",
     ]
     (docs / "index.md").write_text("\n".join(home), encoding="utf-8")
 
@@ -621,6 +782,8 @@ def write_docs(sections, credits, walked) -> None:
     for letter, title, body in apps:
         page = [f"# {title}", ""] + body
         (docs / APPENDIX_FILES[letter]).write_text("\n".join(page), encoding="utf-8")
+
+    (docs / "data-files.md").write_text("\n".join(write_data_files_page()), encoding="utf-8")
 
 
 def main() -> None:
