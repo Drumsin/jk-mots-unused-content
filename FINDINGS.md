@@ -12,6 +12,69 @@ Research notes with file locations, quoted evidence, renders and source ratings.
 
 A print-ready PDF and a zip of this version are on the [Releases](https://github.com/Drumsin/jk-mots-unused-content/releases/tag/v2.1) page.
 
+## Contents
+
+- [About this document](#about-this-document)
+- [A. The cut "Road to Baron's Hed" level (05) - leftovers in Mysteries of the Sith](#section-a)
+  - [1. Tusken speeder bike: models, riders, debris and animations](#finding-1)
+  - [2. The level-05 source folder and the 05v* animated ship models](#finding-2)
+  - [3. A palette for the 05 sky textures](#finding-3)
+  - [4. Other JK-era models that only ship with Mysteries of the Sith](#finding-4)
+- [B. Traces of other cut or reworked JK levels](#section-b)
+  - [5. The "13pipes" folder: props from the cut "Canyon Run" level](#finding-5)
+  - [6. Unused Canyon Run (level 13) textures](#finding-6)
+  - [7. 16world, 16vale and 16spir](#finding-7)
+  - [8. The "06fall" set pieces](#finding-8)
+- [C. Unused dialogue](#section-c)
+  - [9. Unused Qu Rahn lines about the Dark Jedi](#finding-9)
+  - [10. Other unused JK voice clips](#finding-10)
+  - [11. 01_trouble.cog: an unfinished Nar Shaddaa bar exchange](#finding-11)
+  - [12. Unused MotS civilian and rebel lines](#finding-12)
+- [D. Unused and orphaned scripts](#section-d)
+  - [13. Kaerobani base: Mara quip triggers and other unused cogs](#finding-13)
+  - [14. s2l1_murder.cog and other Nar Shaddaa scenes](#finding-14)
+  - [15. Rahn on the escape ship, and a missing 17_rahnlines.cog](#finding-15)
+  - [16. An early COG syntax](#finding-16)
+  - [17. bddefault.ai: a "Baby Drugon"](#finding-17)
+  - [18. Files that shipped scripts and models point to, but that do not exist](#finding-18)
+  - [19. Dark Kyle in S6L1](#finding-19)
+- [E. Weapons, animations and models](#section-e)
+  - [20. repv / repp: the cut rifle, and its missing hand textures](#finding-20)
+  - [21. Tusken prod view models](#finding-21)
+  - [22. The 8t88 beast](#finding-22)
+  - [23. Unused Kyle animations](#finding-23)
+  - [24. Unreferenced alternate exports of models the games do use](#finding-24)
+- [F. Headers, dates and development machines](#section-f)
+  - [25. Level save dates](#finding-25)
+  - [26. Internal project name and personal folders](#finding-26)
+  - [27. Colormaps no level loads](#finding-27)
+  - [28. Gaps in the MotS episode list](#finding-28)
+- [G. Hints in comments](#section-g)
+  - [29. Two level numberings in the JK episode and string files](#finding-29)
+  - [30. Level 19A objectives that were rewritten](#finding-30)
+  - [31. Commented-out control functions: Game Restore, Game Record and Debug](#finding-31)
+  - [32. Officer and trooper voice lines that were listed but never shipped](#finding-32)
+  - [33. "Cling Vines": a complete cut swamp creature in MotS](#finding-33)
+  - [34. A purple stormtrooper variant (s5.3do)](#finding-34)
+  - [35. Kill the Fool with the Ysalamiri: a bobbing animation and a deathmatch mode, switched off](#finding-35)
+  - [36. MotS finale: disabled subtitles and a third model swap](#finding-36)
+  - [37. S6L1 was built from the S1L1 scripts](#finding-37)
+  - [38. The TIE bomber script says "level 04"](#finding-38)
+  - [39. Script names in headers that differ from the shipped names](#finding-39)
+  - [40. Source names inside model and animation headers](#finding-40)
+  - [41. Change logs: dates, initials and an early start on MotS](#finding-41)
+- [H. Added after community feedback](#section-h)
+  - [42. 03trcr.3do: the little tractor from the Katarn farm](#finding-42)
+  - [43. Unused Katarn farm and house textures that only MotS ships](#finding-43)
+- [Appendix A. Unreferenced asset lists](#appendix-a)
+- [Appendix B. Unused texture contact sheet](#appendix-b)
+- [Appendix C. Caveats](#appendix-c)
+- [Appendix D. How to extract these files yourself](#appendix-d)
+- [Appendix E. Sources and credits](#appendix-e)
+- [Appendix F. What the cross-game check changed](#appendix-f)
+- [Appendix G. Change log](#appendix-g)
+
+<a id="about-this-document"></a>
 ## About this document
 
 This is a catalogue of files in the retail Jedi Knight (JK) and Mysteries of the Sith (MotS) data that the games never load, or that point at files which do not exist. Many of them are leftovers from cut levels, early tests and earlier versions of models and scripts. Each finding gives the exact location so anyone can open the file and check it.
@@ -42,27 +105,10 @@ KnightCop's "Road to Barons Hed - Cut Mission Information" is the reference for 
 
 Paths are given as *game - archive - internal path*. Archive paths are relative to the game's install folder. Internal names in GOB/GOO archives are case-insensitive and are shown in lower case. Any GOB/GOO extractor will open them (see Appendix D).
 
-## Contents
-
-- [About this document](#about-this-document)
-- [A. The cut "Road to Baron's Hed" level (05) - leftovers in Mysteries of the Sith](#a-the-cut-road-to-barons-hed-level-05---leftovers-in-mysteries-of-the-sith)
-- [B. Traces of other cut or reworked JK levels](#b-traces-of-other-cut-or-reworked-jk-levels)
-- [C. Unused dialogue](#c-unused-dialogue)
-- [D. Unused and orphaned scripts](#d-unused-and-orphaned-scripts)
-- [E. Weapons, animations and models](#e-weapons-animations-and-models)
-- [F. Headers, dates and development machines](#f-headers-dates-and-development-machines)
-- [G. Hints in comments](#g-hints-in-comments)
-- [H. Added after community feedback](#h-added-after-community-feedback)
-- [Appendix A. Unreferenced asset lists](#appendix-a-unreferenced-asset-lists)
-- [Appendix B. Unused texture contact sheet](#appendix-b-unused-texture-contact-sheet)
-- [Appendix C. Caveats](#appendix-c-caveats)
-- [Appendix D. How to extract these files yourself](#appendix-d-how-to-extract-these-files-yourself)
-- [Appendix E. Sources and credits](#appendix-e-sources-and-credits)
-- [Appendix F. What the cross-game check changed](#appendix-f-what-the-cross-game-check-changed)
-- [Appendix G. Change log](#appendix-g-change-log)
-
+<a id="section-a"></a>
 ## A. The cut "Road to Baron's Hed" level (05) - leftovers in Mysteries of the Sith
 
+<a id="finding-1"></a>
 ### 1. Tusken speeder bike: models, riders, debris and animations
 
 **Rating:** Known
@@ -125,6 +171,7 @@ ksgo.key:  # KEYFRAME '<unnamed>' created from 'KSGO.PRJ in BATCH mode with ver4
 
 *The two shipped bike textures*
 
+<a id="finding-2"></a>
 ### 2. The level-05 source folder and the 05v* animated ship models
 
 **Rating:** Partly known
@@ -192,6 +239,7 @@ roadblk.3do:  # MODEL 'Roadblk2.3do' created from '...\LevelSpecific\05stuff\Roa
 
 *05vtrnwg.3do: the Imperial transport with WeeGee riding it*
 
+<a id="finding-3"></a>
 ### 3. A palette for the 05 sky textures
 
 **Rating:** Likely new
@@ -222,6 +270,7 @@ KnightCop PDF: "05wsky01.mat - NO CMP - Droid Works Version heavily dithered"
 
 *05wsky01/02 under JK 04farm.cmp and 10cargo.cmp, with MotS 01narsh.cmp for comparison*
 
+<a id="finding-4"></a>
 ### 4. Other JK-era models that only ship with Mysteries of the Sith
 
 **Rating:** Partly known
@@ -277,8 +326,10 @@ u2.3do:      same geometry as u2alt.3do (used); ug.3do: same geometry as ugalt.3
 
 *kelbite.3do: a copy of JK's Kell dragon kd.3do*
 
+<a id="section-b"></a>
 ## B. Traces of other cut or reworked JK levels
 
+<a id="finding-5"></a>
 ### 5. The "13pipes" folder: props from the cut "Canyon Run" level
 
 **Rating:** Likely new
@@ -325,6 +376,7 @@ Objective: "2. Fly to the waterfall at Tankers Canyon."
 
 *Canyon Run textures: 13wcanw7 (13rock; MotS also reuses it in s1l1_rebelbase), zpip4/7/8 (zpip), 13sky (shown with JK 12escape.cmp, best guess) and a canyon wall*
 
+<a id="finding-6"></a>
 ### 6. Unused Canyon Run (level 13) textures
 
 **Rating:** Partly known
@@ -354,6 +406,7 @@ See cross_game_verification.csv (rows starting with 13).
 
 - Covered in part by existing community texture exports.
 
+<a id="finding-7"></a>
 ### 7. 16world, 16vale and 16spir
 
 **Rating:** Likely new (purpose speculative)
@@ -391,6 +444,7 @@ Three simple models exported in batch mode with an early tool version (ver4.11).
 
 *16world / 16spir textures*
 
+<a id="finding-8"></a>
 ### 8. The "06fall" set pieces
 
 **Rating:** Likely new
@@ -426,8 +480,10 @@ Related models are used: 06struta/06strutb share their textures with strut03/str
 
 *06strutb.3do*
 
+<a id="section-c"></a>
 ## C. Unused dialogue
 
+<a id="finding-9"></a>
 ### 9. Unused Qu Rahn lines about the Dark Jedi
 
 **Rating:** Partly known
@@ -452,6 +508,7 @@ i00ra52z.wav: "If it isn't his manner that throws you, it would be his hyperacti
 
 - The Sounds Resource (sounds-resource.com) JK voice rips include the audio. No source was found that flags these lines as unused.
 
+<a id="finding-10"></a>
 ### 10. Other unused JK voice clips
 
 **Rating:** Likely new
@@ -478,6 +535,7 @@ i00wm03z.wav: "No blasters, no blasters!"
 
 - No earlier source found.
 
+<a id="finding-11"></a>
 ### 11. 01_trouble.cog: an unfinished Nar Shaddaa bar exchange
 
 **Rating:** Likely new
@@ -502,6 +560,7 @@ sound        riposte=xxx.wav
 
 - No earlier source found.
 
+<a id="finding-12"></a>
 ### 12. Unused MotS civilian and rebel lines
 
 **Rating:** Likely new
@@ -528,8 +587,10 @@ cp64114.wav "Warning, depressurization imminent."   cp64117.wav "Depressurizatio
 
 - No earlier source found.
 
+<a id="section-d"></a>
 ## D. Unused and orphaned scripts
 
+<a id="finding-13"></a>
 ### 13. Kaerobani base: Mara quip triggers and other unused cogs
 
 **Rating:** Likely new
@@ -554,6 +615,7 @@ cp64114.wav "Warning, depressurization imminent."   cp64117.wav "Depressurizatio
 
 - No earlier source found.
 
+<a id="finding-14"></a>
 ### 14. s2l1_murder.cog and other Nar Shaddaa scenes
 
 **Rating:** Likely new
@@ -578,6 +640,7 @@ s2l1_murder.cog is an unused scripted scene: ReeYee threatens and shoots a Rodia
 
 - No earlier source found.
 
+<a id="finding-15"></a>
 ### 15. Rahn on the escape ship, and a missing 17_rahnlines.cog
 
 **Rating:** Likely new
@@ -600,6 +663,7 @@ darkjedi_sariss.cog: // Receives message from 17_rahnlines.cog once game starts
 
 - No earlier source found.
 
+<a id="finding-16"></a>
 ### 16. An early COG syntax
 
 **Rating:** Likely new (observation)
@@ -625,6 +689,7 @@ vectortest.cog:
 
 - No earlier source found.
 
+<a id="finding-17"></a>
 ### 17. bddefault.ai: a "Baby Drugon"
 
 **Rating:** Likely new
@@ -650,6 +715,7 @@ An AI file for a baby drugon. No model or template uses it; the shipped drugon u
 
 - No earlier source found.
 
+<a id="finding-18"></a>
 ### 18. Files that shipped scripts and models point to, but that do not exist
 
 **Rating:** Likely new / Partly known
@@ -677,6 +743,7 @@ S6L1.jkl:  7:    S6L1_lighttube2.cog    0 -1 activate01.wav
 
 - No earlier source found for most entries.
 
+<a id="finding-19"></a>
 ### 19. Dark Kyle in S6L1
 
 **Rating:** Partly known
@@ -702,8 +769,10 @@ S6L1 defines a darkkyle template (kk.3do, 20,000 health) and JKMRES ships 61dark
 
 *kk.3do (Dark Kyle)*
 
+<a id="section-e"></a>
 ## E. Weapons, animations and models
 
+<a id="finding-20"></a>
 ### 20. repv / repp: the cut rifle, and its missing hand textures
 
 **Rating:** Known (detail likely new)
@@ -735,6 +804,7 @@ MATERIALS 13
 
 *repp.3do*
 
+<a id="finding-21"></a>
 ### 21. Tusken prod view models
 
 **Rating:** Known
@@ -764,6 +834,7 @@ prgv.3do: ... '...\Weapons\TuskenProd\GunView\PrgV.prj ... ver4.11.'
 
 *prgv.3do (gun view)*
 
+<a id="finding-22"></a>
 ### 22. The 8t88 beast
 
 **Rating:** Known
@@ -789,6 +860,7 @@ A winged beast with 14 animations (run, bite, fly, jump attacks, death and more)
 
 *8b.3do posed with 8brun.key frame 0*
 
+<a id="finding-23"></a>
 ### 23. Unused Kyle animations
 
 **Rating:** Known / Partly known
@@ -813,6 +885,7 @@ kysnap3.key: referenced by mots_JKM.GOO\jkl\s5l2_darkswamp.jkl, s5l4_lowersith.j
 
 - The Cutting Room Floor, "Star Wars Jedi Knight: Dark Forces II" page (read via an archived Wayback Machine copy, 2025).
 
+<a id="finding-24"></a>
 ### 24. Unreferenced alternate exports of models the games do use
 
 **Rating:** Partly known
@@ -857,8 +930,10 @@ dvboss.3do:   # MODEL 'DVboss0.3do' created from 'LOD MODEL'
 
 *yss.3do: ysalamiri shoulder export (the used ysalamiri is ys.3do)*
 
+<a id="section-f"></a>
 ## F. Headers, dates and development machines
 
+<a id="finding-25"></a>
 ### 25. Level save dates
 
 **Rating:** Partly known
@@ -880,6 +955,7 @@ Every JKL starts with a "World file ... Created" stamp. JK levels are dated 2-9 
 
 - Full list in [jkl_headers.csv](references/jkl_headers.csv). Some dates are quoted in community posts.
 
+<a id="finding-26"></a>
 ### 26. Internal project name and personal folders
 
 **Rating:** Partly known
@@ -913,6 +989,7 @@ MotS JKMRES.GOO misc\items.dat:36  tusken_prod  135  0  1  0x0a4  cog=weap_cross
 
 *ligt.3do: earlier copy of the Force Lightning segment (the game uses ligt2.3do)*
 
+<a id="finding-27"></a>
 ### 27. Colormaps no level loads
 
 **Rating:** Likely new
@@ -937,6 +1014,7 @@ See cross_game_verification.csv (ext = cmp).
 
 - No earlier source found.
 
+<a id="finding-28"></a>
 ### 28. Gaps in the MotS episode list
 
 **Rating:** Partly known
@@ -960,6 +1038,7 @@ MotS episode.jk plays SMUSH (.san) cutscenes. The line numbers jump from 141 to 
 
 - Scenario numbering has been discussed in the community; the exact gaps were not found documented.
 
+<a id="section-g"></a>
 ## G. Hints in comments
 
 When the asset lists were built, comment lines were skipped on purpose, because a commented-out line does not make the game load anything. This section reads those comments on their own terms. Every comment in both games was extracted: the # and // comments in cogs, levels (including static.jkl, the cutscene levels and S6L1), templates, puppets, sound sets, AI, particle and sprite files, the .dat, .per, .uni and episode.jk files, and the export headers of every 3DO and KEY file. That came to 172,343 comment lines, of which 36,307 are more than table headers or column labels.
@@ -968,6 +1047,7 @@ Each comment was scanned for file names, template names, old level numbers, date
 
 Each finding below is classified. **Confirmed cut**: the comment shows that something was removed or disabled, and the data confirms it. **Likely rename**: the comment gives an older name, number or source for something that shipped. **Speculative**: the comment hints at something, but the data cannot settle what. **Dev notes**: dates, initials and working notes. Comments can be stale or copied from other files, so none of these is proof of intent.
 
+<a id="finding-29"></a>
 ### 29. Two level numberings in the JK episode and string files
 
 **Rating:** Partly known  ·  Classification: **Likely rename**
@@ -998,6 +1078,7 @@ cog\06a_startlevel.cog:5  # Start music for level 5
 
 - The gaps in the level file numbering (no 05, no 13) are known; see KnightCop's PDF and TCRF. No online mention of these comment labels was found.
 
+<a id="finding-30"></a>
 ### 30. Level 19A objectives that were rewritten
 
 **Rating:** Likely new  ·  Classification: **Confirmed cut (reworded)**
@@ -1021,6 +1102,7 @@ misc\cogstrings.uni:217  "GOAL_19001"   0  "The control room will allow you to l
 
 - No online mention found.
 
+<a id="finding-31"></a>
 ### 31. Commented-out control functions: Game Restore, Game Record and Debug
 
 **Rating:** Likely new  ·  Classification: **Speculative**
@@ -1047,6 +1129,7 @@ ui\jkstrings.uni:4  # to UNICODE when we find a UNICODE editor. [WW] 12/5/1996
 
 - No online mention found. The Sith engine UNI format is documented on the "Jedi Knight Sith Engine Specs" wiki (jksith.wikidot.com).
 
+<a id="finding-32"></a>
 ### 32. Officer and trooper voice lines that were listed but never shipped
 
 **Rating:** Likely new  ·  Classification: **Confirmed cut**
@@ -1080,6 +1163,7 @@ misc\snd\gr.snd:57  ## I00GR11U.WAV  # tah boni tom ket sa infa dite
 
 - The Massassi Temple sound tutorial shows the same st.snd comment format. No online mention of these specific missing lines was found.
 
+<a id="finding-33"></a>
 ### 33. "Cling Vines": a complete cut swamp creature in MotS
 
 **Rating:** Likely new  ·  Classification: **Confirmed cut**
@@ -1108,6 +1192,7 @@ misc\pup\vv.pup:3  stand           VVdown.key    0x00    0    0    # standing
 
 *vv.3do in its rest pose (vvvine.mat colormap is a guess)*
 
+<a id="finding-34"></a>
 ### 34. A purple stormtrooper variant (s5.3do)
 
 **Rating:** Likely new  ·  Classification: **Speculative**
@@ -1156,6 +1241,7 @@ cog\pow_eweb_m.cog:41  jkPrintUNIString(player, 382);    // The Blaster Cannon!
 
 *eweb.3do, the MotS E-Web / "Blaster Cannon" turret the theory refers to*
 
+<a id="finding-35"></a>
 ### 35. Kill the Fool with the Ysalamiri: a bobbing animation and a deathmatch mode, switched off
 
 **Rating:** Likely new  ·  Classification: **Confirmed cut**
@@ -1180,6 +1266,7 @@ cog\kfy_main.cog:218  // PlayKey(ysalamiri, ysalamiri_anim, 1, 0);
 
 - No online mention found.
 
+<a id="finding-36"></a>
 ### 36. MotS finale: disabled subtitles and a third model swap
 
 **Rating:** Likely new  ·  Classification: **Confirmed cut (disabled)**
@@ -1205,6 +1292,7 @@ cog\s5_finale.cog:33  template    kboss=kylebossactor              local
 
 - The fan "Mysteries of the Sith Remastered" mod adds its own subtitles for the engine cutscenes; it does not mention these disabled calls.
 
+<a id="finding-37"></a>
 ### 37. S6L1 was built from the S1L1 scripts
 
 **Rating:** Partly known  ·  Classification: **Likely rename**
@@ -1230,6 +1318,7 @@ cog\S6L1_tiefighter.cog:41  //vtiebomber2=creatething(bombertemplate, bomberdumm
 
 - S6L1 itself is known (Steam community guide). No online mention of these script leftovers was found.
 
+<a id="finding-38"></a>
 ### 38. The TIE bomber script says "level 04"
 
 **Rating:** Likely new  ·  Classification: **Speculative**
@@ -1253,6 +1342,7 @@ cog\s1l1_tiefighter.cog:5  # Tiebomber cog for level 04
 
 - No online mention found.
 
+<a id="finding-39"></a>
 ### 39. Script names in headers that differ from the shipped names
 
 **Rating:** Likely new  ·  Classification: **Likely rename**
@@ -1284,6 +1374,7 @@ cog\s1l3_elev_switch.cog:13  ## Modified 8/14/97 by Chris K (copied M8_elev_swit
 
 - The full list is in [comments_flagged.csv](references/comments_flagged.csv) (flag asset_not_used_or_missing on header lines). No online mention found.
 
+<a id="finding-40"></a>
 ### 40. Source names inside model and animation headers
 
 **Rating:** Partly known  ·  Classification: **Likely rename**
@@ -1330,6 +1421,7 @@ misc\pup\mjdueling.pup:57  fidget2        kyidle1.key    0x20    1    1    # sub
 
 - Reuse of JK creatures in MotS is broadly known. These specific source names were not found online.
 
+<a id="finding-41"></a>
 ### 41. Change logs: dates, initials and an early start on MotS
 
 **Rating:** Partly known  ·  Classification: **Dev notes**
@@ -1367,10 +1459,12 @@ cog\s2l1_droideye.cog:6  # Otherwise, it won't.  At least it did until the teste
 
 - The JkMiss name and level save dates are covered earlier in this document; the 1997 dates and the "JK Missions" name were not found online.
 
+<a id="section-h"></a>
 ## H. Added after community feedback
 
 These two findings were added after KnightCop reviewed the first published version. Thank you to KnightCop for the corrections and pointers; the full list of changes from that review is in Appendix G.
 
+<a id="finding-42"></a>
 ### 42. 03trcr.3do: the little tractor from the Katarn farm
 
 **Rating:** Partly known
@@ -1404,6 +1498,7 @@ References in JK and MotS (code, comments, substrings): none outside the model i
 
 *03trcr.3do with its own textures (colormap 03house.cmp is a best guess; JK level 3 uses it with the other 03 textures)*
 
+<a id="finding-43"></a>
 ### 43. Unused Katarn farm and house textures that only MotS ships
 
 **Rating:** Partly known
@@ -1443,6 +1538,7 @@ Sweep: 272 03/04 textures; 129 MotS-only and unused in both (109 with 03, 20 wit
 
 *All MotS-only 03/04 textures that neither game uses*
 
+<a id="appendix-a"></a>
 ## Appendix A. Unreferenced asset lists
 
 The full lists are in [jk_unreferenced_assets.csv](references/jk_unreferenced_assets.csv) and [mots_unreferenced_assets.csv](references/mots_unreferenced_assets.csv) (game, name, type, status, archive, internal path, referenced_by, dev_source; the MotS list also flags files that are byte-identical to, or share a name with, a JK file). Status "unreferenced" means no file mentions the asset; "ref_only_by_unused" means only another unused file points to it. Counts by file type:
@@ -1476,14 +1572,16 @@ The .ai0 and .ai2 files are difficulty variants of .ai files, and they are loade
 
 Other tables: [comments_all.csv](references/comments_all.csv) and [comments_flagged.csv](references/comments_flagged.csv) (every extracted comment, and the flagged ones with cross-game checks), [comment_findings.csv](references/comment_findings.csv) (evidence for the "Hints in comments" section), [missing_references.csv](references/missing_references.csv) (names that are referenced but not shipped), [3do_dev_source_paths.csv](references/3do_dev_source_paths.csv) (the source path and exporter version of every 3DO), [jkl_headers.csv](references/jkl_headers.csv) (dev path and save date of every level) and [unused_voice_transcripts_auto.txt](references/unused_voice_transcripts_auto.txt).
 
+<a id="appendix-b"></a>
 ## Appendix B. Unused texture contact sheet
 
 First cell of a selection of unused textures. Blue colormap labels are the colormap of a level that uses a sibling or same-prefix texture; red labels with "?" are best guesses. bloody.mat and 00ramp3.mat have no image cells and are not shown. Every texture on the sheet was checked against both games; three that turned out to be used (13wcanw7, kbface, 09sky01) were removed.
 
-![Unused textures (MotS JKMRES.GOO and JK Res2.gob). Index: unused_textures_sheet_index.csv.](renders/unused_textures_sheet.png)
+![Unused textures (MotS JKMRES.GOO and JK Res2.gob). Index: [unused_textures_sheet_index.csv](references/unused_textures_sheet_index.csv).](renders/unused_textures_sheet.png)
 
 *Unused textures (MotS JKMRES.GOO and JK Res2.gob). Index: [unused_textures_sheet_index.csv](references/unused_textures_sheet_index.csv).*
 
+<a id="appendix-c"></a>
 ## Appendix C. Caveats
 
 - The MotS sound archive (JKMsndLO.goo) and the cutscene videos (.smk/.san) were not available for this survey. Many MotS sound files therefore show up as "missing" only because that archive was not read, and the MotS subtitle strings for cog IDs 10043, 10000 and 43003 could not be read either.
@@ -1497,6 +1595,7 @@ First cell of a selection of unused textures. Blue colormap labels are the color
 - Two sounds in JK's sound archive (00techamb05.wav, 16metalcreak01.wav) are never played by JK, but MotS levels refer to them by name (00techamb05 in s2l2a, s4l3, S6L1 and the multiplayer maps mdm02, mdm08 and mdm17; 16metalcreak01 in s2l4). MotS loads sounds from its own archive, which was not available, so they are counted as used by MotS and not listed as unused content.
 - A "Likely new" rating means no earlier source was found in the community sources checked. It is not a claim of priority.
 
+<a id="appendix-d"></a>
 ## Appendix D. How to extract these files yourself
 
 GOB (JK) and GOO (MotS) files are the same container format: a "GOB " header, a directory offset, then a list of entries (offset, length, 128-byte name). Any GOB/GOO extractor (for example ConMan, JKEdit/JED tools or a small script) will unpack them. The MotS cutscene levels and S6L1 are inside ordinary zip files in Resource\VIDEO: unzip CUTSCENES.ZIP to get cutscenes.goo and UNSUPPORTED.ZIP to get the S6L1 level files.
@@ -1507,6 +1606,7 @@ MAT textures need a colormap (.cmp, in misc\cmp) to view 8-bit images. Most MAT 
 
 Work on copies. Do not modify the original archives in the game folder.
 
+<a id="appendix-e"></a>
 ## Appendix E. Sources and credits
 
 - KnightCop, "Road to Barons Hed - Cut Mission Information" (PDF, 2026). The main reference for the cut speeder-bike mission; recreates the missing bike textures. KnightCop also reviewed the first published version (Appendix G).
@@ -1518,6 +1618,7 @@ Work on copies. Do not modify the original archives in the game folder.
 - A Steam community guide on the hidden MotS level S6L1 (Dark Kyle in the garbage room).
 - OpenJKDF2 (github.com/shinyquagsire23/OpenJKDF2), for engine-loaded file names, the HUD icon naming rule and the 3DO hierarchy/matrix conventions used by the renderer.
 
+<a id="appendix-f"></a>
 ## Appendix F. What the cross-game check changed
 
 Items from the first version of this document that the check against both games reclassified. Everything else that is described as unused was confirmed unused in both games.
@@ -1542,6 +1643,7 @@ Items from the first version of this document that the check against both games 
 | kyasleep, kb, dvboss, mjsaber, s0alt, s1alt, du2alt | MotS JKMRES | Unreferenced, but alternate exports of characters that are in the game. | Grouped as alternate exports |
 | 00_glass.mat | missing in JK | JK shard0.3do asks for it; JK does not ship it but MotS ships and uses it. | Missing-reference note updated |
 
+<a id="appendix-g"></a>
 ## Appendix G. Change log
 
 ### v1.0

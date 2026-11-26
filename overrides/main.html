@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block announce %}
+  <span class="issue-banner">
+    Have a new finding, a correction, or a file this catalogue should look at again?
+    <a href="{{ config.extra.issues_url }}">Open an issue</a>
+    and tell us about it.
+    <span class="issue-banner__sep">·</span>
+    <a href="{{ config.extra.pdf_url }}">Download PDF ({{ config.extra.version }})</a>
+  </span>
+{% endblock %}

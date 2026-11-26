@@ -1,5 +1,7 @@
 # How to contribute
 
+The usual place to read the catalogue is the website: https://drumsin.github.io/jk-mots-unused-content/
+
 This catalogue grows from community reports. Thank you for taking the time to share a finding or a correction.
 
 ## Report a finding or a correction
@@ -18,7 +20,7 @@ Community theories are welcome. Until a file confirms them, they are credited an
 
 ## Propose an edit
 
-If you are comfortable with git, you can also open a pull request against `FINDINGS.md` (and `CHANGELOG.md` if the change belongs in the log). Keep the same plain style as the rest of the document, and point to the evidence in the pull request description.
+If you are comfortable with git, you can also open a pull request. The pencil icon on each website page opens that page on GitHub. Please mention the change in the pull request description and point to the evidence. The website pages in `docs/` and the single-file `FINDINGS.md` are generated together, so the maintainer will sync both. Keep the same plain style as the rest of the document, and point to the evidence in the pull request description.
 
 ## No GitHub account?
 

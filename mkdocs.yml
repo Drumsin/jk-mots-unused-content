@@ -1,0 +1,119 @@
+site_name: JK / MotS Unused Content Findings
+site_description: "A catalogue of unused, orphaned and leftover files in the shipped data of Star Wars Jedi Knight: Dark Forces II and Mysteries of the Sith."
+site_url: https://drumsin.github.io/jk-mots-unused-content/
+repo_url: https://github.com/Drumsin/jk-mots-unused-content
+repo_name: Drumsin/jk-mots-unused-content
+edit_uri: edit/main/docs/
+copyright: >
+  Have a new finding or a correction?
+  <a href="https://github.com/Drumsin/jk-mots-unused-content/issues/new/choose">Open an issue</a>
+  and tell us about it.
+  &middot;
+  <a href="https://github.com/Drumsin/jk-mots-unused-content/releases/download/v2.1/JK_MotS_Unused_Content_Findings_v2.1.pdf">Download PDF (v2.1)</a>
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  font:
+    text: Source Serif 4
+    code: Source Code Pro
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to system preference
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/github
+
+extra:
+  version: v2.1
+  issues_url: https://github.com/Drumsin/jk-mots-unused-content/issues/new/choose
+  pdf_url: https://github.com/Drumsin/jk-mots-unused-content/releases/download/v2.1/JK_MotS_Unused_Content_Findings_v2.1.pdf
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Drumsin/jk-mots-unused-content
+      name: Source repository
+
+plugins:
+  - search:
+      lang: en
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: fade
+      slide_effect: slide
+      width: auto
+      height: auto
+      zoomable: true
+      skip_classes:
+        - skip-lightbox
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - How to read this catalogue: index.md
+  - Findings:
+    - "A. Road to Baron's Hed": a-barons-hed.md
+    - "B. Other cut or reworked levels": b-other-cut-levels.md
+    - "C. Unused dialogue": c-unused-dialogue.md
+    - "D. Unused and orphaned scripts": d-unused-scripts.md
+    - "E. Weapons, animations and models": e-weapons-animations-models.md
+    - "F. Headers, dates and development machines": f-headers-dates.md
+    - "G. Hints in comments": g-hints-in-comments.md
+    - "H. Added after community feedback": h-community-feedback.md
+  - Appendices:
+    - "A. Unreferenced asset lists": appendix-a-unreferenced-lists.md
+    - "B. Unused texture contact sheet": appendix-b-texture-sheet.md
+    - "C. Caveats": appendix-c-caveats.md
+    - "D. How to extract these files": appendix-d-extracting-files.md
+    - "E. Sources and credits": appendix-e-credits.md
+    - "F. What the cross-game check changed": appendix-f-cross-game-check.md
+    - "G. Change log": appendix-g-changelog.md
